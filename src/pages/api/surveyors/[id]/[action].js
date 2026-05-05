@@ -1,4 +1,4 @@
-import pool from '../../../lib/db'
+import pool from '../../../../lib/db'
 
 /**
  * POST /api/surveyors/[id]/block

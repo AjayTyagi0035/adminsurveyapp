@@ -29,15 +29,22 @@ export default async function handler(req, res) {
 
     const user = r.rows[0]
 
-    if (user.role === 'surveyor' && user.is_blocked) {
+    // TODO: replace with bcrypt.compare() in production
+    if (user.password_hash !== password) return res.status(401).json({ error: 'Invalid credentials' })
+
+    if (user.role === 'surveyor') {
+      return res.status(403).json({
+        error: 'Access denied',
+        reason: 'You are a surveyor. You cannot log in here. Please use the Surveyor App.',
+      })
+    }
+
+    if (user.is_blocked) {
       return res.status(403).json({
         error: 'Account blocked',
         reason: user.blocked_reason ?? 'Contact your administrator.',
       })
     }
-
-    // TODO: replace with bcrypt.compare() in production
-    if (user.password_hash !== password) return res.status(401).json({ error: 'Invalid credentials' })
 
     res.status(200).json({
       ok: true,

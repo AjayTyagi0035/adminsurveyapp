@@ -21,6 +21,8 @@ export default function LoginPage() {
       const data = await res.json()
       if (res.ok) {
         window.location.href = '/dashboard'
+      } else if (res.status === 403 && data.error === 'Access denied') {
+        setMsg({ type: 'surveyor', text: data.reason || 'You are a surveyor. Please use the Surveyor App.' })
       } else if (res.status === 403) {
         setMsg({ type: 'blocked', text: data.reason || 'Your account has been blocked.' })
       } else {
@@ -41,7 +43,7 @@ export default function LoginPage() {
           <span className={styles.logoText}>SurveyAdmin</span>
         </div>
         <h1 className={styles.title}>Sign in</h1>
-        <p className={styles.subtitle}>Admin &amp; Surveyor Portal</p>
+        <p className={styles.subtitle}>Admin Portal</p>
 
         <form onSubmit={submit} className={styles.form}>
           <div className={styles.field}>
@@ -68,8 +70,12 @@ export default function LoginPage() {
           </div>
 
           {msg && (
-            <div className={msg.type === 'blocked' ? styles.alertBlocked : styles.alertError}>
-              {msg.type === 'blocked' ? '🚫 ' : '⚠️ '}{msg.text}
+            <div className={
+              msg.type === 'surveyor' ? styles.alertSurveyor
+              : msg.type === 'blocked' ? styles.alertBlocked
+              : styles.alertError
+            }>
+              {msg.type === 'surveyor' ? '📱 ' : msg.type === 'blocked' ? '🚫 ' : '⚠️ '}{msg.text}
             </div>
           )}
 

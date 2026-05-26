@@ -1,15 +1,7 @@
 import pool from '../../../lib/db'
+import { withCors } from '../../../lib/cors'
 
-/**
- * POST /api/auth/surveyor-login
- * Body: { mobile, password }
- *
- * Response 200: { ok: true, user: { id, name, mobile, role } }
- * Response 400: { error: 'Missing credentials' }
- * Response 401: { error: 'Invalid credentials' }
- * Response 403: { error: 'Account blocked' }
- */
-export default async function handler(req, res) {
+async function surveyorHandler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' })
 
   const { mobile, password } = req.body ?? {}
@@ -45,3 +37,5 @@ export default async function handler(req, res) {
     client.release()
   }
 }
+
+export default withCors(surveyorHandler)

@@ -189,11 +189,11 @@ export default function Dashboard() {
                         : <span className={styles.badgeActive}>Active</span>}
                     </td>
                     <td className={styles.actions}>
-                      <button className={styles.btnEdit} onClick={() => openEdit(s)}>Edit</button>
+                      <button className={styles.btnEdit} onClick={() => openEdit(s)}>✏️ </button>
                       {s.is_blocked
-                        ? <button className={styles.btnUnblock} onClick={() => openBlock(s)}>Unblock</button>
-                        : <button className={styles.btnBlock}  onClick={() => openBlock(s)}>Block</button>}
-                      <button className={styles.btnDelete} onClick={() => setModal({ type: 'delete', data: s })}>Delete</button>
+                        ? <button className={styles.btnUnblock} onClick={() => openBlock(s)}>🔓 Unblock</button>
+                        : <button className={styles.btnBlock}  onClick={() => openBlock(s)}>🚫</button>}
+                      <button className={styles.btnDelete} onClick={() => setModal({ type: 'delete', data: s })}>🗑️ Delete</button>
                     </td>
                   </tr>
                 ))}

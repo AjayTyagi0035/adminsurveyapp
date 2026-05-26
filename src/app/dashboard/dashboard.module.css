@@ -181,21 +181,30 @@
 }
 
 /* Action buttons */
-.actions { display: flex; gap: 6px; }
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: center;
+}
 
 .btnEdit, .btnBlock, .btnUnblock, .btnDelete {
-  padding: 5px 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 10px;
   border-radius: 6px;
   font-size: 12px;
   font-weight: 600;
   border: none;
   cursor: pointer;
   transition: opacity 0.15s;
+  white-space: nowrap;
 }
 .btnEdit    { background: #e0e7ff; color: #3730a3; }
 .btnBlock   { background: #fff7ed; color: #c2410c; }
 .btnUnblock { background: #f0fdf4; color: #15803d; }
-.btnDelete  { background: #fef2f2; color: #b91c1c; }
+.btnDelete  { background: #fef2f2; color: #b91c1c; flex-basis: 100%; justify-content: center; }
 .btnEdit:hover, .btnBlock:hover, .btnUnblock:hover, .btnDelete:hover { opacity: 0.75; }
 
 /* Toast */
@@ -309,3 +318,135 @@
 }
 .btnSave:hover:not(:disabled) { background: #2d6a9f; }
 .btnSave:disabled { opacity: 0.6; cursor: not-allowed; }
+
+/* ── Responsive ────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    min-height: 56px;
+    padding: 0 12px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .sidebarLogo {
+    padding: 12px 12px 12px 4px;
+    border-bottom: none;
+    border-right: 1px solid rgba(255,255,255,0.1);
+    font-size: 15px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .nav {
+    flex-direction: row;
+    flex: 1;
+    padding: 8px;
+    overflow-x: auto;
+  }
+
+  .navItem {
+    white-space: nowrap;
+    font-size: 13px;
+  }
+
+  .logoutBtn {
+    margin: 0;
+    flex-shrink: 0;
+    white-space: nowrap;
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+
+  .main {
+    padding: 16px;
+  }
+
+  .pageTitle {
+    font-size: 20px;
+  }
+
+  .statCard {
+    flex: 1;
+    min-width: 80px;
+    padding: 14px 16px;
+  }
+
+  .statNum {
+    font-size: 22px;
+  }
+
+  .tableWrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .table {
+    min-width: 520px;
+  }
+
+  .actions {
+    flex-wrap: wrap;
+  }
+
+  .modalCard {
+    padding: 20px;
+  }
+
+  .modalActions {
+    flex-direction: column-reverse;
+  }
+
+  .btnCancel,
+  .btnSave {
+    width: 100%;
+    text-align: center;
+    padding: 11px 18px;
+  }
+
+  .toastOk,
+  .toastErr {
+    bottom: 16px;
+    right: 16px;
+    left: 16px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    padding: 12px;
+  }
+
+  .pageTitle {
+    font-size: 18px;
+  }
+
+  .addBtn {
+    width: 100%;
+  }
+
+  /* Hide # and Role columns on very small screens */
+  .table th:nth-child(1),
+  .table td:nth-child(1),
+  .table th:nth-child(4),
+  .table td:nth-child(4) {
+    display: none;
+  }
+
+  .table {
+    min-width: 360px;
+  }
+
+  .btnEdit, .btnBlock, .btnUnblock, .btnDelete {
+    padding: 5px 8px;
+    font-size: 11px;
+  }
+}

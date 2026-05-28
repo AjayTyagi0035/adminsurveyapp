@@ -1,14 +1,18 @@
 "use client"
 import { useEffect, useState } from 'react'
+import { usePathname } from 'next/navigation'
+import Link from 'next/link'
 import styles from './dashboard.module.css'
+import Surveyors from './components/Surveyors'
 
 export default function Dashboard() {
+  const pathname = usePathname()
   const [surveyors, setSurveyors] = useState([])
   const [loading, setLoading] = useState(true)
   const [toast, setToast] = useState(null)
 
   // Modal state
-  const [modal, setModal] = useState(null) // { type: 'add' | 'edit' | 'block' | 'delete', data? }
+  const [modal, setModal] = useState(null)
   const [form, setForm] = useState({ name: '', mobile: '', password: '' })
   const [blockReason, setBlockReason] = useState('')
   const [saving, setSaving] = useState(false)
@@ -31,9 +35,10 @@ export default function Dashboard() {
     }
   }
 
-  useEffect(() => { loadSurveyors() }, [])
+  useEffect(() => {
+    loadSurveyors()
+  }, [])
 
-  // ── Add surveyor ───────────────────────────────────────────
   async function handleAdd(e) {
     e.preventDefault()
     setSaving(true)
@@ -51,14 +56,13 @@ export default function Dashboard() {
     } finally { setSaving(false) }
   }
 
-  // ── Edit surveyor ──────────────────────────────────────────
   async function handleEdit(e) {
     e.preventDefault()
     setSaving(true)
     try {
       const body = {}
-      if (form.name)     body.name     = form.name
-      if (form.mobile)   body.mobile   = form.mobile
+      if (form.name) body.name = form.name
+      if (form.mobile) body.mobile = form.mobile
       if (form.password) body.password = form.password
       const r = await fetch(`/api/surveyors/${modal.data.id}`, {
         method: 'PUT',
@@ -73,7 +77,6 @@ export default function Dashboard() {
     } finally { setSaving(false) }
   }
 
-  // ── Block / Unblock ────────────────────────────────────────
   async function handleBlock(action) {
     setSaving(true)
     try {
@@ -91,17 +94,18 @@ export default function Dashboard() {
     } finally { setSaving(false) }
   }
 
-  // ── Delete ─────────────────────────────────────────────────
   async function handleDelete() {
-    setSaving(true)
-    try {
-      const r = await fetch(`/api/surveyors/${modal.data.id}`, { method: 'DELETE' })
-      const d = await r.json()
-      if (!r.ok) return showToast(d.error || 'Failed to delete', false)
-      showToast('Surveyor deleted')
-      setModal(null)
-      loadSurveyors()
-    } finally { setSaving(false) }
+    if (modal.type === 'delete-surveyor') {
+      setSaving(true)
+      try {
+        const r = await fetch(`/api/surveyors/${modal.data.id}`, { method: 'DELETE' })
+        const d = await r.json()
+        if (!r.ok) return showToast(d.error || 'Failed to delete', false)
+        showToast('Surveyor deleted')
+        setModal(null)
+        loadSurveyors()
+      } finally { setSaving(false) }
+    }
   }
 
   function openAdd() {
@@ -121,99 +125,40 @@ export default function Dashboard() {
 
   return (
     <div className={styles.layout}>
-      {/* Sidebar */}
       <aside className={styles.sidebar}>
         <div className={styles.sidebarLogo}>📋 SurveyAdmin</div>
         <nav className={styles.nav}>
-          <span className={`${styles.navItem} ${styles.navActive}`}>👥 Surveyors</span>
+          <Link href="/dashboard" className={`${styles.navItem} ${pathname === '/dashboard' ? styles.navActive : ''}`}>
+            👥 Surveyors
+          </Link>
+          <Link href="/records" className={`${styles.navItem} ${pathname === '/records' ? styles.navActive : ''}`}>
+            📝 Records
+          </Link>
         </nav>
         <button className={styles.logoutBtn} onClick={() => window.location.href = '/login'}>
           ⬅ Logout
         </button>
       </aside>
 
-      {/* Main */}
       <main className={styles.main}>
-        <header className={styles.header}>
-          <div>
-            <h1 className={styles.pageTitle}>Surveyor Management</h1>
-            <p className={styles.pageSubtitle}>Manage accounts, roles and access</p>
-          </div>
-          <button className={styles.addBtn} onClick={openAdd}>+ Add Surveyor</button>
-        </header>
-
-        {/* Stats */}
-        <div className={styles.statsRow}>
-          <div className={styles.statCard}>
-            <span className={styles.statNum}>{surveyors.length}</span>
-            <span className={styles.statLabel}>Total</span>
-          </div>
-          <div className={styles.statCard}>
-            <span className={styles.statNum}>{surveyors.filter(s => !s.is_blocked).length}</span>
-            <span className={styles.statLabel}>Active</span>
-          </div>
-          <div className={`${styles.statCard} ${styles.statRed}`}>
-            <span className={styles.statNum}>{surveyors.filter(s => s.is_blocked).length}</span>
-            <span className={styles.statLabel}>Blocked</span>
-          </div>
-        </div>
-
-        {/* Table */}
-        <div className={styles.tableWrap}>
-          {loading ? (
-            <div className={styles.empty}>Loading…</div>
-          ) : surveyors.length === 0 ? (
-            <div className={styles.empty}>No surveyors yet. Add one to get started.</div>
-          ) : (
-            <table className={styles.table}>
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>Name</th>
-                  <th>Mobile</th>
-                  <th>Role</th>
-                  <th>Status</th>
-                  <th>Actions</th>
-                </tr>
-              </thead>
-              <tbody>
-                {surveyors.map((s, i) => (
-                  <tr key={s.id} className={s.is_blocked ? styles.rowBlocked : ''}>
-                    <td className={styles.tdMuted}>{i + 1}</td>
-                    <td className={styles.tdName}>{s.name}</td>
-                    <td>{s.mobile}</td>
-                    <td><span className={styles.roleBadge}>{s.role}</span></td>
-                    <td>
-                      {s.is_blocked
-                        ? <span className={styles.badgeBlocked}>Blocked</span>
-                        : <span className={styles.badgeActive}>Active</span>}
-                    </td>
-                    <td className={styles.actions}>
-                      <button className={styles.btnEdit} onClick={() => openEdit(s)}>✏️ </button>
-                      {s.is_blocked
-                        ? <button className={styles.btnUnblock} onClick={() => openBlock(s)}>🔓 Unblock</button>
-                        : <button className={styles.btnBlock}  onClick={() => openBlock(s)}>🚫</button>}
-                      <button className={styles.btnDelete} onClick={() => setModal({ type: 'delete', data: s })}>🗑️ Delete</button>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          )}
-        </div>
+        <Surveyors
+          surveyors={surveyors}
+          loading={loading}
+          openAdd={openAdd}
+          openEdit={openEdit}
+          openBlock={openBlock}
+          setModal={setModal}
+        />
       </main>
 
-      {/* Toast */}
       {toast && (
         <div className={toast.ok ? styles.toastOk : styles.toastErr}>{toast.msg}</div>
       )}
 
-      {/* ── Modals ── */}
       {modal && (
         <div className={styles.overlay} onClick={() => setModal(null)}>
           <div className={styles.modalCard} onClick={e => e.stopPropagation()}>
 
-            {/* Add */}
             {modal.type === 'add' && (
               <>
                 <h2 className={styles.modalTitle}>Add Surveyor</h2>
@@ -232,7 +177,6 @@ export default function Dashboard() {
               </>
             )}
 
-            {/* Edit */}
             {modal.type === 'edit' && (
               <>
                 <h2 className={styles.modalTitle}>Edit Surveyor</h2>
@@ -251,7 +195,6 @@ export default function Dashboard() {
               </>
             )}
 
-            {/* Block / Unblock */}
             {modal.type === 'block' && (
               <>
                 <h2 className={styles.modalTitle}>
@@ -281,8 +224,7 @@ export default function Dashboard() {
               </>
             )}
 
-            {/* Delete */}
-            {modal.type === 'delete' && (
+            {modal.type === 'delete-surveyor' && (
               <>
                 <h2 className={styles.modalTitle}>Delete Surveyor</h2>
                 <p className={styles.modalBody}>

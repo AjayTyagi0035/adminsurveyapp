@@ -198,6 +198,7 @@ CREATE TABLE IF NOT EXISTS property_surveys (
     )
 );
 
+CREATE INDEX idx_users_role ON users(role);
 
 -- =====================================================
 -- INDEXES FOR FAST SEARCHING

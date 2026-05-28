@@ -70,3 +70,168 @@ CREATE TABLE IF NOT EXISTS mohallas (
 
     UNIQUE(ward_id, mohalla_name)
 );
+CREATE TABLE IF NOT EXISTS property_surveys (
+    id SERIAL PRIMARY KEY,
+    district_id INT
+        REFERENCES districts(id),  -- are nullable
+
+    ulb_id INT
+        REFERENCES ulbs(id), -- are nullable
+
+    ward_id INT
+        REFERENCES wards(id), -- are nullable
+
+    mohalla_id INT
+        REFERENCES mohallas(id),
+
+    old_ward_no TEXT,
+
+    old_ward_name TEXT,
+
+    old_moholla_name TEXT,
+
+    old_house_no TEXT,
+
+    old_owner_name TEXT,
+
+    old_father_husband_name TEXT,
+
+    old_house_tax NUMERIC(12,2),
+
+    old_house_tax_arrear NUMERIC(12,2),
+
+    house_tax_arrear_2025_26 NUMERIC(12,2),
+
+    old_water_tax NUMERIC(12,2),
+
+    water_tax_arrear_2025_26 NUMERIC(12,2),
+
+    new_house_no TEXT NOT NULL,
+
+    owner_name TEXT,
+
+    father_husband_name TEXT,
+
+    mobile_no VARCHAR(15),
+
+    address TEXT,
+
+    road_location_width TEXT,
+
+    rate NUMERIC(12,2),
+
+    nature_of_house TEXT,
+
+    property_type TEXT,
+
+    property_use_as TEXT,
+
+    construction_year INT,
+
+    rebate_type TEXT,
+
+    financial_year TEXT,
+
+
+    front_feet NUMERIC(10,2),
+
+    depth_feet NUMERIC(10,2),
+
+    total_plot_area_sqft NUMERIC(12,2),
+
+    no_of_floors INT,
+
+    ground_floor_area NUMERIC(12,2),
+
+    first_floor_area NUMERIC(12,2),
+
+    second_floor_area NUMERIC(12,2),
+
+    third_floor_area NUMERIC(12,2),
+
+    total_residential_area NUMERIC(12,2),
+
+    total_commercial_area NUMERIC(12,2),
+
+    empty_area NUMERIC(12,2),
+
+    total_current_arv NUMERIC(12,2),
+
+    house_tax_current NUMERIC(12,2),
+
+    house_tax_arrear NUMERIC(12,2),
+
+    house_tax_interest NUMERIC(12,2),
+
+    total_house_tax NUMERIC(12,2),
+
+    water_tax_current NUMERIC(12,2),
+
+    water_tax_arrear NUMERIC(12,2),
+
+    water_tax_interest NUMERIC(12,2),
+
+    total_water_tax NUMERIC(12,2),
+
+    photo_gps TEXT,
+
+    street_light_photo TEXT,
+
+    gps_location TEXT,
+
+    remarks TEXT,
+
+    created_by INT
+        REFERENCES users(id),
+
+    created_at TIMESTAMPTZ DEFAULT NOW(),
+
+    updated_at TIMESTAMPTZ DEFAULT NOW(),
+
+    CONSTRAINT uq_house_per_mohalla
+    UNIQUE (
+        district_id,
+        ulb_id,
+        ward_id,
+        mohalla_id,
+        new_house_no
+    )
+);
+
+
+-- =====================================================
+-- INDEXES FOR FAST SEARCHING
+-- =====================================================
+
+CREATE INDEX idx_property_search
+ON property_surveys (
+    district_id,
+    ulb_id,
+    ward_id,
+    mohalla_id,
+    new_house_no
+);
+
+CREATE INDEX idx_property_old_house_search
+ON property_surveys (
+    district_id,
+    ulb_id,
+    ward_id,
+    mohalla_id,
+    old_house_no
+);
+
+CREATE INDEX idx_property_owner
+ON property_surveys (owner_name);
+
+CREATE INDEX idx_property_mobile
+ON property_surveys (mobile_no);
+
+CREATE INDEX idx_property_created_by
+ON property_surveys (created_by);
+
+CREATE INDEX idx_ward_ulb
+ON wards (ulb_id);
+
+CREATE INDEX idx_mohalla_ward
+ON mohallas (ward_id);

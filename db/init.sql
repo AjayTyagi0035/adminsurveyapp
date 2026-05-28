@@ -27,3 +27,46 @@ ON CONFLICT (mobile) DO NOTHING;
 INSERT INTO users (name, mobile, password_hash, role, is_blocked)
 VALUES ('John Doe', '9000000001', 'surveyor123', 'surveyor', FALSE)
 ON CONFLICT (mobile) DO NOTHING;
+
+CREATE TABLE IF NOT EXISTS districts (
+    id SERIAL PRIMARY KEY,
+    district_name TEXT NOT NULL UNIQUE,
+    created_at TIMESTAMPTZ DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS ulbs (
+    id SERIAL PRIMARY KEY,
+
+    district_id INT NOT NULL REFERENCES districts(id) ON DELETE CASCADE,
+
+    ulb_name TEXT NOT NULL,
+
+    created_at TIMESTAMPTZ DEFAULT NOW(),
+
+    UNIQUE(district_id, ulb_name)
+);
+CREATE TABLE IF NOT EXISTS wards (
+    id SERIAL PRIMARY KEY,
+
+    district_id INT NOT NULL REFERENCES districts(id) ON DELETE CASCADE,
+
+    ulb_id INT NOT NULL REFERENCES ulbs(id) ON DELETE CASCADE,
+
+    ward_no TEXT NOT NULL,
+
+    ward_name TEXT NOT NULL,
+
+    created_at TIMESTAMPTZ DEFAULT NOW(),
+
+    UNIQUE(ulb_id, ward_no)
+);
+CREATE TABLE IF NOT EXISTS mohallas (
+    id SERIAL PRIMARY KEY,
+
+    ward_id INT NOT NULL REFERENCES wards(id) ON DELETE CASCADE,
+
+    mohalla_name TEXT NOT NULL,
+
+    created_at TIMESTAMPTZ DEFAULT NOW(),
+
+    UNIQUE(ward_id, mohalla_name)
+);

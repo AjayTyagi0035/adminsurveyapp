@@ -1,10 +1,11 @@
+import withCors from '../../../lib/cors'
 import pool from '../../../lib/db'
 
 /**
  * GET  /api/property-surveys?page=1&limit=20
  * POST /api/property-surveys
  */
-export default async function handler(req, res) {
+async function handler(req, res) {
   const client = await pool.connect()
   try {
     // ── GET: paginated list ───────────────────────────────────
@@ -14,23 +15,91 @@ export default async function handler(req, res) {
       const offset = (page - 1) * limit
 
       const r = await client.query(
-        `SELECT
-           ps.id, ps.district_id, ps.ulb_id, ps.ward_id, ps.mohalla_id,
-           ps.old_ward_no, ps.old_house_no, ps.old_owner_name, ps.old_father_husband_name,
-           ps.old_house_tax, ps.old_house_tax_arrear,
-           ps.new_house_no, ps.owner_name, ps.father_husband_name, ps.mobile_no,
-           ps.property_type, ps.property_use_as, ps.nature_of_house,
-           ps.total_plot_area_sqft, ps.no_of_floors, ps.total_house_tax, ps.total_water_tax,
-           ps.gps_location, ps.remarks, ps.created_by, ps.created_at, ps.updated_at,
-           COUNT(*) OVER() AS total_count
-         FROM property_surveys ps
-         ORDER BY ps.id DESC
-         LIMIT $1 OFFSET $2`,
-        [limit, offset]
-      )
+  `SELECT
+      ps.*,
+
+      d.district_name,
+      u.ulb_name,
+      w.ward_no,
+      m.mohalla_name,
+      usr.name AS created_by_name,
+
+      COUNT(*) OVER() AS total_count
+
+   FROM property_surveys ps
+
+   LEFT JOIN districts d
+      ON d.id = ps.district_id
+
+   LEFT JOIN ulbs u
+      ON u.id = ps.ulb_id
+
+   LEFT JOIN wards w
+      ON w.id = ps.ward_id
+
+   LEFT JOIN mohallas m
+      ON m.id = ps.mohalla_id
+
+   LEFT JOIN users usr
+      ON usr.id = ps.created_by
+
+   ORDER BY ps.id DESC
+   LIMIT $1 OFFSET $2`,
+  [limit, offset]
+)
 
       const total = r.rows[0] ? parseInt(r.rows[0].total_count, 10) : 0
-      const records = r.rows.map(({ total_count, ...rest }) => rest)
+      const records = r.rows.map(({ total_count, ...row }) => {
+  const {
+    id,
+
+    district_id,
+    district_name,
+
+    ulb_id,
+    ulb_name,
+
+    ward_id,
+    ward_no,
+
+    mohalla_id,
+    mohalla_name,
+
+    created_by,
+    created_by_name,
+
+    old_ward_no,
+    old_ward_name,
+    old_moholla_name,
+
+    ...rest
+  } = row
+
+  return {
+    id,
+
+    district_id,
+    district_name,
+
+    ulb_id,
+    ulb_name,
+
+    ward_id,
+    ward_no,
+
+    mohalla_id,
+    mohalla_name,
+
+    created_by,
+    created_by_name,
+
+    old_ward_no,
+    old_ward_name,
+    old_moholla_name,
+
+    ...rest,
+  }
+})
 
       return res.status(200).json({
         data: records,
@@ -129,3 +198,5 @@ export default async function handler(req, res) {
     client.release()
   }
 }
+
+export default withCors(handler)

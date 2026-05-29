@@ -1,3 +1,4 @@
+import withCors from '../../../lib/cors'
 import pool from '../../../lib/db'
 
 /**
@@ -5,7 +6,7 @@ import pool from '../../../lib/db'
  * PUT /api/property-surveys/[id]   – update any fields (partial update supported)
  * DELETE /api/property-surveys/[id]   – delete a record by id
  */
-export default async function handler(req, res) {
+async function handler(req, res) {
   const { id } = req.query
   if (isNaN(Number(id))) return res.status(400).json({ error: 'Invalid id' })
 
@@ -91,3 +92,5 @@ export default async function handler(req, res) {
     client.release()
   }
 }
+
+export default withCors(handler)

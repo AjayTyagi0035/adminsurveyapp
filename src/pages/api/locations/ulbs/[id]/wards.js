@@ -1,6 +1,7 @@
+import withCors from '../../../../../lib/cors'
 import pool from '../../../../../lib/db'
 
-export default async function handler(req, res) {
+async function handler(req, res) {
   const client = await pool.connect()
   try {
     if (req.method === 'GET') {
@@ -8,7 +9,7 @@ export default async function handler(req, res) {
       if (!id) return res.status(400).json({ error: 'ulb id is required' })
 
       const r = await client.query(
-        `SELECT id, ward_no FROM wards WHERE ulb_id = $1 ORDER BY ward_no`,
+        `SELECT id, ward_no FROM wards WHERE ulb_id = $1 ORDER BY LENGTH(ward_no), ward_no`,
         [id]
       )
       return res.status(200).json({ wards: r.rows })
@@ -22,3 +23,5 @@ export default async function handler(req, res) {
     client.release()
   }
 }
+
+export default withCors(handler)

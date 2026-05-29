@@ -1,6 +1,7 @@
+import withCors from '../../../../lib/cors'
 import pool from '../../../../lib/db'
 
-export default async function handler(req, res) {
+async function handler(req, res) {
   const client = await pool.connect()
   try {
     if (req.method === 'GET') {
@@ -10,7 +11,8 @@ export default async function handler(req, res) {
       return res.status(200).json({ districts: r.rows })
     }
 
-    return res.status(405).json({ error: 'Method not allowed' })
+    res.setHeader('Allow', ['GET'])
+    return res.status(405).json({ error: `Method ${req.method} Not Allowed` })
   } catch (err) {
     console.error(err)
     res.status(500).json({ error: 'Server error' })
@@ -18,3 +20,5 @@ export default async function handler(req, res) {
     client.release()
   }
 }
+
+export default withCors(handler)

@@ -1,6 +1,7 @@
+import withCors from '../../../../../lib/cors'
 import pool from '../../../../../lib/db'
 
-export default async function handler(req, res) {
+async function handler(req, res) {
   const client = await pool.connect()
   try {
     if (req.method === 'GET') {
@@ -22,3 +23,5 @@ export default async function handler(req, res) {
     client.release()
   }
 }
+
+export default withCors(handler)

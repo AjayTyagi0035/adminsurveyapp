@@ -21,6 +21,8 @@ export default function RecordsPage() {
   const [limit] = useState(10)
   const [totalPages, setTotalPages] = useState(1)
   const [totalRecords, setTotalRecords] = useState(0)
+  const [startDate, setStartDate] = useState('')
+  const [endDate, setEndDate] = useState('')
 
   function showToast(msg, ok = true) {
     setToast({ msg, ok })
@@ -71,9 +73,9 @@ export default function RecordsPage() {
     try {
       const wardNo = getSelectedWardNo()
       const mohallaName = getSelectedMohallaName()
-      const hasFilters = wardNo || mohallaName || houseNo.trim()
+      const hasFilters = wardNo || mohallaName || houseNo.trim() || startDate || endDate
       const url = hasFilters
-        ? `/api/property-surveys/search?ward_no=${encodeURIComponent(wardNo)}&mohalla_name=${encodeURIComponent(mohallaName)}&house_no=${encodeURIComponent(houseNo.trim())}&page=${page}&limit=${limit}`
+        ? `/api/property-surveys/search?ward_no=${encodeURIComponent(wardNo)}&mohalla_name=${encodeURIComponent(mohallaName)}&house_no=${encodeURIComponent(houseNo.trim())}&start_date=${encodeURIComponent(startDate)}&end_date=${encodeURIComponent(endDate)}&page=${page}&limit=${limit}`
         : `/api/property-surveys?page=${page}&limit=${limit}`
       const r = await fetch(url)
       const d = await r.json()
@@ -92,6 +94,15 @@ export default function RecordsPage() {
     }
   }
 
+  function handleExport() {
+    const wardNo = getSelectedWardNo()
+    const query = new URLSearchParams()
+    if (wardNo) query.append('ward_no', wardNo)
+    if (startDate) query.append('start_date', startDate)
+    if (endDate) query.append('end_date', endDate)
+    window.open(`/api/property-surveys/export?${query.toString()}`, '_blank')
+  }
+
   useEffect(() => {
     loadWards()
   }, [])
@@ -101,7 +112,7 @@ export default function RecordsPage() {
       loadRecords()
     }, 350)
     return () => clearTimeout(handler)
-  }, [selectedWardId, selectedMohallaId, houseNo, page, wards, mohallas])
+  }, [selectedWardId, selectedMohallaId, houseNo, startDate, endDate, page, wards, mohallas])
 
   useEffect(() => {
     loadMohallas(selectedWardId)
@@ -192,6 +203,40 @@ export default function RecordsPage() {
                 setPage(1)
               }}
             />
+          </div>
+        </div>
+
+        <div className={styles.filterRow} style={{ gridTemplateColumns: '1fr 1fr 150px' }}>
+          <div className={styles.filterGroup}>
+            <label className={styles.filterLabel}>Start Date</label>
+            <input
+              type="date"
+              className={styles.filterInput}
+              value={startDate}
+              onChange={e => {
+                setStartDate(e.target.value)
+                setPage(1)
+              }}
+            />
+          </div>
+
+          <div className={styles.filterGroup}>
+            <label className={styles.filterLabel}>End Date</label>
+            <input
+              type="date"
+              className={styles.filterInput}
+              value={endDate}
+              onChange={e => {
+                setEndDate(e.target.value)
+                setPage(1)
+              }}
+            />
+          </div>
+
+          <div className={styles.filterGroup} style={{ justifyContent: 'flex-end', paddingTop: '1.5rem' }}>
+            <button className={styles.btnSave} onClick={handleExport}>
+              📥 Export CSV
+            </button>
           </div>
         </div>
 

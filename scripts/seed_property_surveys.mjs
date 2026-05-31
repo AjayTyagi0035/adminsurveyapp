@@ -61,11 +61,11 @@ async function main() {
 
     const wardNo = (row['Ward No'] || row['Ward No '] || '').toString().trim()
     // keep it simple: store old ward no directly and set ward_id = 2 for all imports
-    const wardId = 2
+    const wardId = 1
 
     const client = await pool.connect()
     try {
-      // get district_id and ulb_id for ward_id=2
+      // get district_id and ulb_id for ward_id=1
       const wr = await client.query(
         'SELECT id, district_id, ulb_id FROM wards WHERE id = $1 LIMIT 1',
         [wardId]
@@ -79,10 +79,6 @@ async function main() {
 
       const old_house_no = row['Old House'] || row['Old House '] || ''
       const new_house_no = row['New House'] || row['New House '] || ''
-      if (!new_house_no) {
-        console.log(`Skipping line ${i + 1}: missing New House (new_house_no)`) 
-        continue
-      }
 
       const old_owner_name = row['Owner Name'] || ''
       const old_father_husband_name = row['Fathers Name'] || ''
@@ -93,13 +89,14 @@ async function main() {
       const old_ward_no = wardNo || null
       await client.query(
         `INSERT INTO property_surveys
-          (district_id, ulb_id, old_ward_no, old_house_no, old_owner_name,
+          (district_id, ulb_id, ward_id, old_ward_no, old_house_no, old_owner_name,
            old_father_husband_name, property_type, property_use_as, old_house_tax,
            old_house_tax_arrear, new_house_no)
-         VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11)`,
+         VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12)`,
         [
           ward.district_id,
           ward.ulb_id,
+          wardId,
           old_ward_no || null,
           old_house_no || null,
           old_owner_name || null,

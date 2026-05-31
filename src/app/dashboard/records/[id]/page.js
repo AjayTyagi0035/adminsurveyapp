@@ -11,6 +11,7 @@ export default function EditRecordPage() {
   const [loading, setLoading] = useState(true)
   const [saving, setSaving] = useState(false)
   const [toast, setToast] = useState(null)
+  const [viewImage, setViewImage] = useState(null)
 
   const dropdownOptions = {
     road_location_width: ['3 -9 meter', '9 -12 meter', '12 -24 meter', '24 -more than  meter'],
@@ -124,6 +125,30 @@ export default function EditRecordPage() {
             </option>
           ))}
         </select>
+      )
+    }
+
+    if (key === 'photo_gps' || key === 'street_light_photo') {
+      return (
+        <div style={{ display: 'flex', gap: '8px' }}>
+          <input
+            value={record[key] ?? ''}
+            onChange={e => updateField(key, e.target.value)}
+            placeholder={formatLabel(key)}
+            readOnly={isReadOnly}
+            className={isReadOnly ? styles.inputReadonly : styles.recordInput}
+            style={{ flex: 1 }}
+          />
+          {record[key] && (
+            <button
+              type="button"
+              style={{ padding: '0 16px', cursor: 'pointer', borderRadius: '4px', border: '1px solid #ccc' }}
+              onClick={() => setViewImage(`https://surveystorage0035.blob.core.windows.net/${record[key]}`)}
+            >
+              View
+            </button>
+          )}
+        </div>
       )
     }
 
@@ -255,6 +280,24 @@ export default function EditRecordPage() {
           </div>
         </form>
       </main>
+
+      {viewImage && (
+        <div 
+          style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: 'rgba(0,0,0,0.7)', display: 'flex', justifyContent: 'center', alignItems: 'center', zIndex: 1000 }}
+          onClick={() => setViewImage(null)}
+        >
+          <div style={{ position: 'relative', background: '#fff', padding: '16px', borderRadius: '8px', maxWidth: '90vw', maxHeight: '90vh', display: 'flex', flexDirection: 'column' }} onClick={e => e.stopPropagation()}>
+            <button 
+              type="button" 
+              onClick={() => setViewImage(null)} 
+              style={{ alignSelf: 'flex-end', marginBottom: '8px', background: '#dc3545', color: 'white', border: 'none', padding: '4px 8px', borderRadius: '4px', cursor: 'pointer' }}
+            >
+              Close
+            </button>
+            <img src={viewImage} alt="Preview" style={{ maxWidth: '100%', maxHeight: 'calc(90vh - 60px)', objectFit: 'contain' }} />
+          </div>
+        </div>
+      )}
 
       {toast && (
         <div className={toast.ok ? styles.toastOk : styles.toastErr}>{toast.msg}</div>

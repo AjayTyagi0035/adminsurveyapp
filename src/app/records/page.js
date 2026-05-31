@@ -261,6 +261,7 @@ export default function RecordsPage() {
                   <th>Old House No</th>
                   <th>House No</th>
                   <th>Mohalla</th>
+                  <th>Old Owner</th>
                   <th>Owner</th>
                   <th>Remarks</th>
                   <th>Created At</th>
@@ -273,6 +274,7 @@ export default function RecordsPage() {
                     <td>{r.old_house_no}</td>
                     <td>{r.new_house_no}</td>
                     <td>{r.mohalla_name}</td>
+                    <td>{r.old_owner_name}</td>
                     <td className={styles.tdName}>{r.owner_name}</td>
                     <td>{r.remarks}</td>
                     <td>{new Date(r.created_at).toLocaleDateString()}</td>

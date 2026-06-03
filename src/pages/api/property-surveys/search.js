@@ -82,7 +82,8 @@ async function handler(req, res) {
    LEFT JOIN mohallas m
       ON m.id = ps.mohalla_id
 
-   WHERE ${conditions.join(' AND ')}
+  WHERE ${conditions.join(' AND ')}
+    AND ps.gps_location IS NULL
 
    ORDER BY ps.id ASC
    LIMIT $${p}
@@ -91,6 +92,19 @@ async function handler(req, res) {
 )
 
     const total   = r.rows[0] ? parseInt(r.rows[0].total_count, 10) : 0
+    // If no records returned (after excluding gps_location), check if matching records
+    // exist but were excluded because they have a gps_location value set.
+    if (total === 0) {
+      // filterValues = values without the final limit and offset
+      const filterValues = values.slice(0, Math.max(0, values.length - 2))
+      const existCheck = await client.query(
+        `SELECT 1 FROM property_surveys ps WHERE ${conditions.join(' AND ')} AND ps.gps_location IS NOT NULL LIMIT 1`,
+        filterValues
+      )
+      if (existCheck.rowCount > 0) {
+        return res.status(200).json({ message: 'Record already completed' })
+      }
+    }
     const records = r.rows.map(({ total_count, ...row }) => {
   const {
     id,

@@ -43,6 +43,8 @@ async function handler(req, res) {
    LEFT JOIN users usr
       ON usr.id = ps.created_by
 
+  WHERE ps.gps_location IS NULL
+
    ORDER BY ps.id DESC
    LIMIT $1 OFFSET $2`,
   [limit, offset]

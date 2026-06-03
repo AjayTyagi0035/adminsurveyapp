@@ -143,7 +143,7 @@ export default function EditRecordPage() {
             <button
               type="button"
               style={{ padding: '0 16px', cursor: 'pointer', borderRadius: '4px', border: '1px solid #ccc' }}
-              onClick={() => setViewImage(`https://surveystorage0035.blob.core.windows.net/${record[key]}`)}
+              onClick={() => setViewImage(`https://cdn.omgauamrit.in/${record[key]}`)}
             >
               View
             </button>

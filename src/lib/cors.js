@@ -1,6 +1,6 @@
 // Central CORS helper for API routes
 export const DEFAULT_ALLOWED_ORIGINS = [
-  'http://localhost:57735', // your app origin
+  'http://localhost:49183', // your app origin
   'http://localhost:3000',  // next dev server
 ]
 

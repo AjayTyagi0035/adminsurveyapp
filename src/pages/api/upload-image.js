@@ -1,6 +1,7 @@
 import { BlobServiceClient } from '@azure/storage-blob'
 import formidable from 'formidable'
 import fs from 'fs'
+import sharp from 'sharp'
 import withCors from '../../lib/cors'
 
 // Disable Next.js default body parser to allow formidable to handle multipart/form-data
@@ -53,10 +54,16 @@ async function handler(req, res) {
       
       const blockBlobClient = containerClient.getBlockBlobClient(blobName)
 
-      // Read file into stream and upload
-      const fileStream = fs.createReadStream(uploadedFile.filepath || uploadedFile.path)
-      
-      await blockBlobClient.uploadStream(fileStream, undefined, undefined, {
+      // Compress image using sharp
+      const filePath = uploadedFile.filepath || uploadedFile.path
+      const compressedBuffer = await sharp(filePath)
+        .jpeg({ quality: 80, force: false })
+        .png({ quality: 80, force: false })
+        .webp({ quality: 80, force: false })
+        .toBuffer()
+
+      // Upload the compressed image buffer
+      await blockBlobClient.uploadData(compressedBuffer, {
         blobHTTPHeaders: {
           blobContentType: uploadedFile.mimetype || 'image/jpeg'
         }

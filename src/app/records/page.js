@@ -3,26 +3,81 @@ import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import styles from '../dashboard/dashboard.module.css'
 
+const RECORD_FILTERS_STORAGE_KEY = 'adminsurveyapp.records.filters'
+
+function readStoredFilters() {
+  if (typeof window === 'undefined') {
+    return {
+      selectedWardId: '',
+      selectedMohallaId: '',
+      houseNo: '',
+      page: 1,
+      startDate: '',
+      endDate: '',
+    }
+  }
+
+  try {
+    const raw = window.sessionStorage.getItem(RECORD_FILTERS_STORAGE_KEY)
+    if (!raw) {
+      return {
+        selectedWardId: '',
+        selectedMohallaId: '',
+        houseNo: '',
+        page: 1,
+        startDate: '',
+        endDate: '',
+      }
+    }
+
+    const parsed = JSON.parse(raw)
+    return {
+      selectedWardId: parsed.selectedWardId ?? '',
+      selectedMohallaId: parsed.selectedMohallaId ?? '',
+      houseNo: parsed.houseNo ?? '',
+      page: Number.isFinite(Number(parsed.page)) ? Math.max(1, Number(parsed.page)) : 1,
+      startDate: parsed.startDate ?? '',
+      endDate: parsed.endDate ?? '',
+    }
+  } catch {
+    return {
+      selectedWardId: '',
+      selectedMohallaId: '',
+      houseNo: '',
+      page: 1,
+      startDate: '',
+      endDate: '',
+    }
+  }
+}
+
 export default function RecordsPage() {
   const router = useRouter()
   const [records, setRecords] = useState([])
   const [loading, setLoading] = useState(true)
   const [loadingWards, setLoadingWards] = useState(false)
   const [loadingMohallas, setLoadingMohallas] = useState(false)
+  const [countLoading, setCountLoading] = useState(true)
   const [toast, setToast] = useState(null)
   const [modal, setModal] = useState(null)
   const [saving, setSaving] = useState(false)
   const [wards, setWards] = useState([])
   const [mohallas, setMohallas] = useState([])
-  const [selectedWardId, setSelectedWardId] = useState('')
-  const [selectedMohallaId, setSelectedMohallaId] = useState('')
-  const [houseNo, setHouseNo] = useState('')
-  const [page, setPage] = useState(1)
+  const storedFilters = readStoredFilters()
+  const [selectedWardId, setSelectedWardId] = useState(storedFilters.selectedWardId)
+  const [selectedMohallaId, setSelectedMohallaId] = useState(storedFilters.selectedMohallaId)
+  const [houseNo, setHouseNo] = useState(storedFilters.houseNo)
+  const [page, setPage] = useState(storedFilters.page)
   const [limit] = useState(10)
   const [totalPages, setTotalPages] = useState(1)
-  const [totalRecords, setTotalRecords] = useState(0)
-  const [startDate, setStartDate] = useState('')
-  const [endDate, setEndDate] = useState('')
+  const [filteredCount, setFilteredCount] = useState(0)
+  const [surveyCounts, setSurveyCounts] = useState({
+    total: 0,
+    completed: 0,
+    uncompleted: 0,
+  })
+  const [startDate, setStartDate] = useState(storedFilters.startDate)
+  const [endDate, setEndDate] = useState(storedFilters.endDate)
 
   function showToast(msg, ok = true) {
     setToast({ msg, ok })
@@ -68,24 +123,62 @@ export default function RecordsPage() {
     }
   }
 
+  async function loadSurveyCounts() {
+    setCountLoading(true)
+    try {
+      const r = await fetch('/api/property-surveys/counts')
+      const d = await r.json()
+      setSurveyCounts({
+        total: d.totalSurveys ?? 0,
+        completed: d.completedSurveys ?? 0,
+        uncompleted: d.uncompletedSurveys ?? 0,
+      })
+    } catch {
+      showToast('Failed to load survey counts', false)
+    } finally {
+      setCountLoading(false)
+    }
+  }
+
+  useEffect(() => {
+    if (typeof window === 'undefined') {
+      return
+    }
+
+    window.sessionStorage.setItem(
+      RECORD_FILTERS_STORAGE_KEY,
+      JSON.stringify({
+        selectedWardId,
+        selectedMohallaId,
+        houseNo,
+        page,
+        startDate,
+        endDate,
+      })
+    )
+  }, [selectedWardId, selectedMohallaId, houseNo, page, startDate, endDate])
+
   async function loadRecords() {
     setLoading(true)
     try {
       const wardNo = getSelectedWardNo()
       const mohallaName = getSelectedMohallaName()
-      const hasFilters = wardNo || mohallaName || houseNo.trim() || startDate || endDate
-      const url = hasFilters
-        ? `/api/property-surveys/search?ward_no=${encodeURIComponent(wardNo)}&mohalla_name=${encodeURIComponent(mohallaName)}&house_no=${encodeURIComponent(houseNo.trim())}&start_date=${encodeURIComponent(startDate)}&end_date=${encodeURIComponent(endDate)}&page=${page}&limit=${limit}`
-        : `/api/property-surveys?page=${page}&limit=${limit}`
+      const url = `/api/property-surveys/all-search?ward_no=${encodeURIComponent(wardNo)}&mohalla_name=${encodeURIComponent(mohallaName)}&house_no=${encodeURIComponent(houseNo.trim())}&start_date=${encodeURIComponent(startDate)}&end_date=${encodeURIComponent(endDate)}&page=${page}&limit=${limit}`
       const r = await fetch(url)
       const d = await r.json()
-      setRecords(d.data ?? d ?? [])
+      if (d?.message) {
+        setRecords([])
+        setFilteredCount(0)
+        showToast(d.message, false)
+      } else {
+        setRecords(Array.isArray(d?.data) ? d.data : Array.isArray(d) ? d : [])
+        setFilteredCount(d?.pagination?.total ?? (Array.isArray(d?.data) ? d.data.length : Array.isArray(d) ? d.length : 0))
+      }
       if (d.pagination) {
         setTotalPages(d.pagination.total_pages ?? 1)
-        setTotalRecords(d.pagination.total ?? (d.data ?? d ?? []).length)
       } else {
         setTotalPages(1)
-        setTotalRecords((d.data ?? d ?? []).length)
+        setFilteredCount(Array.isArray(d?.data) ? d.data.length : Array.isArray(d) ? d.length : 0)
       }
     } catch {
       showToast('Failed to load records', false)
@@ -105,6 +198,7 @@ export default function RecordsPage() {
 
   useEffect(() => {
     loadWards()
+    loadSurveyCounts()
   }, [])
 
   useEffect(() => {
@@ -116,8 +210,6 @@ export default function RecordsPage() {
 
   useEffect(() => {
     loadMohallas(selectedWardId)
-    setSelectedMohallaId('')
-    setPage(1)
   }, [selectedWardId])
 
   async function handleDelete() {
@@ -156,6 +248,7 @@ export default function RecordsPage() {
               value={selectedWardId}
               onChange={e => {
                 setSelectedWardId(e.target.value)
+                setSelectedMohallaId('')
                 setPage(1)
               }}
               disabled={loadingWards}
@@ -243,8 +336,20 @@ export default function RecordsPage() {
         {/* Stats */}
         <div className={styles.statsRow}>
           <div className={styles.statCard}>
-            <span className={styles.statNum}>{totalRecords}</span>
-            <span className={styles.statLabel}>Total Records</span>
+            <span className={styles.statNum}>{countLoading ? '…' : surveyCounts.total}</span>
+            <span className={styles.statLabel}>Total Surveys</span>
+          </div>
+          <div className={styles.statCard}>
+            <span className={styles.statNum}>{countLoading ? '…' : surveyCounts.completed}</span>
+            <span className={styles.statLabel}>Completed Surveys</span>
+          </div>
+          <div className={`${styles.statCard} ${styles.statRed}`}>
+            <span className={styles.statNum}>{countLoading ? '…' : surveyCounts.uncompleted}</span>
+            <span className={styles.statLabel}>Uncompleted Surveys</span>
+          </div>
+          <div className={styles.statCard}>
+            <span className={styles.statNum}>{loading ? '…' : filteredCount}</span>
+            <span className={styles.statLabel}>Current Search Count</span>
           </div>
         </div>
 

@@ -21,14 +21,14 @@ async function handler(req, res) {
     }
     
     if (start_date) {
-      conditions.push(`ps.created_at >= $${p}::timestamp`)
+      conditions.push(`ps.updated_at >= $${p}::timestamp`)
       values.push(start_date)
       p++
     }
     
     if (end_date) {
       // include up to the very end of the end_date
-      conditions.push(`ps.created_at <= $${p}::timestamp + interval '23 hours 59 minutes 59 seconds'`)
+      conditions.push(`ps.updated_at <= $${p}::timestamp + interval '23 hours 59 minutes 59 seconds'`)
       values.push(end_date)
       p++
     }

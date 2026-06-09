@@ -369,7 +369,7 @@ export default function RecordsPage() {
                   <th>Old Owner</th>
                   <th>Owner</th>
                   <th>Remarks</th>
-                  <th>Created At</th>
+                  <th>Updated At</th>
                   <th>Actions</th>
                 </tr>
               </thead>
@@ -382,7 +382,7 @@ export default function RecordsPage() {
                     <td>{r.old_owner_name}</td>
                     <td className={styles.tdName}>{r.owner_name}</td>
                     <td>{r.remarks}</td>
-                    <td>{new Date(r.created_at).toLocaleDateString()}</td>
+                    <td>{new Date(r.updated_at).toLocaleDateString()}</td>
                     <td className={styles.actions}>
                       <button className={styles.btnEdit} onClick={() => openEditRecord(r)}>✏️ View/Edit</button>
                       <button className={styles.btnDelete} onClick={() => setModal({ type: 'delete-record', data: r })}>🗑️ Delete</button>

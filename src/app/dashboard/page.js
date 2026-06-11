@@ -134,6 +134,9 @@ export default function Dashboard() {
           <Link href="/records" className={`${styles.navItem} ${pathname === '/records' ? styles.navActive : ''}`}>
             📝 Records
           </Link>
+          <Link href="/map" className={`${styles.navItem} ${pathname === '/map' ? styles.navActive : ''}`}>
+            🗺️ Map View
+          </Link>
         </nav>
         <button className={styles.logoutBtn} onClick={() => window.location.href = '/login'}>
           ⬅ Logout

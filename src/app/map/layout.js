@@ -3,7 +3,7 @@ import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import styles from '../dashboard/dashboard.module.css'
 
-export default function RecordsLayout({ children }) {
+export default function MapLayout({ children }) {
   const pathname = usePathname()
 
   return (

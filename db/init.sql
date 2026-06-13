@@ -236,3 +236,10 @@ ON wards (ulb_id);
 
 CREATE INDEX idx_mohalla_ward
 ON mohallas (ward_id);
+
+ALTER TABLE public.property_surveys
+ADD COLUMN watertank_tax_current NUMERIC,
+ADD COLUMN watertank_tax_arrear NUMERIC,
+ADD COLUMN watertank_tax_interest NUMERIC,
+ADD COLUMN total_watertank_tax NUMERIC,
+ADD COLUMN total_tax NUMERIC;

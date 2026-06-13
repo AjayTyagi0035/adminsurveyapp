@@ -63,6 +63,7 @@ export default function EditRecordPage() {
         'old_house_tax_arrear', 'house_tax_arrear_2025_26', 'house_tax_current', 'house_tax_arrear',
         'house_tax_interest', 'total_house_tax', 'old_water_tax', 'water_tax_arrear_2025_26',
         'water_tax_current', 'water_tax_arrear', 'water_tax_interest', 'total_water_tax',
+        'watertank_tax_current', 'watertank_tax_arrear', 'watertank_tax_interest', 'total_watertank_tax', 'total_tax',
       ],
     },
     {

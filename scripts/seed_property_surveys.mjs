@@ -1,7 +1,7 @@
 import fs from 'fs'
 import { Pool } from 'pg'
 
-const csvPath = process.argv[2] || 'public/Ward_1.csv'
+const csvPath = process.argv[2] || 'public/Ward_2.csv'
 const DATABASE_URL = process.env.DATABASE_URL
 if (!DATABASE_URL) {
   console.error('Please set DATABASE_URL environment variable')
@@ -42,7 +42,18 @@ function parseCSVLine(line) {
   res.push(cur)
   return res.map(s => s.trim())
 }
+function generateHouseNo(index) {
+  let result = ''
+  let n = index + 1
 
+  while (n > 0) {
+    n--
+    result = String.fromCharCode(65 + (n % 26)) + result
+    n = Math.floor(n / 26)
+  }
+
+  return result
+}
 async function main() {
   const data = fs.readFileSync(csvPath, 'utf8')
   const lines = data.split(/\r?\n/).filter(Boolean)
@@ -59,62 +70,160 @@ async function main() {
     const row = {}
     for (let j = 0; j < headers.length; j++) row[headers[j]] = cols[j] ?? ''
 
-    const wardNo = (row['Ward No'] || row['Ward No '] || '').toString().trim()
-    // keep it simple: store old ward no directly and set ward_id = 2 for all imports
-    const wardId = 1
-
     const client = await pool.connect()
-    try {
-      // get district_id and ulb_id for ward_id=1
-      const wr = await client.query(
-        'SELECT id, district_id, ulb_id FROM wards WHERE id = $1 LIMIT 1',
-        [wardId]
-      )
-      if (!wr.rows[0]) {
-        console.log(`Ward id ${wardId} not found in DB (line ${i + 1}), aborting`)
-        client.release()
-        process.exit(1)
-      }
-      const ward = wr.rows[0]
 
-      const old_house_no = row['Old House'] || row['Old House '] || ''
-      const new_house_no = row['New House'] || row['New House '] || ''
+try {
+  const old_house_no = (row['HOUSE NO'] || '').trim()
+  
+  const new_house_no = generateHouseNo(inserted)
+  const old_owner_name = (row['OWNER NAME'] || '').trim()
+  const old_father_husband_name = (row['FATHER NAME'] || '').trim()
 
-      const old_owner_name = row['Owner Name'] || ''
-      const old_father_husband_name = row['Fathers Name'] || ''
-      const property_type = row['property Type'] || ''
-      const property_use_as = row['Property use'] || row['Property use '] || ''
-      const old_house_tax = parseFloat((row['Old House Tax  2025-26'] || '').replace(/[^0-9.-]/g, '')) || null
-      const old_house_tax_arrear = parseFloat((row['Arrear 2025-26'] || '').replace(/[^0-9.-]/g, '')) || null
-      const old_ward_no = wardNo || null
-      await client.query(
-        `INSERT INTO property_surveys
-          (district_id, ulb_id, ward_id, old_ward_no, old_house_no, old_owner_name,
-           old_father_husband_name, property_type, property_use_as, old_house_tax,
-           old_house_tax_arrear, new_house_no)
-         VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12)`,
-        [
-          ward.district_id,
-          ward.ulb_id,
-          wardId,
-          old_ward_no || null,
-          old_house_no || null,
-          old_owner_name || null,
-          old_father_husband_name || null,
-          property_type || null,
-          property_use_as || null,
-          old_house_tax,
-          old_house_tax_arrear,
-          new_house_no,
-        ]
-      )
-      inserted++
-      if (inserted % 100 === 0) console.log(`Inserted ${inserted} rows so far`)
-    } catch (err) {
-      console.error(`Error on line ${i + 1}:`, err.message)
-    } finally {
-      client.release()
-    }
+  const owner_name = old_owner_name
+  const father_husband_name = old_father_husband_name
+
+  const old_house_tax =
+    parseFloat(
+      (row['OLD HOUSE TAX 2025-2016'] || '')
+        .toString()
+        .replace(/[^0-9.-]/g, '')
+    ) || null
+
+  const house_tax_arrear =
+    parseFloat(
+      (row['HOUSE TAX ARRER2025-2026'] || '')
+        .toString()
+        .replace(/[^0-9.-]/g, '')
+    ) || null
+
+  const old_water_tax =
+    parseFloat(
+      (row['OLD WATER TAX  2025-2026'] || '')
+        .toString()
+        .replace(/[^0-9.-]/g, '')
+    ) || null
+
+  const water_tax_arrear =
+    parseFloat(
+      (row['OLD WATER TAX ARRER 2025-2026'] || '')
+        .toString()
+        .replace(/[^0-9.-]/g, '')
+    ) || null
+
+  const watertank_tax_arrear =
+    parseFloat(
+      (row['WATER TAX AMOUNT  ARRER 2025-26'] || '')
+        .toString()
+        .replace(/[^0-9.-]/g, '')
+    ) || null
+
+  const mobile_no =
+    row['MOBILE NO'] && row['MOBILE NO'] !== '-'
+      ? row['MOBILE NO'].toString().trim()
+      : null
+
+  const property_use_as =
+    row['PROPERTY USE AS'] && row['PROPERTY USE AS'] !== '-'
+      ? row['PROPERTY USE AS'].toString().trim()
+      : null
+  
+  const mohallaName = (row['MOHALLA NAME'] || '').trim()
+
+let mohalla_id = null
+
+if (mohallaName === 'Chadiyaan') {
+  mohalla_id = 3
+} else if (mohallaName === 'Aal Kalan') {
+  mohalla_id = 2
+}
+
+  await client.query(
+    `INSERT INTO property_surveys (
+      district_id,
+      ulb_id,
+      ward_id,
+      mohalla_id,
+
+      old_house_no,
+      new_house_no,
+
+      old_owner_name,
+      old_father_husband_name,
+
+      owner_name,
+      father_husband_name,
+
+      old_house_tax,
+
+      house_tax_arrear_2025_26,
+      house_tax_arrear,
+
+      old_water_tax,
+
+      water_tax_arrear_2025_26,
+      water_tax_arrear,
+
+      watertank_tax_current,
+      watertank_tax_arrear,
+
+      mobile_no,
+      property_use_as
+    )
+    VALUES (
+  $1,$2,$3,$4,
+  $5,$6,
+  $7,$8,
+  $9,$10,
+  $11,
+  $12,$13,
+  $14,
+  $15,$16,
+  $17,$18,
+  $19,$20
+)`,
+    [
+  1,
+  1,
+  2,
+  mohalla_id,
+
+  old_house_no || null,
+  new_house_no,
+
+  old_owner_name || null,
+  old_father_husband_name || null,
+
+  owner_name || null,
+  father_husband_name || null,
+
+  old_house_tax,
+
+  house_tax_arrear,
+  house_tax_arrear,
+
+  old_water_tax,
+
+  water_tax_arrear,
+  water_tax_arrear,
+
+  600,
+  watertank_tax_arrear,
+
+  mobile_no,
+  property_use_as
+]
+  )
+
+  inserted++
+
+  if (inserted % 100 === 0) {
+    console.log(`Inserted ${inserted} rows so far`)
+  }
+} catch (err) {
+  console.error(`Error on line ${i + 1}:`, err.message)
+} finally {
+  client.release()
+}
   }
 
   console.log(`Done. Inserted ${inserted} rows.`)

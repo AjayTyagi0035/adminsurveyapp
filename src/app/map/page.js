@@ -14,9 +14,26 @@ const MapComponent = dynamic(() => import('./MapComponent'), {
   )
 });
 
+const MAP_ULB_ID = 1;
+
+function buildMapApiUrl(params = {}) {
+  const search = new URLSearchParams();
+  if (params.ward_id) search.set('ward_id', params.ward_id);
+  if (params.ne_lat != null) search.set('ne_lat', params.ne_lat);
+  if (params.ne_lng != null) search.set('ne_lng', params.ne_lng);
+  if (params.sw_lat != null) search.set('sw_lat', params.sw_lat);
+  if (params.sw_lng != null) search.set('sw_lng', params.sw_lng);
+  const query = search.toString();
+  return `/api/property-surveys/map${query ? `?${query}` : ''}`;
+}
+
 export default function MapPage() {
   const [properties, setProperties] = useState([]);
   const [visibleProperties, setVisibleProperties] = useState([]);
+  const [wards, setWards] = useState([]);
+  const [selectedWardId, setSelectedWardId] = useState('');
+  const [loadingWards, setLoadingWards] = useState(false);
+  const [showDroneLayer, setShowDroneLayer] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -75,11 +92,11 @@ export default function MapPage() {
     });
   };
 
-  const requestViewportProperties = (bounds) => {
+  const requestViewportProperties = (bounds, wardId = selectedWardId) => {
     const normalized = normalizeBounds(bounds);
     if (!normalized) return;
 
-    const requestKey = [normalized.ne_lat, normalized.ne_lng, normalized.sw_lat, normalized.sw_lng]
+    const requestKey = [wardId || 'all', normalized.ne_lat, normalized.ne_lng, normalized.sw_lat, normalized.sw_lng]
       .map(value => Number(value).toFixed(5))
       .join('|');
 
@@ -102,7 +119,13 @@ export default function MapPage() {
       inFlightViewportRequestRef.current = controller;
 
       try {
-        const url = `/api/property-surveys/map?ne_lat=${normalized.ne_lat}&ne_lng=${normalized.ne_lng}&sw_lat=${normalized.sw_lat}&sw_lng=${normalized.sw_lng}`;
+        const url = buildMapApiUrl({
+          ward_id: wardId || undefined,
+          ne_lat: normalized.ne_lat,
+          ne_lng: normalized.ne_lng,
+          sw_lat: normalized.sw_lat,
+          sw_lng: normalized.sw_lng,
+        });
         const res = await fetch(url, { signal: controller.signal });
 
         if (!res.ok) {
@@ -139,10 +162,9 @@ export default function MapPage() {
     }, 250);
   };
 
-  // Fetch Initial Property Locations
-  const loadInitialProperties = async () => {
+  const loadInitialProperties = async (wardId = selectedWardId) => {
     try {
-      const res = await fetch('/api/property-surveys/map');
+      const res = await fetch(buildMapApiUrl({ ward_id: wardId || undefined }));
       if (!res.ok) throw new Error('Failed to fetch property survey locations');
       const data = await res.json();
       setProperties(data);
@@ -156,9 +178,36 @@ export default function MapPage() {
     }
   };
 
+  const loadWards = async () => {
+    setLoadingWards(true);
+    try {
+      const res = await fetch(`/api/locations/ulbs/${MAP_ULB_ID}/wards`);
+      if (!res.ok) throw new Error('Failed to fetch wards');
+      const data = await res.json();
+      setWards(data.wards ?? []);
+    } catch (err) {
+      console.error(err);
+      setMapError('Failed to load wards.');
+    } finally {
+      setLoadingWards(false);
+    }
+  };
+
   useEffect(() => {
-    loadInitialProperties();
+    loadWards();
   }, []);
+
+  useEffect(() => {
+    fitBoundsDoneRef.current = false;
+    lastViewportRequestKeyRef.current = '';
+    setProperties([]);
+    setVisibleProperties([]);
+    setMapBounds(null);
+    setActivePopup(null);
+    setSelectedSurvey(null);
+    setLoading(true);
+    loadInitialProperties(selectedWardId);
+  }, [selectedWardId]);
 
   useEffect(() => {
     return () => {
@@ -290,6 +339,31 @@ export default function MapPage() {
         </div>
 
         <div className={styles.searchSection}>
+          <label className={styles.filterLabel} htmlFor="map-ward-filter">Ward</label>
+          <select
+            id="map-ward-filter"
+            value={selectedWardId}
+            onChange={e => setSelectedWardId(e.target.value)}
+            className={styles.filterSelect}
+          >
+            <option value="">{loadingWards ? 'Loading wards…' : 'All wards'}</option>
+            {wards.map(ward => (
+              <option key={ward.id} value={ward.id}>
+                Ward {ward.ward_no}
+              </option>
+            ))}
+          </select>
+          <div className={styles.sidebarToggle}>
+    <label className={styles.droneToggleSidebar}>
+      <input
+        type="checkbox"
+        checked={showDroneLayer}
+        onChange={e => setShowDroneLayer(e.target.checked)}
+      />
+      <span>🛰️ Drone Imagery</span>
+    </label>
+  </div>
+
           <form onSubmit={handleSearch} className={styles.searchBox}>
             <input
               type="text"
@@ -379,6 +453,7 @@ export default function MapPage() {
           selectedSurvey={selectedSurvey}
           handleMarkerClick={handleMarkerClick}
           onBoundsChange={handleBoundsChange}
+          showDroneLayer={showDroneLayer}
         />
       </div>
 

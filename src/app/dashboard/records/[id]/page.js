@@ -1,17 +1,35 @@
 "use client"
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import dynamic from 'next/dynamic'
 import { useRouter, useParams } from 'next/navigation'
 import styles from '../../dashboard.module.css'
+
+const MAP_ULB_ID = 1
+
+const EditRecordMapComponent = dynamic(() => import('./EditRecordMapComponent'), {
+  ssr: false,
+  loading: () => (
+    <div style={{ width: '100%', height: '350px', borderRadius: '12px', background: '#f1f5f9', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#64748b', marginTop: '12px' }}>
+      Loading map...
+    </div>
+  ),
+})
 
 export default function EditRecordPage() {
   const router = useRouter()
   const params = useParams()
   const { id } = params
   const [record, setRecord] = useState(null)
+  const [otherProperties, setOtherProperties] = useState([])
+  const [wards, setWards] = useState([])
+  const [selectedWardId, setSelectedWardId] = useState('')
+  const [loadingWards, setLoadingWards] = useState(false)
+  const [showDroneLayer, setShowDroneLayer] = useState(true)
   const [loading, setLoading] = useState(true)
   const [saving, setSaving] = useState(false)
   const [toast, setToast] = useState(null)
   const [viewImage, setViewImage] = useState(null)
+  const wardInitializedRef = useRef(false)
 
   const dropdownOptions = {
     road_location_width: ['3 -9 meter', '9 -12 meter', '12 -24 meter', '24 -more than  meter'],
@@ -107,6 +125,45 @@ export default function EditRecordPage() {
     setRecord(current => ({ ...current, [key]: nextValue }))
   }
 
+  function parseGpsLocation(gps) {
+    if (!gps) return null
+    const [latRaw, lngRaw] = gps.split(',').map(part => part.trim())
+    const lat = parseFloat(latRaw)
+    const lng = parseFloat(lngRaw)
+    if (Number.isNaN(lat) || Number.isNaN(lng)) return null
+    return { lat, lng }
+  }
+
+  const currentLocation = useMemo(
+    () => (record ? parseGpsLocation(record.gps_location) : null),
+    [record]
+  )
+
+  const filteredOtherProperties = useMemo(() => {
+    if (!record) return otherProperties
+
+    const current = parseGpsLocation(record.gps_location)
+    return otherProperties.filter(prop => {
+      if (String(prop.id) === String(record.id)) return false
+
+      if (current) {
+        const lat = parseFloat(prop.latitude)
+        const lng = parseFloat(prop.longitude)
+        if (!Number.isNaN(lat) && !Number.isNaN(lng)) {
+          const sameLat = Math.abs(lat - current.lat) < 0.000001
+          const sameLng = Math.abs(lng - current.lng) < 0.000001
+          if (sameLat && sameLng) return false
+        }
+      }
+
+      return true
+    })
+  }, [otherProperties, record])
+
+  const handleLocationChange = useCallback((latlng) => {
+    updateField('gps_location', `${latlng.lat},${latlng.lng}`)
+  }, [])
+
   function renderFieldControl(key) {
     const isReadOnly = readOnlyFields.has(key)
     const options = dropdownOptions[key]
@@ -188,6 +245,47 @@ export default function EditRecordPage() {
     loadRecord()
   }, [id, router])
 
+  useEffect(() => {
+    async function loadWards() {
+      setLoadingWards(true)
+      try {
+        const res = await fetch(`/api/locations/ulbs/${MAP_ULB_ID}/wards`)
+        if (!res.ok) throw new Error('Failed to fetch wards')
+        const data = await res.json()
+        setWards(data.wards ?? [])
+      } catch (err) {
+        console.error(err)
+      } finally {
+        setLoadingWards(false)
+      }
+    }
+
+    loadWards()
+  }, [])
+
+  useEffect(() => {
+    if (record?.ward_id && !wardInitializedRef.current) {
+      setSelectedWardId(String(record.ward_id))
+      wardInitializedRef.current = true
+    }
+  }, [record])
+
+  useEffect(() => {
+    async function loadOtherProperties() {
+      try {
+        const wardParam = selectedWardId ? `?ward_id=${selectedWardId}` : ''
+        const res = await fetch(`/api/property-surveys/map${wardParam}`)
+        if (!res.ok) throw new Error('Failed to fetch property survey locations')
+        const data = await res.json()
+        setOtherProperties(data)
+      } catch (err) {
+        console.error(err)
+      }
+    }
+
+    loadOtherProperties()
+  }, [selectedWardId])
+
   async function handleRecordUpdate(e) {
     e.preventDefault()
     setSaving(true)
@@ -267,6 +365,43 @@ export default function EditRecordPage() {
                     </div>
                   ))}
               </div>
+
+              {section.title === 'Location' && (
+                <>
+                  <div style={{ marginTop: '12px', display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap' }}>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', minWidth: '180px' }}>
+                      <label className={styles.recordFieldLabel} htmlFor="edit-map-ward-filter">Ward</label>
+                      <select
+                        id="edit-map-ward-filter"
+                        value={selectedWardId}
+                        onChange={e => setSelectedWardId(e.target.value)}
+                        className={styles.recordSelect}
+                      >
+                        <option value="">{loadingWards ? 'Loading wards…' : 'All wards'}</option>
+                        {wards.map(ward => (
+                          <option key={ward.id} value={ward.id}>
+                            Ward {ward.ward_no}
+                          </option>
+                        ))}
+                      </select>
+                    </div>
+                    <label style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '14px', color: '#334155', cursor: 'pointer', marginTop: '22px' }}>
+                      <input
+                        type="checkbox"
+                        checked={showDroneLayer}
+                        onChange={e => setShowDroneLayer(e.target.checked)}
+                      />
+                      Show drone imagery
+                    </label>
+                  </div>
+                  <EditRecordMapComponent
+                    currentLocation={currentLocation}
+                    otherProperties={filteredOtherProperties}
+                    onLocationChange={handleLocationChange}
+                    showDroneLayer={showDroneLayer}
+                  />
+                </>
+              )}
             </section>
           ))}
 

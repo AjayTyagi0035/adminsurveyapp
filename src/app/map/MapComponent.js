@@ -1,8 +1,12 @@
 "use client"
-import { useEffect } from 'react'
-import { MapContainer, TileLayer, Marker, Tooltip, Popup, useMap } from 'react-leaflet'
+import { useEffect, useRef } from 'react'
+import { TileLayer, Marker, Tooltip, Popup, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
+import SafeMapContainer from '../../components/SafeMapContainer'
+
+const DEFAULT_CENTER = [29.405678, 77.208220];
+const DEFAULT_ZOOM = 14;
 
 // Custom Red House Pin SVG as a data URL
 const HOUSE_PIN_SVG = `data:image/svg+xml;utf8,` + encodeURIComponent(`
@@ -83,13 +87,17 @@ export default function MapComponent({
   loadingDetailsId,
   selectedSurvey,
   handleMarkerClick,
-  onBoundsChange
+  onBoundsChange,
+  showDroneLayer = true,
 }) {
+  const initialCenterRef = useRef(mapCenter || DEFAULT_CENTER);
+  const initialZoomRef = useRef(mapZoom || DEFAULT_ZOOM);
+
   return (
     <div style={{ width: '100%', height: '100%', position: 'relative' }}>
-      <MapContainer
-        center={mapCenter || [29.405678, 77.208220]}
-        zoom={mapZoom || 14}
+      <SafeMapContainer
+        center={initialCenterRef.current}
+        zoom={initialZoomRef.current}
         style={{ width: '100%', height: '100%' }}
         zoomControl={true}
       >
@@ -99,6 +107,14 @@ export default function MapComponent({
           maxZoom={22}
           attribution="&copy; Google Maps"
         />
+
+        {showDroneLayer && (
+          <TileLayer
+            url="https://cdn.skyjumper.in/skykids/tiles/{z}/{x}/{y}.jpg"
+            maxZoom={22}
+            attribution="&copy; Skyjumper Drone Tiles"
+          />
+        )}
 
         <MapController
           center={mapCenter}
@@ -168,7 +184,7 @@ export default function MapComponent({
             )}
           </Popup>
         )}
-      </MapContainer>
+      </SafeMapContainer>
     </div>
   );
 }

@@ -14,27 +14,35 @@ async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' })
   }
 
-  const { ne_lat, ne_lng, sw_lat, sw_lng } = req.query
+  const { ne_lat, ne_lng, sw_lat, sw_lng, ward_id } = req.query
   const client = await pool.connect()
 
   try {
+    const params = []
+    let wardFilter = ''
+
+    if (ward_id) {
+      params.push(parseInt(ward_id, 10))
+      wardFilter = ` AND ward_id = $${params.length}`
+    }
+
     let queryText = `
-      SELECT id, old_house_no, new_house_no, owner_name,
+      SELECT id, old_house_no, new_house_no, owner_name, ward_id,
              (split_part(gps_location, ',', 1))::double precision AS latitude,
              (split_part(gps_location, ',', 2))::double precision AS longitude
       FROM property_surveys
       WHERE gps_location IS NOT NULL
         AND gps_location ~ '^-?[0-9]+(\\.[0-9]+)?,[ ]*-?[0-9]+(\\.[0-9]+)?$'
+        ${wardFilter}
     `
-    const params = []
 
     if (ne_lat && ne_lng && sw_lat && sw_lng) {
       queryText = `
         SELECT * FROM (
           ${queryText}
         ) AS sub
-        WHERE latitude >= $1 AND latitude <= $2
-          AND longitude >= $3 AND longitude <= $4
+        WHERE latitude >= $${params.length + 1} AND latitude <= $${params.length + 2}
+          AND longitude >= $${params.length + 3} AND longitude <= $${params.length + 4}
       `
       params.push(
         parseFloat(sw_lat),

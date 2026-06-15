@@ -15,7 +15,7 @@ async function handler(req, res) {
   const limit = Math.min(100, Math.max(1, parseInt(req.query.limit ?? '20', 10)))
   const offset = (page - 1) * limit
 
-  const { ward_no, mohalla_name, house_no, start_date, end_date } = req.query
+  const { ward_no, mohalla_name, house_no, new_house_no, start_date, end_date } = req.query
 
   const client = await pool.connect()
   try {
@@ -42,6 +42,12 @@ async function handler(req, res) {
     if (house_no) {
       conditions.push(`ps.old_house_no = $${p}`)
       values.push(house_no.trim())
+      p++
+    }
+
+    if (new_house_no) {
+      conditions.push(`ps.new_house_no = $${p}`)
+      values.push(new_house_no.trim())
       p++
     }
 

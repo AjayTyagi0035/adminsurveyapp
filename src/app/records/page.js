@@ -24,6 +24,7 @@ function readStoredFilters() {
         selectedWardId: '',
         selectedMohallaId: '',
         houseNo: '',
+        newHouseNo: '',
         page: 1,
         startDate: '',
         endDate: '',
@@ -35,6 +36,7 @@ function readStoredFilters() {
       selectedWardId: parsed.selectedWardId ?? '',
       selectedMohallaId: parsed.selectedMohallaId ?? '',
       houseNo: parsed.houseNo ?? '',
+      newHouseNo: parsed.newHouseNo ?? '',
       page: Number.isFinite(Number(parsed.page)) ? Math.max(1, Number(parsed.page)) : 1,
       startDate: parsed.startDate ?? '',
       endDate: parsed.endDate ?? '',
@@ -44,6 +46,7 @@ function readStoredFilters() {
       selectedWardId: '',
       selectedMohallaId: '',
       houseNo: '',
+      newHouseNo: '', 
       page: 1,
       startDate: '',
       endDate: '',
@@ -67,6 +70,7 @@ export default function RecordsPage() {
   const [selectedWardId, setSelectedWardId] = useState(storedFilters.selectedWardId)
   const [selectedMohallaId, setSelectedMohallaId] = useState(storedFilters.selectedMohallaId)
   const [houseNo, setHouseNo] = useState(storedFilters.houseNo)
+  const [newHouseNo, setNewHouseNo] = useState(storedFilters.newHouseNo)
   const [page, setPage] = useState(storedFilters.page)
   const [limit] = useState(10)
   const [totalPages, setTotalPages] = useState(1)
@@ -151,19 +155,20 @@ export default function RecordsPage() {
         selectedWardId,
         selectedMohallaId,
         houseNo,
+        newHouseNo,
         page,
         startDate,
         endDate,
       })
     )
-  }, [selectedWardId, selectedMohallaId, houseNo, page, startDate, endDate])
+  }, [selectedWardId, selectedMohallaId, houseNo, newHouseNo,  page, startDate, endDate])
 
   async function loadRecords() {
     setLoading(true)
     try {
       const wardNo = getSelectedWardNo()
       const mohallaName = getSelectedMohallaName()
-      const url = `/api/property-surveys/all-search?ward_no=${encodeURIComponent(wardNo)}&mohalla_name=${encodeURIComponent(mohallaName)}&house_no=${encodeURIComponent(houseNo.trim())}&start_date=${encodeURIComponent(startDate)}&end_date=${encodeURIComponent(endDate)}&page=${page}&limit=${limit}`
+      const url = `/api/property-surveys/all-search?ward_no=${encodeURIComponent(wardNo)}&mohalla_name=${encodeURIComponent(mohallaName)}&house_no=${encodeURIComponent(houseNo.trim())}&new_house_no=${encodeURIComponent(newHouseNo.trim())}&start_date=${encodeURIComponent(startDate)}&end_date=${encodeURIComponent(endDate)}&page=${page}&limit=${limit}`
       const r = await fetch(url)
       const d = await r.json()
       if (d?.message) {
@@ -206,7 +211,7 @@ export default function RecordsPage() {
       loadRecords()
     }, 350)
     return () => clearTimeout(handler)
-  }, [selectedWardId, selectedMohallaId, houseNo, startDate, endDate, page, wards, mohallas])
+  }, [selectedWardId, selectedMohallaId, houseNo, newHouseNo, startDate, endDate, page, wards, mohallas])
 
   useEffect(() => {
     loadMohallas(selectedWardId)
@@ -297,6 +302,19 @@ export default function RecordsPage() {
               }}
             />
           </div>
+          <div className={styles.filterGroup}>
+  <label className={styles.filterLabel}>New House No</label>
+  <input
+    type="text"
+    className={styles.filterInput}
+    placeholder="Enter new house number"
+    value={newHouseNo}
+    onChange={e => {
+      setNewHouseNo(e.target.value)
+      setPage(1)
+    }}
+  />
+</div>
         </div>
 
         <div className={styles.filterRow} style={{ gridTemplateColumns: '1fr 1fr 150px' }}>
@@ -358,7 +376,7 @@ export default function RecordsPage() {
           {loading ? (
             <div className={styles.empty}>Loading…</div>
           ) : records.length === 0 ? (
-            <div className={styles.empty}>{selectedWardId || selectedMohallaId || houseNo ? 'No records found.' : 'No records yet.'}</div>
+            <div className={styles.empty}>{selectedWardId || selectedMohallaId || houseNo || newHouseNo ? 'No records found.' : 'No records yet.'}</div>
           ) : (
             <table className={styles.table}>
               <thead>

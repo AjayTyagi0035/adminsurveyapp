@@ -386,6 +386,7 @@ export default function RecordsPage() {
                   <th>Mohalla</th>
                   <th>Old Owner</th>
                   <th>Owner</th>
+                  <th>Water Tank</th>
                   <th>Remarks</th>
                   <th>Updated At</th>
                   <th>Actions</th>
@@ -399,6 +400,7 @@ export default function RecordsPage() {
                     <td>{r.mohalla_name}</td>
                     <td>{r.old_owner_name}</td>
                     <td className={styles.tdName}>{r.owner_name}</td>
+                    <td>{r.watertank_present ? 'Yes' : 'No'}</td>
                     <td>{r.remarks}</td>
                     <td>{new Date(r.updated_at).toLocaleDateString()}</td>
                     <td className={styles.actions}>

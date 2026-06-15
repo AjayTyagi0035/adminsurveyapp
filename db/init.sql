@@ -243,3 +243,6 @@ ADD COLUMN watertank_tax_arrear NUMERIC,
 ADD COLUMN watertank_tax_interest NUMERIC,
 ADD COLUMN total_watertank_tax NUMERIC,
 ADD COLUMN total_tax NUMERIC;
+
+ALTER TABLE public.property_surveys
+ADD COLUMN watertank_present BOOLEAN NOT NULL DEFAULT TRUE;

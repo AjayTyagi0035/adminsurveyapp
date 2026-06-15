@@ -159,6 +159,7 @@ export default function EditRecordMapComponent({
               <Tooltip direction="top" offset={[0, -20]}>
                 <div><strong>Owner:</strong> {prop.owner_name || '—'}</div>
                 <div><strong>House No:</strong> {prop.new_house_no || '—'} (Old: {prop.old_house_no || '—'})</div>
+                <div><strong>Water Tank:</strong> {prop.watertank_present ? 'Yes' : 'No'}</div>
               </Tooltip>
             </Marker>
           );

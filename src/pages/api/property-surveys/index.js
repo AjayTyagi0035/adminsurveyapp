@@ -135,6 +135,7 @@ async function handler(req, res) {
     total_current_arv,
     house_tax_current, house_tax_arrear, house_tax_interest, total_house_tax,
     water_tax_current, water_tax_arrear, water_tax_interest, total_water_tax,
+    watertank_present,
     watertank_tax_current, watertank_tax_arrear, watertank_tax_interest, total_watertank_tax, total_tax,
     photo_gps, street_light_photo, gps_location, remarks,
     created_by,
@@ -209,6 +210,7 @@ async function handler(req, res) {
       total_current_arv,
       house_tax_current, house_tax_arrear, house_tax_interest, total_house_tax,
       water_tax_current, water_tax_arrear, water_tax_interest, total_water_tax,
+      watertank_present,
       watertank_tax_current, watertank_tax_arrear, watertank_tax_interest, total_watertank_tax, total_tax,
       photo_gps, street_light_photo, gps_location, remarks, created_by
     ) VALUES (
@@ -217,7 +219,7 @@ async function handler(req, res) {
       $21,$22,$23,$24,$25,$26,$27,$28,$29,$30,
       $31,$32,$33,$34,$35,$36,$37,$38,$39,$40,
       $41,$42,$43,$44,$45,$46,$47,$48,$49,$50,
-      $51,$52,$53,$54,$55,$56,$57,$58
+      $51,$52,$53,$54,$55,$56,$57,$58,$59
     )
     RETURNING *`,
     [
@@ -284,6 +286,7 @@ async function handler(req, res) {
       water_tax_interest ?? null,
       total_water_tax ?? null,
 
+      watertank_present ?? null,
       watertank_tax_current ?? null,
       watertank_tax_arrear ?? null,
       watertank_tax_interest ?? null,

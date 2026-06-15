@@ -422,6 +422,9 @@ export default function MapPage() {
                   <div className={styles.propDetail}>
                     House: {prop.new_house_no || '—'} (Old: {prop.old_house_no || '—'})
                   </div>
+                  <div className={styles.propDetail}>
+                    Water tank: {prop.watertank_present ? 'Yes' : 'No'}
+                  </div>
                 </div>
               ))}
               {visibleProperties.length > 100 && (

@@ -72,6 +72,11 @@ export default function EditRecordPage() {
       fields: ['address', 'road_location_width', 'nature_of_house', 'property_type', 'property_use_as', 'construction_year', 'rebate_type', 'financial_year'],
     },
     {
+      title: 'Utilities',
+      hint: 'Water tank and related service details.',
+      fields: ['watertank_present'],
+    },
+    {
       title: 'Area & Tax',
       hint: 'Measurements and calculated tax fields.',
       fields: [
@@ -112,12 +117,14 @@ export default function EditRecordPage() {
   ])
 
   function formatLabel(key) {
+    if (key === 'watertank_present') return 'water tank present'
     return key.split('_').join(' ')
   }
 
   function formatValue(key, value) {
     if (value === null || value === undefined || value === '') return '—'
     if (key === 'created_at' || key === 'updated_at') return new Date(value).toLocaleString()
+    if (typeof value === 'boolean') return value ? 'Yes' : 'No'
     return String(value)
   }
 
@@ -207,6 +214,19 @@ export default function EditRecordPage() {
             </button>
           )}
         </div>
+      )
+    }
+
+    if (key === 'watertank_present') {
+      return (
+        <label style={{ display: 'flex', alignItems: 'center', gap: '8px', minHeight: '44px', padding: '0 2px' }}>
+          <input
+            type="checkbox"
+            checked={Boolean(record[key])}
+            onChange={e => updateField(key, e.target.checked)}
+          />
+          <span style={{ fontSize: '14px', color: '#374151' }}>{record[key] ? 'Present' : 'Not present'}</span>
+        </label>
       )
     }
 

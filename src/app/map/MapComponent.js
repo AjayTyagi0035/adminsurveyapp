@@ -140,6 +140,7 @@ export default function MapComponent({
               <div><strong>Owner Name:</strong> {prop.owner_name || '—'}</div>
               <div><strong>New House No:</strong> {prop.new_house_no || '—'}</div>
               <div><strong>Old House No:</strong> {prop.old_house_no || '—'}</div>
+              <div><strong>Water Tank:</strong> {prop.watertank_present ? 'Yes' : 'No'}</div>
             </Tooltip>
           </Marker>
         ))}
@@ -165,6 +166,7 @@ export default function MapComponent({
                   <div><strong>Mobile:</strong> {selectedSurvey.mobile_no || '—'}</div>
                   <div><strong>Property Use:</strong> {selectedSurvey.property_use_as || '—'}</div>
                   <div><strong>Address:</strong> {selectedSurvey.address || '—'}</div>
+                  <div><strong>Water Tank:</strong> {selectedSurvey.watertank_present ? 'Yes' : 'No'}</div>
                   <div><strong>Total House Tax:</strong> <span style={{ color: '#b91c1c', fontWeight: 600 }}>₹{selectedSurvey.total_house_tax || '0.00'}</span></div>
                   <div><strong>Total Water Tax:</strong> <span style={{ color: '#15803d', fontWeight: 600 }}>₹{selectedSurvey.total_water_tax || '0.00'}</span></div>
                 </div>

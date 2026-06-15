@@ -41,6 +41,7 @@ async function handler(req, res) {
         'total_current_arv',
         'house_tax_current','house_tax_arrear','house_tax_interest','total_house_tax',
         'water_tax_current','water_tax_arrear','water_tax_interest','total_water_tax',
+        'watertank_present',
         'watertank_tax_current','watertank_tax_arrear','watertank_tax_interest','total_watertank_tax','total_tax',
         'photo_gps','street_light_photo','gps_location','remarks',
         'created_by',
@@ -68,7 +69,7 @@ async function handler(req, res) {
         `UPDATE property_surveys
          SET ${setClauses.join(', ')}
          WHERE id = $${p}
-         RETURNING id, new_house_no, owner_name, created_by, updated_at`,
+         RETURNING id, new_house_no, owner_name, watertank_present, created_by, updated_at`,
         values
       )
       if (r.rowCount === 0) return res.status(404).json({ error: 'Survey not found' })

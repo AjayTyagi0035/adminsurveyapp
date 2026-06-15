@@ -27,7 +27,7 @@ async function handler(req, res) {
     }
 
     let queryText = `
-      SELECT id, old_house_no, new_house_no, owner_name, ward_id,
+      SELECT id, old_house_no, new_house_no, owner_name, watertank_present, ward_id,
              (split_part(gps_location, ',', 1))::double precision AS latitude,
              (split_part(gps_location, ',', 2))::double precision AS longitude
       FROM property_surveys

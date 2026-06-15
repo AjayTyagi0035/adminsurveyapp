@@ -9,20 +9,19 @@ const DEFAULT_CENTER = [29.405678, 77.208220];
 const DEFAULT_ZOOM = 14;
 
 // Custom Red House Pin SVG as a data URL
-const HOUSE_PIN_SVG = `data:image/svg+xml;utf8,` + encodeURIComponent(`
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="36" height="36">
-  <path fill="#ea4335" d="M384 192c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192z"/>
-  <path fill="#ffffff" d="M192 112L120 176v80h48v-48h48v48h48v-80L192 112z"/>
+const DOT_SVG = `data:image/svg+xml;utf8,` + encodeURIComponent(`
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+  <circle cx="6" cy="6" r="5" fill="#ea4335" stroke="#ffffff" stroke-width="1"/>
 </svg>
 `);
 
 let customIcon;
 if (typeof window !== 'undefined') {
   customIcon = L.icon({
-    iconUrl: HOUSE_PIN_SVG,
-    iconSize: [36, 36],
-    iconAnchor: [18, 36],
-    popupAnchor: [0, -36]
+    iconUrl: DOT_SVG,
+    iconSize: [12, 12],
+    iconAnchor: [6, 6],
+    popupAnchor: [0, -6]
   });
 }
 

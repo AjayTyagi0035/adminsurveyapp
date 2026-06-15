@@ -6,36 +6,36 @@ import 'leaflet/dist/leaflet.css'
 import SafeMapContainer from '../../../../components/SafeMapContainer'
 
 // Custom SVG pins as data URLs
-const CURRENT_HOUSE_PIN_SVG = `data:image/svg+xml;utf8,` + encodeURIComponent(`
+const CURRENT_PIN_SVG = `data:image/svg+xml;utf8,` + encodeURIComponent(`
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="38" height="38">
-  <path fill="#16a34a" d="M384 192c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192z"/>
+  <path fill="#facc15" d="M384 192c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192z"/>
   <path fill="#ffffff" d="M192 112L120 176v80h48v-48h48v48h48v-80L192 112z"/>
 </svg>
 `);
 
-const OTHER_HOUSE_PIN_SVG = `data:image/svg+xml;utf8,` + encodeURIComponent(`
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="28" height="28">
-  <path fill="#94a3b8" d="M384 192c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192z"/>
-  <path fill="#ffffff" d="M192 112L120 176v80h48v-48h48v48h48v-80L192 112z"/>
+// Other properties = Red 12x12 circle
+const OTHER_DOT_SVG = `data:image/svg+xml;utf8,` + encodeURIComponent(`
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+  <circle cx="6" cy="6" r="5" fill="#ef4444" stroke="#ffffff" stroke-width="1"/>
 </svg>
 `);
 
-// Standard fallbacks if Leaflet is initialized on server side
 let currentIcon;
 let otherIcon;
+
 if (typeof window !== 'undefined') {
   currentIcon = L.icon({
-    iconUrl: CURRENT_HOUSE_PIN_SVG,
+    iconUrl: CURRENT_PIN_SVG,
     iconSize: [38, 38],
     iconAnchor: [19, 38],
     tooltipAnchor: [0, -38]
   });
 
   otherIcon = L.icon({
-    iconUrl: OTHER_HOUSE_PIN_SVG,
-    iconSize: [28, 28],
-    iconAnchor: [14, 28],
-    tooltipAnchor: [0, -28]
+    iconUrl: OTHER_DOT_SVG,
+    iconSize: [12, 12],
+    iconAnchor: [6, 6],
+    tooltipAnchor: [0, -6]
   });
 }
 
@@ -198,8 +198,8 @@ export default function EditRecordMapComponent({
         justifyContent: 'space-between',
         alignItems: 'center'
       }}>
-        <span>📍 Green pin is current property location. Gray pins are other houses.</span>
-        <strong>Drag green pin or click on map to move.</strong>
+        <span>📍 Yellow pin is current property location. Red dots are other houses.</span>
+<strong>Drag yellow pin or click on map to move.</strong>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import fs from 'fs'
 import { Pool } from 'pg'
 
-const csvPath = process.argv[2] || 'public/Ward_2.csv'
+const csvPath = process.argv[2] || 'public/Ward_4.csv'
 const DATABASE_URL = process.env.DATABASE_URL
 if (!DATABASE_URL) {
   console.error('Please set DATABASE_URL environment variable')
@@ -52,7 +52,7 @@ function generateHouseNo(index) {
     n = Math.floor(n / 26)
   }
 
-  return result
+  return `4${result}`
 }
 async function main() {
   const data = fs.readFileSync(csvPath, 'utf8')
@@ -81,6 +81,12 @@ try {
 
   const owner_name = old_owner_name
   const father_husband_name = old_father_husband_name
+  const old_moholla_name = 'Aal Khurd West'
+
+const address =
+  row['ADDRESS'] && row['ADDRESS'] !== '-'
+    ? row['ADDRESS'].toString().trim()
+    : null
 
   const old_house_tax =
     parseFloat(
@@ -126,16 +132,6 @@ try {
     row['PROPERTY USE AS'] && row['PROPERTY USE AS'] !== '-'
       ? row['PROPERTY USE AS'].toString().trim()
       : null
-  
-  const mohallaName = (row['MOHALLA NAME'] || '').trim()
-
-let mohalla_id = null
-
-if (mohallaName === 'Chadiyaan') {
-  mohalla_id = 3
-} else if (mohallaName === 'Aal Kalan') {
-  mohalla_id = 2
-}
 
   await client.query(
     `INSERT INTO property_surveys (
@@ -143,6 +139,7 @@ if (mohallaName === 'Chadiyaan') {
       ulb_id,
       ward_id,
       mohalla_id,
+      old_moholla_name,
 
       old_house_no,
       new_house_no,
@@ -167,26 +164,39 @@ if (mohallaName === 'Chadiyaan') {
       watertank_tax_arrear,
 
       mobile_no,
+      address,
       property_use_as
     )
     VALUES (
   $1,$2,$3,$4,
-  $5,$6,
-  $7,$8,
-  $9,$10,
-  $11,
-  $12,$13,
-  $14,
-  $15,$16,
-  $17,$18,
-  $19,$20
+  $5,
+
+  $6,$7,
+
+  $8,$9,
+
+  $10,$11,
+
+  $12,
+
+  $13,$14,
+
+  $15,
+
+  $16,$17,
+
+  $18,$19,
+
+  $20,$21,
+
+  $22
 )`,
     [
   1,
   1,
-  2,
-  mohalla_id,
-
+  4,
+  5,
+  old_moholla_name,
   old_house_no || null,
   new_house_no,
 
@@ -210,6 +220,7 @@ if (mohallaName === 'Chadiyaan') {
   watertank_tax_arrear,
 
   mobile_no,
+  address,
   property_use_as
 ]
   )

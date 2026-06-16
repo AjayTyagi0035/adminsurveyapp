@@ -1,0 +1,590 @@
+﻿PROPERTY ID,Ward Name,MOHALLA NAME,HOUSE NO,OWNER NAME,FATHER NAME,ADDRESS,MOBILE NO,PROPERTY USE AS, OLD HOUSE TAX 2025-2016,HOUSE TAX ARRER2025-2026,OLD WATER TAX  2025-2026,OLD WATER TAX ARRER 2025-2026,WATER TAX AMOUNT 2025-26,WATER TAX AMOUNT  ARRER 2025-26
+1,4- Aal Khurd,Aal Khurd West,"9, 9/1901",Nafeesa,Shamshad,Aal Khurd West,9760779792,Residential Self ,330,5783,330,7734,420,6540
+2,4- Aal Khurd,Aal Khurd West,10,"Istiyaak, Intajaar",Alladiya,Aal Khurd West,7830205155,Residential Self ,110,110,110,110,310,360
+3,4- Aal Khurd,Aal Khurd West,11,"Istiyaak, Intajaar",Alladiya,Aal Khurd West,7895285589,Residential Self ,61,578,61,971,359,2942
+4,4- Aal Khurd,Aal Khurd West,12,Akhtar,Neki,Aal Khurd West,8279736211,Mosque,73,571,73,0,0,0
+5,4- Aal Khurd,Aal Khurd West,16,Ikraam,Genda,Aal Khurd West,9634955366,Residential Self ,61,61,61,74,359,0
+6,4- Aal Khurd,Aal Khurd West,15,Vaheed,Ibrahim,Aal Khurd West,9760373794,Residential Self ,73,563,73,563,0,0
+7,4- Aal Khurd,Aal Khurd West,"16/1, 17",Rajjak,Basheer,Aal Khurd West,6397255010,Residential Self ,88,88,88,88,332,388
+8,4- Aal Khurd,Aal Khurd West,18,Islaam,Mohammad,Aal Khurd West,9917293683,Residential Self ,61,419,55,0,0,0
+9,4- Aal Khurd,Aal Khurd West,19,Bhuddho,W/O Suleman,Aal Khurd West,9897441028,Residential Self ,61,0,61,0,359,0
+10,4- Aal Khurd,Aal Khurd West,20,Rasheed,Karamilahi,Aal Khurd West,9997864704,Residential Self ,182,1403,182,1403,238,1248
+11,4- Aal Khurd,Aal Khurd West,21,Ishaq,Karamilahi,Aal Khurd West,9548990009,Residential Self ,109,2356,109,2356,0,0
+12,4- Aal Khurd,Aal Khurd West,22,Sajid Ali,Faiyyaz,Aal Khurd West,8630953183,Mixed,48,101,48,101,0,0
+13,4- Aal Khurd,Aal Khurd West,23,Ishaq,Karamilahi,Aal Khurd West,9548990009,Commerical Self ,436,9423,436,9423,0,0
+14,4- Aal Khurd,Aal Khurd West,24,Ishaq,Karamilahi,Aal Khurd West,9997864704,Commerical Self ,436,3420,436,9423,0,0
+15,4- Aal Khurd,Aal Khurd West,25-27,Yunus,Yusuf,Aal Khurd West,9548990009,Commerical Self ,61,567,61,0,359,0
+16,4- Aal Khurd,Aal Khurd West,27/1,"Moh. Islaam, Irfaan",Iqbaal,Aal Khurd West,9760599566,Residential Self ,55,151,55,660,365,2500
+17,4- Aal Khurd,Aal Khurd West,28,Nasir,Liyaqt,Aal Khurd West,-,Residential Self ,66,66,66,1206,354,2178
+18,4- Aal Khurd,Aal Khurd West,29,Yaseen,Sageer,Aal Khurd West,9368765006,Residential Self ,85,520,85,520,0,0
+19,4- Aal Khurd,Aal Khurd West,30-32,Yusuf,Allabanda,Aal Khurd West,-,Residential Self ,91,301,91,301,329,967
+20,4- Aal Khurd,Aal Khurd West,32/1,Yusuf,Allabanda,Aal Khurd West,-,Open Plot ,0,0,0,0,0,0
+21,4- Aal Khurd,Aal Khurd West,32/2,Yusuf,Allabanda,Aal Khurd West,-,Open Plot ,0,0,0,0,0,0
+22,4- Aal Khurd,Aal Khurd West,32/3,Yusuf,Allabanda,Aal Khurd West,-,Open Plot ,0,0,0,0,0,0
+23,4- Aal Khurd,Aal Khurd West,33TO35,"Babu, Idrees, Ayyub, Matloob",Ablu Hasan,Aal Khurd West,8006806969,Residential Self ,164,1083,164,1556,420,2640
+24,4- Aal Khurd,Aal Khurd West,36TO38,"Babu, Idrees, Ayyub, Matloob",Ablu Hasan,Aal Khurd West,8006806969,Residential Self ,218,218,218,2068,0,0
+25,4- Aal Khurd,Aal Khurd West,39,Ablu Hasan,Ali Hasan,Aal Khurd West,9568016486,Residential Self ,48,0,48,101,372,3068
+26,4- Aal Khurd,Aal Khurd West,40,Moh.Islaam,Akhtar Hasan,Aal Khurd West,9536996160,Residential Self ,88,1729,88,1729,420,2040
+27,4- Aal Khurd,Aal Khurd West,41,Akhtar,Kareemudeen,Aal Khurd West,9536996160,Residential Self ,97,592,97,204,420,4740
+28,4- Aal Khurd,Aal Khurd West,42,"Shan Ilahi Begum W/O Naseer Ahmad, Said Ahmad S/O Nazeer Ahmad",Naseer Ahmad,Aal Khurd West,9012434348,Residential Self ,66,66,66,139,420,6240
+29,4- Aal Khurd,Aal Khurd West,43,Rihana,W/O Idrees,Aal Khurd West,8791864300,Residential Self ,88,538,88,185,0,0
+30,4- Aal Khurd,Aal Khurd West,44,Rufal,Rahmat,Aal Khurd West,8775809647,Residential Self ,48,293,48,0,372,0
+31,4- Aal Khurd,Aal Khurd West,45,Abid Urf Lalla,Imamudeen,Aal Khurd West,9058838714,Residential Self ,48,48,48,293,372,1800
+32,4- Aal Khurd,Aal Khurd West,46,Jamil Urf Milla,Sibbu,Aal Khurd West,9412191178,Residential Self ,48,0,48,48,420,1864
+33,4- Aal Khurd,Aal Khurd West,47,Rafikan Urf Fiko ,W/O Jahoor Hasan,Aal Khurd West,9917919096,Residential Self ,61,971,61,971,359,2942
+34,4- Aal Khurd,Aal Khurd West,48,"Noorjahan W/O Rukamdeen, Afsar, Wamik, Parvej, Aarish S/O Rukamdeen",Rukamdeen,Aal Khurd West,9917279000,Residential Self ,61,578,61,578,359,2213
+35,4- Aal Khurd,Aal Khurd West,49,Majar Madhi,-,Aal Khurd West,-,Mosque,0,0,0,0,420,940
+36,4- Aal Khurd,Aal Khurd West,49/1,Shiv Mandir,-,Aal Khurd West,-,Temple,0,0,0,0,0,0
+37,4- Aal Khurd,Aal Khurd West,50,Naseem,Ablu ,Aal Khurd West,9149002623,Residential Self ,61,0,0,0,420,2340
+38,4- Aal Khurd,Aal Khurd West,51,Shahdeen,Yunus,Aal Khurd West,8534014145,Residential Self ,55,0,0,0,365,0
+39,4- Aal Khurd,Aal Khurd West,52,"Omkar, Nirankar S/O Shobharam V Babli W/O Omkar",Shobharam,Aal Khurd West,6399390687,Residential Self ,73,0,0,0,420,0
+40,4- Aal Khurd,Aal Khurd West,53,Balmiki Mandir,-,Aal Khurd West,-, -,0,0,0,,0,0
+41,4- Aal Khurd,Aal Khurd West,54,Radheylal,Kundan,Aal Khurd West,9149079409,Commerical Self ,48,3708,0,0,0,0
+42,4- Aal Khurd,Aal Khurd West,55,Manju,W/O Suresh,Aal Khurd West,-, -,270,3337,0,0,123,651
+43,4- Aal Khurd,Aal Khurd West,56-57,Ommi,Bhagirath,Aal Khurd West,7037076988,Residential Self ,73,73,0,0,420,6540
+44,4- Aal Khurd,Aal Khurd West,58,Kunta,W/O Jaisingh,Aal Khurd West,-,Open Plot ,73,3032,73,3032,347,5212
+45,4- Aal Khurd,Aal Khurd West,59,Vinod,Chetan,Aal Khurd West,7451950900,Residential Self ,48,2476,48,0,372,5660
+46,4- Aal Khurd,Aal Khurd West,60,Shanti,W/O Shobha,Aal Khurd West,9149079409,Residential Self ,61,4375,61,4365,359,5560
+47,4- Aal Khurd,Aal Khurd West,61,"Prataap, Bittu",Hukumchand,Aal Khurd West,-,Residential Self ,48,3883,48,2476,0,0
+48,4- Aal Khurd,Aal Khurd West,62,Sharvan,Babu,Aal Khurd West,70379268602,Residential Self ,61,0,61,0,0,0
+49,4- Aal Khurd,Aal Khurd West,63,Anil kumar,Chman lal,Aal Khurd West,-,Open Plot ,463,128,463,0,0,0
+50,4- Aal Khurd,Aal Khurd West,64,Nirmal,Nanu,Aal Khurd West,8279902427,Residential Self ,109,4000,109,5239,311,4552
+51,4- Aal Khurd,Aal Khurd West,65,Shanti,Nanu,Aal Khurd West,7037926860,Residential Self ,45,2308,45,2308,375,0
+52,4- Aal Khurd,Aal Khurd West,65/1,Sanjay,Nanu,Aal Khurd West,-,Residential Self ,73,1331,47,802,420,6940
+53,4- Aal Khurd,Aal Khurd West,66,Raj Kumar ,Nanu,Aal Khurd West,9927265990,Residential Self ,73,241,73,241,347,1021
+54,4- Aal Khurd,Aal Khurd West,67,Aatmi,W/O Rama,Aal Khurd West,8439897807,Residential Self ,121,6335,121,5528,299,4432
+55,4- Aal Khurd,Aal Khurd West,68,Kilasho,W/O Shyaamlal,Aal Khurd West,7302342382,Residential Self ,48,463,48,455,372,2304
+56,4- Aal Khurd,Aal Khurd West,69,Gurdas,Babu,Aal Khurd West,8868968230,Residential Self ,61,701,61,721,420,4010
+57,4- Aal Khurd,Aal Khurd West,70,Chetan,Chennu,Aal Khurd West,6397302510,Residential Self ,48,2476,48,2476,0,0
+58,4- Aal Khurd,Aal Khurd West,71,Ommi,Bhagirath,Aal Khurd West,-,Residential Self ,61,971,61,971,420,2040
+59,4- Aal Khurd,Aal Khurd West,72,Saurav,Rajkumar,Aal Khurd West,-,Residential Self ,66,0,66,0,0,0
+60,4- Aal Khurd,Aal Khurd West,73,Rajkumar,Nanu,Aal Khurd West,9927265990,Residential Self ,48,3295,48,2478,0,0
+61,4- Aal Khurd,Aal Khurd West,74,Bittu,Rama,Aal Khurd West,8077704050,Residential Self ,0,0,0,0,0,0
+62,4- Aal Khurd,Aal Khurd West,74/1,Man Singh,Khachedu,Aal Khurd West,9358623278,Residential Self ,85,856,85,856,0,0
+63,4- Aal Khurd,Aal Khurd West,"75, 76",Fareda,W/O Rasheed,Aal Khurd West,9634806631,Open Plot ,921,1013,921,1013,0,0
+64,4- Aal Khurd,Aal Khurd West,76/1,Julekha,Emran,Aal Khurd West,9528023028,Residential Self ,389,0,389,0,0,0
+65,4- Aal Khurd,Aal Khurd West,77,Mustak,Suleman,Aal Khurd West,9568821300,Residential Self ,85,85,85,85,0,0
+66,4- Aal Khurd,Aal Khurd West,78,Sajjad,Suleman,Aal Khurd West,9758314305,Residential Self ,61,202,61,202,359,1057
+67,4- Aal Khurd,Aal Khurd West,79,Abid ,Fateh Mohmmad,Aal Khurd West,9520390513,Residential Self ,73,1160,73,1160,347,2824
+68,4- Aal Khurd,Aal Khurd West,79/1,Vajid,Suleman,Aal Khurd West,8057631615,Residential Self ,48,565,48,565,372,2556
+69,4- Aal Khurd,Aal Khurd West,80,Jahuran,W/O Jinda,Aal Khurd West,8077066724,Residential Self ,97,1771,97,1771,420,3840
+70,4- Aal Khurd,Aal Khurd West,81,"Vaseem, Vaseek",Habib,Aal Khurd West,9548609615,Residential Self ,50,0,50,0,370,0
+71,4- Aal Khurd,Aal Khurd West,82,Aslam,Jinda,Aal Khurd West,9557444408,Residential Self ,45,272,45,276,375,1815
+72,4- Aal Khurd,Aal Khurd West,83,Vajid,Suleman,Aal Khurd West,8057631615, -,0,0,0,0,0,0
+73,4- Aal Khurd,Aal Khurd West,"84, 85",Riyasat,Noor Hasan,Aal Khurd West,9997693460,Residential Self ,92,561,92,561,0,0
+74,4- Aal Khurd,Aal Khurd West,86,Ajij,Yaseen,Aal Khurd West,-,Residential Self ,61,202,61,202,359,1057
+75,4- Aal Khurd,Aal Khurd West,87,Ayyub,Allaraji,Aal Khurd West,9896573789,Residential Self ,48,159,48,159,372,1096
+76,4- Aal Khurd,Aal Khurd West,88,Ayyub,Allaraji,Aal Khurd West,9027062191,Residential Self ,48,382,48,371,0,0
+77,4- Aal Khurd,Aal Khurd West,89,Naseem,Habib,Aal Khurd West,8899133109,Residential Self ,48,0,48,0,372,0
+78,4- Aal Khurd,Aal Khurd West,"90, 91",Iqbaal,Hamid,Aal Khurd West,-, -,198,2335,198,2335,0,0
+79,4- Aal Khurd,Aal Khurd West,92,Safikan,W/O Naseer,Aal Khurd West,9760162122,Residential Self ,66,1051,66,1049,354,2912
+80,4- Aal Khurd,Aal Khurd West,93,Ajij,Alimuddin,Aal Khurd West,8430508578,Residential Self ,48,2449,48,2230,372,5875
+81,4- Aal Khurd,Aal Khurd West,94,Sajjad,Haji Abdul Vahid,Aal Khurd West,-, -,87,288,87,404,420,1240
+82,4- Aal Khurd,Aal Khurd West,96,Naseema,W/O Faiyyaz,Aal Khurd West,9012293256,Residential Self ,73,1007,73,1005,347,2590
+83,4- Aal Khurd,Aal Khurd West,97,Raisa,W/O Saeed,Aal Khurd West,8899091821,Residential Self ,45,45,45,45,375,0
+84,4- Aal Khurd,Aal Khurd West,98,Rihana,W/O Akram,Aal Khurd West,9412638684,Residential Self ,48,159,48,223,420,1240
+85,4- Aal Khurd,Aal Khurd West,99,Imrana,W/O Israr,Aal Khurd West,7017535517,Residential Self ,97,748,97,748,0,0
+86,4- Aal Khurd,Aal Khurd West,100,"Imran, Furkan",Ikramulhaq,Aal Khurd West,9548640326,Residential Self ,73,1763,73,1763,347,3772
+87,4- Aal Khurd,Aal Khurd West,101,Farjana,W/O Irfaan,Aal Khurd West,9045880450,Residential Self ,46,97,46,132,374,748
+88,4- Aal Khurd,Aal Khurd West,102,Bashiri,Ikram,Aal Khurd West,9027331257,Residential Self ,44,44,44,44,0,0
+89,4- Aal Khurd,Aal Khurd West,"103, 104",Moh. Taiyyab,Abdul Majid,Aal Khurd West,9368410847,Residential Self ,48,0,48,0,372,0
+90,4- Aal Khurd,Aal Khurd West,104/1,Usmaan,Sareef Ahmad,Aal Khurd West,9759733498,Residential Self ,44,101,44,97,376,736
+91,4- Aal Khurd,Aal Khurd West,105,Israr,Jinda,Aal Khurd West,8791742545,Residential Self ,79,610,79,483,341,1645
+92,4- Aal Khurd,Aal Khurd West,106,Shahjha,W/O Iqbal,Aal Khurd West,7830559982,Residential Self ,55,256,55,256,365,1420
+93,4- Aal Khurd,Aal Khurd West,107,Gayyur,Majid,Aal Khurd West,8171024182,Residential Self ,218,482,218,218,202,0
+94,4- Aal Khurd,Aal Khurd West,108,Milkiyat Masjid,-,Aal Khurd West,-, -,44,92,44,0,0,0
+95,4- Aal Khurd,Aal Khurd West,109,Yusuf,Basheer,Aal Khurd West,-, -,165,165,165,0,255,255
+96,4- Aal Khurd,Aal Khurd West,110,Yakoob,Basheer,Aal Khurd West,8273065850,Residential Self ,44,204,44,0,376,2459
+97,4- Aal Khurd,Aal Khurd West,111,Yusuf,Basheer,Aal Khurd West,-, -,48,48,48,48,372,372
+98,4- Aal Khurd,Aal Khurd West,112,Shareef,Ibrahim,Aal Khurd West,8439657587,Residential Self ,48,463,48,159,420,2640
+99,4- Aal Khurd,Aal Khurd West,113,Ateek,Najeer,Aal Khurd West,8439499065,Residential Self ,87,404,87,0,333,1292
+100,4- Aal Khurd,Aal Khurd West,114,Mumtaji,W/O Sajjad,Aal Khurd West,879RESIDENIAL8000,Residential Self ,55,756,55,756,36,4375
+101,4- Aal Khurd,Aal Khurd West,115,Iqbaal,Allabanda,Aal Khurd West,7217201211,Residential Self ,48,223,48,223,372,1448
+102,4- Aal Khurd,Aal Khurd West,116,Fateh Mohmmad,Khudabaksh,Aal Khurd West,8449343611,Residential Self ,48,159,48,159,420,1240
+103,4- Aal Khurd,Aal Khurd West,117,Shahid,Ameer Ahmad,Aal Khurd West,7417130686,Open Plot ,30,167,30,0,420,2940
+104,4- Aal Khurd,Aal Khurd West,118,Manjoor,Salimudeen,Aal Khurd West,8979119413,Residential Self ,198,948,198,926,0,0
+105,4- Aal Khurd,Aal Khurd West,119/1,Haneef,Alimuddin,Aal Khurd West,-, -,45,716,45,716,375,3098
+106,4- Aal Khurd,Aal Khurd West,120,Anwari,W/O Jahoor,Aal Khurd West,-, -,218,0,218,0,420,0
+107,4- Aal Khurd,Aal Khurd West,121,Mehmood,Ismail,Aal Khurd West,7078045998,Residential Self ,48,762,48,762,372,3068
+108,4- Aal Khurd,Aal Khurd West,122,Moh. Aslam,Salamtulla,Aal Khurd West,9760378525,Residential Self ,45,151,45,152,420,1240
+109,4- Aal Khurd,Aal Khurd West,123,Haji Manjoor,Saleemudeen,Aal Khurd West,8979119413,Residential Self ,218,5276,218,5276,202,1724
+110,4- Aal Khurd,Aal Khurd West,124,Milkiyat Masjid,-,Aal Khurd West,-, -,0,6615,0,8363,0,0
+111,4- Aal Khurd,Aal Khurd West,125,"Khaleel Ahmad, Akeel Ahmad",Samshad,Aal Khurd West,9719029065,Residential Self ,61,128,61,130,359,718
+112,4- Aal Khurd,Aal Khurd West,126,Jareena,W/O Ashfaq,Aal Khurd West,9485628161,Residential Self ,83,1767,83,1769,420,4140
+113,4- Aal Khurd,Aal Khurd West,126/1,Irfan,Ikram,Aal Khurd West,8866159390,Residential Self ,44,145,44,145,0,0
+114,4- Aal Khurd,Aal Khurd West,127,Inaam,Umardeen,Aal Khurd West,-,Residential Self ,45,2325,45,2315,420,6540
+115,4- Aal Khurd,Aal Khurd West,128,Akhtar,Bundu,Aal Khurd West,-,Residential Self ,85,85,85,85,335,1615
+116,4- Aal Khurd,Aal Khurd West,129,Isalaam,Saddik,Aal Khurd West,9520926027,Residential Self ,121,121,121,267,299,299
+117,4- Aal Khurd,Aal Khurd West,130,Hameed,Majeed,Aal Khurd West,9359721152,Residential Self ,61,332,61,372,359,1735
+118,4- Aal Khurd,Aal Khurd West,131,"Habib, Khursheed",Hameed,Aal Khurd West,9068441391,Residential Self ,44,49,0,0,0,0
+119,4- Aal Khurd,Aal Khurd West,132,Umardeen,Noor Mohammad,Aal Khurd West,8077314915,Residential Self ,55,524,55,1007,365,3000
+120,4- Aal Khurd,Aal Khurd West,133,"Imran, Abdul Rahmaan , Irfaan",Sageer,Aal Khurd West,9760594470,Residential Self ,55,524,55,337,365,2010
+121,4- Aal Khurd,Aal Khurd West,133/1,Abid,Safi,Aal Khurd West,9045221549,Residential Self ,45,0,45,0,375,0
+122,4- Aal Khurd,Aal Khurd West,134,Sajid,Safi,Aal Khurd West,9756805073,Residential Self ,45,211,45,210,375,1460
+123,4- Aal Khurd,Aal Khurd West,135,Milkiyat Masjid,-,Aal Khurd West,-,Open Plot ,85,1837,85,1837,335,3152
+124,4- Aal Khurd,Aal Khurd West,136,Naseema,W/O Abdul Gaffar,Aal Khurd West,7017730175,Residential Self ,66,2405,66,1205,420,5260
+125,4- Aal Khurd,Aal Khurd West,137,Shakeel,Allabanda,Aal Khurd West,8435412547,Residential Self ,44,1821,44,802,0,0
+126,4- Aal Khurd,Aal Khurd West,137/1,Raees Ahmad,Allabanda,Aal Khurd West,-,Residential Self ,44,519,44,519,376,2588
+127,4- Aal Khurd,Aal Khurd West,137/2,Anis,Allabanda,Aal Khurd West,8171866869,Residential Self ,44,204,44,205,0,0
+128,4- Aal Khurd,Aal Khurd West,138,Famida,Yameen,Aal Khurd West,9690009732,Residential Self ,61,283,61,283,359,3682
+129,4- Aal Khurd,Aal Khurd West,139,Yusuf,Allabanda,Aal Khurd West,-,Residential Self ,45,150,45,150,375,1105
+130,4- Aal Khurd,Aal Khurd West,140,Masjid Multaniyan,-,Aal Khurd West,-,Mosque,0,0,0,0,420,1640
+131,4- Aal Khurd,Aal Khurd West,141,Milkiyat Masjid,-,Aal Khurd West,-,Residential Self ,0,0,0,0,0,0
+132,4- Aal Khurd,Aal Khurd West,142,Yunus,Ismail,Aal Khurd West,9368300092,Residential Self ,61,372,61,372,359,1816
+133,4- Aal Khurd,Aal Khurd West,143,Yakoob,Saddik,Aal Khurd West,9286775466,Residential Self ,121,739,121,2206,420,2340
+134,4- Aal Khurd,Aal Khurd West,144,Saleem Ahmad,Yaseen,Aal Khurd West,8923373839,Residential Self ,66,627,66,627,354,2178
+135,4- Aal Khurd,Aal Khurd West,145,Vaheed,Alladiya,Aal Khurd West,9756044985,Residential Self ,48,0,48,0,372,0
+136,4- Aal Khurd,Aal Khurd West,146,"Yusuf, Yameen",Saddik,Aal Khurd West,9027162573,Residential Self ,45,429,45,429,375,2517
+137,4- Aal Khurd,Aal Khurd West,147,Shakeel,Samshad,Aal Khurd West,9358386557,Residential Self ,73,241,73,241,347,1021
+138,4- Aal Khurd,Aal Khurd West,148-149,Haneef,Hameed,Aal Khurd West,9359789407,Residential Self ,97,321,97,321,323,949
+139,4- Aal Khurd,Aal Khurd West,150,Saeeda,W/O Ismail,Aal Khurd West,9997227431,Residential Self ,97,209,97,0,323,0
+140,4- Aal Khurd,Aal Khurd West,151,Ayyub,Rafeek,Aal Khurd West,7055588931,Residential Self ,44,44,44,44,0,0
+141,4- Aal Khurd,Aal Khurd West,152,Mustafa,Rafeek,Aal Khurd West,7818936924,Residential Self ,44,339,44,204,0,0
+142,4- Aal Khurd,Aal Khurd West,153,Mustak,Rafeek,Aal Khurd West,8979459765,Residential Self ,66,404,66,404,354,1376
+143,4- Aal Khurd,Aal Khurd West,154,Mustafa,Rafeek,Aal Khurd West,7818936924,Residential Self ,44,339,44,339,0,0
+144,4- Aal Khurd,Aal Khurd West,155,Mehboob,Majeed,Aal Khurd West,8267887987,Residential Self ,61,2,61,0,359,0
+145,4- Aal Khurd,Aal Khurd West,156,Saleem,Ismail,Aal Khurd West,9927253351,Residential Self ,48,0,48,0,372,0
+146,4- Aal Khurd,Aal Khurd West,157,Akbar,Abdulla,Aal Khurd West,9719479665,Residential Self ,73,338,73,358,347,0
+147,4- Aal Khurd,Aal Khurd West,158,Ayyub,Abdul Kareem,Aal Khurd West,9759733705,Residential Self ,194,8071,194,8583,226,1760
+148,4- Aal Khurd,Aal Khurd West,159,Asia,W/O Abdul Gafur,Aal Khurd West,9958018426,Residential Self ,55,55,55,0,365,365
+149,4- Aal Khurd,Aal Khurd West,160,Raeesa,W/O Abdul Kareem,Aal Khurd West,9027653438,Residential Self ,45,349,45,339,420,2340
+150,4- Aal Khurd,Aal Khurd West,160/1,Biban,W/O Isaak,Aal Khurd West,9927708125,Residential Self ,44,145,44,145,420,1240
+151,4- Aal Khurd,Aal Khurd West,162,Shahid,Ameer Ahmad,Aal Khurd West,7417130686,Open Plot ,0,0,0,0,0,0
+152,4- Aal Khurd,Aal Khurd West,163-164,Biban,W/O Isaak,Aal Khurd West,9997708125,Residential Self ,50,166,50,166,0,0
+153,4- Aal Khurd,Aal Khurd West,165,Biban,W/O Isaak,Aal Khurd West,9997708125,Commerical Self ,55,191,55,166,0,0
+154,4- Aal Khurd,Aal Khurd West,166,Rasheed,Ismail,Aal Khurd West,8979346931,Residential Self ,87,209,87,0,333,0
+155,4- Aal Khurd,Aal Khurd West,167,Yameen,Fazal Ajij,Aal Khurd West,9045039679,Residential Self ,121,121,121,121,299,299
+156,4- Aal Khurd,Aal Khurd West,168,Ashfaq,Sakruddin,Aal Khurd West,-, -,75,1,75,45,375,0
+157,4- Aal Khurd,Aal Khurd West,169,"Israr S/O Sareef Ahmad, Sareef S/O Ismail",Sareef Ahmad,Aal Khurd West,9528427122,Residential Self ,85,0,85,0,0,0
+158,4- Aal Khurd,Aal Khurd West,170,"Israr S/O Sareef Ahmad, Sareef S/O Ismail",Sareef Ahmad,Aal Khurd West,9528427122,Commerical Self ,85,0,85,0,0,0
+159,4- Aal Khurd,Aal Khurd West,171,"Israr S/O Sareef Ahmad, Sareef S/O Ismail",Sareef Ahmad,Aal Khurd West,9528427122,Commerical Self ,61,0,61,0,359,0
+160,4- Aal Khurd,Aal Khurd West,172,"Israr S/O Sareef Ahmad, Sareef S/O Ismail",Sareef Ahmad,Aal Khurd West,9528427122,Commerical Self ,0,0,0,0,0,0
+161,4- Aal Khurd,Aal Khurd West,173,Milkiyat Masjid,-,Aal Khurd West,8279736211,Commerical Self ,290,1346,290,7024,0,0
+162,4- Aal Khurd,Aal Khurd West,174,Milkiyat Masjid,-,Aal Khurd West,8279736211,Commerical Self ,290,960,290,960,0,0
+163,4- Aal Khurd,Aal Khurd West,175,Milkiyat Masjid,-,Aal Khurd West,8279736211,Residential Self ,58,122,58,122,420,840
+164,4- Aal Khurd,Aal Khurd West,176,Moh. Mukarram,Salamtulla,Aal Khurd West,9412638681,Residential Self ,67,311,67,0,420,1640
+165,4- Aal Khurd,Aal Khurd West,177,Islaam,Haji Saddik,Aal Khurd West,9520926027,Residential Self ,145,481,145,0,275,809
+166,4- Aal Khurd,Aal Khurd West,177/1,Iqbaal,Yaseen,Aal Khurd West,8535058745,Residential Self ,44,545,44,0,0,0
+167,4- Aal Khurd,Aal Khurd West,177/2,Abdul Ajij,Yaseen,Aal Khurd West,-,Residential Self ,44,2423,44,0,376,1108
+168,4- Aal Khurd,Aal Khurd West,178,Jamil,Yaseen,Aal Khurd West,-,Residential Self ,330,2545,330,0,420,6396
+169,4- Aal Khurd,Aal Khurd West,"179, 180",Vaheed,Alladiya,Aal Khurd West,8077928933,Residential Self ,55,337,55,0,365,1765
+170,4- Aal Khurd,Aal Khurd West,181,Ikram Ilahi,Karam Ilahi,Aal Khurd West,8265968265,Residential Self ,145,674,145,0,275,1060
+171,4- Aal Khurd,Aal Khurd West,182,Bashiri,W/O Ikram,Aal Khurd West,9027331257,Residential Self ,73,338,73,338,420,1640
+172,4- Aal Khurd,Aal Khurd West,183,Saeeda,W/O Basheer,Aal Khurd West,8439181082,Residential Self ,45,150,45,151,375,1105
+173,4- Aal Khurd,Aal Khurd West,184,Akeela,W/O Laeek Ahmad,Aal Khurd West,9045611150,Residential Self ,55,426,55,426,365,2010
+174,4- Aal Khurd,Aal Khurd West,185,Haji Manjoor Hasan,Saleemudeen,Aal Khurd West,8979119413,Residential Self ,97,427,97,97,420,4440
+175,4- Aal Khurd,Aal Khurd West,186,Jakia Bano ,W/O Anwaar,Aal Khurd West,8868050868,Residential Self ,66,509,66,1051,420,3540
+176,4- Aal Khurd,Aal Khurd West,187,Abdul Rajjak Urf Bhola,Liyaqt,Aal Khurd West,7017146573,Residential Self ,44,204,44,204,0,0
+177,4- Aal Khurd,Aal Khurd West,188,Islaam,Alimuddin,Aal Khurd West,8307330832,Residential Self ,73,563,73,363,347,1675
+178,4- Aal Khurd,Aal Khurd West,189,Jaheer,Ameer Ahamad,Aal Khurd West,-, -,0,0,0,0,0,0
+179,4- Aal Khurd,Aal Khurd West,190,Naseema,W/O Faiyyaz,Aal Khurd West,8279736211,Commerical Self ,110,1510,110,1510,0,0
+180,4- Aal Khurd,Aal Khurd West,191,Naseema,W/O Faiyyaz,Aal Khurd West,8279736211,Residential Self ,55,756,55,756,365,2750
+181,4- Aal Khurd,Aal Khurd West,192,Ateek ,Najeer,Aal Khurd West,8439499065,Residential Self ,48,48,48,112,372,1448
+182,4- Aal Khurd,Aal Khurd West,193,Ayyub,Majeed,Aal Khurd West,9359640867,Residential Self ,48,101,48,101,372,1800
+183,4- Aal Khurd,Aal Khurd West,194,Kayyum,Majeed,Aal Khurd West,7060415259,Residential Self ,48,762,48,762,420,3540
+184,4- Aal Khurd,Aal Khurd West,195,Afzal,Iqbaal,Aal Khurd West,7217201211,Commerical Self ,77,2064,77,358,0,0
+185,4- Aal Khurd,Aal Khurd West,196,Babu,Chettu,Aal Khurd West,9997693460,Residential Self ,61,1504,61,1481,359,3932
+186,4- Aal Khurd,Aal Khurd West,197,Husain,Iqbaal,Aal Khurd West,7217201211,Residential Self ,66,219,66,219,354,1042
+187,4- Aal Khurd,Aal Khurd West,198,Jakia Bano ,W/O Anwaar,Aal Khurd West,88680508668,Residential Self ,73,241,73,241,347,1027
+188,4- Aal Khurd,Aal Khurd West,199-200,Anis Ahmad,Haneef,Aal Khurd West,7060415472,Residential Self ,55,55,55,55,365,365
+189,4- Aal Khurd,Aal Khurd West,201,Omprakash,Chander,Aal Khurd West,9639605060,Open Plot ,45,45,45,0,375,0
+190,4- Aal Khurd,Aal Khurd West,202,Rameshwer Dayal,Chander,Aal Khurd West,8193901523,Residential Self ,83,0,83,0,337,0
+191,4- Aal Khurd,Aal Khurd West,203,Omprakash,Chander,Aal Khurd West,9837133037,Residential Self ,30,0,30,0,0,0
+192,4- Aal Khurd,Aal Khurd West,204,Sameema,W/O Abid,Aal Khurd West,8057631615,Open Plot ,43,863,43,683,0,0
+193,4- Aal Khurd,Aal Khurd West,205,Mahender,Roopchand,Aal Khurd West,7520175929,Residential Self ,0,0,0,0,420,3140
+194,4- Aal Khurd,Aal Khurd West,207,Jamil,Rasheed,Aal Khurd West,9045572885,Residential Self ,55,183,55,183,365,1075
+195,4- Aal Khurd,Aal Khurd West,208,Roopchand,Khachedu,Aal Khurd West,7520175929,Open Plot ,198,5872,198,4640,0,0
+196,4- Aal Khurd,Aal Khurd West,209,Jamil,Rasheed,Aal Khurd West,9045572885,Residential Self ,45,152,45,152,0,0
+197,4- Aal Khurd,Aal Khurd West,210-211,Yakoob,Majeed,Aal Khurd West,9319255964,Residential Self ,121,0,121,0,299,0
+198,4- Aal Khurd,Aal Khurd West,212,Tofeek,Jahid,Aal Khurd West,-,Residential Self ,55,183,55,183,0,0
+199,4- Aal Khurd,Aal Khurd West,213,Tofeek,Jahid,Aal Khurd West,-,Residential Self ,45,45,45,45,375,375
+200,4- Aal Khurd,Aal Khurd West,214-215,Moh. Umar,Umardeen,Aal Khurd West,9520390493,Residential Self ,48,293,48,243,372,1840
+201,4- Aal Khurd,Aal Khurd West,"216, 402/2",Arun,Jai Narayan,Aal Khurd West,9927265990,Residential Self ,110,1748,110,1748,0,0
+202,4- Aal Khurd,Aal Khurd West,218,Ilyaas,Naseer ,Aal Khurd West,-,Residential Self ,45,150,45,150,0,0
+203,4- Aal Khurd,Aal Khurd West,220,Sameema,W/O Aslam,Aal Khurd West,9917237519,Residential Self ,61,504,61,673,359,1974
+204,4- Aal Khurd,Aal Khurd West,222,Asharam,Bihari,Aal Khurd West,-, -,0,0,0,1850,0,0
+205,4- Aal Khurd,Aal Khurd West,224,Kuaa Nagar Palika,-,Aal Khurd West,-, -,0,0,0,0,0,0
+206,4- Aal Khurd,Aal Khurd West,225,Fareed,Majeed,Aal Khurd West,7017411873,Residential Self ,88,2063,88,2053,0,0
+207,4- Aal Khurd,Aal Khurd West,226,Abid,Fateh Mohmmad,Aal Khurd West,9027609209,Residential Self ,67,311,67,1065,353,1904
+208,4- Aal Khurd,Aal Khurd West,227-228,Abid,Fateh Mohmmad,Aal Khurd West,9027609209,Residential Self ,72,1145,72,1145,0,0
+209,4- Aal Khurd,Aal Khurd West,231,Vajid,Hameed,Aal Khurd West,9319954358,Residential Self ,73,73,73,170,420,3308
+210,4- Aal Khurd,Aal Khurd West,234,Tarannum,W/O Sajid,Aal Khurd West,-,Residential Self ,55,659,55,650,365,2500
+211,4- Aal Khurd,Aal Khurd West,236,Asgari,W/O Hameed,Aal Khurd West,9997203630,Residential Self ,145,1098,145,1708,0,0
+212,4- Aal Khurd,Aal Khurd West,237-238,Aslam,Salamtulla,Aal Khurd West,8077704050,Residential Self ,61,208,61,202,365,1087
+213,4- Aal Khurd,Aal Khurd West,239,"Sakuran W/O Habeeb,
+V
+ Matloob, 
+Makbool Mansoor S/O Habeeb",Habib,Aal Khurd West,9548369098,Residential Self ,85,179,85,179,420,840
+214,4- Aal Khurd,Aal Khurd West,240,Bahgwaan Devi,W/O Phool Singh,Aal Khurd West,9971770121,Residential Self ,73,0,73,241,420,0
+215,4- Aal Khurd,Aal Khurd West,241,Munish,Yunus,Aal Khurd West,8958250915,Residential Self ,87,87,87,91,333,333
+216,4- Aal Khurd,Aal Khurd West,"242, 243",Jahid Hasan,Subrati,Aal Khurd West,8954115828,Residential Self ,99,605,99,603,0,0
+217,4- Aal Khurd,Aal Khurd West,244,"Safeek, Vaseem, Hasan",Nafees,Aal Khurd West,7078046421,Residential Self ,72,439,72,439,420,2040
+218,4- Aal Khurd,Aal Khurd West,245,Ilyaas,Nabiya,Aal Khurd West,8954050607,Residential Self ,242,2855,242,2855,178,1004
+219,4- Aal Khurd,Aal Khurd West,246,Jinda,Allarakha,Aal Khurd West,8283001418,Residential Self ,55,357,55,336,0,0
+220,4- Aal Khurd,Aal Khurd West,248,Jinda,Allarakha,Aal Khurd West,8283001418,Residential Self ,145,886,145,884,420,2040
+221,4- Aal Khurd,Aal Khurd West,249,Jinda,Allarakha,Aal Khurd West,8171426293,Residential Self ,55,337,55,337,0,0
+222,4- Aal Khurd,Aal Khurd West,250,Jinda,Allarakha,Aal Khurd West,8171426293,Residential Self ,55,337,55,357,420,2040
+223,4- Aal Khurd,Aal Khurd West,250/1,Gulaam Dastageer,Abdul Gafur,Aal Khurd West,9958018426,Residential Self ,61,61,61,67,359,359
+224,4- Aal Khurd,Aal Khurd West,251,Rajender,Santa,Aal Khurd West,9568921989,Residential Self ,55,0,55,0,365,0
+225,4- Aal Khurd,Aal Khurd West,252,Beermati, Vinod kumar,Aal Khurd West,8941830502,Residential Self ,293,111,293,0,420,0
+226,4- Aal Khurd,Aal Khurd West,253,Hukumchand,Chota,Aal Khurd West,9690814712,Residential Self ,61,0,61,0,359,0
+227,4- Aal Khurd,Aal Khurd West,254 TO 254/3,"Raisa W/O Late Nafees, V Sherdeen, Nabalik Noormohammad, Mujjamil, Gulbahar S/O Late Nafees",Late Nafees,Aal Khurd West,9417196416,Residential Self ,605,7136,605,7031,0,0
+228,4- Aal Khurd,Aal Khurd West,255,Jai Chandi,W/O Richpal,Aal Khurd West,-,Residential Self ,97,1144,97,1144,323,2164
+229,4- Aal Khurd,Aal Khurd West,255/1,Shahima,W/O Shabudeen,Aal Khurd West,99177399726,Residential Self ,220,0,220,0,200,1380
+230,4- Aal Khurd,Aal Khurd West,256,Dataram,Bhartu,Aal Khurd West,7078479625,Residential Self ,87,531,87,531,323,1585
+231,4- Aal Khurd,Aal Khurd West,257,Chandro,W/O Sadhu Ram,Aal Khurd West,8941036707,Residential Self ,44,268,44,268,420,2040
+232,4- Aal Khurd,Aal Khurd West,258,Om Prakash,Raghuveer,Aal Khurd West,7906228306,Residential Self ,0,0,0,0,420,840
+233,4- Aal Khurd,Aal Khurd West,258/1,Gulbahar,Sakeel,Aal Khurd West,8570842516,Residential Self ,44,204,44,201,371,1108
+234,4- Aal Khurd,Aal Khurd West,259,Man Singh,Jaidayal,Aal Khurd West,9027609209,Open Plot ,0,0,0,0,0,0
+235,4- Aal Khurd,Aal Khurd West,260,Taiyyab,Irshad,Aal Khurd West,9992705564,Residential Self ,66,441,66,441,354,1710
+236,4- Aal Khurd,Aal Khurd West,260/1,"Mujtabeen W/O Moh. Sabir,
+Suhail, Uvaish S/O Moh. Sabir,
+Sofia D/O Moh. Sabir",Moh. Sabir,Aal Khurd West,-,Residential Self ,55,183,55,183,365,1075
+237,4- Aal Khurd,Aal Khurd West,261,Ashok,Bhagwan Das,Aal Khurd West,8273005532,Residential Self ,61,578,61,578,359,2213
+238,4- Aal Khurd,Aal Khurd West,262,Shivcharan,Bhagwan Das,Aal Khurd West,8920347066,Residential Self ,45,530,45,530,375,2580
+239,4- Aal Khurd,Aal Khurd West,263,Ratani,W/O Atar Singh,Aal Khurd West,8920347066,Residential Self ,73,864,73,864,420,2940
+241,4- Aal Khurd,Aal Khurd West,265,Chander Prakash,Ram Sahay,Aal Khurd West,9927884939,Residential Self ,121,1407,121,0,299,0
+240,4- Aal Khurd,Aal Khurd West,266,Mujahid,Najeer Ahmad,Aal Khurd West,-,Residential Self ,66,1051,66,1051,420,2540
+242,4- Aal Khurd,Aal Khurd West,267,Man Singh,Jai Dayal,Aal Khurd West,8349844047,Residential Self ,145,515,145,615,275,785
+243,4- Aal Khurd,Aal Khurd West,267/1,Ram Lal,Govind,Aal Khurd West,8273920640,Residential Self ,44,268,44,268,0,0
+244,4- Aal Khurd,Aal Khurd West,268,"Dhan Prakash, Jaiprakash",Late Govind,Aal Khurd West,8533812171,Residential Self ,66,0,66,0,354,0
+245,4- Aal Khurd,Aal Khurd West,269,Baljor,Ram Sahay,Aal Khurd West,8954548507,Residential Self ,48,159,48,159,420,1240
+246,4- Aal Khurd,Aal Khurd West,270,Baburam,Budhram,Aal Khurd West,8533821467,Residential Self ,44,699,44,629,420,6540
+247,4- Aal Khurd,Aal Khurd West,271,Baljor,Ram Sahay,Aal Khurd West,9319730232,Residential Self ,45,716,45,716,375,3098
+248,4- Aal Khurd,Aal Khurd West,272,Bal Mukund,Netram,Aal Khurd West,8439957957,Residential Self ,87,4176,87,94,333,4956
+249,4- Aal Khurd,Aal Khurd West,272/1,Ramlal,Govind,Aal Khurd West,8273920640,Residential Self ,48,293,48,0,372,0
+250,4- Aal Khurd,Aal Khurd West,272/2,Chetanlal,Sheshram,Aal Khurd West,8755675160,Residential Self ,48,106,48,106,372,724
+251,4- Aal Khurd,Aal Khurd West,273,Chaman Lal,Sheshram,Aal Khurd West,9897185818,Residential Self ,48,116,48,106,372,724
+252,4- Aal Khurd,Aal Khurd West,274,Chandro Devi,W/O Briham Das,Aal Khurd West,8273005532,Residential Self ,50,3026,50,915,370,3610
+253,4- Aal Khurd,Aal Khurd West,"277,
+ 291",Baburam,Budhram,Aal Khurd West,8533821467,Residential Self ,88,409,88,409,332,1288
+254,4- Aal Khurd,Aal Khurd West,275,Pooran Chand,Budhram,Aal Khurd West,8791807737,Residential Self ,73,907,73,74,347,2824
+255,4- Aal Khurd,Aal Khurd West,276,Omprakash,Budhram,Aal Khurd West,8533821467,Residential Self ,66,627,66,1941,0,0
+256,4- Aal Khurd,Aal Khurd West,278,Mahender,Netram,Aal Khurd West,8899262766,Residential Self ,61,0,61,0,359,0
+257,4- Aal Khurd,Aal Khurd West,279,Bhagwati,W/O Shri Chand,Aal Khurd West,8865808240,Residential Self ,61,61,61,61,420,805
+258,4- Aal Khurd,Aal Khurd West,280,Sohanveer singh,W/O Mahender,Aal Khurd West,9760056570,Residential Self ,116,384,116,384,372,2556
+259,4- Aal Khurd,Aal Khurd West,280/1,Begraj,Biharilal,Aal Khurd West,8791321530,Residential Self ,55,0,55,0,0,0
+260,4- Aal Khurd,Aal Khurd West,281,"Mahender, Subhash, Yogender, Rakesh, Naresh",Bihari,Aal Khurd West,8475844119,Residential Self ,55,2570,55,650,0,0
+261,4- Aal Khurd,Aal Khurd West,282,Pyarelal,Govind,Aal Khurd West,9917032018,Residential Self ,44,0,44,0,376,1464
+262,4- Aal Khurd,Aal Khurd West,"282/1, 285",Furkaan,Ayyub,Aal Khurd West,-,Residential Self ,132,806,132,806,0,0
+263,4- Aal Khurd,Aal Khurd West,283,Bhopal,Hoshiyaar Singh,Aal Khurd West,8439005087,Residential Self ,48,1454,48,1454,372,4480
+264,4- Aal Khurd,Aal Khurd West,284,Sushil Kumar,Rajaram,Aal Khurd West,9927928582,Residential Self ,85,2075,85,985,420,4216
+265,4- Aal Khurd,Aal Khurd West,286,Tarachand,Samman,Aal Khurd West,8791522687,Residential Self ,55,11,55,0,365,0
+266,4- Aal Khurd,Aal Khurd West,287,Girdhari,Samman,Aal Khurd West,8556961349,Residential Self ,45,0,45,0,375,0
+267,4- Aal Khurd,Aal Khurd West,288,Rati,W/O Harikishan,Aal Khurd West,7217262811,Residential Self ,48,159,48,159,372,1096
+268,4- Aal Khurd,Aal Khurd West,288/1,Rati,W/O Harikishan,Aal Khurd West,7217262811,Residential Self ,0,0,0,0,0,0
+269,4- Aal Khurd,Aal Khurd West,289,Baburam,Chettu,Aal Khurd West,-,Residential Self ,44,145,44,145,376,2628
+270,4- Aal Khurd,Aal Khurd West,290,Israna,W/O Moh. Arif,Aal Khurd West,7500538786,Mixed,97,1794,97,2344,0,0
+271,4- Aal Khurd,Aal Khurd West,291/1,Rajbiri,W/O Baburam,Aal Khurd West,9058685965,Residential Self ,45,95,45,155,375,750
+272,4- Aal Khurd,Aal Khurd West,292,Naresh Kumar,Gaje Singh,Aal Khurd West,9068670715,Residential Self ,297,0,297,0,123,0
+273,4- Aal Khurd,Aal Khurd West,293,Hukumchand,Chota,Aal Khurd West,8899047205,Residential Self ,97,1332,97,0,323,2376
+274,4- Aal Khurd,Aal Khurd West,294,Om Prakash,Chota,Aal Khurd West,9012570451,Residential Self ,97,1144,97,1145,323,2164
+275,4- Aal Khurd,Aal Khurd West,295,Harijan Panchayat Ghar Primary Pathsala,-,Aal Khurd West,9837401430,Government School,58,147,58,199,0,0
+276,4- Aal Khurd,Aal Khurd West,296,Sushil Kumar,Rajaram,Aal Khurd West,6396321488,Residential Self ,122,404,122,404,0,0
+277,4- Aal Khurd,Aal Khurd West,297,Khursheed,Hameed,Aal Khurd West,9528705733,Residential Self ,97,1544,97,1544,323,2588
+278,4- Aal Khurd,Aal Khurd West,298,Bhumi Pooja Sthal,-,Aal Khurd West,-,Temple,0,0,0,0,420,940
+279,4- Aal Khurd,Aal Khurd West,299,Ramlal,Chander,Aal Khurd West,7895946733,Residential Self ,73,241,73,241,347,2590
+280,4- Aal Khurd,Aal Khurd West,300,Salek,Pooran Chand,Aal Khurd West,9837645851,Residential Self ,73,338,73,338,347,1348
+281,4- Aal Khurd,Aal Khurd West,301,Ramji Lal,Chander,Aal Khurd West,7895266616,Residential Self ,198,2220,198,6436,0,0
+282,4- Aal Khurd,Aal Khurd West,302,Suresh Chand,Pooran Chand,Aal Khurd West,9416743287,Residential Self ,61,1222,61,840,359,2697
+283,4- Aal Khurd,Aal Khurd West,302/1,Shahnawaj,Irshad,Aal Khurd West,8685925549,Residential Self ,300,0,300,300,120,120
+284,4- Aal Khurd,Aal Khurd West,303,Omprakash,Chota,Aal Khurd West,9012570451,Residential Self ,48,356,48,293,372,3580
+285,4- Aal Khurd,Aal Khurd West,304,Sevaram,Chota,Aal Khurd West,-,Residential Self ,290,7119,290,11760,0,0
+,4- Aal Khurd,,304/1,Rajendar,Sewaram,Aal Khurd West,-, -,61,1112,61,1112,0,0
+286,4- Aal Khurd,Aal Khurd West,305,Virender Kumar,Sevaram,Aal Khurd West,-,Residential Self ,73,445,73,445,347,1675
+287,4- Aal Khurd,Aal Khurd West,305/1,Farzana,W/O Naseem,Aal Khurd West,9528544353,Residential Self ,73,445,73,445,347,1675
+288,4- Aal Khurd,Aal Khurd West,306,"Nafeesa W/O Moh. Yakoob,
+Moh. Aalam S/O Moh. Yakoob",Moh. Yakoob,Aal Khurd West,8077260043,Residential Self ,44,0,44,92,376,0
+289,4- Aal Khurd,Aal Khurd West,306/1,Daud,Jameel,Aal Khurd West,-,Residential Self ,44,268,44,268,0,0
+290,4- Aal Khurd,Aal Khurd West,307,Naseem,Majeed,Aal Khurd West,7078215286,Residential Self ,97,321,97,321,420,1240
+291,4- Aal Khurd,Aal Khurd West,"308, 308/1",Jameel,Ismail,Aal Khurd West,9690125012,Residential Self ,55,1078,55,1221,365,3518
+292,4- Aal Khurd,Aal Khurd West,309,Raman Devi,W/O Ghanshyaam,Aal Khurd West,8899410592,Residential Self ,61,0,61,0,359,0
+293,4- Aal Khurd,Aal Khurd West,310,Balmukund,Teekaram,Aal Khurd West,8881236006,Residential Self ,436,15928,436,4474,0,0
+294,4- Aal Khurd,Aal Khurd West,310/1,Moh. Kasim,Ayyub,Aal Khurd West,-,Residential Self ,165,1276,165,1310,255,1335
+295,4- Aal Khurd,Aal Khurd West,311,Gayyur,Sareef Ahmad,Aal Khurd West,8881992220,Residential Self ,55,0,55,0,420,0
+296,4- Aal Khurd,Aal Khurd West,311/1,Akbar,Sareef Ahmad,Aal Khurd West,9988181449,Residential Self ,66,219,66,219,354,1042
+297,4- Aal Khurd,Aal Khurd West,312,Santosh,W/O Udham Singh,Aal Khurd West,9759299751,Residential Self ,61,0,61,0,359,0
+298,4- Aal Khurd,Aal Khurd West,313,Indro,W/O Madanlal,Aal Khurd West,9760034453,Residential Self ,61,746,61,746,339,2412
+299,4- Aal Khurd,Aal Khurd West,313/1,Devender,Sevaram,Aal Khurd West,8865900937,Residential Self ,44,0,44,0,376,0
+300,4- Aal Khurd,Aal Khurd West,304/1,"Rajender, Devender",Sevaram,Aal Khurd West,-,Residential Self ,61,362,61,,0,0
+301,4- Aal Khurd,Aal Khurd West,314,Jitender,Jagpal,Aal Khurd West,7248089388,Residential Self ,66,1262,66,1252,420,3785
+302,4- Aal Khurd,Aal Khurd West,315,Basa,Naseebudeen,Aal Khurd West,9012025704,Residential Self ,61,0,61,0,359,0
+303,4- Aal Khurd,Aal Khurd West,316,Sattar,Naseer ,Aal Khurd West,9319662080,Residential Self ,48,0,48,0,374,0
+,4- Aal Khurd,,319,Abdul,Hameed,Aal Khurd West,-, -,73,64,73,,0,0
+304,4- Aal Khurd,Aal Khurd West,317,Abdul Hameed,Abdul Rajjak,Aal Khurd West,8474948057,Residential Self ,73,169,73,866,347,2356
+305,4- Aal Khurd,Aal Khurd West,318,Yunus,Idrees,Aal Khurd West,9690083236,Residential Self ,97,1144,97,1145,323,2172
+306,4- Aal Khurd,Aal Khurd West,319,Shadat,Ali Hasan,Aal Khurd West,9997864639,Residential Self ,110,493,110,1043,310,2650
+307,4- Aal Khurd,Aal Khurd West,"315, 320",Emran Earfan  ,Islam,Aal Khurd West,8449666966,Residential Self ,61,61,61,61,0,0
+308,4- Aal Khurd,Aal Khurd West,321,Hasim,Arif,Aal Khurd West,9058004370,Residential Self ,75,1621,75,2563,0,0
+309,4- Aal Khurd,Aal Khurd West,322,Surender Kumar Urf Papu,Atmaram,Aal Khurd West,9219666336,Residential Self ,55,183,55,183,365,1075
+310,4- Aal Khurd,Aal Khurd West,323,Praveen,W/O Ayyub,Aal Khurd West,9368148488,Residential Self ,97,321,97,321,420,1240
+311,4- Aal Khurd,Aal Khurd West,324,Tahir,Subrati,Aal Khurd West,9520637876,Residential Self ,45,1874,45,462,375,5194
+312,4- Aal Khurd,Aal Khurd West,324/1,Mehroob,Mugla,Aal Khurd West,9997616768,Residential Self ,45,212,45,,420,1640
+313,4- Aal Khurd,Aal Khurd West,325,Alim ,Altaaf,Aal Khurd West,9759222055,Residential Self ,150,0,150,0,420,0
+549,4- Aal Khurd,Aal Khurd West,325/1,Salim,Altaf,Aal Khurd West,8273743916,Residential Self ,150,1157,150,917,270,1440
+314,4- Aal Khurd,Aal Khurd West,"326, 327",Abdul ,Altaaf,Aal Khurd West,8791361033,Residential Self ,61,601,61,578,420,840
+315,4- Aal Khurd,Aal Khurd West,328,Janab Ali,Shera,Aal Khurd West,9045706926,Residential Self ,73,1763,73,1763,347,3532
+316,4- Aal Khurd,Aal Khurd West,329,Moh. Rashid,Kasam Ali,Aal Khurd West,9027305564,Residential Self ,85,0,85,85,335,0
+317,4- Aal Khurd,Aal Khurd West,330,"Farukh S/O Yaseen 
+V
+Yaseen S/O Noora",Noora,Aal Khurd West,-,Residential Self ,48,159,48,74,372,1096
+318,4- Aal Khurd,Aal Khurd West,"331, 332",Dilshad,Sabbir,Aal Khurd West,8449008284,Residential Self ,94,0,94,0,326,0
+319,4- Aal Khurd,Aal Khurd West,"333, 342",Prakasha ,Hatti,Aal Khurd West,9870820075,Residential Self ,73,73,73,555,347,2561
+320,4- Aal Khurd,Aal Khurd West,334,"Shakuntala W/O Laxman
+V
+Narender S/O Laxman",Laxman,Aal Khurd West,9458258431,Residential Self ,61,372,61,372,0,0
+321,4- Aal Khurd,Aal Khurd West,335,Ompal,Prakasha,Aal Khurd West,-,Residential Self ,61,0,61,0,0,0
+322,4- Aal Khurd,Aal Khurd West,336,Hakam Ali,Jameel,Aal Khurd West,-,Residential Self ,61,721,61,721,359,2507
+323,4- Aal Khurd,Aal Khurd West,336/1,Jatoon,W/O Jalaludeen,Aal Khurd West,9719020665,Residential Self ,61,0,61,0,359,1396
+324,4- Aal Khurd,Aal Khurd West,337,Basa,Munshi,Aal Khurd West,9520391065,Residential Self ,61,0,61,20,359,0
+325,4- Aal Khurd,Aal Khurd West,338,Irfan,Ali Hasan,Aal Khurd West,7500125746,Residential Self ,73,0,73,0,0,0
+326,4- Aal Khurd,Aal Khurd West,339,Imran,Ali Hasan,Aal Khurd West,7500125746,Residential Self ,73,338,73,338,0,0
+327,4- Aal Khurd,Aal Khurd West,339/1,Furkaan,Ali Hasan,Aal Khurd West,9917889894,Residential Self ,48,293,48,293,420,840
+328,4- Aal Khurd,Aal Khurd West,340,Kafiya,W/O Jalalu,Aal Khurd West,9856621786,Residential Self ,73,73,73,524,347,2129
+329,4- Aal Khurd,Aal Khurd West,341,Hoshiyara,Mohan,Aal Khurd West,9520786101,Residential Self ,97,0,97,0,420,0
+330,4- Aal Khurd,Aal Khurd West,343,Gaje Singh,Mitthan,Aal Khurd West,9760643694,Residential Self ,73,942,73,153,347,0
+331,4- Aal Khurd,Aal Khurd West,343/1,Roshan ,Mukhtayara,Aal Khurd West,9634992748,Residential Self ,66,393,66,0,420,0
+332,4- Aal Khurd,Aal Khurd West,344,Mustakeem,Yusuf,Aal Khurd West,9997704915,Residential Self ,121,121,121,2293,299,299
+333,4- Aal Khurd,Aal Khurd West,345,Akhtari,W/O Salimudeen,Aal Khurd West,9012149181,Residential Self ,97,592,97,592,323,0
+334,4- Aal Khurd,Aal Khurd West,346,Chaman Lal,Munshi,Aal Khurd West,9368148488,Residential Self ,73,1160,73,1160,347,2824
+335,4- Aal Khurd,Aal Khurd West,347,Ejaj Ahmad,Naseebudeen,Aal Khurd West,9917570505,Residential Self ,61,0,61,0,0,0
+336,4- Aal Khurd,Aal Khurd West,348,Ratanlal,Mitthanlal,Aal Khurd West,9639505068,Residential Self ,61,0,61,74,359,0
+337,4- Aal Khurd,Aal Khurd West,349,Radheyshayam,Dhansingh,Aal Khurd West,9760322014,Residential Self ,48,0,48,0,372,0
+338,4- Aal Khurd,Aal Khurd West,"350, 351","parvej Alam ,Javed Alam ",Ejaj Ahmad,Aal Khurd West,9917570505,Residential Self ,199,0,199,0,0,0
+339,4- Aal Khurd,Aal Khurd West,"352, 356",Sabab Alam,Jinda Hasan,Aal Khurd West,9837455793,Residential Self ,218,0,164,,256,0
+340,4- Aal Khurd,Aal Khurd West,357,Janab Ali,Shera,Aal Khurd West,9917229275,Commerical Self ,218,218,110,110,0,0
+341,4- Aal Khurd,Aal Khurd West,358,Janab Ali,Shera,Aal Khurd West,9917229275,Commerical Self ,47,47,132,132,0,0
+342,4- Aal Khurd,Aal Khurd West,359,Janab Ali,Shera,Aal Khurd West,9917229275,Commerical Self ,61,61,88,88,0,0
+343,4- Aal Khurd,Aal Khurd West,360,Janab Ali,Shera,Aal Khurd West,9917229275,Commerical Self ,61,61,110,110,0,0
+344,4- Aal Khurd,Aal Khurd West,361,Janab Ali,Shera,Aal Khurd West,9917229275,Residential Self ,12,74,66,66,354,354
+345,4- Aal Khurd,Aal Khurd West,"362, 363, 364","Bijenderpal S/O Dataram
+V
+Rajinderi W/O Bijenderpal",Bijenderpal,Aal Khurd West,7017491977,Residential Self ,66,402,66,66,354,354
+346,4- Aal Khurd,Aal Khurd West,365,Jainarayan,Bhartu,Aal Khurd West,9456929119,Commerical Self ,218,0,218,0,0,0
+347,4- Aal Khurd,Aal Khurd West,366,Jainarayan,Bhartu,Aal Khurd West,9456929119,Commerical Self ,218,233,218,0,0,0
+348,4- Aal Khurd,Aal Khurd West,367,Jainarayan,Bhartu,Aal Khurd West,9456929119,Commerical Self ,242,0,97,372,0,0
+349,4- Aal Khurd,Aal Khurd West,368,Jainarayan,Bhartu,Aal Khurd West,9456929119,Residential Self ,208,0,55,0,354,0
+350,4- Aal Khurd,Aal Khurd West,369,Amar Singh,Jai Dayal,Aal Khurd West,8307172850,Commerical Self ,0,0,61,4291,359,1735
+351,4- Aal Khurd,Aal Khurd West,370,Amar Singh,Jai Dayal,Aal Khurd West,8307172850,Residential Self ,12,26,0,0,0,0
+352,4- Aal Khurd,Aal Khurd West,370/1,Amar Singh,Jai Dayal,Aal Khurd West,8445215259,Residential Self ,528,12372,396,528,0,0
+353,4- Aal Khurd,Aal Khurd West,370/2,Amar Singh,Jai Dayal,Aal Khurd West,8445215259,Commerical Self ,24,146,0,0,0,0
+354,4- Aal Khurd,Aal Khurd West,371,Chander,Mangta,Aal Khurd West,8077152143,Commerical Self ,528,528,528,528,0,0
+355,4- Aal Khurd,Aal Khurd West,371/1,Chander,Mangta,Aal Khurd West,8077152143,Commerical Self ,528,4684,528,12372,0,0
+356,4- Aal Khurd,Aal Khurd West,371/2,Chander,Mangta,Aal Khurd West,8077152143,Commerical Self ,528,12372,528,12372,0,0
+357,4- Aal Khurd,Aal Khurd West,371/3,Chander,Mangta,Aal Khurd West,8077152143,Residential Self ,73,2206,73,2203,347,347
+358,4- Aal Khurd,Aal Khurd West,372,"Ashok Kumar, Manoj Kumar, Sanjeev Kumar",Balluram,Aal Khurd West,8410800561,Commerical Self ,0,0,0,0,420,2340
+359,4- Aal Khurd,Aal Khurd West,373,"Ashok Kumar, Manoj Kumar, Sanjeev Kumar",Balluram,Aal Khurd West,8410800561,Commerical Self ,121,0,121,933,0,0
+360,4- Aal Khurd,Aal Khurd West,373/1,"Ashok Kumar, Manoj Kumar, Sanjeev Kumar",Balluram,Aal Khurd West,8410800561,Residential Self ,198,1529,198,1529,0,0
+361,4- Aal Khurd,Aal Khurd West,373/2,"Ashok Kumar, Manoj Kumar, Sanjeev Kumar",Balluram,Aal Khurd West,8410800561,Commerical Self ,198,1529,198,1529,0,0
+362,4- Aal Khurd,Aal Khurd West,373/3,"Ashok Kumar, Manoj Kumar, Sanjeev Kumar",Balluram,Aal Khurd West,8410800561,Commerical Self ,198,1529,198,1529,0,0
+363,4- Aal Khurd,Aal Khurd West,373/4,"Ashok Kumar, Manoj Kumar, Sanjeev Kumar",Balluram,Aal Khurd West,8410800561,Commerical Self ,198,1529,198,1694,0,0
+364,4- Aal Khurd,Aal Khurd West,373/5,"Ashok Kumar, Manoj Kumar, Sanjeev Kumar",Balluram,Aal Khurd West,8410800561,Commerical Self ,264,1930,264,2035,0,0
+365,4- Aal Khurd,Aal Khurd West,374,Parbandhak Jatav Mandir,-,Aal Khurd West,9837401430,Commerical Self ,55,0,55,0,0,0
+366,4- Aal Khurd,Aal Khurd West,375,Parbandhak Jatav Mandir,-,Aal Khurd West,9837401430,Residential Self ,55,0,55,0,0,0
+367,4- Aal Khurd,Aal Khurd West,375/1,Parbandhak Jatav Mandir,-,Aal Khurd West,9837401430,Commerical Self ,0,0,0,0,0,0
+368,4- Aal Khurd,Aal Khurd West,376,Choki Chungi Jhinjhana Road,-,Aal Khurd West,-, -,0,0,0,0,0,0
+369,4- Aal Khurd,Aal Khurd West,376/1,Parbandhak Jatav Mandir,-,Aal Khurd West,9837401430,Commerical Self ,73,0,73,0,0,0
+370,4- Aal Khurd,Aal Khurd West,376/2,Parbandhak Jatav Mandir,-,Aal Khurd West,9837401430,Commerical Self ,73,0,73,0,0,0
+371,4- Aal Khurd,Aal Khurd West,376/3,Parbandhak Jatav Mandir,-,Aal Khurd West,9837401430,Commerical Self ,73,0,73,0,0,0
+372,4- Aal Khurd,Aal Khurd West,377,Harijan Mandir,-,Aal Khurd West,-,Temple,0,0,0,0,420,0
+373,4- Aal Khurd,Aal Khurd West,"377/1, 377/2, 264",Tayyab,Yusuf,Aal Khurd West,7060157153,Residential Self ,330,1092,330,1092,0,0
+374,4- Aal Khurd,Aal Khurd West,378,Baburam,Budhram,Aal Khurd West,8533821467,Commerical Self ,660,15462,660,15462,0,0
+375,4- Aal Khurd,Aal Khurd West,379,Omprakash,Budhram,Aal Khurd West,8533821467,Commerical Self ,0,0,0,0,0,0
+376,4- Aal Khurd,Aal Khurd West,380,Pooran Chand,Budhram,Aal Khurd West,8791807737,Commerical Self ,88,2063,88,2063,0,0
+377,4- Aal Khurd,Aal Khurd West,381,Ishwarchand,Khajaan,Aal Khurd West,-,Commerical Self ,145,145,145,145,0,0
+378,4- Aal Khurd,Aal Khurd West,382,Ishwarchand,Khajaan,Aal Khurd West,-,Residential Self ,97,97,97,97,323,646
+379,4- Aal Khurd,Aal Khurd West,382/1,Chanderbhaan,Khajaan,Aal Khurd West,-,Residential Self ,85,85,85,85,0,0
+380,4- Aal Khurd,Aal Khurd West,383,Yaseen Urf Sinna,Limmu,Aal Khurd West,-,Residential Self ,55,55,55,55,420,3840
+381,4- Aal Khurd,Aal Khurd West,383/1,Yaseen Urf Sinna,Limmu,Aal Khurd West,-,Residential Self ,44,802,44,699,0,0
+382,4- Aal Khurd,Aal Khurd West,384,Omprakash,Chanderbhaan,Aal Khurd West,9639605060,Residential Self ,61,0,61,0,359,1396
+383,4- Aal Khurd,Aal Khurd West,384/1,Omprakash,Chanderbhaan,Aal Khurd West,9639605060,Residential Self ,0,0,0,0,0,0
+384,4- Aal Khurd,Aal Khurd West,385,Shyaamlal,Manphool,Aal Khurd West,8193063669,Commerical Self ,110,0,110,0,0,0
+385,4- Aal Khurd,Aal Khurd West,"386, 386/1 ",Shyaamlal,Manphool,Aal Khurd West,8193063669,Residential Self ,85,0,85,0,335,0
+386,4- Aal Khurd,Aal Khurd West,387,Bail Chand,Manphool,Aal Khurd West,-,Residential Self ,97,0,97,0,329,400
+387,4- Aal Khurd,Aal Khurd West,387/1,Rajender,Bailchand,Aal Khurd West,8899725560,Residential Self ,61,0,61,400,359,1974
+388,4- Aal Khurd,Aal Khurd West,387/2,Ashok,Hukumchand,Aal Khurd West,9690814712,Commerical Self ,0,0,0,0,0,0
+389,4- Aal Khurd,Aal Khurd West,387/3,Ashok,Hukumchand,Aal Khurd West,9690814712,Commerical Self ,0,0,0,0,0,0
+390,4- Aal Khurd,Aal Khurd West,387/4,Ashok,Hukumchand,Aal Khurd West,9690814712,Commerical Self ,110,510,110,516,0,0
+391,4- Aal Khurd,Aal Khurd West,"388, 388/1",Rajjo,W/O Chanderbhaan,Aal Khurd West,9058348081,Residential Self ,88,185,88,185,332,400
+392,4- Aal Khurd,Aal Khurd West,389,Saeed Ahmad,Inayat,Aal Khurd West,9058348081,Industrial ,110,231,110,231,0,0
+393,4- Aal Khurd,Aal Khurd West,390,Bhagvaan Dei,W/O Atmaram,Aal Khurd West,9837401430,Mixed,88,0,88,0,420,400
+394,4- Aal Khurd,Aal Khurd West,390/1,Bhagvaan Dei,W/O Atmaram,Aal Khurd West,9837401430,Residential Self ,55,0,55,0,0,0
+395,4- Aal Khurd,Aal Khurd West,391,Guljaar,Anis,Aal Khurd West,6395869678,Commerical Self ,165,0,165,0,0,0
+396,4- Aal Khurd,Aal Khurd West,391/1,Harkali ,W/O Palleram,Aal Khurd West,8218460206,Residential Self ,66,0,66,0,0,0
+397,4- Aal Khurd,Aal Khurd West,392,Tohid,Majeed,Aal Khurd West,9568966002,Residential Self ,220,220,220,220,420,420
+548,4- Aal Khurd,Aal Khurd West,392/1,Rafeek Ahmad,Deen Mohammad,Aal Khurd West,9997488411,Residential Self ,110,242,110,347,310,2060
+398,4- Aal Khurd,Aal Khurd West,"393, 394, 395",Saeed Ahmad,Inayat,Aal Khurd West,9058348081,Residential Self ,165,227,165,1764,255,510
+399,4- Aal Khurd,Aal Khurd West,396,Fareed,Majeed,Aal Khurd West,7017411873,Residential Self ,97,1771,97,61,323,2800
+400,4- Aal Khurd,Aal Khurd West,397,Bachno Devi,W/O Malkhan,Aal Khurd West,-,Residential Self ,61,61,61,61,359,359
+401,4- Aal Khurd,Aal Khurd West,232,Asharam,Bihari,Aal Khurd West,8191859985,Residential Self ,67,311,67,311,0,0
+402,4- Aal Khurd,Aal Khurd West,398,Subhash Chand,Beersain,Aal Khurd West,63950550598,Residential Self ,160,0,160,0,420,1640
+403,4- Aal Khurd,Aal Khurd West,399,Slamat khan,W/O Yaseen,Aal Khurd West,8445565440,Residential Self ,66,0,66,0,0,0
+404,4- Aal Khurd,Aal Khurd West,399/1,Hajara,W/O Yaseen,Aal Khurd West,8445565440,Commerical Self ,145,0,145,0,0,0
+405,4- Aal Khurd,Aal Khurd West,400,Hajara,W/O Yaseen,Aal Khurd West,8445565440,Commerical Self ,85,85,85,0,0,0
+406,4- Aal Khurd,Aal Khurd West,401,Jitender,Jai Singh,Aal Khurd West,8218565525,Residential Self ,218,2068,218,2068,0,0
+407,4- Aal Khurd,Aal Khurd West,402,Jitender,Jai Singh,Aal Khurd West,8218565525,Residential Self ,88,776,88,836,420,2640
+408,4- Aal Khurd,Aal Khurd West,402/1,Jitender,Jai Singh,Aal Khurd West,8218565525,Residential Self ,48,293,48,455,0,0
+409,4- Aal Khurd,Aal Khurd West,402/2,Shanti Devi ,Ramjilal,Aal Khurd West,9927265990,Residential Self ,0,0,0,,0,0
+410,4- Aal Khurd,Aal Khurd West,403,Rajkumar ,Nanu,Aal Khurd West,9927265990,Residential Self ,50,613,50,592,0,0
+411,4- Aal Khurd,Aal Khurd West,404,Rajkumar ,Nanu,Aal Khurd West,9927265990,Residential Self ,50,401,50,1169,0,0
+412,4- Aal Khurd,Aal Khurd West,404/A,Sajid Dudhiya,Manjura,Aal Khurd West,8057017980,Residential Self ,121,933,121,911,0,0
+413,4- Aal Khurd,Aal Khurd West,405,Babu,Chander,Aal Khurd West,-,Residential Self ,66,1205,66,1205,0,0
+414,4- Aal Khurd,Aal Khurd West,406,Babu,Chander,Aal Khurd West,-,Residential Self ,66,1205,66,1205,0,0
+415,4- Aal Khurd,Aal Khurd West,407/1,Satish Kumar,Jai Singh,Aal Khurd West,9997987242,Residential Self ,73,0,73,0,347,0
+,4- Aal Khurd,,407/1A,Anil kumar,Nanha,Aal Khurd West,-, -,476,0,476,0,0,0
+416,4- Aal Khurd,Aal Khurd West,408,Veer Sain,Hari Singh,Aal Khurd West,9412801925,Residential Self ,73,0,73,0,347,0
+417,4- Aal Khurd,Aal Khurd West,408/1,Jagpal,Kalu Ram,Aal Khurd West,9761926484,Residential Self ,43,382,0,,347,1675
+418,4- Aal Khurd,Aal Khurd West,409,Jai Singh,Ramrik,Aal Khurd West,9152659622,Residential Self ,61,61,61,61,359,359
+419,4- Aal Khurd,Aal Khurd West,410,Babu Ram,Sadhuram,Aal Khurd West,8532980604,Commerical Self ,61,372,61,392,0,0
+420,4- Aal Khurd,Aal Khurd West,411,Baburam,Sadhuram,Aal Khurd West,8532980604,Residential Self ,73,338,73,338,420,5040
+421,4- Aal Khurd,Aal Khurd West,411/1,Rais Ahmad,Anis,Aal Khurd West,-,Commerical Self ,88,88,88,88,420,420
+422,4- Aal Khurd,Aal Khurd West,411/2,Rais Ahmad,Anis,Aal Khurd West,-,Residential Self ,88,88,88,88,0,0
+423,4- Aal Khurd,Aal Khurd West,411/3,Guljaar,Anis,Aal Khurd West,6395869678,Commerical Self ,165,0,165,0,0,0
+424,4- Aal Khurd,Aal Khurd West,411/4,Guljaar,Anis,Aal Khurd West,6395869678,Commerical Self ,165,0,165,0,0,0
+425,4- Aal Khurd,Aal Khurd West,411/5,Guljaar,Anis,Aal Khurd West,6395869678,Residential Self ,88,0,80,0,0,0
+426,4- Aal Khurd,Aal Khurd West,"412, 413, 415, 416","Raisa W/O Late Nafees, V Shermohammad, Nabalik Mujjamil, Gulbahar S/O Late Nafees",Late Nafees,Aal Khurd West,9417196416,Residential Self ,138,0,138,0,0,0
+427,4- Aal Khurd,Aal Khurd West,414,"Raisa W/O Late Nafees, V Shermohammad, Nabalik Mujjamil, Gulbahar S/O Late Nafees",Late Nafees,Aal Khurd West,7417196416,Residential Self ,0,0,0,0,0,0
+428,4- Aal Khurd,Aal Khurd West,417,Yaseen ,Shera,Aal Khurd West,8449343419,Commerical Self ,440,1456,440,1456,0,0
+429,4- Aal Khurd,Aal Khurd West,417/1,Yaseen,Shera,Aal Khurd West,8449343419,Commerical Self ,121,400,121,400,0,0
+430,4- Aal Khurd,Aal Khurd West,"418,  419",Vaseem,Naseer ,Aal Khurd West,-,Residential Self ,97,450,97,571,323,1252
+431,4- Aal Khurd,Aal Khurd West,420,Vaseem,Naseer ,Aal Khurd West,-,Commerical Self ,0,0,0,0,0,0
+432,4- Aal Khurd,Aal Khurd West,421,Vaseem,Naseer ,Aal Khurd West,-,Commerical Self ,0,0,0,0,0,0
+433,4- Aal Khurd,Aal Khurd West,422,Vaseem,Naseer ,Aal Khurd West,-,Commerical Self ,61,289,61,802,0,0
+434,4- Aal Khurd,Aal Khurd West,423,Intajaar,Noora,Aal Khurd West,8923363616,Residential Self ,73,0,73,0,420,0
+435,4- Aal Khurd,Aal Khurd West,423/1,Intajaar,Noora,Aal Khurd West,8923363616,Commerical Self ,109,0,109,0,0,0
+436,4- Aal Khurd,Aal Khurd West,423/2,Intajaar,Noora,Aal Khurd West,8923363616,Commerical Self ,121,0,121,0,0,0
+437,4- Aal Khurd,Aal Khurd West,423/3,Intajaar,Noora,Aal Khurd West,8923363616,Commerical Self ,0,0,0,0,0,0
+438,4- Aal Khurd,Aal Khurd West,424,Palla,Asha,Aal Khurd West,8218460206,Residential Self ,97,592,97,592,323,1555
+439,4- Aal Khurd,Aal Khurd West,425,Palla,Asha,Aal Khurd West,8218460206,Commerical Self ,0,0,0,0,0,0
+440,4- Aal Khurd,Aal Khurd West,426,Palla,Asha,Aal Khurd West,8218460206,Commerical Self ,0,0,0,0,0,0
+441,4- Aal Khurd,Aal Khurd West,427,Palla,Asha,Aal Khurd West,8218460206,Commerical Self ,0,0,0,0,0,0
+442,4- Aal Khurd,Aal Khurd West,427/1,Palla,Asha,Aal Khurd West,8218460206,Commerical Self ,61,372,61,372,0,0
+443,4- Aal Khurd,Aal Khurd West,428,Ajay Kumar,Sevaram,Aal Khurd West,8266828062,Residential Self ,91,1445,182,2844,0,0
+444,4- Aal Khurd,Aal Khurd West,428/1,Ajay Kumar,Sevaram,Aal Khurd West,8266828062, -,0,0,0,0,0,0
+445,4- Aal Khurd,Aal Khurd West,428/1A,"Ahsaan, Gulsaad",Naseer ,Aal Khurd West,7983181673,Residential Self ,77,7321,77,732,353,2344
+446,4- Aal Khurd,Aal Khurd West,428/1A/1,Shakulat,W/O Akbar,Aal Khurd West,8266828082,Residential Self ,88,1036,88,1054,332,1600
+447,4- Aal Khurd,Aal Khurd West,428/1A/2,Moh. Irfaan,Haji Mustaak,Aal Khurd West,9548321635,Residential Self ,88,0,88,0,332,0
+448,4- Aal Khurd,Aal Khurd West,428/1B,Ilyaas, Nabia,Aal Khurd West,9012888722,Commerical Self ,110,0,110,0,0,0
+449,4- Aal Khurd,Aal Khurd West,428/1C,Ilyaas, Nabia,Aal Khurd West,9012888722,Commerical Self ,110,0,110,0,0,0
+450,4- Aal Khurd,Aal Khurd West,428/1D,Ilyaas, Nabia,Aal Khurd West,9012888722,Commerical Self ,48,0,48,0,0,0
+451,4- Aal Khurd,Aal Khurd West,428/1E,Ilyaas,Nabia,Aal Khurd West,9012888722,Commerical Self ,110,0,110,0,0,0
+452,4- Aal Khurd,Aal Khurd West,428/1F,Maan Singh,Jaidayal Singh,Aal Khurd West,8449844047,Residential Self ,55,0,55,0,365,0
+453,4- Aal Khurd,Aal Khurd West,428/1G,"Noorjhan W/O Ansaar
+V
+Jareena D/O Fakhru",Ansaar,Aal Khurd West,7500203800,Residential Self ,55,873,55,873,365,3000
+454,4- Aal Khurd,Aal Khurd West,428/1H,Afzal,Anis,Aal Khurd West,7417758501,Commerical Self ,330,0,330,0,0,0
+,4- Aal Khurd,,428/2C,Tadev,-,Aal Khurd West,-, -,110,0,110,0,0,0
+455,4- Aal Khurd,Aal Khurd West,428/1J,Shahid,Basheer,Aal Khurd West,8279913527,Residential Self ,44,204,44,804,0,0
+456,4- Aal Khurd,Aal Khurd West,428/1K,Moh. Mukaram,Salamtulla,Aal Khurd West,-, -,0,0,0,0,0,0
+457,4- Aal Khurd,Aal Khurd West,428/2,Sajida Begum,W/O Ikram,Aal Khurd West,8272811639,Residential Self ,73,73,73,73,347,347
+458,4- Aal Khurd,Aal Khurd West,428/2A,Dilshad,Hameed,Aal Khurd West,7983200560,Residential Self ,121,0,121,0,299,0
+459,4- Aal Khurd,Aal Khurd West,428/2B,Imraan,Ishaq,Aal Khurd West,9528023028,Residential Self ,48,0,48,0,372,0
+460,4- Aal Khurd,Aal Khurd West,428/2C,Afzal,Anis,Aal Khurd West,7417758501,Residential Self ,110,374,110,,90,0
+461,4- Aal Khurd,Aal Khurd West,428/2F,"Inder S/O Shrichand, 
+V
+Fatma W/O Sajid",-,Aal Khurd West,9368450929,Residential Self ,44,204,44,204,376,1464
+462,4- Aal Khurd,Aal Khurd West,428/2G,Samshad,Najeer,Aal Khurd West,6397335006,Residential Self ,66,769,66,769,354,2178
+463,4- Aal Khurd,Aal Khurd West,428/3,Haseena,W/O Niyaaz,Aal Khurd West,-,Residential Self ,787,2827,787,1856,372,0
+464,4- Aal Khurd,Aal Khurd West,428/3A,Shanaaz,W/O Abdulla,Aal Khurd West,-, -,181,1787,181,1979,299,2162
+465,4- Aal Khurd,Aal Khurd West,428/3B,Saleem,Samshad,Aal Khurd West,-, -,121,2929,121,2929,299,1614
+466,4- Aal Khurd,Aal Khurd West,428/3C,Noorjhan ,W/O Rais Ahmad,Aal Khurd West,7500200335,Residential Self ,220,0,220,0,200,940
+,4- Aal Khurd,,428/3C/1,Akram,Slamtulla,Aal Khurd West,-, -,0,0,0,,0,0
+467,4- Aal Khurd,Aal Khurd West,428/3C2,Akram,Salamtulla,Aal Khurd West,-, -,0,0,0,0,0,0
+468,4- Aal Khurd,Aal Khurd West,428/3D,Sakeel Ahmad,Allabanda,Aal Khurd West,-, -,132,806,132,806,0,0
+469,4- Aal Khurd,Aal Khurd West,428/3F,Yaseen,Kabool,Aal Khurd West,9719551166,Residential Self ,66,0,66,219,0,0
+470,4- Aal Khurd,Aal Khurd West,428/3G,Majeed,Kuda,Aal Khurd West,9756951149,Residential Self ,66,66,66,66,354,354
+471,4- Aal Khurd,Aal Khurd West,428/4,Inaam Ali,Shera,Aal Khurd West,9643735235,Commerical Self ,85,0,85,0,0,0
+472,4- Aal Khurd,Aal Khurd West,428/4A,Nazma,W/O Mustafa,Aal Khurd West,7818936924,Residential Self ,182,1110,182,1005,238,1130
+473,4- Aal Khurd,Aal Khurd West,428/4A/1,Ikraam,Yusuf,Aal Khurd West,8272811639,Residential Self ,66,66,66,66,354,354
+474,4- Aal Khurd,Aal Khurd West,428/4A/2,Mukeem,Naseem,Aal Khurd West,-, -,44,44,44,44,376,1464
+475,4- Aal Khurd,Aal Khurd West,428/4B,Asif Ali,Rukamdeen,Aal Khurd West,-,Residential Self ,44,802,44,802,376,3368
+476,4- Aal Khurd,Aal Khurd West,428/4C,Vinod Kumar,Atmaram,Aal Khurd West,9837401430,Residential Self ,55,272,55,183,0,0
+477,4- Aal Khurd,Aal Khurd West,428/4D,Sameema,W/O Abid,Aal Khurd West,-, -,0,0,0,0,0,0
+478,4- Aal Khurd,Aal Khurd West,428/4E,Riyasat,Noor Mohammad,Aal Khurd West,9997693460,Residential Self ,110,671,110,671,310,910
+479,4- Aal Khurd,Aal Khurd West,428/4E2,Haneef,Shareef,Aal Khurd West,-, -,44,204,44,268,376,1820
+480,4- Aal Khurd,Aal Khurd West,428/F,Ummaid Urf Gullu,Jamil,Aal Khurd West,9548367049,Residential Self ,66,627,66,627,354,2178
+481,4- Aal Khurd,Aal Khurd West,428/4F,Haji Tayyaib,Majeed,Aal Khurd West,9548367049,Residential Self ,44,802,44,802,420,2940
+482,4- Aal Khurd,Aal Khurd West,428/5,Moona,W/O Haneef,Aal Khurd West,9917244846,Residential Self ,61,392,61,372,359,1735
+483,4- Aal Khurd,Aal Khurd West,428/5A,Furkaan,Ayyub,Aal Khurd West,9548226531,Residential Self ,88,538,88,538,332,1600
+484,4- Aal Khurd,Aal Khurd West,428/6,Julfaan,Noor Mohammad,Aal Khurd West,9528243145,Residential Self ,72,569,72,555,348,2364
+485,4- Aal Khurd,Aal Khurd West,428/6A,Maruf Khan,Rukamdeen,Aal Khurd West,-,Residential Self ,44,92,44,92,376,376
+486,4- Aal Khurd,Aal Khurd West,428/7,Sajjo,W/O Rukamdeen,Aal Khurd West,9012850097,Residential Self ,73,865,73,865,349,1902
+487,4- Aal Khurd,Aal Khurd West,428/7A,Fareed,Basheer,Aal Khurd West,-, -,44,44,44,45,376,376
+488,4- Aal Khurd,Aal Khurd West,428/8,Inaam ,Vaheed,Aal Khurd West,7351301003,Residential Self ,73,338,73,338,347,1348
+489,4- Aal Khurd,Aal Khurd West,428/8A,Asif,Moh. Umar,Aal Khurd West,-, -,55,183,55,173,365,1075
+490,4- Aal Khurd,Aal Khurd West,429/1,Majid,Ablu Hasan,Aal Khurd West,9045588834,Residential Self ,133,133,133,133,287,1709
+491,4- Aal Khurd,Aal Khurd West,429/1A,Sabir,Ablu Hasan,Aal Khurd West,-, -,110,466,110,110,0,0
+492,4- Aal Khurd,Aal Khurd West,429/2,Jakir,Anwaar,Aal Khurd West,9759504932,Residential Self ,97,1144,97,1144,323,2164
+493,4- Aal Khurd,Aal Khurd West,429/3,Rashid,Anwaar,Aal Khurd West,8923396525,Residential Self ,66,1205,66,1205,0,0
+494,4- Aal Khurd,Aal Khurd West,430,Sarbati,W/O Mamchand,Aal Khurd West,8958101560,Residential Self ,132,806,132,106,288,1380
+495,4- Aal Khurd,Aal Khurd West,430/A,Jabir,Ablu Hasan,Aal Khurd West,9027645930,Residential Self ,55,337,55,337,0,0
+496,4- Aal Khurd,Aal Khurd West,430/1A,Muneeja,W/O Tahir,Aal Khurd West,7742933493,Residential Self ,44,204,44,204,376,1464
+497,4- Aal Khurd,Aal Khurd West,430/1,Jahid,Rasheed,Aal Khurd West,7351656395,Residential Self ,218,3979,218,3979,420,3840
+498,4- Aal Khurd,Aal Khurd West,430/2,Jahid,Rasheed,Aal Khurd West,7351656395,Commerical Self ,97,2022,97,8263,0,0
+499,4- Aal Khurd,Aal Khurd West,430/3,Jahid,Rasheed,Aal Khurd West,7351656395,Commerical Self ,121,2520,121,2520,0,0
+500,4- Aal Khurd,Aal Khurd West,430/4,Jahid,Rasheed,Aal Khurd West,-, -,0,0,0,0,0,0
+501,4- Aal Khurd,Aal Khurd West,430/5,Akbar ,Rasheed,Aal Khurd West,8192021081,Residential Self ,55,1007,55,1007,365,2250
+502,4- Aal Khurd,Aal Khurd West,430/5A,Rukhsana,W/O Yusuf,Aal Khurd West,7520820768,Commerical Self ,363,0,363,0,0,0
+503,4- Aal Khurd,Aal Khurd West,430/5B,Rukhsana,W/O Yusuf,Aal Khurd West,7520820768,Commerical Self ,264,0,264,0,0,0
+504,4- Aal Khurd,Aal Khurd West,430/5C,Rukhsana,W/O Yusuf,Aal Khurd West,7520820768,Commerical Self ,264,0,264,0,0,0
+505,4- Aal Khurd,Aal Khurd West,430/5D,Rukhsana,W/O Yusuf,Aal Khurd West,7520820768,Residential Self ,508,0,508,0,0,0
+506,4- Aal Khurd,Aal Khurd West,430/5E,Rukhsana,W/O Yusuf,Aal Khurd West,7520820768,Commerical Self ,264,0,264,0,0,0
+507,4- Aal Khurd,Aal Khurd West,430/5F,Rukhsana,W/O Yusuf,Aal Khurd West,7520820768,Commerical Self ,264,0,264,0,0,0
+508,4- Aal Khurd,Aal Khurd West,430/5G,Matloob,Liyaquat,Aal Khurd West,9761219400,Open Plot ,48,162,48,159,420,1240
+,4- Aal Khurd,,428/5G,Matloob,Liyaquat,Aal Khurd West,-, -,48,184,48,0,0,0
+509,4- Aal Khurd,Aal Khurd West,431,"Naseema W/O Jareef
+V
+Fariyaad Ahmad, Noshad Ahmad, Shahnawaz Ahmad S/O Jareef
+",Jareef,Aal Khurd West,7668427875,Residential Self ,61,283,61,283,359,1396
+510,4- Aal Khurd,Aal Khurd West,432,Dilshad,Yusuf,Aal Khurd West,9897813158,Residential Self ,48,981,48,1710,332,2456
+511,4- Aal Khurd,Aal Khurd West,432/1,Nazim,Manjura,Aal Khurd West,9837413947,Residential Self ,73,864,73,864,347,3292
+512,4- Aal Khurd,Aal Khurd West,433,Tahir,Habib,Aal Khurd West,9870678181,Residential Self ,61,470,61,470,359,1974
+513,4- Aal Khurd,Aal Khurd West,433/1,Rashid,Anwaar,Aal Khurd West,8923396525,Residential Self ,73,0,73,0,347,0
+514,4- Aal Khurd,Aal Khurd West,433/2,Rukhsana,W/O Asfaq,Aal Khurd West,9720313645,Residential Self ,44,268,44,268,420,1640
+515,4- Aal Khurd,Aal Khurd West,434,Vajid,Ablu Hasan,Aal Khurd West,9759030002,Residential Self ,74,74,74,74,346,346
+516,4- Aal Khurd,Aal Khurd West,435,Satpal,Ramchand,Aal Khurd West,9058785316,Residential Self ,73,0,73,0,347,0
+517,4- Aal Khurd,Aal Khurd West,435/1,Satpal,Ramchand,Aal Khurd West,9058785316,Residential Self ,88,0,88,0,0,0
+518,4- Aal Khurd,Aal Khurd West,436,Sajid,Abid,Aal Khurd West,9368751161,Open Plot ,61,578,61,585,0,0
+519,4- Aal Khurd,Aal Khurd West,436/1,Vakil,Manglu,Aal Khurd West,-,Commerical Self ,40,196,48,232,0,0
+520,4- Aal Khurd,Aal Khurd West,436/2,Vakil,Manglu,Aal Khurd West,-,Residential Self ,85,395,85,395,0,0
+521,4- Aal Khurd,Aal Khurd West,436/3,Khursheeda Urf Lali,W/O Arif,Aal Khurd West,7900982132,Residential Self ,44,699,44,699,0,0
+522,4- Aal Khurd,Aal Khurd West,437,Khursheeda Urf Lali,W/O Arif,Aal Khurd West,7900982132,Residential Self ,44,699,44,699,376,1820
+523,4- Aal Khurd,Aal Khurd West,"438, 438/A",Janga,Seeda,Aal Khurd West,9012009512,Residential Self ,61,202,61,202,359,1057
+524,4- Aal Khurd,Aal Khurd West,438/1,Jameel Ahmad,Imamudeen,Aal Khurd West,8864857930,Residential Self ,48,802,48,802,372,4400
+525,4- Aal Khurd,Aal Khurd West,438/2,"Akbari W/O Faiyaaz
+V
+Israr, Nawab, Shanawaj S/O Faiyaaz",Faiyaaz,Aal Khurd West,7456005123,Residential Self ,218,2734,218,3466,420,2040
+526,4- Aal Khurd,Aal Khurd West,438/3,"Sadik, Danis, Sharukh",Ikraam,Aal Khurd West,8384852612,Residential Self ,145,5759,145,3580,275,2284
+527,4- Aal Khurd,Aal Khurd West,438/4,Sarafat,Rafeek,Aal Khurd West,9719549631,Residential Self ,169,4091,169,3522,255,2192
+528,4- Aal Khurd,Aal Khurd West,438/5,Riyasat,Rafeek,Aal Khurd West,9045618581,Residential Self ,169,1993,169,1993,251,1588
+529,4- Aal Khurd,Aal Khurd West,438/6,Sajid,Yaseen,Aal Khurd West,7500607742,Residential Self ,330,8014,330,2014,420,4104
+530,4- Aal Khurd,Aal Khurd West,438/7,Kurbaan,Jafaru,Aal Khurd West,7017945143,Residential Self ,145,0,145,0,275,0
+531,4- Aal Khurd,Aal Khurd West,438/7A,Ilyaas Urf Manga,Yaseen,Aal Khurd West,8218868311,Residential Self ,330,330,330,330,90,90
+532,4- Aal Khurd,Aal Khurd West,438/8,Khatoon,W/O Riyaaz,Aal Khurd West,9719218910,Residential Self ,73,73,73,67,347,2376
+533,4- Aal Khurd,Aal Khurd West,438/8A,Tahir,Yaseen,Aal Khurd West,9058838859,Residential Self ,55,1007,55,1007,0,0
+534,4- Aal Khurd,Aal Khurd West,438/9,"Inaam Hasan S/O Mehandi Hasan
+V
+Sakulat W/O Inaam Hasan",Mehandi Hasan,Aal Khurd West,9457862786,Residential Self ,73,338,73,338,347,1902
+535,4- Aal Khurd,Aal Khurd West,438/9A,Rashid,Yaseen,Aal Khurd West,8435238715,Residential Self ,66,219,66,219,354,1042
+536,4- Aal Khurd,Aal Khurd West,438/9B,Yakoob,Farja,Aal Khurd West,6398449826,Residential Self ,300,0,300,1046,120,340
+,4- Aal Khurd,,438/10B,Tadev,-,Aal Khurd West,-, -,0,0,0,0,0,0
+537,4- Aal Khurd,Aal Khurd West,438/9C,"Sabir, Majid",A. Hasan,Aal Khurd West,9634732009,Open Plot ,44,44,44,44,0,0
+538,4- Aal Khurd,Aal Khurd West,438/10,Naseem,Yaseen,Aal Khurd West,7535821035,Residential Self ,66,67,66,67,354,3432
+539,4- Aal Khurd,Aal Khurd West,438/10B,Yakoob,Farja,Aal Khurd West,6398449826,Residential Self ,0,0,0,0,0,0
+540,4- Aal Khurd,Aal Khurd West,438/11,Saeed,Yaseen,Aal Khurd West,9084556536, -,55,337,55,337,365,1765
+541,4- Aal Khurd,Aal Khurd West,438/11B,Yakoob,Farja,Aal Khurd West,6398449826,Residential Self ,0,0,0,0,0,0
+542,4- Aal Khurd,Aal Khurd West,438/12B,Irshaad,A. Gani,Aal Khurd West,-,Open Plot ,0,0,0,0,0,0
+543,4- Aal Khurd,Aal Khurd West,438/13B,Salim,Asgar,Aal Khurd West,9012066732,Residential Self ,55,250,55,183,365,1075
+544,4- Aal Khurd,Aal Khurd West,407/1A,"Anil Kumar S/O Nanha
+V
+Mamtesh W/O Anil Kumar",Nanha,Aal Khurd West,-,Open Plot ,0,0,0,0,420,420
+545,4- Aal Khurd,Aal Khurd West,438/14B,"Mohseen S/O Yunus
+V
+Shahina W/O Mohseen",Yunus,Aal Khurd West,7017728730,Residential Self ,55,55,55,116,0,0
+546,4- Aal Khurd,Aal Khurd West,428/2B/1,Moh. Shahzad,Aslam,Aal Khurd West,8923090442,Open Plot ,44,839,44,339,376,2076
+547,4- Aal Khurd,Aal Khurd West,404/B,Abdul Gaffar,Khalik Ahmad,Aal Khurd West,-,Residential Self ,55,256,55,256,365,1450
+550,4- Aal Khurd,Aal Khurd West,250/2,Najma,W/O Akram Urf Kallu,Aal Khurd West,-,Residential Self ,500,3858,250,3231,170,790
+551,4- Aal Khurd,Aal Khurd West,411/A,Saroj,W/O Inderpal,Aal Khurd West,-,Residential Self ,100,0,100,0,0,0
+552,4- Aal Khurd,Aal Khurd West,428/1E/1,Nafesa,Shamsu,Aal Khurd West,-, -,44,146,44,145,0,0
+553,4- Aal Khurd,Aal Khurd West,428/4C,Mo Kashim,Gayyur,Aal Khurd West,-, -,0,0,0,0,0,0
+554,4- Aal Khurd,Aal Khurd West,404,Rameej Ali,Fejan,Aal Khurd West,-, -,1167,1167,1167,1167,0,0

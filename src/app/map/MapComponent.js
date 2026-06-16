@@ -111,7 +111,7 @@ export default function MapComponent({
           <TileLayer
             url="https://cdn.skyjumper.in/skykids/tiles/{z}/{x}/{y}.jpg"
             maxZoom={22}
-            attribution="&copy; Skyjumper Drone Tiles"
+            attribution="&copy; Kairana Drone Tiles"
           />
         )}
 

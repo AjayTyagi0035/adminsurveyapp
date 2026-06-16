@@ -19,6 +19,7 @@ const MAP_ULB_ID = 1;
 function buildMapApiUrl(params = {}) {
   const search = new URLSearchParams();
   if (params.ward_id) search.set('ward_id', params.ward_id);
+  if (params.new_house_no) search.set('new_house_no', params.new_house_no);
   if (params.ne_lat != null) search.set('ne_lat', params.ne_lat);
   if (params.ne_lng != null) search.set('ne_lng', params.ne_lng);
   if (params.sw_lat != null) search.set('sw_lat', params.sw_lat);
@@ -32,6 +33,8 @@ export default function MapPage() {
   const [visibleProperties, setVisibleProperties] = useState([]);
   const [wards, setWards] = useState([]);
   const [selectedWardId, setSelectedWardId] = useState('');
+  const [houseNoInput, setHouseNoInput] = useState('');
+  const [searchHouseNo, setSearchHouseNo] = useState('');
   const [loadingWards, setLoadingWards] = useState(false);
   const [showDroneLayer, setShowDroneLayer] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
@@ -92,12 +95,12 @@ export default function MapPage() {
     });
   };
 
-  const requestViewportProperties = (bounds, wardId = selectedWardId) => {
+  const requestViewportProperties = (bounds, wardId = selectedWardId, houseNo = searchHouseNo) => {
     const normalized = normalizeBounds(bounds);
     if (!normalized) return;
 
-    const requestKey = [wardId || 'all', normalized.ne_lat, normalized.ne_lng, normalized.sw_lat, normalized.sw_lng]
-      .map(value => Number(value).toFixed(5))
+    const requestKey = [wardId || 'all', houseNo || 'all', normalized.ne_lat, normalized.ne_lng, normalized.sw_lat, normalized.sw_lng]
+      .map(value => Number(value) ? Number(value).toFixed(5) : String(value))
       .join('|');
 
     if (requestKey === lastViewportRequestKeyRef.current) {
@@ -121,6 +124,7 @@ export default function MapPage() {
       try {
         const url = buildMapApiUrl({
           ward_id: wardId || undefined,
+          new_house_no: houseNo || undefined,
           ne_lat: normalized.ne_lat,
           ne_lng: normalized.ne_lng,
           sw_lat: normalized.sw_lat,
@@ -162,15 +166,31 @@ export default function MapPage() {
     }, 250);
   };
 
-  const loadInitialProperties = async (wardId = selectedWardId) => {
+  const loadInitialProperties = async (wardId = selectedWardId, houseNo = searchHouseNo) => {
     try {
-      const res = await fetch(buildMapApiUrl({ ward_id: wardId || undefined }));
+      const res = await fetch(buildMapApiUrl({
+        ward_id: wardId || undefined,
+        new_house_no: houseNo || undefined
+      }));
       if (!res.ok) throw new Error('Failed to fetch property survey locations');
       const data = await res.json();
       setProperties(data);
       setVisibleProperties(data);
       setMapError(null);
       setLoading(false);
+
+      if (houseNo && data.length > 0) {
+        const match = data.find(p => p.new_house_no && p.new_house_no.trim().toLowerCase() === houseNo.trim().toLowerCase()) || data[0];
+        if (match.latitude && match.longitude) {
+          setMapCenter([match.latitude, match.longitude]);
+          setMapZoom(19);
+          setActivePopup(match);
+          handleMarkerClick(match);
+          showToast(`Found property for house number "${houseNo}"`);
+        }
+      } else if (houseNo && data.length === 0) {
+        showToast(`No properties found for house number "${houseNo}"`, false);
+      }
     } catch (err) {
       console.error(err);
       setError(err.message);
@@ -206,8 +226,8 @@ export default function MapPage() {
     setActivePopup(null);
     setSelectedSurvey(null);
     setLoading(true);
-    loadInitialProperties(selectedWardId);
-  }, [selectedWardId]);
+    loadInitialProperties(selectedWardId, searchHouseNo);
+  }, [selectedWardId, searchHouseNo]);
 
   useEffect(() => {
     return () => {
@@ -251,7 +271,7 @@ export default function MapPage() {
   };
 
   // Fetch full details from database on marker click
-  const handleMarkerClick = (prop) => {
+  function handleMarkerClick(prop) {
     setLoadingDetailsId(prop.id);
     setSelectedSurvey(null);
 
@@ -268,6 +288,15 @@ export default function MapPage() {
         console.error(err);
         setLoadingDetailsId(null);
       });
+  }
+
+  const handleHouseSearch = (e) => {
+    if (e) e.preventDefault();
+    if (!selectedWardId) {
+      showToast("Please choose a ward first", false);
+      return;
+    }
+    setSearchHouseNo(houseNoInput.trim());
   };
 
   // Search location/owner/house_no
@@ -343,7 +372,11 @@ export default function MapPage() {
           <select
             id="map-ward-filter"
             value={selectedWardId}
-            onChange={e => setSelectedWardId(e.target.value)}
+            onChange={e => {
+              setSelectedWardId(e.target.value);
+              setHouseNoInput('');
+              setSearchHouseNo('');
+            }}
             className={styles.filterSelect}
           >
             <option value="">{loadingWards ? 'Loading wards…' : 'All wards'}</option>
@@ -353,16 +386,49 @@ export default function MapPage() {
               </option>
             ))}
           </select>
+
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+            <label className={styles.filterLabel} htmlFor="map-house-filter">New House No</label>
+            <form onSubmit={handleHouseSearch} className={styles.searchBox}>
+              <input
+                id="map-house-filter"
+                type="text"
+                placeholder={selectedWardId ? "Enter house number..." : "Choose ward first..."}
+                value={houseNoInput}
+                onChange={e => setHouseNoInput(e.target.value)}
+                className={styles.searchInput}
+                disabled={!selectedWardId}
+                style={{ opacity: selectedWardId ? 1 : 0.6 }}
+              />
+              {houseNoInput && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    setHouseNoInput('');
+                    setSearchHouseNo('');
+                  }}
+                  className={styles.searchBtn}
+                  style={{ padding: '0 8px', color: '#ef4444' }}
+                >
+                  ✕
+                </button>
+              )}
+              <button type="submit" className={styles.searchBtn} disabled={!selectedWardId} style={{ opacity: selectedWardId ? 1 : 0.6 }}>
+                🔍
+              </button>
+            </form>
+          </div>
+
           <div className={styles.sidebarToggle}>
-    <label className={styles.droneToggleSidebar}>
-      <input
-        type="checkbox"
-        checked={showDroneLayer}
-        onChange={e => setShowDroneLayer(e.target.checked)}
-      />
-      <span>🛰️ Drone Imagery</span>
-    </label>
-  </div>
+            <label className={styles.droneToggleSidebar}>
+              <input
+                type="checkbox"
+                checked={showDroneLayer}
+                onChange={e => setShowDroneLayer(e.target.checked)}
+              />
+              <span>🛰️ Drone Imagery</span>
+            </label>
+          </div>
 
           <form onSubmit={handleSearch} className={styles.searchBox}>
             <input

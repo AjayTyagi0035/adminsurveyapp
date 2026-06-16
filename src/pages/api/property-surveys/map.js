@@ -14,16 +14,22 @@ async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' })
   }
 
-  const { ne_lat, ne_lng, sw_lat, sw_lng, ward_id } = req.query
+  const { ne_lat, ne_lng, sw_lat, sw_lng, ward_id, new_house_no } = req.query
   const client = await pool.connect()
 
   try {
     const params = []
     let wardFilter = ''
+    let houseFilter = ''
 
     if (ward_id) {
       params.push(parseInt(ward_id, 10))
       wardFilter = ` AND ward_id = $${params.length}`
+    }
+
+    if (new_house_no) {
+      params.push(new_house_no.trim())
+      houseFilter = ` AND TRIM(LOWER(new_house_no)) = TRIM(LOWER($${params.length}))`
     }
 
     let queryText = `
@@ -34,6 +40,7 @@ async function handler(req, res) {
       WHERE gps_location IS NOT NULL
         AND gps_location ~ '^-?[0-9]+(\\.[0-9]+)?,[ ]*-?[0-9]+(\\.[0-9]+)?$'
         ${wardFilter}
+        ${houseFilter}
     `
 
     if (ne_lat && ne_lng && sw_lat && sw_lng) {

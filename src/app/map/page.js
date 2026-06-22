@@ -96,7 +96,7 @@ export default function MapPage() {
     if (!showMcBoundary && !mcBoundaryData) {
       setLoadingLayers(prev => ({ ...prev, mc: true }));
       try {
-        const res = await fetch('/21-06-26/mc_boundary_kairana.geojson');
+        const res = await fetch('https://cdn.omgauamrit.in/geojsonfiles/mc_boundary_kairana.geojson');
         if (!res.ok) throw new Error();
         setMcBoundaryData(await res.json());
       } catch {
@@ -112,7 +112,7 @@ export default function MapPage() {
     if (!showWardBoundary && !wardBoundaryData) {
       setLoadingLayers(prev => ({ ...prev, ward: true }));
       try {
-        const res = await fetch('/21-06-26/ward_boundary_kairana.geojson');
+        const res = await fetch('https://cdn.omgauamrit.in/geojsonfiles/ward_boundary_kairana.geojson');
         if (!res.ok) throw new Error();
         setWardBoundaryData(await res.json());
       } catch {
@@ -128,7 +128,7 @@ export default function MapPage() {
     if (!showRoadDirectory && !roadDirectoryData) {
       setLoadingLayers(prev => ({ ...prev, road: true }));
       try {
-        const res = await fetch('/21-06-26/Road_Directory_kairana.geojson');
+        const res = await fetch('https://cdn.omgauamrit.in/geojsonfiles/Road_Directory_kairana.geojson');
         if (!res.ok) throw new Error();
         setRoadDirectoryData(await res.json());
       } catch {
@@ -144,7 +144,7 @@ export default function MapPage() {
     if (!showCadastralData && !cadastralData) {
       setLoadingLayers(prev => ({ ...prev, cadastral: true }));
       try {
-        const res = await fetch('/21-06-26/Kairana_Cadastral_data.geojson');
+        const res = await fetch('https://cdn.omgauamrit.in/geojsonfiles/Kairana_Cadastral_data.geojson');
         if (!res.ok) throw new Error();
         setCadastralData(await res.json());
       } catch {

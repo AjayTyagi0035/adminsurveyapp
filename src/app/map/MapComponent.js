@@ -119,7 +119,7 @@ function getRoadStyle(feature) {
 }
 
 const cadastralStyle = {
-  color: "#14b8a6", // Teal
+  color: "#0cdefe", // Teal
   weight: 1,
   fillColor: "#2dd4bf",
   fillOpacity: 0.02

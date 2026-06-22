@@ -668,7 +668,7 @@ export default function MapPage() {
                 )}
                 <label className={`${styles.layerToggleItem} ${showCadastralData ? styles.layerActive : ''}`}>
                   <input type="checkbox" checked={showCadastralData} onChange={toggleCadastralData} disabled={loadingLayers.cadastral} className={styles.layerCheckbox} />
-                  <span className={styles.layerDot} style={{ background: '#14b8a6' }}></span>
+                  <span className={styles.layerDot} style={{ background: '#0cdefe' }}></span>
                   <span className={styles.layerName}>🗺️ Cadastral / Plot Data</span>
                   {loadingLayers.cadastral && <span className={styles.smallSpinner}></span>}
                 </label>

@@ -1,6 +1,6 @@
 "use client"
 import { useEffect, useRef } from 'react'
-import { TileLayer, Marker, Tooltip, Popup, useMap } from 'react-leaflet'
+import { TileLayer, Marker, Tooltip, Popup, useMap, GeoJSON } from 'react-leaflet'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import SafeMapContainer from '../../components/SafeMapContainer'
@@ -76,6 +76,139 @@ function MapController({ center, zoom, bounds, onBoundsChange, setActivePopup })
   return null;
 }
 
+// Style configurations for each GIS layer
+const mcStyle = {
+  color: "#f43f5e", // Rose Red
+  weight: 3,
+  dashArray: "6, 6",
+  fillOpacity: 0
+};
+
+const wardStyle = {
+  color: "#eab308", // Yellow
+  weight: 2.5,
+  fillColor: "#fef08a",
+  fillOpacity: 0.08
+};
+
+// Road colors keyed by normalized category string
+const ROAD_COLORS = {
+  'damber road': '#111111',
+  'damber': '#111111',
+  'brick road': '#c1440e',
+  'brick': '#c1440e',
+  'interlock light': '#4ade80',
+  'interlock': '#4ade80',
+  'cc road': '#38bdf8',
+  'cc': '#38bdf8',
+  'kachha road': '#6b3a2a',
+  'kachha': '#6b3a2a',
+};
+
+function getRoadColor(category) {
+  if (!category) return '#f59e0b';
+  return ROAD_COLORS[category.trim().toLowerCase()] || '#f59e0b';
+}
+
+function getRoadStyle(feature) {
+  return {
+    color: getRoadColor(feature?.properties?.Category),
+    weight: 2.5,
+    fillOpacity: 0
+  };
+}
+
+const cadastralStyle = {
+  color: "#14b8a6", // Teal
+  weight: 1,
+  fillColor: "#2dd4bf",
+  fillOpacity: 0.02
+};
+
+const onEachMcFeature = (feature, layer) => {
+  layer.bindTooltip("Municipal Council Boundary (Kairana)", { sticky: true });
+  layer.on({
+    mouseover: (e) => {
+      e.target.setStyle({ weight: 4, color: "#e11d48" });
+    },
+    mouseout: (e) => {
+      e.target.setStyle(mcStyle);
+    }
+  });
+};
+
+const onEachWardFeature = (feature, layer) => {
+  if (feature.properties && feature.properties.Name) {
+    layer.bindTooltip(feature.properties.Name, { sticky: true });
+  }
+  layer.on({
+    mouseover: (e) => {
+      e.target.setStyle({
+        weight: 3.5,
+        fillOpacity: 0.25,
+        color: "#ca8a04"
+      });
+    },
+    mouseout: (e) => {
+      e.target.setStyle(wardStyle);
+    }
+  });
+};
+
+const onEachRoadFeature = (feature, layer) => {
+  if (feature.properties) {
+    const { Category, Width, start_p, end_point } = feature.properties;
+    const roadColor = getRoadColor(Category);
+    const tooltipContent = `
+      <div style="font-family: system-ui; font-size: 12px; padding: 4px; line-height: 1.4; color: #1e293b; background: white;">
+        <strong style="color: ${roadColor}; display: block; font-size: 13px; margin-bottom: 2px;">Road Segment</strong>
+        ${Category ? `<div><strong>Type:</strong> ${Category}</div>` : ''}
+        ${Width ? `<div><strong>Width:</strong> ${Width}m</div>` : ''}
+        ${start_p || end_point ? `<div><strong>Route:</strong> ${start_p || '—'} to ${end_point || '—'}</div>` : ''}
+      </div>
+    `;
+    layer.bindTooltip(tooltipContent, { sticky: true, html: true });
+  }
+  layer.on({
+    mouseover: (e) => {
+      e.target.setStyle({
+        weight: 4.5,
+        opacity: 0.95
+      });
+    },
+    mouseout: (e) => {
+      e.target.setStyle(getRoadStyle(feature));
+    }
+  });
+};
+
+const onEachCadastralFeature = (feature, layer) => {
+  if (feature.properties) {
+    const { Kasra_Numb, Shape_Area } = feature.properties;
+    const areaVal = Shape_Area ? Number(Shape_Area).toFixed(1) : null;
+    const tooltipContent = `
+      <div style="font-family: system-ui; font-size: 12px; padding: 4px; line-height: 1.4; color: #1e293b; background: white;">
+        <strong style="color: #0d9488; display: block; font-size: 13px; margin-bottom: 2px;">Cadastral Plot (Khasra)</strong>
+        <div><strong>Khasra No:</strong> ${Kasra_Numb || '—'}</div>
+        ${areaVal ? `<div><strong>Area:</strong> ${areaVal} sq.m</div>` : ''}
+      </div>
+    `;
+    layer.bindTooltip(tooltipContent, { sticky: true, html: true });
+  }
+  layer.on({
+    mouseover: (e) => {
+      e.target.setStyle({
+        weight: 2.5,
+        fillOpacity: 0.15,
+        color: "#0f766e"
+      });
+    },
+    mouseout: (e) => {
+      e.target.setStyle(cadastralStyle);
+    }
+  });
+};
+
 export default function MapComponent({
   properties,
   mapCenter,
@@ -88,6 +221,14 @@ export default function MapComponent({
   handleMarkerClick,
   onBoundsChange,
   showDroneLayer = true,
+  showMcBoundary,
+  mcBoundaryData,
+  showWardBoundary,
+  wardBoundaryData,
+  showRoadDirectory,
+  roadDirectoryData,
+  showCadastralData,
+  cadastralData,
 }) {
   const initialCenterRef = useRef(mapCenter || DEFAULT_CENTER);
   const initialZoomRef = useRef(mapZoom || DEFAULT_ZOOM);
@@ -112,6 +253,43 @@ export default function MapComponent({
             url="https://cdn.skyjumper.in/skykids/tiles/{z}/{x}/{y}.jpg"
             maxZoom={22}
             attribution="&copy; Kairana Drone Tiles"
+          />
+        )}
+
+        {/* GIS Layers */}
+        {showMcBoundary && mcBoundaryData && (
+          <GeoJSON
+            key="gis-mc-boundary"
+            data={mcBoundaryData}
+            style={mcStyle}
+            onEachFeature={onEachMcFeature}
+          />
+        )}
+
+        {showWardBoundary && wardBoundaryData && (
+          <GeoJSON
+            key="gis-ward-boundary"
+            data={wardBoundaryData}
+            style={wardStyle}
+            onEachFeature={onEachWardFeature}
+          />
+        )}
+
+        {showRoadDirectory && roadDirectoryData && (
+          <GeoJSON
+            key="gis-road-directory"
+            data={roadDirectoryData}
+            style={getRoadStyle}
+            onEachFeature={onEachRoadFeature}
+          />
+        )}
+
+        {showCadastralData && cadastralData && (
+          <GeoJSON
+            key="gis-cadastral-data"
+            data={cadastralData}
+            style={cadastralStyle}
+            onEachFeature={onEachCadastralFeature}
           />
         )}
 

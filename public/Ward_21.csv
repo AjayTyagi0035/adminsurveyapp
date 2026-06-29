@@ -1,0 +1,589 @@
+﻿PROPERTY  ID ,WARD NAME,MOHALLA NAME,HOUSE NO,OWNER NAME,FATHER NAME,ADDRESS,MOBILE NO,PROPERTY USE AS,OLD HOUSE TAX 2025-2026,HOUSE TAX ARRER 2025-2026,OLD WATER TAX  2025-2026,WATER TAX ARRER 2025-2026,OLD WATER TANK TAX 2025-2026,OLD WATER TANK ARRER 2025-2026
+1,21-Khailkalan,Khailkalan,1,Milkiyat jama masjid rais,-,Khailkalan,8533882074,Commercial  Self ,200,200,200,200,0,0
+2,21-Khailkalan,Khailkalan,2,Milkiyat jama masjid rais,-,Khailkalan,8533882074,Commercial  Self ,0,0,0,0,0,0
+3,21-Khailkalan,Khailkalan,3,Milkiyat jama masjid rais,-,Khailkalan,8533882074,Commercial  Self ,200,1011,0,0,0,0
+4,21-Khailkalan,Khailkalan,"4,5",Milkiyat jama masjid mustkeem,-,Khailkalan,7669373839,Residential Self ,145,145,145,145,420,420
+5,21-Khailkalan,Khailkalan,"6,7",Milkiyat jama masjid ikram,-,Khailkalan,9536924988,Residential Self ,73,0,73,0,420,6900
+6,21-Khailkalan,Khailkalan,8,Milkiyat jama masjid mohd shadab,-,Khailkalan,9837972318,Residential Self ,290,302,290,302,420,1900
+7,21-Khailkalan,Khailkalan,08-Jan,Milkiyat jama masjid doctor janad,-,Khailkalan,8279658090,Commercial  Self ,508,508,508,519,420,420
+8,21-Khailkalan,Khailkalan,9,Milkiyat jama masjid rais kha,-,Khailkalan,8077750594,Commercial  Self ,145,5436,145,5436,0,0
+9,21-Khailkalan,Khailkalan,10,Milkiyat jama masjid ikram,-,Khailkalan,9536924988,Commercial  Self ,174,0,174,576,0,0
+10,21-Khailkalan,Khailkalan,11,Milkiyat jama masjid ikram,-,Khailkalan,9536924988,Commercial  Self ,182,0,182,4556,0,0
+11,21-Khailkalan,Khailkalan,12,Milkiyat jama masjid ikram,-,Khailkalan,9045309621,Commercial  Self ,290,960,290,390,0,0
+12,21-Khailkalan,Khailkalan,13,Milkiyat jama masjid ikram,-,Khailkalan,9897677202,Commercial  Self ,182,382,182,6117,0,0
+13,21-Khailkalan,Khailkalan,14,"Murslin, mustafa",Asgar,Khailkalan,8791923264,Residential Self ,97,748,97,204,420,224
+14,21-Khailkalan,Khailkalan,15,Jahid,Vajid,Khailkalan,9897794058,Residential Self ,45,45,45,45,0,0
+15,21-Khailkalan,Khailkalan,16,Jahid,Vajid,Khailkalan,9897794058,Commercial  Self ,55,55,55,55,365,365
+16,21-Khailkalan,Khailkalan,17,Jahid,Vajid,Khailkalan,9897794058,Commercial  Self ,97,97,55,55,0,0
+17,21-Khailkalan,Khailkalan,"18,51","Shanvaj ahmad, Shan alam, mohd ashan, mohd arif, mohd aksar,nadeem,mohd faijjan",Khalik ahmad,Khailkalan,8430047300,Residential Self ,97,97,97,97,0,0
+18,21-Khailkalan,Khailkalan,18-Jan,"Shanvaj ahmad, Shan alam, mohd ashan, mohd arif, mohd aksar,nadeem,mohd faijjan",Khalik ahmad,Khailkalan,8430047300,Commercial  Self ,55,365,55,55,0,0
+19,21-Khailkalan,Khailkalan,19,Jahir,Baseer,Khailkalan,8126328349,Residential Self ,73,864,73,864,347,2356
+20,21-Khailkalan,Khailkalan,20,Jahir,Baseer,Khailkalan,8126328349,Commercial  Self ,218,2572,218,2572,0,0
+21,21-Khailkalan,Khailkalan,21,Mansur,Ansar,Khailkalan,9557095024,Residential Self ,44,92,44,92,0,0
+22,21-Khailkalan,Khailkalan,22,Ibrahim,Siraj,Khailkalan,8384829556,Residential Self ,73,0,73,0,347,2830
+23,21-Khailkalan,Khailkalan,23,Ibrahim,Siraj,Khailkalan,8384829556,Commercial  Self ,0,0,0,0,0,0
+24,21-Khailkalan,Khailkalan,24,Hifjurahman,Sariful islam,Khailkalan,-,Residential Self ,73,864,73,864,347,2356
+25,21-Khailkalan,Khailkalan,25,Hifjurahman,Sariful islam,Khailkalan,-,Commercial  Self ,0,0,0,0,0,0
+26,21-Khailkalan,Khailkalan,26,Hifjurahman,Sariful islam,Khailkalan,-,Commercial  Self ,63,736,61,470,0,0
+27,21-Khailkalan,Khailkalan,26-Jan,Haji irfan,Najeer ahmad,Khailkalan,9811678530,Residential Self ,44,44,44,44,0,0
+28,21-Khailkalan,Khailkalan,26-Feb,Haji irfan,Najeer ahmad,Khailkalan,9811678530,Commercial  Self ,48,48,48,48,0,0
+29,21-Khailkalan,Khailkalan,26-Mar,Haji irfan,Najeer ahmad,Khailkalan,9811678530,Commercial  Self ,48,48,48,48,0,0
+30,21-Khailkalan,Khailkalan,26-Apr,Haji irfan,Najeer ahmad,Khailkalan,9811678530,Commercial  Self ,61,61,61,61,0,0
+31,21-Khailkalan,Khailkalan,27,Ruksana,Naseer,Khailkalan,9761911553,Residential Self ,73,0,73,0,0,0
+32,21-Khailkalan,Khailkalan,27-Jan,Ruksana,Naseer,Khailkalan,9761911553,Commercial  Self ,436,0,436,436,0,0
+33,21-Khailkalan,Khailkalan,27-Feb,Ruksana,Naseer,Khailkalan,9761911553,Commercial  Self ,436,0,436,0,0,0
+34,21-Khailkalan,Khailkalan,27-Mar,Ruksana,Naseer,Khailkalan,9761911553,Commercial  Self ,436,0,436,436,0,0
+35,21-Khailkalan,Khailkalan,28,Baseer ahmad,Mohd shahdin,Khailkalan,9997873077,Residential Self ,97,0,97,0,323,0
+36,21-Khailkalan,Khailkalan,28-Jan,Manager milkiyat masjid khailkalan sartaj,-,Khailkalan,-,Commercial  Self ,110,205,110,2005,0,0
+37,21-Khailkalan,Khailkalan,28-Feb,Manager milkiyat masjid khailkalan musa kha,-,Khailkalan,-,Commercial  Self ,88,1607,88,1607,0,0
+38,21-Khailkalan,Khailkalan,"29,30,31",Manager milkiyat masjid khailkalan nafees,-,Khailkalan,-,Commercial  Self ,88,15704,88,16498,0,0
+39,21-Khailkalan,Khailkalan,31-Jan,Manager milkiyat masjid khailkalan doctor jamal,-,Khailkalan,9045565638,Commercial  Self ,110,110,110,110,0,0
+40,21-Khailkalan,Khailkalan,31/2,Manager milkiyat masjid khailkalan doctor ateek,-,Khailkalan,9457103700,Commercial  Self ,88,1607,88,1610,0,0
+41,21-Khailkalan,Khailkalan,32,Manager milkiyat masjid khailkalan mahboob,-,Khailkalan,7417816271,Commercial  Self ,110,5469,110,5454,0,0
+42,21-Khailkalan,Khailkalan,33,Manager milkiyat masjid khailkalan mustkeem,-,Khailkalan,-,Commercial  Self ,165,14079,165,8625,0,0
+43,21-Khailkalan,Khailkalan,34,Manager milkiyat masjid khailkalan intjar,-,Khailkalan,-,Commercial  Self ,110,110,110,110,0,0
+44,21-Khailkalan,Khailkalan,35,Manager milkiyat masjid khailkalan jamil ahmad,-,Khailkalan,-,Commercial  Self ,110,0,110,0,0,0
+45,21-Khailkalan,Khailkalan,35/1,Manager milkiyat masjid khailkalan yusuf,-,Khailkalan,9760632390,Commercial  Self ,110,0,110,0,0,0
+46,21-Khailkalan,Khailkalan,36,"Minhaj ahmad, fikal",mohd ahmad,Khailkalan,-,Residential Self ,85,0,85,0,335,0
+47,21-Khailkalan,Khailkalan,37,Milkiyat masjid kahilkalan,-,Khailkalan,-,Commercial  Self ,66,152,66,66,0,0
+48,21-Khailkalan,Khailkalan,38,Milkiyat masjid kahilkalan,-,Khailkalan,-,Commercial  Self ,145,7104,145,3137,0,0
+49,21-Khailkalan,Khailkalan,39,Panchayat ghar,-,Khailkalan,-,Government  ,0,0,0,0,0,0
+50,21-Khailkalan,Khailkalan,40,Masjid khail kalan ibadat ghah,-,Khailkalan,-,Mosque,0,0,0,0,0,0
+51,21-Khailkalan,Khailkalan,41,masjid milkiyat ,-,Khailkalan,-,Mosque,0,279,0,0,0,0
+52,21-Khailkalan,Khailkalan,42,Guljar,Majahir,Khailkalan,9837974930,Residential Self ,50,166,50,166,420,1240
+53,21-Khailkalan,Khailkalan,43,Gafuran,shafeek,Khailkalan,9508294668,Residential Self ,87,288,87,288,333,979
+54,21-Khailkalan,Khailkalan,43/1,Gafuran,shafeek,Khailkalan,9528610258,Residential Self ,48,48,48,48,372,372
+55,21-Khailkalan,Khailkalan,44,Shafeek,Majeed,Khailkalan,9528610258,Residential Self ,48,659,48,659,0,0
+56,21-Khailkalan,Khailkalan,"45,44A",Afsana,Ajhar hasan,Khailkalan,9897111792,Residential Self ,145,0,145,0,0,0
+57,21-Khailkalan,Khailkalan,"45,44A/1","Ijhar hasan, athar hasan, badar hasan, ashad hasan",Ajhar hasan,Khailkalan, -, -, -,0,0,0,0,0
+58,21-Khailkalan,Khailkalan,45/1,Gyas kha,Ghos mohd kha,Khailkalan,-,Residential Self ,0,0,0,0,0,0
+59,21-Khailkalan,Khailkalan,46,Imran,Sariful ,Khailkalan,9761895569,Residential Self ,73,864,73,864,0,0
+60,21-Khailkalan,Khailkalan,47,Masrur hasan,Ansar,Khailkalan,9634078628,Residential Self ,73,153,73,153,0,0
+61,21-Khailkalan,Khailkalan,48,Furkan,sariful hasan,Khailkalan,9761895569,Residential Self ,73,0,73,1005,347,3390
+62,21-Khailkalan,Khailkalan,49,Jamil,saidudin,Khailkalan,9720522567,Residential Self ,61,202,61,202,359,1057
+63,21-Khailkalan,Khailkalan,50,Bundu,Nasebudin,Khailkalan,9027672422,Residential Self ,61,283,61,283,359,4022
+64,21-Khailkalan,Khailkalan,51,SHREEMATIHAJRA,SHADI,Khailkalan, -, -,0,0,97,450,0,0
+65,21-Khailkalan,Khailkalan,52,Hajra,Safi,Khailkalan,9027510031,Residential Self ,97,450,97,2928,323,1252
+66,21-Khailkalan,Khailkalan,53,Afsana,Sameem,Khailkalan,9760498577,Residential Self ,97,2928,97,1231,420,4624
+67,21-Khailkalan,Khailkalan,54,Mohd rashid,Mohd safi,Khailkalan,9897896848,Residential Self ,97,748,97,748,0,0
+68,21-Khailkalan,Khailkalan,55,Aamna,Inamul,Khailkalan,7351203372,Residential Self ,88,3410,88,3501,420,3540
+69,21-Khailkalan,Khailkalan,56,Kisvar jaha,shabir,Khailkalan,8839326410,Residential Self ,66,0,66,0,420,0
+70,21-Khailkalan,Khailkalan,56/1,Vahab etc,Abdul samad,Khailkalan, -, -,0,0,0,0,0,0
+71,21-Khailkalan,Khailkalan,57,Mohd umar,Shareef,Khailkalan,9760329316,Residential Self ,43,267,45,279,420,1240
+72,21-Khailkalan,Khailkalan,57/1,Shan,Khalil,Khailkalan,8930047300,Residential Self ,50,50,50,50,0,0
+73,21-Khailkalan,Khailkalan,58,Kisvar jaha,shabir,Khailkalan,8439177798,Residential Self ,61,0,61,0,420,0
+74,21-Khailkalan,Khailkalan,58/1,Abdul vahid,abdul samad,Khailkalan,8439120500,Residential Self ,48,110,48,48,420,594
+75,21-Khailkalan,Khailkalan,58/2,Abdul bari,samad,Khailkalan,9439332724,Residential Self ,44,145,44,339,420,1244
+76,21-Khailkalan,Khailkalan,59,Amtul,ilyas,Khailkalan,7906092298,Residential Self ,61,0,61,0,420,0
+77,21-Khailkalan,Khailkalan,60,Abdul majid,Abdul samad,Khailkalan,8954009615,Residential Self ,55,117,85,282,420,840
+78,21-Khailkalan,Khailkalan,"60/1,61",Sitara begum,Shahbudin,Khailkalan,9759603897,Residential Self ,85,282,85,282,335,985
+79,21-Khailkalan,Khailkalan,"60/1,61/1",Shahbudin,Vajid,Khailkalan, -, -,0,0,0,0,0,0
+80,21-Khailkalan,Khailkalan,62,Yamin,sibu urf sareef,Khailkalan,9084954837,Residential Self ,44,44,44,44,376,376
+81,21-Khailkalan,Khailkalan,63,Farjana,Vaseek ahmad,Khailkalan,9027394288,Residential Self ,44,216,44,680,376,5128
+82,21-Khailkalan,Khailkalan,64,Shareef,Haga,Khailkalan,7895790910,Residential Self ,61,128,61,128,359,718
+83,21-Khailkalan,Khailkalan,65,Milkiyat jama masjid Shamshad,-,Khailkalan,9358958490,Residential Self ,48,101,48,101,0,0
+84,21-Khailkalan,Khailkalan,66,Milkiyat jama masjid Shabir,-,Khailkalan,8595196213,Residential Self ,48,223,48,223,0,0
+85,21-Khailkalan,Khailkalan,67,Milkiyat jama masjid Aflak naimudin,-,Khailkalan,-,Residential Self ,66,1404,61,1372,420,4440
+86,21-Khailkalan,Khailkalan,68,Milkiyat jama masjid naseem,-,Khailkalan,-,Residential Self ,48,2755,48,2476,420,7044
+87,21-Khailkalan,Khailkalan,69,Milkiyat jama masjid naimudin,-,Khailkalan,-,Residential Self ,48,3384,48,2476,0,0
+88,21-Khailkalan,Khailkalan,70,Milkiyat jama masjid israil,-,Khailkalan,8126307563,Residential Self ,48,292,48,293,420,2240
+89,21-Khailkalan,Khailkalan,71,Milkiyat jama masjid Rais,-,Khailkalan,-,Residential Self ,48,48,48,293,420,420
+90,21-Khailkalan,Khailkalan,72,Milkiyat jama masjid said,-,Khailkalan,8278800107,Residential Self ,48,2404,48,48,0,0
+91,21-Khailkalan,Khailkalan,73,empty,-,Khailkalan,-, -,0,0,0,762,0,0
+92,21-Khailkalan,Khailkalan,74,Mahboob,shabir,Khailkalan,7399212968,Residential Self ,48,223,48,223,0,0
+93,21-Khailkalan,Khailkalan,74/1,Rafeek,banda,Khailkalan, -, -,0,0,0,0,0,0
+94,21-Khailkalan,Khailkalan,74/1,Jindi,yasin,Khailkalan,9548650136,Residential Self ,48,109,48,101,0,0
+95,21-Khailkalan,Khailkalan,"75,76",Sageer,najeer,Khailkalan,7348905043,Residential Self ,97,204,97,204,420,840
+96,21-Khailkalan,Khailkalan,77,Ilyas,Aziz ahmad,Khailkalan,-,Residential Self ,61,0,61,0,359,0
+97,21-Khailkalan,Khailkalan,78,Ilyas,Aziz ahmad,Khailkalan,-,Residential Self ,0,0,0,0,0,0
+98,21-Khailkalan,Khailkalan,79,Jahin bagum,Mehraj,Khailkalan,9358517775,Residential Self ,61,721,61,721,359,2507
+99,21-Khailkalan,Khailkalan,80,Mohd sharik,Tahir,Khailkalan,8171378648,Residential Self ,61,61,61,61,359,359
+100,21-Khailkalan,Khailkalan,81,Aziz ahmad,Latif,Khailkalan,9528284412,Residential Self ,61,1478,61,1478,359,6008
+101,21-Khailkalan,Khailkalan,82,Abul fujal ajum,Afjal ahmad,Khailkalan,9379330760,Residential Self ,73,0,73,0,0,0
+102,21-Khailkalan,Khailkalan,83,Aalam,Noor mohd,Khailkalan,-,Residential Self ,36,48,36,0,0,0
+103,21-Khailkalan,Khailkalan,84,Fatma,Noor mohd,Khailkalan,-,Residential Self ,55,256,55,256,0,0
+104,21-Khailkalan,Khailkalan,85,Mohd umar,Noor mohd,Khailkalan,9045565638,Residential Self ,48,101,48,101,372,744
+105,21-Khailkalan,Khailkalan,86,Mohd shalim,mohd shabir,Khailkalan,9045565638,Residential Self ,73,73,73,73,420,420
+106,21-Khailkalan,Khailkalan,87,"mohd jaki, mohd razi",Naki,Khailkalan,8923653211,Residential Self ,61,470,61,470,359,1987
+107,21-Khailkalan,Khailkalan,88,Afsana ,Ajhar hasan,Khailkalan,9897111792,Residential Self ,145,0,145,0,0,0
+108,21-Khailkalan,Khailkalan,88/1,"Ijhar hasan, athar hasan, badar hasan, ashad hasan",Ajhar hasan,Khailkalan, -, -,0,0,0,0,0,0
+109,21-Khailkalan,Khailkalan,89,shahdin,Nura,Khailkalan,8937828937,Residential Self ,79,166,78,164,341,0
+110,21-Khailkalan,Khailkalan,89/1,shahdin,Nura,Khailkalan,8937828937,Residential Self ,0,0,0,0,0,0
+111,21-Khailkalan,Khailkalan,"89/2, 91",Tahir,Inamulhak,Khailkalan,-,Residential Self ,97,1771,97,1771,420,0
+112,21-Khailkalan,Khailkalan,90,Mansur,Ansar,Khailkalan,8954339530,Residential Self ,97,204,97,204,323,646
+113,21-Khailkalan,Khailkalan,92,Basid,Anwar,Khailkalan,983745085,Residential Self ,44,92,44,92,0,0
+114,21-Khailkalan,Khailkalan,93,"Aslam harun, meharban",majed,Khailkalan,7906588863,Residential Self ,85,1550,85,1550,0,0
+115,21-Khailkalan,Khailkalan,94,Inamul,Baseer,Khailkalan,9997761881,Residential Self ,97,2548,97,4969,0,0
+116,21-Khailkalan,Khailkalan,95,Jahid,Baseer,Khailkalan,8650951192,Residential Self ,73,0,73,0,420,0
+117,21-Khailkalan,Khailkalan,96,Jubair ahmad,Ansar,Khailkalan,9719565353,Residential Self ,61,128,61,128,359,718
+118,21-Khailkalan,Khailkalan,97,Majed,Ahmad hasan,Khailkalan,9870995047,Residential Self ,121,2206,121,2206,299,2742
+119,21-Khailkalan,Khailkalan,98,"Shafik, nafees, jarif, thofik",Rafeek,Khailkalan,8755320245,Residential Self ,121,738,121,738,0,0
+120,21-Khailkalan,Khailkalan,99,Shayna,Imran,Khailkalan,9045232807,Residential Self ,121,254,121,254,420,0
+121,21-Khailkalan,Khailkalan,100,"Rafeek, haneef",Bundu,Khailkalan,9358015625,Residential Self ,109,109,109,109,311,311
+122,21-Khailkalan,Khailkalan,101,Yunujudin,Vasimudin,Khailkalan,-,Residential Self ,436,4546,436,8176,0,0
+123,21-Khailkalan,Khailkalan,102,Muktudin,Vasimudin,Khailkalan,-,Residential Self ,0,0,0,0,0,0
+124,21-Khailkalan,Khailkalan,103,Riyaj ahmad,Alarakha,Khailkalan,-,Residential Self ,44,0,44,0,376,0
+125,21-Khailkalan,Khailkalan,104,Mohd rashid,Shafi,Khailkalan,9897896848,Residential Self ,330,2554,330,2545,90,990
+126,21-Khailkalan,Khailkalan,105,Shahnavaj,Mumtaj,Khailkalan,9897433124,Residential Self ,55,0,55,0,0,0
+127,21-Khailkalan,Khailkalan,105/1,Mohd hayat khan,Gyas hasan,Khailkalan,-,Residential Self ,97,0,99,0,323,0
+128,21-Khailkalan,Khailkalan,106,Jinat jaha,Mohd ahmad,Khailkalan,6397940578,Residential Self ,109,0,109,0,311,0
+129,21-Khailkalan,Khailkalan,107,Sarvat jaha,Mumtaj,Khailkalan,9897433124,Residential Self ,48,0,48,0,0,0
+130,21-Khailkalan,Khailkalan,108,Shafeek ahmad,Mumtaj,Khailkalan,8923653025,Residential Self ,330,8425,330,7733,420,0
+131,21-Khailkalan,Khailkalan,109,Sarvat jaha,Mumtaj,Khailkalan,9897433124,Residential Self ,48,0,48,0,420,0
+132,21-Khailkalan,Khailkalan,110,"Tajimuman, takrim shan",Anwaar ahmad,Khailkalan,9358275758,Residential Self ,48,48,48,48,372,0
+133,21-Khailkalan,Khailkalan,111,"Minhaj ahmad, fikab, shahnajar. Aadil",Mohd ahmad,Khailkalan,-,Residential Self ,48,0,48,0,420,0
+134,21-Khailkalan,Khailkalan,112,Ateek ahmad,Khalil ahmad,Khailkalan,9457103700,Residential Self ,48,370,48,370,372,219
+135,21-Khailkalan,Khailkalan,113,Munhvara,Naim ahmad,Khailkalan,9045212430,Residential Self ,48,48,48,48,420,420
+136,21-Khailkalan,Khailkalan,114,"Nafees akhtar, jamal akhtar, said akhtar",jafar akhtar,Khailkalan,9990817108,Residential Self ,48,0,48,0,372,0
+137,21-Khailkalan,Khailkalan,115,"Minhaj ahmad, fikab, shahnajar. Aadil",Mohd ahmad,Khailkalan,-,Residential Self ,88,0,88,0,0,0
+138,21-Khailkalan,Khailkalan,116 to 120,"Minhaj ahmad, fikab, shahnajar. Aadil",Mohd ahmad,Khailkalan,-,Residential Self ,88,0,88,0,0,0
+139,21-Khailkalan,Khailkalan,121,Nafees ahmad ,jafar akhtar,Khailkalan,9990817108,Commercial  Self ,290,0,290,0,0,0
+140,21-Khailkalan,Khailkalan,122,Nafees ahmad ,jafar akhtar,Khailkalan,9990817108,Commercial  Self ,290,0,0,0,0,0
+141,21-Khailkalan,Khailkalan,123,Nafees ahmad ,jafar akhtar,Khailkalan,9990817108,Commercial  Self ,290,0,290,0,0,0
+142,21-Khailkalan,Khailkalan,124,Nafees ahmad ,jafar akhtar,Khailkalan,9990817108,Commercial  Self ,290,0,290,0,0,0
+143,21-Khailkalan,Khailkalan,125,Shadi ,Rahamtulla,Khailkalan,9897155687,Residential Self ,79,79,79,0,0,0
+144,21-Khailkalan,Khailkalan,126,Shadi ,Rahamtulla,Khailkalan,9897155687,Commercial  Self ,0,0,0,0,0,0
+145,21-Khailkalan,Khailkalan,127,Shadi ,Rahamtulla,Khailkalan,9897155687,Commercial  Self ,79,0,79,0,341,0
+146,21-Khailkalan,Khailkalan,128,Shadi ,Rahamtulla,Khailkalan,9897155687,Commercial  Self ,79,0,79,0,0,0
+147,21-Khailkalan,Khailkalan,129,Shadi ,Rahamtulla,Khailkalan,9897155687,Commercial  Self ,24,0,0,0,0,0
+148,21-Khailkalan,Khailkalan,130,Shadi ,Rahamtulla,Khailkalan,9897155687,Commercial  Self ,79,0,79,0,0,0
+149,21-Khailkalan,Khailkalan,131,Shadi ,Rahamtulla,Khailkalan,9897155687,Commercial  Self ,79,0,79,0,0,0
+150,21-Khailkalan,Khailkalan,132,Mohfida,fareed s% riyasat,Khailkalan,7668609050,Residential Self ,48,544,48,1623,0,0
+151,21-Khailkalan,Khailkalan,133,Mohfida,fareed s% riyasat,Khailkalan,7668609050,Commercial  Self ,121,400,290,960,0,0
+152,21-Khailkalan,Khailkalan,134,aabid,riyasat,Khailkalan,-,Residential Self ,290,2238,290,2238,0,0
+153,21-Khailkalan,Khailkalan,135,Khalid,Abdul ganni,Khailkalan,9897028535,Residential Self ,48,101,48,101,420,2340
+154,21-Khailkalan,Khailkalan,136,Khalid,Abdul ganni,Khailkalan,9897028535,Residential Self ,121,254,121,254,299,798
+155,21-Khailkalan,Khailkalan,137,Yusuf,riyakat,Khailkalan,6398720820,Commercial  Self ,290,960,290,960,130,370
+156,21-Khailkalan,Khailkalan,138,Shafikan,Sakur,Khailkalan,8273942084,Residential Self ,121,254,121,254,420,840
+157,21-Khailkalan,Khailkalan,138/1,Shafikan,Sakur,Khailkalan,8273942084,Commercial  Self ,110,231,110,231,0,0
+158,21-Khailkalan,Khailkalan,139,Naseem fatma,riyaj,Khailkalan,9927426032,Commercial  Self ,66,563,66,563,420,840
+159,21-Khailkalan,Khailkalan,139/1,Fayyaj,Noor mohd,Khailkalan,8439311027,Residential Self ,48,0,48,0,0,0
+160,21-Khailkalan,Khailkalan,139/2,Fayyaj,Noor mohd,Khailkalan,8439311027,Commercial  Self ,48,0,48,0,0,0
+161,21-Khailkalan,Khailkalan,140,Fayyaj,Noor mohd,Khailkalan,8439311027,Commercial  Self ,48,0,48,0,372,205
+162,21-Khailkalan,Khailkalan,141,Sadikan,majid,Khailkalan,9997758001,Residential Self ,48,455,48,455,372,230
+163,21-Khailkalan,Khailkalan,142,Ayyub ,Naseer,Khailkalan,9358249036,Residential Self ,48,565,48,565,372,255
+164,21-Khailkalan,Khailkalan,143,SHAMA,SHAMEEM,Khailkalan,9756713986,Residential Self ,44,0,44,0,376,0
+165,21-Khailkalan,Khailkalan,143/1,Ahsan,Jareef,Khailkalan,9897674733,Residential Self ,44,51,44,44,0,0
+166,21-Khailkalan,Khailkalan,144,Ahsan,Jareef,Khailkalan,9897674733,Residential Self ,55,55,55,55,420,2940
+167,21-Khailkalan,Khailkalan,145,Tahira,Jareef,Khailkalan,8077762815,Residential Self ,87,288,44,288,333,972
+168,21-Khailkalan,Khailkalan,146,Shahira,said,Khailkalan,8077762033,Residential Self ,44,0,44,0,420,0
+169,21-Khailkalan,Khailkalan,147,"Haneef, ateek s% vahid, Vaseela w% vahid",vahid,Khailkalan,9639390122,Residential Self ,97,97,97,99,0,0
+170,21-Khailkalan,Khailkalan,147/1,Mohd raseed,vahid,Khailkalan,9639390122,Residential Self ,200,200,200,200,0,0
+171,21-Khailkalan,Khailkalan,148,Mohd raseed,vahid,Khailkalan,9639390122,Residential Self ,0,0,0,0,420,420
+172,21-Khailkalan,Khailkalan,149,Ikram,Alabanda,Khailkalan,9045497096,Residential Self ,73,73,73,73,347,694
+173,21-Khailkalan,Khailkalan,150,Vahid,Mamdu,Khailkalan,8630900070,Residential Self ,61,202,61,202,359,1057
+174,21-Khailkalan,Khailkalan,151,Jareena,Habib rahman,Khailkalan,9358249030,Residential Self ,44,208,44,204,376,1464
+175,21-Khailkalan,Khailkalan,152,Ramjani,Lateef,Khailkalan,9997160310,Residential Self ,97,97,97,97,323,0
+176,21-Khailkalan,Khailkalan,153,Yaseen,Kasim,Khailkalan,8171318139,Residential Self ,48,565,48,293,0,0
+177,21-Khailkalan,Khailkalan,154,Yaseen,Kasim,Khailkalan,8171318139,Residential Self ,0,0,0,0,372,1800
+178,21-Khailkalan,Khailkalan,155,Ilyas,baseer,Khailkalan,-, -,244,0,97,0,420,420
+179,21-Khailkalan,Khailkalan,156,Shalem,Karimulla,Khailkalan,6398367272,Residential Self ,61,0,61,470,359,1974
+180,21-Khailkalan,Khailkalan,157,Khalid,Karimulla,Khailkalan,-,Residential Self ,73,338,73,338,347,1348
+181,21-Khailkalan,Khailkhurd,158,"Idrish, sshalem, irshad ",fhata,Khailkhurd,9927957983,Residential Self ,44,44,44,44,420,0
+182,21-Khailkalan,Khailkhurd,158/1,Rubina,Haneef,Khailkhurd, -, -,0,0,0,0,0,0
+183,21-Khailkhurd,Khailkhurd,159,Baseer ,ghani,Khailkhurd,7520022500,Residential Self ,48,877,48,877,0,0
+184,21-Khailkhurd,Khailkhurd,160,Baseer ,ghani,Khailkhurd,7520022500,Commercial  Self ,88,1607,88,1607,0,0
+185,21-Khailkhurd,Khailkhurd,161,Baseer ,ghani,Khailkhurd,7520022500,Commercial  Self ,0,0,0,0,0,0
+186,21-Khailkhurd,Khailkhurd,162,Baseer ,ghani,Khailkhurd,7520022500,Commercial  Self ,0,0,0,0,0,0
+187,21-Khailkhurd,Khailkhurd,163,Baseer ,ghani,Khailkhurd,7520022500,Commercial  Self ,55,1007,55,1007,365,3300
+188,21-Khailkhurd,Khailkhurd,164,Khalid,ghani,Khailkhurd,-,Residential Self ,88,187,88,189,0,0
+189,21-Khailkhurd,Khailkhurd,165,"Resma, Humera",Irshad,Khailkhurd,9458651786,Commercial  Self ,44,92,44,92,420,2940
+190,21-Khailkhurd,Khailkhurd,166,Masjid Khailkhurd,-,Khailkhurd,-,Mosque,0,0,0,0,0,0
+191,21-Khailkhurd,Khailkhurd,167,"Mohd Asif, mohd, danish",Sageer,Khailkhurd,9582010546,Residential Self ,109,506,109,506,420,2940
+192,21-Khailkhurd,Khailkhurd,168,Shahzad,Ishak,Khailkhurd,7417620500,Residential Self ,61,128,61,128,359,718
+193,21-Khailkhurd,Khailkhurd,168/1,raseed,Ishak,Khailkhurd,9897346254,Residential Self ,61,419,61,337,359,1735
+194,21-Khailkhurd,Khailkhurd,168/2,Khalid,Shafi,Khailkhurd,8797035222,Residential Self ,55,0,44,0,376,0
+195,21-Khailkhurd,Khailkhurd,168/3,Rafi,Shafi,Khailkhurd,9634299600,Residential Self ,55,756,55,812,365,3945
+196,21-Khailkhurd,Khailkhurd,168/4,Aziz ,Shafi,Khailkhurd,9997220097,Residential Self ,44,44,44,44,420,420
+197,21-Khailkhurd,Khailkhurd,169,"Pravej, javed",Islak,Khailkhurd,9359821836,Residential Self ,109,0,109,109,311,0
+198,21-Khailkhurd,Khailkhurd,170,"nisar, ishtakar",Akhlac,Khailkhurd,9359821836,Residential Self ,109,0,109,0,0,0
+199,21-Khailkhurd,Khailkhurd,171,Mohd aamil,Mohd kamil,Khailkhurd,-,Residential Self ,73,153,73,153,347,694
+200,21-Khailkhurd,Khailkhurd,171/1,Mohd aamil,Mohd kamil,Khailkhurd,-,Residential Self ,0,0,0,0,0,0
+201,21-Khailkhurd,Khailkhurd,172,Mukdasa begum urf saale,Abdul mukeem,Khailkhurd,8791417906,Residential Self ,48,1807,48,1807,372,4968
+202,21-Khailkhurd,Khailkhurd,173,Manuvar sultana,jalil ahmad,Khailkhurd,9540335502,Residential Self ,145,0,145,0,0,0
+203,21-Khailkhurd,Khailkhurd,174,Husain Ahmad,Imamudin,Khailkhurd,8791433825,Residential Self ,61,0,61,61,359,359
+204,21-Khailkhurd,Khailkhurd,175,Manuvar sultana,jalil ahmad,Khailkhurd,9540335502,Residential Self ,85,0,85,0,0,0
+205,21-Khailkhurd,Khailkhurd,174/1,Sameem,Imamudin,Khailkhurd,8755430487,Residential Self ,79,166,79,168,0,0
+206,21-Khailkhurd,Khailkhurd,174/2,shalim,Imamudin,Khailkhurd,9837535574,Residential Self ,79,534,79,1084,420,0
+207,21-Khailkhurd,Khailkhurd,174/3,shabir,Imamudin,Khailkhurd,9259141560,Residential Self ,79,0,79,0,341,0
+208,21-Khailkhurd,Khailkhurd,175,MUNNUBARSULTAN,JALEELHAMEAD,Khailkhurd, -, -,0,0,85,0,335,335
+209,21-Khailkhurd,Khailkhurd,176,Sarvari,said,Khailkhurd,9897901260,Residential Self ,19,19,0,0,0,0
+210,21-Khailkhurd,Khailkhurd,176/1,"Tanveer, vaseem, tanseem, rashid",said ahmad,Khailkhurd, -, -,0,0,0,0,420,420
+211,21-Khailkhurd,Khailkhurd,176/2,Nasreen,Tanjeem,Khailkhurd, -, -,0,0,0,0,0,0
+212,21-Khailkhurd,Khailkhurd,177,saleem,ikbal,Khailkhurd,9368985389,Residential Self ,121,254,121,254,299,598
+213,21-Khailkhurd,Khailkhurd,178,Sameem,ikbal,Khailkhurd,8272881546,Residential Self ,44,0,44,0,420,0
+214,21-Khailkhurd,Khailkhurd,179,Sarvari,said,Khailkhurd,9897901260,Residential Self ,61,721,61,721,0,0
+215,21-Khailkhurd,Khailkhurd,179/1,"Tanveer, vaseem, tanseem, rashid",said ahmad,Khailkhurd, -, -,0,0,0,0,420,2940
+216,21-Khailkhurd,Khailkhurd,179/2,Nasreen,Tanjeem,Khailkhurd, -, -,0,0,0,0,0,0
+217,21-Khailkhurd,Khailkhurd,180,Gazala,Vaseek,Khailkhurd,-,Residential Self ,145,1120,145,1202,420,2796
+218,21-Khailkhurd,Khailkhurd,181,Anees ahmad,ahmad hasan,Khailkhurd,9068429445,Residential Self ,40,40,48,48,372,372
+219,21-Khailkhurd,Khailkhurd,182,doc. Fajil,Fajal ahmad,Khailkhurd,9756460990,Residential Self ,61,971,61,971,359,294
+220,21-Khailkhurd,Khailkhurd,183,Khursida jaha,Sadeek,Khailkhurd,9719565355,Residential Self ,97,97,97,97,420,420
+221,21-Khailkhurd,Khailkhurd,184,"Akaram, aarif, aamil",kamil,Khailkhurd,9520933468,Residential Self ,97,334,97,361,420,1240
+222,21-Khailkhurd,Khailkhurd,185,tayyab,Faiyyaj,Khailkhurd,-,Open Plot ,0,0,0,0,420,3240
+223,21-Khailkhurd,Khailkhurd,186,Fajil,Fajal ahmad,Khailkhurd,-,Open Plot ,0,0,0,0,420,3780
+224,21-Khailkhurd,Khailkhurd,187,Mohd kosar,Naseem,Khailkhurd,8899770086,Residential Self ,44,44,44,268,420,2040
+225,21-Khailkhurd,Khailkhurd,187/1,Mohd abrar,Naseem,Khailkhurd,-, -,44,44,44,268,0,0
+226,21-Khailkhurd,Khailkhurd,188,Shahbudin,Shamshudin,Khailkhurd,9319113370,Residential Self ,48,101,48,659,372,2812
+227,21-Khailkhurd,Khailkhurd,189,Sadrul hak,Maksud,Khailkhurd,9319889080,Residential Self ,48,101,48,370,0,0
+228,21-Khailkhurd,Khailkhurd,190,sakir,Amir ahmad,Khailkhurd,9045887741,Residential Self ,85,316,85,808,0,0
+229,21-Khailkhurd,Khailkhurd,191,Khalid,Noor mohd,Khailkhurd,9639918350,Residential Self ,61,61,61,372,420,5320
+230,21-Khailkhurd,Khailkhurd,193,shabir ali,Noor mohd,Khailkhurd,9639918350,Residential Self ,73,5384,73,5379,420,3340
+231,21-Khailkhurd,Khailkhurd,192,Mohd shahdin,Noor mohd,Khailkhurd,8218530405,Residential Self ,44,215,44,519,0,0
+232,21-Khailkhurd,Khailkhurd,194,Mahmud,Noor mohd,Khailkhurd,9557788840,Residential Self ,73,153,73,2451,0,0
+233,21-Khailkhurd,Khailkhurd,195,akbar,Noor mohd,Khailkhurd,8433083123,Residential Self ,73,1160,73,5379,347,4252
+234,21-Khailkhurd,Khailkhurd,196,Faji,Kabil,Khailkhurd,-, -,448,941,448,941,0,0
+235,21-Khailkhurd,Khailkhurd,197,"Naseem, Salim",Riyaj,Khailkhurd,-,Residential Self ,48,0,0,0,420,840
+236,21-Khailkhurd,Khailkhurd,198,Jahir,Habib,Khailkhurd,8859187786,Residential Self ,48,291,48,0,0,0
+237,21-Khailkhurd,Khailkhurd,199,Habib khatun,Mohd kabir,Khailkhurd,9045297499,Residential Self ,44,802,44,802,0,0
+238,21-Khailkhurd,Khailkhurd,200,Habib khatun,Mohd kabir,Khailkhurd,9045297499,Residential Self ,48,1623,48,1624,0,0
+239,21-Khailkhurd,Khailkhurd,201,Mumtaj,Sadeek,Khailkhurd,9536031788,Residential Self ,121,416,121,11502,0,0
+240,21-Khailkhurd,Khailkhurd,202,Intjar,Rajjak,Khailkhurd,8171512959,Residential Self ,48,10320,48,19766,420,8001
+241,21-Khailkhurd,Khailkhurd,202/1,Ali ahmad,Hameed,Khailkhurd,8171512959,Residential Self ,44,339,44,339,376,1820
+242,21-Khailkhurd,Khailkhurd,202/2,Anees ,Sadeek,Khailkhurd,8630246767,Residential Self ,48,48,48,101,0,0
+243,21-Khailkhurd,Khailkhurd,203,Majahir hasan,Majhar hasan,Khailkhurd,-, -,48,2758,48,2476,420,6684
+244,21-Khailkhurd,Khailkhurd,204,Sakeel,AANIK,Khailkhurd,-, -,73,73,73,73,347,347
+245,21-Khailkhurd,Khailkhurd,205,saleem,Subrati,Khailkhurd,7017082215,Residential Self ,73,286,73,285,420,1240
+246,21-Khailkhurd,Khailkhurd,206,Ateek,alimudin,Khailkhurd,9045596801,Residential Self ,44,1557,44,92,0,0
+247,21-Khailkhurd,Khailkhurd,206/1,alimudin,banda,Khailkhurd, -, -,0,0,0,0,420,6046
+248,21-Khailkhurd,Khailkhurd,207,"toseef, majfar",jeeju,Khailkhurd,9045596801,Residential Self ,44,48,44,92,0,0
+249,21-Khailkhurd,Khailkhurd,208,Afroj jaha,Irshad,Khailkhurd,8130531503,Residential Self ,109,6643,109,8271,311,4552
+250,21-Khailkhurd,Khailkhurd,209,Yaseen,sheera,Khailkhurd,9690741153,Residential Self ,48,159,48,159,372,1096
+251,21-Khailkhurd,Khailkhurd,210,vati,FEEMU,Khailkhurd,9528099986,Residential Self ,97,1544,97,1805,420,3756
+252,21-Khailkhurd,Khailkhurd,211,Mohd yasin,Habid,Khailkhurd,7060880245,Residential Self ,43,0,43,0,377,0
+253,21-Khailkhurd,Khailkhurd,212,"Aslam, Ahsan etc",Shera,Khailkhurd,9045415421,Residential Self ,145,0,145,0,420,1240
+254,21-Khailkhurd,Khailkhurd,213,Yamin,Shera,Khailkhurd,-, -,73,1511,73,2725,0,0
+255,21-Khailkhurd,Khailkhurd,214,Kabir,hameed,Khailkhurd,8077612379,Residential Self ,48,0,48,0,372,0
+256,21-Khailkhurd,Khailkhurd,215,Irshad,yusuf,Khailkhurd,9690488315,Residential Self ,44,417,44,417,376,2332
+257,21-Khailkhurd,Khailkhurd,216,Nisar,yusuf,Khailkhurd,9520500590,Residential Self ,44,417,44,417,376,2332
+258,21-Khailkhurd,Khailkhurd,217,"Tofeek, Kayyum",Lati,Khailkhurd,8171802332,Residential Self ,73,8318,66,10909,420,8634
+259,21-Khailkhurd,Khailkhurd,218,"Tahir Mahmud, Mohd mahboob",Mohd umar,Khailkhurd,9690740257,Residential Self ,48,293,48,293,372,1840
+260,21-Khailkhurd,Khailkhurd,219,Shahid etc,Raseed ahmad,Khailkhurd,7217262328,Residential Self ,61,971,61,971,359,2942
+261,21-Khailkhurd,Khailkhurd,220,Shahshad,Noor mohd,Khailkhurd,9058044924,Residential Self ,73,1331,73,1331,347,1675
+262,21-Khailkhurd,Khailkhurd,220/1,Hameed,baseer,Khailkhurd,-, -,48,109,48,659,372,2812
+263,21-Khailkhurd,Khailkhurd,221,Baseer,Barkat,Khailkhurd,-, -,44,204,44,605,0,0
+264,21-Khailkhurd,Khailkhurd,"2,22,223","Asgar, anvar",Barkat,Khailkhurd,7027861805,Residential Self ,48,0,48,0,372,0
+265,21-Khailkhurd,Khailkhurd,224,Vakeela,Aslam,Khailkhurd,9518460786,Residential Self ,97,450,97,450,323,4252
+266,21-Khailkhurd,Khailkhurd,225,Jamil,Jeeju,Khailkhurd,-, -,61,3372,61,4684,0,0
+267,21-Khailkhurd,Khailkhurd,226,Badrul islam,Jafar islam,Khailkhurd,9412889155,Residential Self ,67,67,67,67,353,353
+268,21-Khailkhurd,Khailkhurd,227,Ikram,Aklarakha,Khailkhurd,8859451901,Residential Self ,44,92,44,339,420,2340
+269,21-Khailkhurd,Khailkhurd,228,"Jisan, ajeem, faheem",Ahsan,Khailkhurd,-, -,595,0,545,13,24,0
+270,21-Khailkhurd,Khailkhurd,228/1,"Fajal, ajeem",Yusuf siddiqui,Khailkhurd,-, -,0,0,0,0,0,0
+271,21-Khailkhurd,Khailkhurd,229,Sadiya praveen,Mohd rashid,Khailkhurd,9045327761,Residential Self ,44,215,44,92,0,0
+272,21-Khailkhurd,Khailkhurd,230,"Anvar ahmad, ashfak ahmad",afjal,Khailkhurd,-, -,0,6670,0,9860,420,6540
+273,21-Khailkhurd,Khailkhurd,"2,31,232","Mohd anam, Mohd mukaram",Aslam,Khailkhurd,9897398531,Residential Self ,121,121,121,121,0,0
+274,21-Khailkhurd,Khailkhurd,233,Afjal ahmad,Aklac ahmad,Khailkhurd,9897965818,Residential Self ,97,974,97,396,323,2380
+275,21-Khailkhurd,Khailkhurd,234,Israr,ashfak,Khailkhurd,9412888889,Residential Self ,48,592,48,243,0,0
+276,21-Khailkhurd,Khailkhurd,234/1,Abrar,ashfak,Khailkhurd,7417203400,Residential Self ,48,1623,48,1623,0,0
+277,21-Khailkhurd,Khailkhurd,234/A1,Ansar,ashfak,Khailkhurd,9358451809,Residential Self ,48,1168,48,1168,0,0
+278,21-Khailkhurd,Khailkhurd,234/2,Irfan,ashfak,Khailkhurd,9219296313,Residential Self ,48,565,48,565,0,0
+279,21-Khailkhurd,Khailkhurd,235,Choti Masjid khail khurd,-,Khailkhurd,-,Mosque,0,0,0,0,0,0
+280,21-Khailkhurd,Khailkhurd,237,Sareef,Raseed,Khailkhurd,9837688666,Residential Self ,145,305,145,305,420,888
+281,21-Khailkhurd,Khailkhurd,238,Aslam,Islam,Khailkhurd,9897864569,Residential Self ,121,121,121,121,299,299
+282,21-Khailkhurd,Khailkhurd,239,Kosar jaha,Husain,Khailkhurd,8126786797,Residential Self ,48,370,48,370,372,2897
+283,21-Khailkhurd,Khailkhurd,239/1,Talib Husain,Jabaar,Khailkhurd,9897391346,Residential Self ,55,873,55,873,365,3350
+284,21-Khailkhurd,Khailkhurd,239/2,Talib Husain,Jabaar,Khailkhurd,9897391346, -,0,0,0,0,0,0
+285,21-Khailkhurd,Khailkhurd,240,Jaha aara begum,Mohd aamil,Khailkhurd,9927168433,Residential Self ,48,445,48,455,372,2304
+286,21-Khailkhurd,Khailkhurd,"24,12,42,243",Anjumam aara,munubudin,Khailkhurd,7534884802,Residential Self ,48,0,48,0,372,0
+287,21-Khailkhurd,Khailkhurd,243/1,Sabeer,Noor mohd,Khailkhurd,8791544692,Residential Self ,97,450,97,458,323,1252
+288,21-Khailkhurd,Khailkhurd,243/2,Jiyaull,sageer,Khailkhurd,-,Residential Self ,48,1807,48,562,0,0
+289,21-Khailkhurd,Khailkhurd,"2,44,245",Vaseek ahmad,Abdul vaheed,Khailkhurd,9997203613,Residential Self ,73,73,73,73,347,347
+290,21-Khailkhurd,Khailkhurd,246,Aneek,Ateek,Khailkhurd,9456664014,Residential Self ,97,0,97,0,323,0
+291,21-Khailkhurd,Khailkhurd,247,Alijan,Seeda Kha,Khailkhurd,9045651299,Residential Self ,55,116,55,116,365,730
+292,21-Khailkhurd,Khailkhurd,248 to 250,Intjar,Manjur hasan,Khailkhurd,9927974038,Residential Self ,110,2012,110,2005,420,6640
+293,21-Khailkhurd,Khailkhurd,251,Sajaul,jiyaul,Khailkhurd,-, -,67,0,67,0,353,0
+294,21-Khailkhurd,Khailkhurd,251/1,sitara,Sajaul,Khailkhurd, -, -,0,0,0,0,0,0
+295,21-Khailkhurd,Khailkhurd,252,Sareef,Ibrahim,Khailkhurd,-, -,73,241,73,241,0,0
+296,21-Khailkhurd,Khailkhurd,253,Sokat,kamru,Khailkhurd,9634233902,Residential Self ,73,669,73,669,347,2243
+297,21-Khailkhurd,Khailkhurd,254,Jamsed,Najir,Khailkhurd,9634233902,Residential Self ,97,6617,97,6617,323,5761
+298,21-Khailkhurd,Khailkhurd,255,Sakulat,Inam,Khailkhurd,-, -,61,0,61,0,359,4932
+299,21-Khailkhurd,Khailkhurd,256,Ameer hasan,kamru,Khailkhurd,7017873367,Residential Self ,97,97,97,97,0,0
+300,21-Khailkhurd,Khailkhurd,"2,57,258",Sarafat,Yameen,Khailkhurd,9058678244,Residential Self ,40,541,44,587,0,0
+301,21-Khailkhurd,Khailkhurd,"2,59,260",Akhtari,Jahid,Khailkhurd,9045316819,Residential Self ,55,426,55,426,0,0
+302,21-Khailkhurd,Khailkhurd,"2,61,262",Sarafat,Yameen,Khailkhurd,9058678244,Residential Self ,44,665,44,519,0,0
+303,21-Khailkhurd,Khailkhurd,263,Siddiuqi,mamad,Khailkhurd,9045493640,Residential Self ,44,519,44,519,0,0
+304,21-Khailkhurd,Khailkhurd,264,Badrul islam,Shamsul,Khailkhurd,9760752235,Residential Self ,97,748,97,748,0,0
+305,21-Khailkhurd,Khailkhurd,265,Matlub,Liyakat,Khailkhurd,9761219400,Residential Self ,121,561,121,561,299,1156
+306,21-Khailkhurd,Khailkhurd,266,Matlub,Liyakat,Khailkhurd,9761219400,Commercial  Self ,44,204,44,204,0,0
+307,21-Khailkhurd,Khailkhurd,267,Asmat,ilyas,Khailkhurd,-, -,97,204,97,187,0,0
+308,21-Khailkhurd,Khailkhurd,268 to 271,Pawan kumar,Malti prasad,Khailkhurd,-, -,0,0,0,0,0,0
+309,21-Khailkhurd,Khailkhurd,272,Sanjeeda,Tahir Hasan,Khailkhurd,9760242184,Residential Self ,48,102,48,102,372,744
+310,21-Khailkhurd,Khailkhurd,273,Umra,Rahmat,Khailkhurd,9927539406,Residential Self ,73,1005,73,1005,347,2590
+311,21-Khailkhurd,Khailkhurd,274,Sakur,Jahur,Khailkhurd,7417700630,Residential Self ,97,748,97,748,323,1758
+312,21-Khailkhurd,Khailkhurd,275,Naseem,Riyasat,Khailkhurd,9012996060,Residential Self ,48,101,48,101,372,744
+313,21-Khailkhurd,Khailkhurd,276,Inam,Kamalu,Khailkhurd,9760574556,Residential Self ,73,73,73,73,347,0
+314,21-Khailkhurd,Khailkhurd,277,Riyasat,Kamaludin,Khailkhurd,-, -,73,153,73,153,0,0
+315,21-Khailkhurd,Khailkhurd,278,Dilshad,Yusuf,Khailkhurd,-, -,44,802,44,802,0,0
+316,21-Khailkhurd,Khailkhurd,"2,79,280",Ilyas,Yusuf,Khailkhurd,9997011355,Residential Self ,45,47,45,45,375,375
+317,21-Khailkhurd,Khailkhurd,"281,282,284/1",Irshad,Yusuf,Khailkhurd,9458651786,Residential Self ,44,92,44,552,0,0
+318,21-Khailkhurd,Khailkhurd,"2,83,284",Rukamdin,Habidulla,Khailkhurd,7017491115,Residential Self ,44,44,44,44,376,376
+319,21-Khailkhurd,Khailkhurd,285,Shareef,Ibrahim,Khailkhurd,-, -,61,3117,61,3116,420,6972
+320,21-Khailkhurd,Khailkhurd,286,Abbul Hasan,Kamru,Khailkhurd,8439743844,Residential Self ,85,179,85,179,420,840
+321,21-Khailkhurd,Khailkhurd,287,Abra,Imdad,Khailkhurd, -, -,0,0,0,0,420,3540
+322,21-Khailkhurd,Khailkhurd,288,Rukamdin,Habibulla,Khailkhurd,7017491115,Residential Self ,73,692,73,692,347,2129
+323,21-Khailkhurd,Khailkhurd,289,Asgar,Saraju,Khailkhurd,9012207762,Residential Self ,97,3244,97,3263,0,0
+324,21-Khailkhurd,Khailkhurd,290,Asgar,Saraju,Khailkhurd,8279447626,Residential Self ,73,2598,73,1065,0,0
+325,21-Khailkhurd,Khailkhurd,291,Jameela,Riyaj,Khailkhurd,9756804908,Residential Self ,73,2451,73,2451,420,7060
+326,21-Khailkhurd,Khailkhurd,292,Ameer jaha,Jiyaul hak,Khailkhurd,9568489799,Residential Self ,61,128,61,128,359,718
+327,21-Khailkhurd,Khailkhurd,293,Masjid Gujro vali,-,Khailkhurd,-, -,0,0,0,0,0,0
+328,21-Khailkhurd,Khailkhurd,294,Masjid Gujro vali,-,Khailkhurd,-, -,0,0,0,0,0,0
+329,21-Khailkhurd,Khailkhurd,295,Masjid Gujro vali,-,Khailkhurd,-, -,218,218,218,218,0,0
+330,21-Khailkhurd,Khailkhurd,296,Masjid Gujro vali,-,Khailkhurd,-, -,12,12,0,0,0,0
+331,21-Khailkhurd,Khailkhurd,297,Masjid Gujro vali,-,Khailkhurd,-, -,0,0,0,0,0,0
+332,21-Khailkhurd,Khailkhurd,298,Masjid Gujro vali,-,Khailkhurd,-, -,36,36,0,0,0,0
+333,21-Khailkhurd,Khailkhurd,299,Mohd Takreem Shan,Anvar ahmad,Khailkhurd,9358275758,Residential Self ,143,143,143,143,420,3660
+334,21-Khailkhurd,Khailkhurd,300,Anvari,Mahmud,Khailkhurd,-, -,24,1116,0,0,0,0
+335,21-Khailkhurd,Khailkhurd,301,Shahira,Naseem ahmad,Khailkhurd,9358556412,Residential Self ,73,153,73,153,347,3532
+336,21-Khailkhurd,Khailkhurd,302,Sanjeeda,Yaseen,Khailkhurd,-, -,48,293,48,0,372,1800
+337,21-Khailkhurd,Khailkhurd,303,Yamin,baseer,Khailkhurd,8859352270,Residential Self ,55,183,55,183,0,0
+338,21-Khailkhurd,Khailkhurd,304,Kisvar jaha,Manjur ,Khailkhurd,9996566157,Residential Self ,48,114,48,114,376,765
+339,21-Khailkhurd,Khailkhurd,304/1,Sakeel,Manjur,Khailkhurd,8755183855,Residential Self ,61,0,61,0,359,0
+340,21-Khailkhurd,Khailkhurd,305,Rais,Jamil,Khailkhurd,7065213010,Residential Self ,66,219,66,219,420,3196
+341,21-Khailkhurd,Khailkhurd,306,Anees,Banda,Khailkhurd,9897536618,Residential Self ,44,0,44,0,420,0
+342,21-Khailkhurd,Khailkhurd,307,Babu,Banda,Khailkhurd,-,Residential Self ,41,2239,44,802,0,0
+343,21-Khailkhurd,Khailkhurd,308,Mahfujan,Ameer ahmad,Khailkhurd,8171318276,Residential Self ,73,692,73,436,0,0
+344,21-Khailkhurd,Khailkhurd,308/2,Aalim,Bundu,Khailkhurd,9997780158,Residential Self ,48,370,48,0,0,0
+345,21-Khailkhurd,Khailkhurd,"309,310/3",Sureeya begum,Mansur ahmad,Khailkhurd,9791731206,Residential Self ,61,202,61,202,420,1240
+346,21-Khailkhurd,Khailkhurd,310/1,Mateen,Manjur,Khailkhurd,-, -,97,0,97,0,323,0
+347,21-Khailkhurd,Khailkhurd,310,Sakeel ahmad,Manjur Ahmad,Khailkhurd,-, -,55,0,55,0,420,0
+348,21-Khailkhurd,Khailkhurd,310/2,Sakeel ,Manjur ,Khailkhurd,-, -,48,0,48,0,0,0
+349,21-Khailkhurd,Khailkhurd,311/1,Rageeb Husain,Jabair,Khailkhurd,8859352270,Residential Self ,61,0,61,0,359,0
+350,21-Khailkhurd,Khailkhurd,312,Rafeek,Latif,Khailkhurd,7895744303,Residential Self ,97,592,97,592,323,1555
+351,21-Khailkhurd,Khailkhurd,311,Hammo,Fajal,Khailkhurd,8171369140,Residential Self ,48,0,48,0,372,0
+352,21-Khailkhurd,Khailkhurd,314,Ali asgar,Sareef,Khailkhurd,-, -,73,241,73,241,347,1021
+353,21-Khailkhurd,Khailkhurd,314/1,Faji,Kabil,Khailkhurd,-, -,44,92,44,116,0,0
+354,21-Khailkhurd,Khailkhurd,315,Athar hasan,Sareef,Khailkhurd,9760685555,Residential Self ,48,110,48,101,372,744
+355,21-Khailkhurd,Khailkhurd,316,alimudin,Ibrahim,Khailkhurd,-, -,0,322,0,0,0,0
+356,21-Khailkhurd,Khailkhurd,317,Ijhar,Samshulhak,Khailkhurd,-, -,44,0,44,0,376,0
+357,21-Khailkhurd,Khailkhurd,318,Jaheer,Khalil,Khailkhurd,9560202213,Residential Self ,73,153,73,153,347,694
+358,21-Khailkhurd,Khailkhurd,319,Jaheer,Khalil,Khailkhurd,9560202213,Residential Self ,48,101,48,101,0,0
+359,21-Khailkhurd,Khailkhurd,320,Nafees,ahmad hasan,Khailkhurd,9027057377,Residential Self ,97,2344,97,2344,420,4440
+360,21-Khailkhurd,Khailkhurd,321,Meena beva,Majhar Ahmad,Khailkhurd,-, -,85,85,85,85,0,0
+361,21-Khailkhurd,Khailkhurd,321/1,Bhatijaiba jeevan,Kabil,Khailkhurd,-, -,192,192,55,482,0,0
+362,21-Khailkhurd,Khailkhurd,322,Raseeda,Ayyaj ahmad,Khailkhurd,9695707017,Residential Self ,121,278,121,254,299,598
+363,21-Khailkhurd,Khailkhurd,323,Raseeda,Ayyaj ahmad,Khailkhurd,9695707017,Residential Self ,55,188,55,256,0,0
+364,21-Khailkhurd,Khailkhurd,324,Wakar jafar,Naseem  ahmad,Khailkhurd,9837942044,Residential Self ,55,55,55,55,420,420
+365,21-Khailkhurd,Khailkhurd,325,Anees ahmad,Ameer ahmad,Khailkhurd,-, -,48,877,48,877,0,0
+366,21-Khailkhurd,Khailkhurd,326,"Nadeem urf Javed, Tanveer ",kamil,Khailkhurd,9760242160,Residential Self ,66,66,66,66,0,0
+367,21-Khailkhurd,Khailkhurd,327,"Nadeem urf Javed, Tanveer ",kamil,Khailkhurd,9027188010,Residential Self ,61,61,61,55,0,0
+368,21-Khailkhurd,Khailkhurd,328,Sakeel,Najir,Khailkhurd,9634949805,Residential Self ,121,2520,121,101,299,2732
+369,21-Khailkhurd,Khailkhurd,328/1,Safeek,Rafeek,Khailkhurd,-,Residential Self ,48,2461,48,2476,420,3196
+370,21-Khailkhurd,Khailkhurd,329,Mohd Hasan,Mohd Jaan,Khailkhurd,8755009795,Residential Self ,165,347,165,347,255,510
+371,21-Khailkhurd,Khailkhurd,329/1,Ali hasan,ALI AKBAR,Khailkhurd,8899366588,Residential Self ,73,1777,73,2512,0,0
+372,21-Khailkhurd,Khailkhurd,330,Ali akbar,Sareef,Khailkhurd,8899366588,Residential Self ,121,121,121,121,299,299
+373,21-Khailkhurd,Khailkhurd,331,Jaheer,Najir,Khailkhurd,9468435601,Residential Self ,48,1045,48,1040,372,3668
+374,21-Khailkhurd,Khailkhurd,331/1,saleem,Najir,Khailkhurd,9917458786,Residential Self ,48,48,48,48,372,372
+375,21-Khailkhurd,Khailkhurd,332,Samarjaha,Anvaruhak,Khailkhurd,9760689999,Residential Self ,85,2,85,4,335,0
+376,21-Khailkhurd,Khailkhurd,333,Suhail etc,ikbal,Khailkhurd,9897677754,Residential Self ,44,0,44,0,420,6300
+377,21-Khailkhurd,Khailkhurd,334,Batul,Sabeer,Khailkhurd,-, -,110,365,110,387,0,0
+378,21-Khailkhurd,Khailkhurd,334/A1,Navab,Sabeer,Khailkhurd, -, -,0,0,0,0,310,960
+379,21-Khailkhurd,Khailkhurd,334/1,Shahnaj,Aslam,Khailkhurd,6706371366, -,132,807,132,807,420,3940
+380,21-Khailkhurd,Khailkhurd,334/A2,"Shahnavaj,  Jisan",Aslam,Khailkhurd, -, -,0,0,0,0,0,0
+381,21-Khailkhurd,Khailkhurd,334/2,Saalim,Taki,Khailkhurd,8394091470, -,110,364,110,364,310,910
+382,21-Khailkhurd,Khailkhurd,335,Mohd hasan,Mohd Jaan,Khailkhurd,9997534059,Residential Self ,45,95,45,95,375,750
+383,21-Khailkhurd,Khailkhurd,336,Irshad,Yusuf,Khailkhurd,9458651786,Commercial  Self ,0,0,0,0,0,0
+384,21-Khailkhurd,Khailkhurd,336/1,Irshad,Yusuf,Khailkhurd,9458651786,Commercial  Self ,0,0,0,0,0,0
+385,21-Khailkhurd,Khailkhurd,327/1,"Mohd Mukeem, Mohd Nadeem",Haji kamil,Khailkhurd,-, -,165,1533,165,0,0,0
+386,21-Khailkhurd,Khailkhurd,336/2,Mohmmad Aalam Jaidi,Sayyad jaidi,Khailkhurd,9899741935, -,182,3600,182,6115,0,0
+387,21-Khailkhurd,Khailkhurd,337,Mohmmad Aalam Jaidi,Sayyad jaidi,Khailkhurd,9899741935, -,182,3600,182,6115,0,0
+388,21-Khailkhurd,Khailkhurd,337/1,Aaseya,Asman,Khailkhurd,9760794771,Commercial  Self ,145,145,145,145,0,0
+389,21-Khailkhurd,Khailkhurd,337/2,Aaseya,Asman,Khailkhurd,9760794771,Commercial  Self ,436,436,436,436,0,0
+390,21-Khailkhurd,Khailkhurd,338,Akbari,Sareef,Khailkhurd,8586892953,Residential Self ,61,706,61,1303,359,3432
+391,21-Khailkhurd,Khailkhurd,339,Haneef,Fanna,Khailkhurd,9528757841,Residential Self ,73,338,73,338,0,0
+392,21-Khailkhurd,Khailkhurd,340,Haneef,Fanna,Khailkhurd,9528757841,Residential Self ,73,338,73,338,0,0
+393,21-Khailkhurd,Khailkhurd,341,Milkiyat Masjid Shop,-,Khailkhurd,-, -,44,0,44,0,0,0
+394,21-Khailkhurd,Khailkhurd,342,Milkiyat Masjid Khari Ibadat Ghah,-,Khailkhurd,-, -,0,0,0,0,420,0
+395,21-Khailkhurd,Khailkhurd,343,Chammo,Habeeb,Khailkhurd,-, -,44,44,44,44,376,376
+396,21-Khailkhurd,Khailkhurd,344,Akbari,Sareef,Khailkhurd,-, -,44,2074,44,1033,420,5340
+397,21-Khailkhurd,Khailkhurd,345,Mahmuda,Rafeek,Khailkhurd,-,Residential Self ,55,256,55,256,420,1640
+398,21-Khailkhurd,Khailkhurd,346,Aaseya,Asman,Khailkhurd,9760794771,Residential Self ,44,44,44,44,420,420
+399,21-Khailkhurd,Khailkhurd,347,Sabeer,Suleman,Khailkhurd,8630763231,Residential Self ,48,370,48,370,372,2252
+400,21-Khailkhurd,Khailkhurd,348,"Mohd aalam, Mohd shokin",baseer,Khailkhurd,9997058945,Residential Self ,48,223,48,464,372,1500
+401,21-Khailkhurd,Khailkhurd,348/1,"Jaheer Hasan, Ali hasan",baseer,Khailkhurd,9045307081,Residential Self ,48,293,48,293,0,0
+402,21-Khailkhurd,Khailkhurd,349,Shahdin,Nura,Khailkhurd,9358155057, -,85,85,85,88,335,345
+403,21-Khailkhurd,Khailkhurd,350,Shahdin,Nura,Khailkhurd,9358155057, -,55,55,55,55,420,687
+404,21-Khailkhurd,Khailkhurd,351,Sameem,Raseed,Khailkhurd,8191432972,Residential Self ,44,92,44,92,0,0
+405,21-Khailkhurd,Khailkhurd,352,Irshad,hameed,Khailkhurd,9897648982,Residential Self ,45,95,45,95,375,750
+406,21-Khailkhurd,Khailkhurd,351/1,Jamshad,Raseed,Khailkhurd,9897648982,Residential Self ,66,165,66,166,0,0
+407,21-Khailkhurd,Khailkhurd,353,Dilshad,hameed,Khailkhurd,7017092047,Residential Self ,48,659,48,656,372,744
+408,21-Khailkhurd,Khailkhurd,353/1,Jamshad,Raseed,Khailkhurd,9897648482,Residential Self ,44,145,44,145,0,0
+409,21-Khailkhurd,Khailkhurd,354,Shahshad,Raseed,Khailkhurd,935112010,Residential Self ,44,92,44,92,420,840
+410,21-Khailkhurd,Khailkhurd,355,Seeda,Ibrahim,Khailkhurd,9389526480,Residential Self ,73,153,73,153,347,694
+411,21-Khailkhurd,Khailkhurd,355/1,Seeda,Ibrahim,Khailkhurd,8171434263,Residential Self ,396,9277,396,9079,420,4008
+412,21-Khailkhurd,Khailkhurd,356,Mumtaj,Sakeel,Khailkhurd,7818995873,Residential Self ,50,306,55,337,365,1765
+413,21-Khailkhurd,Khailkhurd,357,Nafees,Safi,Khailkhurd,6395685454,Residential Self ,66,139,66,139,0,0
+414,21-Khailkhurd,Khailkhurd,358,Nafees,Safi,Khailkhurd,9045315755,Residential Self ,97,204,97,204,323,2822
+415,21-Khailkhurd,Khailkhurd,359,Said,Ibrahim,Khailkhurd,9839941412,Residential Self ,61,1474,61,1439,359,3682
+416,21-Khailkhurd,Khailkhurd,362,Sarvar,Yaseen,Khailkhurd,7417272786,Residential Self ,44,0,44,0,0,0
+417,21-Khailkhurd,Khailkhurd,361,Janat,Basa,Khailkhurd,-, -,66,307,61,283,359,1396
+418,21-Khailkhurd,Khailkhurd,360,Batul,Salamtulla,Khailkhurd,9634615095,Residential Self ,44,145,44,145,376,3708
+419,21-Khailkhurd,Khailkhurd,363,Sakeel,Said,Khailkhurd,9045253148,Residential Self ,61,372,61,373,359,1735
+420,21-Khailkhurd,Khailkhurd,364,Sarvar,Yaseen,Khailkhurd,-,Residential Self ,44,0,44,0,0,0
+421,21-Khailkhurd,Khailkhurd,361/1,Rashid,Sabeer,Khailkhurd,8218343534,Residential Self ,44,358,44,339,0,0
+422,21-Khailkhurd,Khailkhurd,365,Haji salim,-,Khailkhurd,8279486122,Residential Self ,97,204,97,204,323,834
+423,21-Khailkhurd,Khailkhurd,365/1,Haji salim,-,Khailkhurd,8279486122, -,220,1697,220,1697,0,0
+424,21-Khailkhurd,Khailkhurd,366,Haji salim,-,Khailkhurd,8279486122, -,85,657,85,657,0,0
+425,21-Khailkhurd,Khailkhurd,367,Haji salim,-,Khailkhurd,8279486122, -,73,563,73,563,0,0
+426,21-Khailkhurd,Khailkhurd,368,Haji salim,-,Khailkhurd,8279486122, -,73,563,73,563,0,0
+427,21-Khailkhurd,Khailkhurd,369,Aslam,Yaseen,Khailkhurd,9719727230,Residential Self ,73,0,73,1,347,0
+428,21-Khailkhurd,Khailkhurd,369/1A,Aslam,Yaseen,Khailkhurd,9719727230,Residential Self ,110,0,110,111,0,0
+429,21-Khailkhurd,Khailkhurd,369/1,Sakeel,said,Khailkhurd,-,Residential Self ,660,3832,660,4030,0,0
+430,21-Khailkhurd,Khailkhurd,369/2,Sakeel,said,Khailkhurd,-,Residential Self ,61,372,61,372,0,0
+431,21-Khailkhurd,Khailkhurd,369/3,Sarvar,Yaseen,Khailkhurd,-,Commercial  Self ,73,73,73,91,347,4090
+432,21-Khailkhurd,Khailkhurd,369/4,Sarvar,Yaseen,Khailkhurd,-,Commercial  Self ,85,85,85,85,0,0
+433,21-Khailkhurd,Khailkhurd,369/5,Sarvar,Yaseen,Khailkhurd,-,Commercial  Self ,0,0,0,0,0,0
+434,21-Khailkhurd,Khailkhurd,369/6,Sarvar,Yaseen,Khailkhurd,-,Commercial  Self ,0,0,0,0,0,0
+435,21-Khailkhurd,Khailkhurd,369/7,Sarvar,Yaseen,Khailkhurd,-,Commercial  Self ,0,0,0,0,0,0
+436,21-Khailkhurd,Khailkhurd,370,Mohammad Shokeen,Basheer ,Khailkhurd,8894038978,Residential Self ,61,210,61,128,359,818
+437,21-Khailkhurd,Khailkhurd,371,Fajal ahmad,Niyaj,Khailkhurd,-, -,132,613,132,613,0,0
+438,21-Khailkhurd,Khailkhurd,372,Fajal ahmad,Niyaj,Khailkhurd,-, -,0,0,0,0,0,0
+439,21-Khailkhurd,Khailkhurd,373,Fajal ahmad,Niyaj,Khailkhurd,-, -,132,613,132,613,0,0
+440,21-Khailkhurd,Khailkhurd,373/1,Shokin,Baseer Ahmad,Khailkhurd,8899038978,Commercial  Self ,242,508,242,508,178,365
+441,21-Khailkhurd,Khailkhurd,373/2,Shokin,Baseer Ahmad,Khailkhurd,8899038978,Commercial  Self ,110,231,110,231,0,0
+442,21-Khailkhurd,Khailkhurd,373/3,Shokin,Baseer Ahmad,Khailkhurd,8899038978,Commercial  Self ,0,0,0,0,0,0
+443,21-Khailkhurd,Khailkhurd,373/4,Shokin,Baseer Ahmad,Khailkhurd,8899038978,Commercial  Self ,110,231,110,231,0,0
+444,21-Khailkhurd,Khailkhurd,373/1A,Mohd Said,Mohd Sadaa,Khailkhurd,9997518587,Commercial  Self ,396,6791,396,1346,24,60
+445,21-Khailkhurd,Khailkhurd,373/2A,Mohd Said,Mohd Sadaa,Khailkhurd,9760329291,Commercial  Self ,165,2275,165,551,0,0
+446,21-Khailkhurd,Khailkhurd,374,Dilbhar,Niyajtulla,Khailkhurd,6398933230, -,0,0,0,0,130,0
+447,21-Khailkhurd,Khailkhurd,374/1,Dilbhar,Niyajtulla,Khailkhurd,6398933230, -,290,0,290,0,0,0
+448,21-Khailkhurd,Khailkhurd,374/2,Dilbhar,Niyajtulla,Khailkhurd,6398933230, -,290,0,290,0,0,0
+449,21-Khailkhurd,Khailkhurd,375,"Intjar Ahmad, Iftakhar",Abdul aziz,Khailkhurd,9557564542,Residential Self ,220,220,220,443,0,0
+450,21-Khailkhurd,Khailkhurd,375/1,Shahdin,Sadeek,Khailkhurd,9520076007,Residential Self ,132,613,132,613,0,0
+451,21-Khailkhurd,Khailkhurd,376,Akhtari,Niyaj,Khailkhurd,9897546600,Commercial  Self ,182,844,182,182,238,912
+452,21-Khailkhurd,Khailkhurd,376/A,Akhtari,Niyaj,Khailkhurd,9897546600,Commercial  Self ,132,132,132,132,0,0
+453,21-Khailkhurd,Khailkhurd,373/5,Vajeer jaha,Ejaj Ahmad,Khailkhurd,9895647672,Commercial  Self ,0,0,0,0,0,0
+454,21-Khailkhurd,Khailkhurd,373/6,Vajeer jaha,Ejaj Ahmad,Khailkhurd,9895647672,Commercial  Self ,0,0,0,0,0,0
+455,21-Khailkhurd,Khailkhurd,373/7,Vajeer jaha,Ejaj Ahmad,Khailkhurd,9895647672,Commercial  Self ,0,0,0,0,0,0
+456,21-Khailkhurd,Khailkhurd,373/8,Vajeer jaha,Ejaj Ahmad,Khailkhurd,9895647672,Commercial  Self ,0,0,0,0,0,0
+457,21-Khailkhurd,Khailkhurd,373/1A,Mo sayed,Mo sada,Khailkhurd, -, -,0,0,396,5441,0,0
+458,21-Khailkhurd,Khailkhurd,373/2A, -, -,Khailkhurd, -,Commercial  Self ,0,0,165,2248,0,0
+459,21-Khailkhurd,Khailkhurd,373/9,Vajeer jaha,Ejaj Ahmad,Khailkhurd,9895647672,Commercial  Self ,0,0,0,0,0,0
+460,21-Khailkhurd,Khailkhurd,376/1,Muzaffar,Ejaj Ahmad,Khailkhurd,7895697672,Residential Self ,165,347,165,347,0,0
+461,21-Khailkhurd,Khailkhurd,376/2,Muzaffar,Ejaj Ahmad,Khailkhurd,7895697672, -,145,329,145,329,0,0
+462,21-Khailkhurd,Khailkhurd,376/3,Muzaffar,Ejaj Ahmad,Khailkhurd,7895697672, -,165,347,165,347,0,0
+463,21-Khailkhurd,Khailkhurd,375/2,shabir,Kari Shahdin,Khailkhurd,-, -,165,347,0,0,0,0
+464,21-Khailkhurd,Khailkhurd,377,Sadab,said ahmad,Khailkhurd,6395721912,Commercial  Self ,85,85,85,85,0,0
+465,21-Khailkhurd,Khailkhurd,378,Sadab,said ahmad,Khailkhurd,6395721912,Commercial  Self ,110,117,110,117,0,0
+466,21-Khailkhurd,Khailkhurd,378/1,Sadab,said ahmad,Khailkhurd,6395721912,Commercial  Self ,85,85,85,290,0,0
+467,21-Khailkhurd,Khailkhurd,379,Intjar,Shahdin,Khailkhurd,9319671957,Commercial  Self ,145,145,145,145,0,0
+468,21-Khailkhurd,Khailkhurd,"380,384/1",Jameela,Shahdin,Khailkhurd,9319671957,Residential Self ,110,125,110,110,275,275
+469,21-Khailkhurd,Khailkhurd,380/2,Jameela,Shahdin,Khailkhurd,9319671957,Commercial  Self ,436,1444,436,1444,0,0
+470,21-Khailkhurd,Khailkhurd,381,Sadab,said ahmad,Khailkhurd,-, -,55,66,55,66,0,0
+471,21-Khailkhurd,Khailkhurd,382,Said,Sadeek,Khailkhurd,9358985362, -,55,55,55,490,0,0
+472,21-Khailkhurd,Khailkhurd,"384,382/1",Mohd sabeer,Sadeek,Khailkhurd,9388985362,Residential Self ,44,101,44,65,376,2668
+473,21-Khailkhurd,Khailkhurd,383,Shahdin,Sadeek,Khailkhurd,7520076007,Residential Self ,45,48,45,149,375,0
+474,21-Khailkhurd,Khailkhurd,384,Israt jaha,ataulla,Khailkhurd,-,Residential Self ,40,40,48,101,58,116
+475,21-Khailkhurd,Khailkhurd,385,Sabra,Dilvar,Khailkhurd,9997961600,Residential Self ,61,0,61,0,420,0
+476,21-Khailkhurd,Khailkhurd,386,Sabeer,Karimulla,Khailkhurd,-, -,44,605,44,605,376,2900
+477,21-Khailkhurd,Khailkhurd,387,Bundu,Sadeek,Khailkhurd,7417960052,Residential Self ,40,84,48,293,372,1800
+478,21-Khailkhurd,Khailkhurd,388,"Aslam, Hameed",Majeed,Khailkhurd,9045564633,Residential Self ,44,204,44,145,420,1240
+479,21-Khailkhurd,Khailkhurd,388/1,"Aslam, Hameed",Majeed,Khailkhurd,9045564633,Commercial  Self ,0,0,0,0,0,0
+480,21-Khailkhurd,Khailkhurd,388/2,"Aslam, Hameed",Majeed,Khailkhurd,9045564633,Commercial  Self ,0,0,0,0,0,0
+481,21-Khailkhurd,Khailkhurd,389,Anvari,Rafeek,Khailkhurd,-,Residential Self ,48,2476,48,2476,0,0
+482,21-Khailkhurd,Khailkhurd,390,"Vaseem, Sadeek, Said",Subhan,Khailkhurd,8899012873,Residential Self ,73,0,73,0,347,0
+483,21-Khailkhurd,Khailkhurd,391,Shamshad,Karimudin,Khailkhurd,-, -,44,92,44,92,271,793
+484,21-Khailkhurd,Khailkhurd,392,Akhtar,Khalik Mohd,Khailkhurd,9368838090,Residential Self ,61,372,61,372,359,1735
+485,21-Khailkhurd,Khailkhurd,393,Hasim,kamil,Khailkhurd,9045282693,Residential Self ,48,0,48,0,372,0
+486,21-Khailkhurd,Khailkhurd,394,Vajeer jaha,ejaj ,Khailkhurd,-, -,0,0,0,0,420,840
+487,21-Khailkhurd,Khailkhurd,395,Sameem,Liyakat,Khailkhurd,-, -,0,2044,0,2078,0,0
+488,21-Khailkhurd,Khailkhurd,396,Sameem Ahmad,Abdul Hakeem,Khailkhurd,-, -,44,339,44,339,0,0
+489,21-Khailkhurd,Khailkhurd,397,Jamil Ahmad,Rafeek,Khailkhurd,9897980859,Residential Self ,55,0,55,0,420,0
+490,21-Khailkhurd,Khailkhurd,397/1,Vaseek ,Rafeek,Khailkhurd,9528560056,Residential Self ,66,139,66,139,354,768
+491,21-Khailkhurd,Khailkhurd,397/2,Ateek,Rafeek,Khailkhurd,9813284818,Residential Self ,66,139,66,139,354,708
+492,21-Khailkhurd,Khailkhurd,397/3,Tofeek,Rafeek,Khailkhurd,9756970425,Residential Self ,66,510,66,510,354,2004
+493,21-Khailkhurd,Khailkhurd,398,Badlu,Sadeek,Khailkhurd,-, -,61,578,61,971,359,2942
+494,21-Khailkhurd,Khailkhurd,399,Siddi,Ginni,Khailkhurd,7457027950,Residential Self ,61,721,61,721,420,4777
+495,21-Khailkhurd,Khailkhurd,400,"Intjar, Mumtaj, raseed",salim,Khailkhurd,9760821138,Residential Self ,121,8261,121,8249,420,6900
+496,21-Khailkhurd,Khailkhurd,401,Sabir,Ibrahim,Khailkhurd,9027805180,Residential Self ,73,2203,73,2217,347,4296
+497,21-Khailkhurd,Khailkhurd,402,Gayyur,Nura,Khailkhurd,9897392450,Residential Self ,87,1196,87,1196,333,2
+498,21-Khailkhurd,Khailkhurd,403,Mohmmad,Nura,Khailkhurd,9756711255,Residential Self ,55,525,55,524,365,2255
+499,21-Khailkhurd,Khailkhurd,405,munni,Salim,Khailkhurd,7830928136,Residential Self ,48,223,48,223,372,1448
+500,21-Khailkhurd,Khailkhurd,404,Kasim,Banda,Khailkhurd,7351342100, -,48,223,48,223,0,0
+501,21-Khailkhurd,Khailkhurd,406,Kasim,Banda,Khailkhurd,7351342100, -,85,395,85,395,372,1485
+502,21-Khailkhurd,Khailkhurd,407,Raisa,Yaseen,Khailkhurd,9992772097,Residential Self ,44,222,44,1033,420,6183
+503,21-Khailkhurd,Khailkhurd,408,Mahboob,Immamudin,Khailkhurd,9760245170,Residential Self ,121,403,121,400,299,877
+504,21-Khailkhurd,Khailkhurd,409,Deenu,safi,Khailkhurd,8791845498,Residential Self ,44,92,44,92,372,2740
+505,21-Khailkhurd,Khailkhurd,410,Usman,Munsi,Khailkhurd,-, -,0,0,0,0,0,0
+506,21-Khailkhurd,Khailkhurd,411,aayub,Bundu,Khailkhurd,9358890033,Residential Self ,44,1033,44,1033,420,840
+507,21-Khailkhurd,Khailkhurd,411/1,Mahboob,Bundu,Khailkhurd,9358890033,Residential Self ,44,92,44,92,0,0
+508,21-Khailkhurd,Khailkhurd,412,Johra,salim,Khailkhurd,-, -,73,1160,73,2323,420,7205
+509,21-Khailkhurd,Khailkhurd,413,Bundu,Abdul,Khailkhurd,989726175,Residential Self ,48,0,48,0,0,0
+510,21-Khailkhurd,Khailkhurd,414,Niyajman w% aayub,S% tulla,Khailkhurd,8791464161,Residential Self ,87,1805,87,1805,333,3128
+511,21-Khailkhurd,Khailkhurd,415,Mumtaji ,Sadeek,Khailkhurd,9045250501,Residential Self ,61,3097,61,3820,0,0
+512,21-Khailkhurd,Khailkhurd,415/1,"Sareef, nina",Sadeek,Khailkhurd, -, -,0,0,0,0,359,5432
+513,21-Khailkhurd,Khailkhurd,416,Mohd salim,Munu,Khailkhurd,8439313143,Residential Self ,436,20347,436,22351,0,0
+514,21-Khailkhurd,Khailkhurd,417,Nanu,Alabanda,Khailkhurd,-, -,145,8976,145,7442,0,0
+515,21-Khailkhurd,Khailkhurd,417/1,Nanu,Alabanda,Khailkhurd,-, -,145,14363,145,12369,0,0
+516,21-Khailkhurd,Khailkhurd,418,Raseed,Nasrudin,Khailkhurd,9027857699, -,290,1771,290,1771,0,0
+517,21-Khailkhurd,Khailkhurd,418/1,Raseed,Nasrudin,Khailkhurd,9027857699, -,290,12249,290,13588,0,0
+518,21-Khailkhurd,Khailkhurd,418/2,Raseed,Nasrudin,Khailkhurd,9027857699, -,73,2451,73,1065,347,5354
+519,21-Khailkhurd,Khailkhurd,419,Noor hasan,Nanha,Khailkhurd,9548240005,Commercial  Self ,218,2306,218,5276,0,0
+520,21-Khailkhurd,Khailkhurd,419/1,Noor hasan,Nanha,Khailkhurd,9548240005,Commercial  Self ,218,5319,218,8789,0,0
+521,21-Khailkhurd,Khailkhurd,419/2,Noor hasan,Nanha,Khailkhurd,9548240005,Commercial  Self ,66,1547,66,1547,0,0
+522,21-Khailkhurd,Khailkhurd,419/3,Noor hasan,Nanha,Khailkhurd,9548240005,Residential Self ,85,5481,85,1959,0,0
+523,21-Khailkhurd,Khailkhurd,420,Ameer hasan,Nanha,Khailkhurd,-, -,44,92,44,92,0,0
+524,21-Khailkhurd,Khailkhurd,421,Nanu,Ibrahim,Khailkhurd,-, -,61,1825,61,3105,0,0
+525,21-Khailkhurd,Khailkhurd,422,Usman,Munsi,Khailkhurd,9911014040,Residential Self ,44,417,44,418,372,2304
+526,21-Khailkhurd,Khailkhurd,423,Islam,Munsi,Khailkhurd,8899573873,Residential Self ,121,0,121,122,299,299
+527,21-Khailkhurd,Khailkhurd,424,Jaheer,Nanha,Khailkhurd,9837433043,Residential Self ,121,561,121,573,420,1640
+528,21-Khailkhurd,Khailkhurd,425,Meer hasan,Nanha,Khailkhurd,8975975897,Residential Self ,45,92,45,95,375,800
+529,21-Khailkhurd,Khailkhurd,426,Yasin,Ahamtula,Khailkhurd,9927951438,Residential Self ,85,3180,85,3180,335,4322
+530,21-Khailkhurd,Khailkhurd,427,Sabir,Ahamtula,Khailkhurd,9045131573,Residential Self ,97,97,97,97,323,323
+531,21-Khailkhurd,Khailkhurd,428,Hameed,Ahamtula,Khailkhurd,9259242526,Residential Self ,48,223,48,223,0,0
+532,21-Khailkhurd,Khailkhurd,429,Vajeer ahmad,Yaseen,Khailkhurd,-, -,48,223,48,223,420,2210
+533,21-Khailkhurd,Khailkhurd,430,Shahdin,Kalu,Khailkhurd,-, -,44,145,44,145,376,1108
+534,21-Khailkhurd,Khailkhurd,431,MO shahnbaj,uvesh,Khailkhurd,-, -,365,767,365,823,0,0
+535,21-Khailkhurd,Khailkhurd,432,Rais kha,Majeed Kha,Khailkhurd,-, -,48,241,48,241,0,0
+536,21-Khailkhurd,Khailkhurd,433,Meena,Mahboob,Khailkhurd,8923751186,Residential Self ,860,860,860,860,0,0
+537,21-Khailkhurd,Khailkhurd,434,Rais kha,Majeed Kha,Khailkhurd,-, -,165,165,165,165,0,0
+538,21-Khailkhurd,Khailkhurd,435,Ali hasan,Sadeek,Khailkhurd,8791750800,Residential Self ,73,169,73,169,347,1021
+539,21-Khailkhurd,Khailkhurd,435/1,Hashif,Alihasan,Khailkhurd,8791750800,Commercial  Self ,0,0,365,770,55,110
+540,21-Khailkhurd,Khailkhurd,435/1 431/1,Sajid,Alihasan,Khailkhurd, -, -,0,0,365,767,0,0
+541,21-Khailkhurd,Khailkhurd,436/1,Rashid,Alihasan,Khailkhurd, -, -,365,767,365,767,0,0
+542,21-Khailkhurd,Khailkhurd,435/2,Ali hasan,Sadeek,Khailkhurd,8791750800,Commercial  Self ,365,767,88,204,55,110
+543,21-Khailkhurd,Khailkhurd,435/3,Sajaul,Sadeek,Khailkhurd,8791750800,Commercial  Self ,88,202,88,202,55,110
+544,21-Khailkhurd,Khailkhurd,436,"Baseer ahmad, Maksud ahmad",ch. Shahdin,Khailkhurd,9411927786, -,145,0,145,0,275,0
+545,21-Khailkhurd,Khailkhurd,437,Muniba,Sabir,Khailkhurd,7060135028,Residential Self ,97,2022,97,2022,323,3300
+546,21-Khailkhurd,Khailkhurd,438,Tahir hasan,Tayyab,Khailkhurd,9412871863,Residential Self ,55,426,55,873,365,3000
+547,21-Khailkhurd,Khailkhurd,439,Raseeda,sameem,Khailkhurd,9368851734,Residential Self ,45,720,45,716,0,0
+548,21-Khailkhurd,Khailkhurd,440,jahid,jaheer,Khailkhurd,7818007417,Residential Self ,48,0,48,0,372,0
+549,21-Khailkhurd,Khailkhurd,441,Rukkeya ,Saleem,Khailkhurd,9045552537,Residential Self ,48,370,48,455,370,2290
+550,21-Khailkhurd,Khailkhurd,441/1,Irshad,kareem,Khailkhurd, -, -,0,0,0,0,0,0
+551,21-Khailkhurd,Khailkhurd,442,Khalil ahmad,Baseer,Khailkhurd,9045362897,Residential Self ,50,2105,50,1140,0,0
+552,21-Khailkhurd,Khailkhurd,443,Ameer,Baseer,Khailkhurd,7668122034,Residential Self ,87,2885,87,3255,333,4786
+553,21-Khailkhurd,Khailkhurd,444,Naseemmatu,Azizurahman,Khailkhurd,-, -,48,2207,48,2476,0,0
+554,21-Khailkhurd,Khailkhurd,445,"Nina,saleem,naseer",Azizurahman,Khailkhurd,8864905780,Residential Self ,48,0,48,0,0,0
+555,21-Khailkhurd,Khailkhurd,446,Mohd sadab ansari,Mohd Tahir Ansari,Khailkhurd,9412871863,Residential Self ,48,223,48,223,0,0
+556,21-Khailkhurd,Khailkhurd,447,"Mohd Rafi,Sarvar,manavar,sokin",Safi,Khailkhurd,7017891299,Residential Self ,48,48,48,48,372,372
+557,21-Khailkhurd,Khailkhurd,448,Kasim,Farjand,Khailkhurd,9411031487,Residential Self ,48,2457,48,2751,372,5692
+558,21-Khailkhurd,Khailkhurd,449,Raseed,Nasrudin,Khailkhurd,8057866970,Residential Self ,48,293,48,370,372,2052
+559,21-Khailkhurd,Khailkhurd,450,Rais ahmad,Najir Hasan,Khailkhurd,7906442639, -,48,293,48,370,372,2052
+560,21-Khailkhurd,Khailkhurd,451,Jamil ,Baseer,Khailkhurd,741738880,Residential Self ,55,337,55,1423,0,0
+561,21-Khailkhurd,Khailkhurd,452,Jamil ,Baseer,Khailkhurd,741738880,Commercial  Self ,218,2953,218,1331,202,1298
+562,21-Khailkhurd,Khailkhurd,453,Jamil ,Baseer,Khailkhurd,741738880,Commercial  Self ,73,988,73,445,0,0
+563,21-Khailkhurd,Khailkhurd,454,Raseed,Nasrudin,Khailkhurd,9886800143,Residential Self ,97,0,97,0,323,0
+564,21-Khailkhurd,Khailkhurd,455,Mohd Ikbal,Hameed,Khailkhurd,9760470047,Residential Self ,159,464,159,464,0,0
+565,21-Khailkhurd,Khailkhurd,456,Israt jaha,Mohd umar,Khailkhurd,720522410, -,61,8344,61,9859,0,0
+566,21-Khailkhurd,Khailkhurd,457,Sabir,Jahir Hasan,Khailkhurd,9319918543,Residential Self ,61,600,61,616,372,2256
+567,21-Khailkhurd,Khailkhurd,458,Tahir hasan,Jahir hasan,Khailkhurd,9368474723,Residential Self ,44,8148,44,1033,420,6540
+568,21-Khailkhurd,Khailkhurd,459,"modh sadeek, mohd aarif",Mohd saleem,Khailkhurd,9368985833,Residential Self ,44,1021,44,1033,0,0
+569,21-Khailkhurd,Khailkhurd,460,Jahid Hasan,Salamtulla,Khailkhurd,8267023114,Residential Self ,48,565,48,565,372,2556
+570,21-Khailkhurd,Khailkhurd,461,"Hafeej Mahboob, Hafeeg Mahmud",Molvi khalid,Khailkhurd,9368985833,Residential Self ,97,0,97,0,0,0
+571,21-Khailkhurd,Khailkhurd,462,"Mohd Afjal, Mohd fajil",Sadeek,Khailkhurd,9027377342,Residential Self ,97,97,97,204,323,646
+572,21-Khailkhurd,Khailkhurd,463,"Mohd Afjal, Mohd fajil",Sadeek,Khailkhurd,9027377342,Commercial  Self ,77,77,77,243,0,0
+573,21-Khailkhurd,Khailkhurd,464,"Mohd Afjal, Mohd fajil",Sadeek,Khailkhurd,9027377342,Commercial  Self ,88,88,88,185,0,0
+574,21-Khailkhurd,Khailkhurd,465,Milkiyat jama masjid (akhtar),-,Khailkhurd,8899752941,Commercial  Self ,48,0,48,600,0,0
+575,21-Khailkhurd,Khailkhurd,466,Milkiyat jama masjid (saleem),-,Khailkhurd,9548063899,Commercial  Self ,145,3570,145,1475,0,0
+576,21-Khailkhurd,Khailkhurd,467,Milkiyat jama masjid (Ameer),-,Khailkhurd,9358103420,Commercial  Self ,145,147,145,145,0,0
+577,21-Khailkhurd,Khailkhurd,468,Milkiyat jama masjid (Fajil),-,Khailkhurd,9756460990,Commercial  Self ,290,3983,290,3983,420,3240
+578,21-Khailkhurd,Khailkhurd,469,Milkiyat jama masjid (Gate),-,Khailkhurd,-, -,0,0,0,0,0,0
+579,21-Khailkhurd,Khailkhurd,470,Milkiyat jama masjid (Ameer),-,Khailkhurd,9358103420,Commercial  Self ,145,156,145,145,0,0
+580,21-Khailkhurd,Khailkhurd,201/1,Rais ahmad,Anees ahmad,Khailkhurd,9997872055,Residential Self ,150,1159,150,315,0,0
+581,21-Khailkhurd,Khailkhurd,384,Shakira,shahdeen,Khailkhurd, -, -,362,362,0,0,0,0
+582,21-Khailkhurd,Khailkhurd,431/3 436/3,Sajid,Let/Alihasan,Khailkhurd, -, -,365,1209,0,0,0,0
+583,21-Khailkhurd,Khailkhurd,245/1, Jamal ahmmad sidhki,Mohammad umar,Khailkhurd, -, -,696,696,0,0,0,0
+584,21-Khailkhurd,Khailkhurd,436/1,Khurshid ahmmad sameem ahammad nadeem ahammad,Ayyob ahammad,Khailkhurd, -, -,200,200,0,0,0,0
+585,21-Khailkhurd,Khailkhurd,191/1,Farukh,Mehamod urf munda,Khailkhurd, -, -,504,504,0,0,0,0
+586,21-Khailkhurd,Khailkhurd,445/1,Shrimati Najma ,Shree Vashim,Khailkhurd, -, -,200,0,0,0,0,0
+587,21-Khailkhurd,Khailkhurd,155/1,Kamil,Bashir,Khailkhurd, -, -,244,0,0,0,0,0
+588,21-Khailkhurd,Khailkhurd,155/2,Shahid ,Bashir,Khailkhurd, -, -,244,0,0,0,0,0

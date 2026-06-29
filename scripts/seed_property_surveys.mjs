@@ -1,7 +1,10 @@
 import fs from 'fs'
 import { Pool } from 'pg'
+import dotenv from 'dotenv'
 
-const csvPath = process.argv[2] || 'public/Ward_4.csv'
+
+dotenv.config()
+const csvPath = process.argv[2] || 'public/Ward_21.csv'
 const DATABASE_URL = process.env.DATABASE_URL
 if (!DATABASE_URL) {
   console.error('Please set DATABASE_URL environment variable')
@@ -52,7 +55,7 @@ function generateHouseNo(index) {
     n = Math.floor(n / 26)
   }
 
-  return `4${result}`
+  return `21${result}`
 }
 async function main() {
   const data = fs.readFileSync(csvPath, 'utf8')
@@ -81,7 +84,7 @@ try {
 
   const owner_name = old_owner_name
   const father_husband_name = old_father_husband_name
-  const old_moholla_name = 'Aal Khurd West'
+  const old_moholla_name = 'Khailkalan'
 
 const address =
   row['ADDRESS'] && row['ADDRESS'] !== '-'
@@ -90,35 +93,35 @@ const address =
 
   const old_house_tax =
     parseFloat(
-      (row['OLD HOUSE TAX 2025-2016'] || '')
+      (row['OLD HOUSE TAX 2025-2026'] || '')
         .toString()
         .replace(/[^0-9.-]/g, '')
     ) || null
 
   const house_tax_arrear =
     parseFloat(
-      (row['HOUSE TAX ARRER2025-2026'] || '')
+      (row['HOUSE TAX ARRER 2025-2026'] || '')
         .toString()
         .replace(/[^0-9.-]/g, '')
     ) || null
 
   const old_water_tax =
     parseFloat(
-      (row['OLD WATER TAX  2025-2026'] || '')
+      (row['OLD WATER TAX 2025-2026'] || '')
         .toString()
         .replace(/[^0-9.-]/g, '')
     ) || null
 
   const water_tax_arrear =
     parseFloat(
-      (row['OLD WATER TAX ARRER 2025-2026'] || '')
+      (row['WATER TAX ARRER 2025-2026'] || '')
         .toString()
         .replace(/[^0-9.-]/g, '')
     ) || null
 
   const watertank_tax_arrear =
     parseFloat(
-      (row['WATER TAX AMOUNT  ARRER 2025-26'] || '')
+      (row['OLD WATER TANK ARRER 2025-2026'] || '')
         .toString()
         .replace(/[^0-9.-]/g, '')
     ) || null
@@ -194,8 +197,8 @@ const address =
     [
   1,
   1,
-  4,
-  5,
+  21,
+  33,
   old_moholla_name,
   old_house_no || null,
   new_house_no,

@@ -19,9 +19,8 @@ const MAP_ULB_ID = 1;
 // Supports multiple ward IDs as an array
 function buildMapApiUrl(params = {}) {
   const search = new URLSearchParams();
-  // ward_ids is an array — append each as a separate ward_id param
-  if (params.ward_ids && params.ward_ids.length > 0) {
-    params.ward_ids.forEach(id => search.append('ward_id', id));
+  if (params.ward_id != null && params.ward_id !== '') {
+    search.set('ward_id', params.ward_id);
   }
   if (params.new_house_no) search.set('new_house_no', params.new_house_no);
   if (params.ne_lat != null) search.set('ne_lat', params.ne_lat);
@@ -81,11 +80,77 @@ export default function MapPage() {
 
   const fitBoundsDoneRef = useRef(false);
   const viewportFetchTimerRef = useRef(null);
-  const inFlightViewportRequestRef = useRef(null);
-  const lastViewportRequestKeyRef = useRef('');
+  const lastViewportRequestKeyRef = useRef(new Map());
 
   // Whether any ward is selected — drives the "show data" toggle
   const hasWardSelected = selectedWardIds.length > 0;
+
+  const mergeLoadedProperties = (nextProperties) => {
+    if (!nextProperties || nextProperties.length === 0) return
+
+    setProperties(prev => {
+      const existing = new Map(prev.map(prop => [prop.id, prop]))
+      let updated = false
+
+      for (const prop of nextProperties) {
+        if (!existing.has(prop.id)) {
+          existing.set(prop.id, prop)
+          updated = true
+        }
+      }
+
+      return updated ? Array.from(existing.values()) : prev
+    })
+  }
+
+  const loadWardProperties = async (wardIds, bounds = null, houseNo = searchHouseNo) => {
+    if (!wardIds || wardIds.length === 0) return []
+
+    const normalizedBounds = normalizeBounds(bounds)
+
+    const wardResults = await Promise.all(
+      wardIds.map(async wardId => {
+        const wardKey = String(wardId)
+        const requestKey = [
+          wardKey,
+          houseNo || 'all',
+          normalizedBounds?.ne_lat ?? 'all',
+          normalizedBounds?.ne_lng ?? 'all',
+          normalizedBounds?.sw_lat ?? 'all',
+          normalizedBounds?.sw_lng ?? 'all',
+        ].join('|')
+
+        if (lastViewportRequestKeyRef.current.get(wardKey) === requestKey) {
+          return []
+        }
+
+        lastViewportRequestKeyRef.current.set(wardKey, requestKey)
+
+        try {
+          const res = await fetch(buildMapApiUrl({
+            ward_id: wardKey,
+            new_house_no: houseNo || undefined,
+            ne_lat: normalizedBounds?.ne_lat,
+            ne_lng: normalizedBounds?.ne_lng,
+            sw_lat: normalizedBounds?.sw_lat,
+            sw_lng: normalizedBounds?.sw_lng,
+          }))
+
+          if (!res.ok) throw new Error('Failed to fetch property survey locations')
+
+          const data = await res.json()
+          return Array.isArray(data) ? data : []
+        } catch (err) {
+          lastViewportRequestKeyRef.current.delete(wardKey)
+          throw err
+        }
+      })
+    )
+
+    const combined = wardResults.flat()
+    mergeLoadedProperties(combined)
+    return combined
+  }
 
   const showToast = (msg, ok = true) => {
     setToast({ msg, ok });
@@ -184,69 +249,25 @@ export default function MapPage() {
   };
 
   const requestViewportProperties = (bounds, wardIds = selectedWardIds, houseNo = searchHouseNo) => {
-    if (wardIds.length === 0) return;       // don't fetch when no ward selected
+    if (wardIds.length === 0) return;
     const normalized = normalizeBounds(bounds);
     if (!normalized) return;
 
-    const requestKey = [
-      wardIds.sort().join(',') || 'all',
-      houseNo || 'all',
-      normalized.ne_lat, normalized.ne_lng,
-      normalized.sw_lat, normalized.sw_lng,
-    ].map(v => (typeof v === 'number' ? v.toFixed(5) : String(v))).join('|');
-
-    if (requestKey === lastViewportRequestKeyRef.current) return;
-    lastViewportRequestKeyRef.current = requestKey;
-
     if (viewportFetchTimerRef.current) clearTimeout(viewportFetchTimerRef.current);
 
-    viewportFetchTimerRef.current = setTimeout(async () => {
-      if (inFlightViewportRequestRef.current) inFlightViewportRequestRef.current.abort();
-      const controller = new AbortController();
-      inFlightViewportRequestRef.current = controller;
-
-      try {
-        const url = buildMapApiUrl({
-          ward_ids: wardIds.length > 0 ? wardIds : undefined,
-          new_house_no: houseNo || undefined,
-          ne_lat: normalized.ne_lat,
-          ne_lng: normalized.ne_lng,
-          sw_lat: normalized.sw_lat,
-          sw_lng: normalized.sw_lng,
-        });
-        const res = await fetch(url, { signal: controller.signal });
-        if (!res.ok) throw new Error(`Map viewport request failed (${res.status})`);
-        const newProps = await res.json();
-        setProperties(prev => {
-          const existing = new Map(prev.map(p => [p.id, p]));
-          let updated = false;
-          for (const prop of newProps) {
-            if (!existing.has(prop.id)) { existing.set(prop.id, prop); updated = true; }
-          }
-          return updated ? Array.from(existing.values()) : prev;
-        });
-        setMapError(null);
-      } catch (err) {
-        if (err.name !== 'AbortError') {
-          console.error('Lazy load failed:', err);
-          setMapError('Unable to refresh map data for the current view.');
-        }
-      } finally {
-        if (inFlightViewportRequestRef.current === controller) inFlightViewportRequestRef.current = null;
-      }
+    viewportFetchTimerRef.current = setTimeout(() => {
+      loadWardProperties(wardIds, normalized, houseNo)
+        .then(() => setMapError(null))
+        .catch(err => {
+          console.error('Lazy load failed:', err)
+          setMapError('Unable to refresh map data for the current view.')
+        })
     }, 250);
   };
 
   const loadInitialProperties = async (wardIds, houseNo) => {
     try {
-      const res = await fetch(buildMapApiUrl({
-        ward_ids: wardIds && wardIds.length > 0 ? wardIds : undefined,
-        new_house_no: houseNo || undefined,
-      }));
-      if (!res.ok) throw new Error('Failed to fetch property survey locations');
-      const data = await res.json();
-      setProperties(data);
-      setVisibleProperties(data);
+      const data = await loadWardProperties(wardIds, null, houseNo)
       setMapError(null);
       setLoading(false);
 
@@ -299,11 +320,11 @@ export default function MapPage() {
       setActivePopup(null);
       setSelectedSurvey(null);
       fitBoundsDoneRef.current = false;
-      lastViewportRequestKeyRef.current = '';
+      lastViewportRequestKeyRef.current = new Map();
       return;
     }
     fitBoundsDoneRef.current = false;
-    lastViewportRequestKeyRef.current = '';
+    lastViewportRequestKeyRef.current = new Map();
     setProperties([]);
     setVisibleProperties([]);
     setMapBounds(null);
@@ -316,7 +337,6 @@ export default function MapPage() {
   useEffect(() => {
     return () => {
       if (viewportFetchTimerRef.current) clearTimeout(viewportFetchTimerRef.current);
-      if (inFlightViewportRequestRef.current) inFlightViewportRequestRef.current.abort();
     };
   }, []);
 
@@ -330,7 +350,10 @@ export default function MapPage() {
   }, [properties]);
 
   useEffect(() => {
-    if (!viewportBounds) return;
+    if (!viewportBounds) {
+      setVisibleProperties(properties)
+      return;
+    }
     setVisibleProperties(getVisibleProperties(viewportBounds));
   }, [viewportBounds, properties]);
 
@@ -371,7 +394,7 @@ export default function MapPage() {
     setActivePopup(null);
     setSelectedSurvey(null);
     fitBoundsDoneRef.current = false;
-    lastViewportRequestKeyRef.current = '';
+    lastViewportRequestKeyRef.current = new Map();
   };
 
   const handleHouseSearch = (e) => {

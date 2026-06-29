@@ -536,6 +536,11 @@
   min-width: 0;
 }
 
+.searchInput::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  cursor: pointer;
+}
+
 .searchInput::placeholder {
   color: #475569;
 }

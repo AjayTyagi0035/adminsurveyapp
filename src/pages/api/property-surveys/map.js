@@ -14,13 +14,14 @@ async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' })
   }
 
-  const { ne_lat, ne_lng, sw_lat, sw_lng, ward_id, new_house_no } = req.query
+  const { ne_lat, ne_lng, sw_lat, sw_lng, ward_id, new_house_no, date } = req.query
   const client = await pool.connect()
 
   try {
     const params = []
     let wardFilter = ''
     let houseFilter = ''
+    let dateFilter = ''
 
     if (ward_id) {
       params.push(parseInt(ward_id, 10))
@@ -32,8 +33,13 @@ async function handler(req, res) {
       houseFilter = ` AND TRIM(LOWER(new_house_no)) = TRIM(LOWER($${params.length}))`
     }
 
+    if (date) {
+      params.push(date.trim())
+      dateFilter = ` AND updated_at >= $${params.length}::timestamp AND updated_at <= $${params.length}::timestamp + interval '23 hours 59 minutes 59 seconds'`
+    }
+
     let queryText = `
-      SELECT id, old_house_no, new_house_no, owner_name, watertank_present, ward_id,
+      SELECT id, old_house_no, new_house_no, owner_name, watertank_present, ward_id, updated_at,
              (split_part(gps_location, ',', 1))::double precision AS latitude,
              (split_part(gps_location, ',', 2))::double precision AS longitude
       FROM property_surveys
@@ -41,6 +47,7 @@ async function handler(req, res) {
         AND gps_location ~ '^-?[0-9]+(\\.[0-9]+)?,[ ]*-?[0-9]+(\\.[0-9]+)?$'
         ${wardFilter}
         ${houseFilter}
+        ${dateFilter}
     `
 
     if (ne_lat && ne_lng && sw_lat && sw_lng) {

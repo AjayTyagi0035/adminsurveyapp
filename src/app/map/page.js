@@ -23,6 +23,7 @@ function buildMapApiUrl(params = {}) {
     search.set('ward_id', params.ward_id);
   }
   if (params.new_house_no) search.set('new_house_no', params.new_house_no);
+  if (params.date) search.set('date', params.date);
   if (params.ne_lat != null) search.set('ne_lat', params.ne_lat);
   if (params.ne_lng != null) search.set('ne_lng', params.ne_lng);
   if (params.sw_lat != null) search.set('sw_lat', params.sw_lat);
@@ -39,6 +40,7 @@ export default function MapPage() {
   const [selectedWardIds, setSelectedWardIds] = useState([]);
   const [houseNoInput, setHouseNoInput] = useState('');
   const [searchHouseNo, setSearchHouseNo] = useState('');
+  const [selectedDate, setSelectedDate] = useState('');
   const [loadingWards, setLoadingWards] = useState(false);
   const [showDroneLayer, setShowDroneLayer] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
@@ -84,6 +86,7 @@ export default function MapPage() {
 
   // Whether any ward is selected — drives the "show data" toggle
   const hasWardSelected = selectedWardIds.length > 0;
+  const hasActiveFilter = selectedWardIds.length > 0 || searchHouseNo !== '' || selectedDate !== '';
 
   const mergeLoadedProperties = (nextProperties) => {
     if (!nextProperties || nextProperties.length === 0) return
@@ -103,53 +106,95 @@ export default function MapPage() {
     })
   }
 
-  const loadWardProperties = async (wardIds, bounds = null, houseNo = searchHouseNo) => {
-    if (!wardIds || wardIds.length === 0) return []
+  const loadWardProperties = async (wardIds, bounds = null, houseNo = searchHouseNo, dateVal = selectedDate) => {
+    if ((!wardIds || wardIds.length === 0) && !houseNo && !dateVal) return []
 
     const normalizedBounds = normalizeBounds(bounds)
 
-    const wardResults = await Promise.all(
-      wardIds.map(async wardId => {
-        const wardKey = String(wardId)
-        const requestKey = [
-          wardKey,
-          houseNo || 'all',
-          normalizedBounds?.ne_lat ?? 'all',
-          normalizedBounds?.ne_lng ?? 'all',
-          normalizedBounds?.sw_lat ?? 'all',
-          normalizedBounds?.sw_lng ?? 'all',
-        ].join('|')
+    if (wardIds && wardIds.length > 0) {
+      const wardResults = await Promise.all(
+        wardIds.map(async wardId => {
+          const wardKey = String(wardId)
+          const requestKey = [
+            wardKey,
+            houseNo || 'all',
+            dateVal || 'all',
+            normalizedBounds?.ne_lat ?? 'all',
+            normalizedBounds?.ne_lng ?? 'all',
+            normalizedBounds?.sw_lat ?? 'all',
+            normalizedBounds?.sw_lng ?? 'all',
+          ].join('|')
 
-        if (lastViewportRequestKeyRef.current.get(wardKey) === requestKey) {
-          return []
-        }
+          if (lastViewportRequestKeyRef.current.get(wardKey) === requestKey) {
+            return []
+          }
 
-        lastViewportRequestKeyRef.current.set(wardKey, requestKey)
+          lastViewportRequestKeyRef.current.set(wardKey, requestKey)
 
-        try {
-          const res = await fetch(buildMapApiUrl({
-            ward_id: wardKey,
-            new_house_no: houseNo || undefined,
-            ne_lat: normalizedBounds?.ne_lat,
-            ne_lng: normalizedBounds?.ne_lng,
-            sw_lat: normalizedBounds?.sw_lat,
-            sw_lng: normalizedBounds?.sw_lng,
-          }))
+          try {
+            const res = await fetch(buildMapApiUrl({
+              ward_id: wardKey,
+              new_house_no: houseNo || undefined,
+              date: dateVal || undefined,
+              ne_lat: normalizedBounds?.ne_lat,
+              ne_lng: normalizedBounds?.ne_lng,
+              sw_lat: normalizedBounds?.sw_lat,
+              sw_lng: normalizedBounds?.sw_lng,
+            }))
 
-          if (!res.ok) throw new Error('Failed to fetch property survey locations')
+            if (!res.ok) throw new Error('Failed to fetch property survey locations')
 
-          const data = await res.json()
-          return Array.isArray(data) ? data : []
-        } catch (err) {
-          lastViewportRequestKeyRef.current.delete(wardKey)
-          throw err
-        }
-      })
-    )
+            const data = await res.json()
+            return Array.isArray(data) ? data : []
+          } catch (err) {
+            lastViewportRequestKeyRef.current.delete(wardKey)
+            throw err
+          }
+        })
+      )
 
-    const combined = wardResults.flat()
-    mergeLoadedProperties(combined)
-    return combined
+      const combined = wardResults.flat()
+      mergeLoadedProperties(combined)
+      return combined
+    } else {
+      const globalKey = 'global'
+      const requestKey = [
+        globalKey,
+        houseNo || 'all',
+        dateVal || 'all',
+        normalizedBounds?.ne_lat ?? 'all',
+        normalizedBounds?.ne_lng ?? 'all',
+        normalizedBounds?.sw_lat ?? 'all',
+        normalizedBounds?.sw_lng ?? 'all',
+      ].join('|')
+
+      if (lastViewportRequestKeyRef.current.get(globalKey) === requestKey) {
+        return []
+      }
+
+      lastViewportRequestKeyRef.current.set(globalKey, requestKey)
+
+      try {
+        const res = await fetch(buildMapApiUrl({
+          new_house_no: houseNo || undefined,
+          date: dateVal || undefined,
+          ne_lat: normalizedBounds?.ne_lat,
+          ne_lng: normalizedBounds?.ne_lng,
+          sw_lat: normalizedBounds?.sw_lat,
+          sw_lng: normalizedBounds?.sw_lng,
+        }))
+
+        if (!res.ok) throw new Error('Failed to fetch property survey locations')
+
+        const data = await res.json()
+        const arr = Array.isArray(data) ? data : []
+        mergeLoadedProperties(arr)
+        return arr
+      } catch (err) {
+        lastViewportRequestKeyRef.current.delete(globalKey)
+        throw err
+      }
+    }
   }
 
   const showToast = (msg, ok = true) => {
@@ -248,15 +293,15 @@ export default function MapPage() {
     });
   };
 
-  const requestViewportProperties = (bounds, wardIds = selectedWardIds, houseNo = searchHouseNo) => {
-    if (wardIds.length === 0) return;
+  const requestViewportProperties = (bounds, wardIds = selectedWardIds, houseNo = searchHouseNo, dateVal = selectedDate) => {
+    if (wardIds.length === 0 && !houseNo && !dateVal) return;
     const normalized = normalizeBounds(bounds);
     if (!normalized) return;
 
     if (viewportFetchTimerRef.current) clearTimeout(viewportFetchTimerRef.current);
 
     viewportFetchTimerRef.current = setTimeout(() => {
-      loadWardProperties(wardIds, normalized, houseNo)
+      loadWardProperties(wardIds, normalized, houseNo, dateVal)
         .then(() => setMapError(null))
         .catch(err => {
           console.error('Lazy load failed:', err)
@@ -265,9 +310,9 @@ export default function MapPage() {
     }, 250);
   };
 
-  const loadInitialProperties = async (wardIds, houseNo) => {
+  const loadInitialProperties = async (wardIds, houseNo, dateVal) => {
     try {
-      const data = await loadWardProperties(wardIds, null, houseNo)
+      const data = await loadWardProperties(wardIds, null, houseNo, dateVal)
       setMapError(null);
       setLoading(false);
 
@@ -309,10 +354,10 @@ export default function MapPage() {
 
   useEffect(() => { loadWards(); }, []);
 
-  // Reload whenever ward selection or house search changes
+  // Reload whenever ward selection, house search, or date changes
   // Only fires when at least one ward is selected
   useEffect(() => {
-    if (selectedWardIds.length === 0 && !searchHouseNo) {
+    if (selectedWardIds.length === 0 && !searchHouseNo && !selectedDate) {
       // No ward selected → clear map
       setProperties([]);
       setVisibleProperties([]);
@@ -331,8 +376,8 @@ export default function MapPage() {
     setActivePopup(null);
     setSelectedSurvey(null);
     setLoading(true);
-    loadInitialProperties(selectedWardIds, searchHouseNo);
-  }, [selectedWardIds, searchHouseNo]);
+    loadInitialProperties(selectedWardIds, searchHouseNo, selectedDate);
+  }, [selectedWardIds, searchHouseNo, selectedDate]);
 
   useEffect(() => {
     return () => {
@@ -389,6 +434,7 @@ export default function MapPage() {
     setSelectedWardIds([]);
     setHouseNoInput('');
     setSearchHouseNo('');
+    setSelectedDate('');
     setProperties([]);
     setVisibleProperties([]);
     setActivePopup(null);
@@ -493,7 +539,7 @@ export default function MapPage() {
         />
 
         {/* Loading overlay */}
-        {loading && hasWardSelected && (
+        {loading && hasActiveFilter && (
           <div className={styles.loadingOverlay}>
             <div className={styles.spinner}></div>
             <span>Loading properties...</span>
@@ -608,8 +654,34 @@ export default function MapPage() {
             </div>
           </div>
 
+          {/* ── Updated Date Filter ── */}
+          <div className={styles.filterSection}>
+            <div className={styles.sectionStaticHeader}>
+              <span className={styles.sectionIcon}>📅</span>
+              <span className={styles.sectionLabel}>Updated Date</span>
+            </div>
+            <div className={styles.sectionContent}>
+              <div className={styles.searchBox}>
+                <input
+                  id="map-date-filter"
+                  type="date"
+                  value={selectedDate}
+                  onChange={e => setSelectedDate(e.target.value)}
+                  className={styles.searchInput}
+                />
+                {selectedDate && (
+                  <button
+                    type="button"
+                    onClick={() => setSelectedDate('')}
+                    className={styles.searchClearBtn}
+                  >✕</button>
+                )}
+              </div>
+            </div>
+          </div>
+
           {/* ── Clear all ── */}
-          {hasWardSelected && (
+          {hasActiveFilter && (
             <div className={styles.filterActions}>
               <button className={styles.clearBtn} onClick={handleClearFilters}>
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
@@ -618,8 +690,8 @@ export default function MapPage() {
             </div>
           )}
 
-          {/* ── Stats (only when wards are selected) ── */}
-          {hasWardSelected && (
+          {/* ── Stats ── */}
+          {hasActiveFilter && (
             <div className={styles.statsRow}>
               <div className={styles.statPill}>
                 <span className={styles.statPillVal}>{loading ? '…' : properties.length}</span>
@@ -699,8 +771,8 @@ export default function MapPage() {
             )}
           </div>
 
-          {/* ── Properties in View (only when wards selected) ── */}
-          {hasWardSelected && (
+          {/* ── Properties in View ── */}
+          {hasActiveFilter && (
             <div className={styles.filterSection}>
               <div className={styles.sectionStaticHeader}>
                 <span className={styles.sectionLabel}>Properties in View</span>
@@ -737,6 +809,11 @@ export default function MapPage() {
                         <div className={styles.propDetail}>
                           💧 Water tank: {prop.watertank_present ? 'Yes' : 'No'}
                         </div>
+                        {prop.updated_at && (
+                          <div className={styles.propDetail}>
+                            📅 Updated: {new Date(prop.updated_at).toLocaleDateString()}
+                          </div>
+                        )}
                       </div>
                     ))}
                     {visibleProperties.length > 100 && (

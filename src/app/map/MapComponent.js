@@ -318,6 +318,9 @@ export default function MapComponent({
               <div><strong>New House No:</strong> {prop.new_house_no || '—'}</div>
               <div><strong>Old House No:</strong> {prop.old_house_no || '—'}</div>
               <div><strong>Water Tank:</strong> {prop.watertank_present ? 'Yes' : 'No'}</div>
+              {prop.updated_at && (
+                <div><strong>Updated:</strong> {new Date(prop.updated_at).toLocaleDateString()}</div>
+              )}
             </Tooltip>
           </Marker>
         ))}

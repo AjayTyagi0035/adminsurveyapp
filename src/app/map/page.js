@@ -653,6 +653,7 @@ export default function MapPage() {
               </form>
             </div>
           </div>
+          
 
           {/* ── Updated Date Filter ── */}
           <div className={styles.filterSection}>

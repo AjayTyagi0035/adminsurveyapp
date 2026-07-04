@@ -35,6 +35,11 @@ async function handler(req, res) {
       })
     }
 
+    // Set a secure HTTP-only cookie so middleware can protect routes
+    res.setHeader('Set-Cookie', [
+      `auth_token=${user.id}; HttpOnly; Path=/; SameSite=Strict; Max-Age=${60 * 60 * 24}${process.env.NODE_ENV === 'production' ? '; Secure' : ''}`,
+    ])
+
     res.status(200).json({
       ok: true,
       user: { id: user.id, name: user.name, mobile: user.mobile, role: user.role },

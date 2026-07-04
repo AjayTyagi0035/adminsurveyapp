@@ -21,7 +21,13 @@ export default function RecordsLayout({ children }) {
             🗺️ Map View
           </Link>
         </nav>
-        <button className={styles.logoutBtn} onClick={() => window.location.href = '/login'}>
+        <button
+          className={styles.logoutBtn}
+          onClick={async () => {
+            await fetch('/api/auth/logout', { method: 'POST' })
+            window.location.href = '/login'
+          }}
+        >
           ⬅ Logout
         </button>
       </aside>

@@ -1,0 +1,915 @@
+﻿PROPERTY ID,WARD NAME,MOHALLA NAME,HOUSE NO,OWNER NAME,FATHER NAME,ADDRESS,MOBILE NO,PROPERTY USE AS,OLD HOUSE TAX 2025-2026,HOUSE TAX ARRER 2025-2026,OLD WATER TAX 2025-2026,WATER TAX ARRER 2025-2026,OLD WATER TANK TAX 2025-2026,OLD WATER TANK ARRER 2025-2026
+1,08 Bisatiyan, Bisatiyan,1,Dhanprrakash Urf Dhannu,Tulsi," Bisatiyan, Kairana",7417976165,Commercial Self ,107,0,107,0,313,0
+2,08 Bisatiyan, Bisatiyan,2,Nakli,Tulsi," Bisatiyan, Kairana",7417976165,Residential Self ,67,288,67,0,353,0
+3,08 Bisatiyan, Bisatiyan,3,Sanjay,Tarachand," Bisatiyan, Kairana",9996464667,Residential Self ,660,15462,660,15462,420,6540
+4,08 Bisatiyan, Bisatiyan,4,"Ramesh,Naresh,Vinod,Ghanshyam, Radheshyam,Parveen",Balmukund," Bisatiyan, Kairana",9897840047,Residential Self ,55,116,55,116,420,840
+5,08 Bisatiyan, Bisatiyan,5,Devichand,Raghuveer," Bisatiyan, Kairana",9359791163,Residential Self ,66,66,66,66,354,353
+6,08 Bisatiyan, Bisatiyan,6,Brijmohan,Ramprasad," Bisatiyan, Kairana",8954503785,Residential Self ,67,311,67,311,420,420
+7,08 Bisatiyan, Bisatiyan,7,Omprakash,Ramchandar," Bisatiyan, Kairana",9359791163,Residential Self ,66,66,66,66,354,354
+8,08 Bisatiyan, Bisatiyan,8,Suresh,Ramchandar," Bisatiyan, Kairana",7895057001,Residential Self ,55,116,55,116,365,720
+9,08 Bisatiyan, Bisatiyan,9,Chandi Devi,Ramkishan," Bisatiyan, Kairana",6396100363,Residential Self ,85,86,85,86,335,335
+10,08 Bisatiyan, Bisatiyan,10,Aanand,Mukhtyara," Bisatiyan, Kairana",9997136338,Residential Self ,48,101,48,101,420,840
+11,08 Bisatiyan, Bisatiyan,11,Hari Singh,Jaydayal," Bisatiyan, Kairana", -,Residential Self ,48,0,48,0,372,0
+12,08 Bisatiyan, Bisatiyan,12,Jagroshan,Prasada," Bisatiyan, Kairana", -,Residential Self ,48,1001,48,1001,372,744
+13,08 Bisatiyan, Bisatiyan,13,"Mukesh,Rajesh,Rakesh,Subhash,Pradeep,Satish",Preetam Singh," Bisatiyan, Kairana",9045461300,Residential Self ,88,409,88,409,420,1640
+14,08 Bisatiyan, Bisatiyan,14,"Samantra W/O Atar Singh,Omprakash,Premkumar",Atar Singh," Bisatiyan, Kairana",9760381558,Residential Self ,44,605,44,802,420,2040
+15,08 Bisatiyan, Bisatiyan,15,Dhanprrakash Urf Dhannu,Tulsi," Bisatiyan, Kairana",9368443519,Residential Self ,97,204,97,204,0,0
+16,08 Bisatiyan, Bisatiyan,16,Rajan,Hari Singh," Bisatiyan, Kairana",7017124068,Residential Self ,330,330,330,330,420,420
+17,08 Bisatiyan, Bisatiyan,17,Ashok Kumar,Hari Singh," Bisatiyan, Kairana",9760448411,Residential Self ,55,650,55,650,420,2940
+18,08 Bisatiyan, Bisatiyan,18,Mukesh,Shri Ram," Bisatiyan, Kairana",9536327046,Residential Self ,121,1661,121,561,420,3092
+19,08 Bisatiyan, Bisatiyan,19,Jayprakash,Ramchandar," Bisatiyan, Kairana",8171456667,Residential Self ,44,145,44,145,376,1108
+20,08 Bisatiyan, Bisatiyan,20,Anil,Chaman Lal," Bisatiyan, Kairana",8475842622,Residential Self ,94,710,44,605,420,3240
+21,08 Bisatiyan, Bisatiyan,21,Kamarjahan,Ikbal Ahmad," Bisatiyan, Kairana",7452922786,Residential Self ,99,208,99,208,321,642
+22,08 Bisatiyan, Bisatiyan,21/1,Radhey Shyam,Aasharam," Bisatiyan, Kairana",9997843941,Residential Self ,660,7410,660,3362,0,0
+23,08 Bisatiyan, Bisatiyan,22,Radhey Shyam,Aasharam," Bisatiyan, Kairana",9997843941,Residential Self ,67,67,67,67,353,1860
+24,08 Bisatiyan, Bisatiyan,23,"Pawan,Kuldeep,Sourabh",Ramfal," Bisatiyan, Kairana",8218956599,Residential Self ,55,55,55,55,420,420
+25,08 Bisatiyan, Bisatiyan,24,Kavita,Satyabeer Singh," Bisatiyan, Kairana",9520850501,Residential Self ,330,363,330,0,420,0
+26,08 Bisatiyan, Bisatiyan,25,Mohan Lal,Banwari," Bisatiyan, Kairana",8979109110,Residential Self ,73,73,73,73,347,356
+27,08 Bisatiyan, Bisatiyan,26,Dr. Ramsharan,Sitaram," Bisatiyan, Kairana",8899193977,Residential Self ,48,565,48,565,420,3240
+28,08 Bisatiyan, Bisatiyan,27,Jagwati,Fool Singh," Bisatiyan, Kairana",9756957685,Residential Self ,73,73,73,75,420,2040
+29,08 Bisatiyan, Bisatiyan,28,Janeshwar,Nakli," Bisatiyan, Kairana",7969374470,Residential Self ,73,73,73,73,347,347
+30,08 Bisatiyan, Bisatiyan,29,Mangeram,Pyarelal," Bisatiyan, Kairana",9997124776,Residential Self ,55,426,55,426,365,2010
+31,08 Bisatiyan, Bisatiyan,30,Pawan Singh,Ramfal Singh," Bisatiyan, Kairana",8218956599,Residential Self ,55,55,55,55,0,0
+32,08 Bisatiyan, Bisatiyan,30/1A,Rajkamal,Rajendra Kumar," Bisatiyan, Kairana",9897436590,Residential Self ,66,66,66,66,354,354
+33,08 Bisatiyan, Bisatiyan,30/1,Milkiyat Shiv Mandir,-," Bisatiyan, Kairana",9756957685,Open Plot ,0,0,0,0,0,0
+34,08 Bisatiyan, Bisatiyan,31,Shiv Mandir,-," Bisatiyan, Kairana",9756957685,Temple ,0,0,0,0,0,0
+35,08 Bisatiyan, Bisatiyan,31/1,Majar Peer Ajmali,-," Bisatiyan, Kairana",9756957685,Majar,0,0,0,0,0,0
+36,08 Bisatiyan, Bisatiyan,32,Krishna,Krishan Kumar," Bisatiyan, Kairana",8755579480,Residential Self ,55,116,55,116,0,0
+37,08 Bisatiyan, Bisatiyan,33,Devichand,Raghuveer," Bisatiyan, Kairana", -,Residential Self ,44,44,44,44,0,0
+38,08 Bisatiyan, Bisatiyan,34,Swaraj,Raghuveer," Bisatiyan, Kairana", -,Open Plot ,44,44,44,44,376,376
+39,08 Bisatiyan, Bisatiyan,35,Mohd Israr,Yaseen," Bisatiyan, Kairana",7500918786,Mixed,77,162,77,162,345,690
+40,08 Bisatiyan, Bisatiyan,36,"Sheela Devi W/O Shripal,Shripal",Parsada," Bisatiyan, Kairana",9520740983,Residential Self ,48,1001,48,1001,372,3580
+41,08 Bisatiyan, Bisatiyan,36/1,Dalel,Tareef," Bisatiyan, Kairana",8899754121,Residential Self ,55,1338,55,1338,365,365
+42,08 Bisatiyan, Bisatiyan,36/2,Charan Singh,Dalel," Bisatiyan, Kairana",8899754121,Residential Self ,66,139,66,139,0,0
+43,08 Bisatiyan, Bisatiyan,36/3,Charan Singh,Dalel," Bisatiyan, Kairana",8899754121,Commercial Self ,275,578,275,578,0,0
+44,08 Bisatiyan, Bisatiyan,36/4,Vinod,Dalel," Bisatiyan, Kairana",8586848291,Residential Self ,55,55,55,55,0,0
+45,08 Bisatiyan, Bisatiyan,36/5,Vinod,Dalel," Bisatiyan, Kairana",8586848291,Commercial Self ,132,132,132,132,0,0
+46,08 Bisatiyan, Bisatiyan,37,Khursheed,Mohd Salim," Bisatiyan, Kairana",9410620503,Residential Self ,87,87,87,87,333,333
+47,08 Bisatiyan, Bisatiyan,38,Aasharam,Mangatram," Bisatiyan, Kairana",9760594456,Residential Self ,44,44,44,44,376,376
+48,08 Bisatiyan, Bisatiyan,"39,40",Shanti,Satpal," Bisatiyan, Kairana", -,Residential Self ,66,100,66,66,0,0
+49,08 Bisatiyan, Bisatiyan,40/1,Aasharam,Mangatram," Bisatiyan, Kairana",9760594456,Residential Self ,0,0,0,0,0,0
+50,08 Bisatiyan, Bisatiyan,41,Janeshwar,Hukamchand," Bisatiyan, Kairana",6397732700,Residential Self ,77,77,77,77,420,420
+51,08 Bisatiyan, Bisatiyan,42,Tejpal,Kishan," Bisatiyan, Kairana",9520189227,Residential Self ,61,128,61,128,420,840
+52,08 Bisatiyan, Bisatiyan,43,Ratanlal,Chandarbhan," Bisatiyan, Kairana",8755525952,Residential Self ,61,61,61,61,359,0
+53,08 Bisatiyan, Bisatiyan,44,Rampal Singh,Mangatram," Bisatiyan, Kairana",9927202747,Residential Self ,48,223,48,223,372,1800
+54,08 Bisatiyan, Bisatiyan,45,Ratanlal,Chandarbhan," Bisatiyan, Kairana",8171326733,Residential Self ,77,77,77,77,420,420
+55,08 Bisatiyan, Bisatiyan,45/1,Ratanlal,Chandarbhan," Bisatiyan, Kairana",8171326733,Commercial Self ,165,165,165,165,0,0
+56,08 Bisatiyan, Bisatiyan,45/2,Ratanlal,Chandarbhan," Bisatiyan, Kairana",8171326733,Commercial Self ,165,165,165,165,0,0
+57,08 Bisatiyan, Bisatiyan,46,Janeshwar,Hukamchand," Bisatiyan, Kairana",6397732700,Residential Self ,55,426,55,426,365,2010
+58,08 Bisatiyan, Bisatiyan,46/1,Janeshwar,Hukamchand," Bisatiyan, Kairana",6397732700,Residential Self ,110,2005,110,2005,0,0
+59,08 Bisatiyan, Bisatiyan,47,Sunheri,Kaliram," Bisatiyan, Kairana",9058328831,Residential Self ,55,183,55,183,0,0
+60,08 Bisatiyan, Bisatiyan,48,Rampal Singh,Mangatram," Bisatiyan, Kairana",9927202747,Residential Self ,55,143,55,129,0,0
+61,08 Bisatiyan, Bisatiyan,48/1,Mefu Urf Mehak  Singh,Malkhan Singh," Bisatiyan, Kairana",8266826547,Residential Self ,87,87,87,87,333,333
+62,08 Bisatiyan, Bisatiyan,48/1A,Ratanlal,Chandarbhan," Bisatiyan, Kairana",8171326733,Residential Self ,110,1748,0,0,0,0
+63,08 Bisatiyan, Bisatiyan,48/1B,Vijaypal,Banwari," Bisatiyan, Kairana",9897336930,Residential Self ,220,220,110,1762,310,310
+64,08 Bisatiyan, Bisatiyan,49,"Norti W/O Deshraj,Ashok,Pardeep,Govind",Deshraj," Bisatiyan, Kairana",8279881965,Residential Self ,220,220,220,220,200,200
+65,08 Bisatiyan, Bisatiyan,49/1,Kishanlal,Tirkha," Bisatiyan, Kairana",9520189227,Open Plot ,0,0,0,0,17,34
+66,08 Bisatiyan, Bisatiyan,49/1A,Tejpal,Kishan," Bisatiyan, Kairana",9520189227,Open Plot ,44,92,44,92,0,0
+67,08 Bisatiyan, Bisatiyan,49/2,Lateef,Saddik," Bisatiyan, Kairana", -,Residential Self ,48,0,48,0,420,0
+68,08 Bisatiyan, Bisatiyan,50,Yaseen,Kalu," Bisatiyan, Kairana",9760594407,Residential Self ,48,48,48,48,372,1444
+69,08 Bisatiyan, Bisatiyan,51,Yaseen,Kalu," Bisatiyan, Kairana",9760594407,Commercial Self ,145,145,145,1708,0,0
+70,08 Bisatiyan, Bisatiyan,52,Sarfaraj Ahmad,Haji Hakimudeen," Bisatiyan, Kairana",9219281500,Commercial Self ,110,2005,110,2005,0,0
+71,08 Bisatiyan, Bisatiyan,53,Sarfaraj Ahmad,Haji Hakimudeen," Bisatiyan, Kairana",9219281500,Commercial Self ,0,0,28,34,0,0
+72,08 Bisatiyan, Bisatiyan,54,Sarfaraj Ahmad,Haji Hakimudeen," Bisatiyan, Kairana",9219281500,Commercial Self ,110,2005,110,2005,0,0
+73,08 Bisatiyan, Bisatiyan,55,Sarfaraj Ahmad,Haji Hakimudeen," Bisatiyan, Kairana",9219281500,Commercial Self ,110,848,110,848,0,0
+74,08 Bisatiyan, Bisatiyan,55/1,Sarfaraj Ahmad,Haji Hakimudeen," Bisatiyan, Kairana",9219281500,Residential Self ,110,1043,110,1043,420,5771
+75,08 Bisatiyan, Bisatiyan,56,Ramjani,Alimudeen," Bisatiyan, Kairana",8881632988,Residential Self ,48,101,48,101,372,2908
+76,08 Bisatiyan, Bisatiyan,57,Satyaveer Urf Sathi,Babu," Bisatiyan, Kairana",9837450440,Residential Self ,55,1007,55,1007,0,0
+77,08 Bisatiyan, Bisatiyan,58,Mangesh,Nathiram," Bisatiyan, Kairana",9927181558,Residential Self ,66,66,66,74,420,420
+78,08 Bisatiyan, Bisatiyan,59,Prem,Jaggu," Bisatiyan, Kairana",8865824902,Residential Self ,55,0,55,0,365,365
+79,08 Bisatiyan, Bisatiyan,59/1,Ramfal,Jaggu," Bisatiyan, Kairana",9058002470,Residential Self ,97,97,97,97,323,323
+80,08 Bisatiyan, Bisatiyan,59/1A,Jayprakash,Jaggu," Bisatiyan, Kairana", -,Residential Self ,55,55,55,55,365,365
+81,08 Bisatiyan, Bisatiyan,60,Tejpal,Kishan," Bisatiyan, Kairana",9520189227,Open Plot ,48,101,48,101,0,0
+,08 Bisatiyan, Bisatiyan,60/3,Sano,Margoob," Bisatiyan, Kairana", -, -,300,2314,48,223,0,0
+82,08 Bisatiyan, Bisatiyan,61,Sunehra,Surja," Bisatiyan, Kairana",9012376442,Residential Self ,48,223,48,223,0,0
+83,08 Bisatiyan, Bisatiyan,62,Kaluram,Mukhtyara," Bisatiyan, Kairana",7895025863,Residential Self ,55,0,55,0,365,0
+84,08 Bisatiyan, Bisatiyan,63,"Vijaykumar S/O Banwari, Ramkumar",Vijayram," Bisatiyan, Kairana",9927753151,Residential Self ,66,476,66,476,365,1420
+85,08 Bisatiyan, Bisatiyan,64,Master Fateh Mohammad,Abdul Vahid," Bisatiyan, Kairana",9837941944,Residential Self ,48,877,48,877,0,0
+86,08 Bisatiyan, Bisatiyan,67,Khursheeda,Naseem," Bisatiyan, Kairana",7417456006,Residential Self ,73,73,73,73,347,0
+87,08 Bisatiyan, Bisatiyan,68,Yasmeen,Habibur Rehman," Bisatiyan, Kairana",9720012129,Residential Self ,85,395,85,395,335,1300
+88,08 Bisatiyan, Bisatiyan,69,Malkhan,Tareef," Bisatiyan, Kairana",8266826547,Residential Self ,48,1168,48,1168,372,3840
+89,08 Bisatiyan, Bisatiyan,70,Kalu,Mukhtyara," Bisatiyan, Kairana",9012906000,Residential Self ,95,0,95,0,325,0
+90,08 Bisatiyan, Bisatiyan,71,Fullo,Hari Singh," Bisatiyan, Kairana",9557766000,Residential Self ,61,128,61,128,359,718
+91,08 Bisatiyan, Bisatiyan,72,Ramkishor,Bijram," Bisatiyan, Kairana",8755987243,Residential Self ,55,55,55,117,0,0
+92,08 Bisatiyan, Bisatiyan,73,Haseena,Rasheed," Bisatiyan, Kairana",8755097250,Residential Self ,264,0,264,0,0,0
+93,08 Bisatiyan, Bisatiyan,72/1,Nanuram,Vijayram," Bisatiyan, Kairana",9897336930,Residential Self ,55,0,55,0,0,0
+94,08 Bisatiyan, Bisatiyan,74-75,Hariram,Mangeram," Bisatiyan, Kairana",9997664588,Residential Self ,44,0,44,0,420,2640
+95,08 Bisatiyan, Bisatiyan,76,Bijram,Banwari," Bisatiyan, Kairana",8755987243,Open Plot ,198,198,198,198,222,222
+96,08 Bisatiyan, Bisatiyan,77,Haseena,Rasheed," Bisatiyan, Kairana",8755097250,Residential Self ,48,159,48,159,372,1096
+97,08 Bisatiyan, Bisatiyan,78,Shiv Mandir,-," Bisatiyan, Kairana", -,Residential Self ,0,0,0,0,0,0
+98,08 Bisatiyan, Bisatiyan,79,Ashok Kumar,Salekchand," Bisatiyan, Kairana", -,Residential Self ,73,14414,73,14492,0,0
+99,08 Bisatiyan, Bisatiyan,79/1,Mukesh Chandar,Salekchand," Bisatiyan, Kairana", -,Commercial Self ,55,0,55,0,0,0
+100,08 Bisatiyan, Bisatiyan,80-81,Anshul Jain,Jitendar Jain," Bisatiyan, Kairana", -,Commercial Self ,99,1807,99,1880,0,0
+101,08 Bisatiyan, Bisatiyan,82,Sonu,Mangat Urf Pappu," Bisatiyan, Kairana", -,Residential Self ,48,293,48,293,372,1800
+102,08 Bisatiyan, Bisatiyan,83,Jayprakash,Ramchandar," Bisatiyan, Kairana",8171145667,Commercial Self ,88,292,88,292,0,0
+103,08 Bisatiyan, Bisatiyan,84-84/1,Jarreen Nigar,Mohd Aamil," Bisatiyan, Kairana",9897871958,Residential Self ,88,836,88,836,332,2244
+104,08 Bisatiyan, Bisatiyan,85,Charan Singh,Aasharam," Bisatiyan, Kairana",8865828343,Residential Self ,110,364,110,364,310,910
+105,08 Bisatiyan, Bisatiyan,85/1,Munesh Kumar,Aasharam," Bisatiyan, Kairana", -,Residential Self ,66,681,66,681,0,0
+106,08 Bisatiyan, Bisatiyan,85/2,Suman,Brijpal Singh," Bisatiyan, Kairana",8865828343,Residential Self ,77,0,77,0,345,0
+107,08 Bisatiyan, Bisatiyan,86,Gayyur Ali,Riyasat," Bisatiyan, Kairana",9897581900,Residential Self ,48,101,48,101,359,1057
+108,08 Bisatiyan, Bisatiyan,87,Munni,Roshanlal," Bisatiyan, Kairana",9760381749,Residential Self ,88,185,88,419,420,2040
+109,08 Bisatiyan, Bisatiyan,88,Brahmpal Singh,Lal Singh," Bisatiyan, Kairana",9358512412,Residential Self ,55,426,55,426,365,2010
+110,08 Bisatiyan, Bisatiyan,89,Rohtash,Brahmpal," Bisatiyan, Kairana",9358512412,Commercial Self ,44,802,44,802,0,0
+111,08 Bisatiyan, Bisatiyan,90,Omprakash,Parbhu Dayal," Bisatiyan, Kairana",8979127198,Residential Self ,55,55,55,55,0,0
+112,08 Bisatiyan, Bisatiyan,90/1,Parveen,Bhanwar Singh," Bisatiyan, Kairana",9917731907,Residential Self ,51,1176,51,1107,0,0
+113,08 Bisatiyan, Bisatiyan,92,Angoori,Nehru Lal," Bisatiyan, Kairana", -,Residential Self ,88,409,88,409,332,1288
+114,08 Bisatiyan, Bisatiyan,93,Gopal,Prakash Chand," Bisatiyan, Kairana",7534059881,Residential Self ,55,650,55,605,420,2940
+115,08 Bisatiyan, Bisatiyan,93/1,Kishan,Lal Singh," Bisatiyan, Kairana",9084138187,Residential Self ,48,1168,48,1168,0,0
+116,08 Bisatiyan, Bisatiyan,93/1A,"Naresh S/O Prakash Chand, Ramkali",Prakash Chand," Bisatiyan, Kairana",9897803884,Residential Self ,44,339,44,699,0,0
+117,08 Bisatiyan, Bisatiyan,93/2,Suresh,Prakash Chand," Bisatiyan, Kairana",9557739878,Residential Self ,44,699,44,699,376,3108
+118,08 Bisatiyan, Bisatiyan,93/3,Susheel ,Prakash Chand," Bisatiyan, Kairana",8923932883,Residential Self ,66,0,66,0,0,0
+119,08 Bisatiyan, Bisatiyan,93/4,Rajesh,Prakash Chand," Bisatiyan, Kairana",9690195298,Residential Self ,55,337,55,337,365,1765
+120,08 Bisatiyan, Bisatiyan,93/5,Krishanpal,Lal Singh," Bisatiyan, Kairana",9084138187,Residential Self ,110,1207,110,1296,310,2260
+121,08 Bisatiyan, Bisatiyan,94,Vidya,Ramfal," Bisatiyan, Kairana",9837139287,Residential Self ,110,671,110,671,310,1490
+122,08 Bisatiyan, Bisatiyan,95,Kudaram,Chatru," Bisatiyan, Kairana",6395372914,Residential Self ,99,0,99,99,420,420
+123,08 Bisatiyan, Bisatiyan,96,Vimla,Mangeram," Bisatiyan, Kairana",8394978686,Residential Self ,396,1311,396,1311,0,0
+124,08 Bisatiyan, Bisatiyan,100,"Baburam,Pramod",Raghuveer," Bisatiyan, Kairana",8439731384,Residential Self ,55,0,55,55,365,365
+125,08 Bisatiyan, Bisatiyan,101,Tejpal,Shree Chand," Bisatiyan, Kairana",9520189227,Residential Self ,44,92,44,92,376,752
+126,08 Bisatiyan, Bisatiyan,102,Mohd Saleem,Tahir Hasan," Bisatiyan, Kairana",8899541900,Residential Self ,88,0,88,0,0,0
+127,08 Bisatiyan, Bisatiyan,103,Arun Kumar,Hargu Lal," Bisatiyan, Kairana",8899480835,Residential Self ,73,157,73,157,0,0
+128,08 Bisatiyan, Bisatiyan,104,Ravindra Jain,Hargu Lal," Bisatiyan, Kairana",8899480835,Residential Self ,77,323,77,323,0,0
+129,08 Bisatiyan, Bisatiyan,105,Ravindra Jain,Hargu Lal," Bisatiyan, Kairana",8899480835,Commercial Self ,165,340,246,323,255,255
+130,08 Bisatiyan, Bisatiyan,106,Lokesh Kumar Jain,Hargu Lal," Bisatiyan, Kairana",9058982817,Commercial Self ,77,178,77,178,0,0
+131,08 Bisatiyan, Bisatiyan,106/1,Lokesh Kumar Jain,Hargu Lal," Bisatiyan, Kairana",9058982817,Residential Self ,55,230,55,230,0,0
+132,08 Bisatiyan, Bisatiyan,106/1A,Bhumesh Kumar Jain,Hargu Lal," Bisatiyan, Kairana",9756044151,Commercial Self ,132,146,132,448,288,288
+133,08 Bisatiyan, Bisatiyan,106/2,Bhumesh Kumar Jain,Hargu Lal," Bisatiyan, Kairana",9756044151,Residential Self ,44,44,44,44,0,0
+134,08 Bisatiyan, Bisatiyan,106/3,"Baburam,Pramod",Raghuveer," Bisatiyan, Kairana",7618543529,Residential Self ,77,77,77,77,0,0
+135,08 Bisatiyan, Bisatiyan,106/4,"Baburam,Pramod",Raghuveer," Bisatiyan, Kairana",7618543529,Commercial Self ,165,165,165,105,0,0
+136,08 Bisatiyan, Bisatiyan,106/5,"Baburam,Pramod",Raghuveer," Bisatiyan, Kairana",8439731384,Commercial Self ,165,165,165,165,0,0
+137,08 Bisatiyan, Bisatiyan,106/6,"Ramesh,Suresh,Naresh",Ramchandar," Bisatiyan, Kairana",9058090394,Residential Self ,48,101,48,101,372,744
+138,08 Bisatiyan, Bisatiyan,106/7,Shiv Kumar,Jagdeesh," Bisatiyan, Kairana",9760942728,Residential Self ,66,311,66,905,354,354
+139,08 Bisatiyan, Bisatiyan,106/8,Rajkumar,Dalel Singh," Bisatiyan, Kairana",8394930730,Residential Self ,88,1210,88,1210,420,420
+140,08 Bisatiyan, Bisatiyan,106/9,"Suleman S/O Mahmood,Usman",Said," Bisatiyan, Kairana",9761295489,Mixed,78,78,78,78,420,420
+141,08 Bisatiyan, Bisatiyan,106/7A,Firoz Aalam,Suleman," Bisatiyan, Kairana",9568547000,Residential Self ,110,0,110,0,420,0
+142,08 Bisatiyan, Bisatiyan,106/8A,Rajkumar,Dalel Singh," Bisatiyan, Kairana",8394930730,Commercial Self ,165,590,165,590,0,0
+143,08 Bisatiyan, Bisatiyan,106/8B,Rajkumar,Dalel Singh," Bisatiyan, Kairana",8394930730,Commercial Self ,165,165,165,3010,0,0
+144,08 Bisatiyan, Bisatiyan,108,Hajari,Fullu," Bisatiyan, Kairana",9627235052,Residential Self ,48,223,48,223,0,0
+145,08 Bisatiyan, Bisatiyan,110,Jyoti,Fullu," Bisatiyan, Kairana",9627235052,Residential Self ,48,159,48,159,372,1096
+146,08 Bisatiyan, Bisatiyan,111,Tahir,Shafi," Bisatiyan, Kairana",9917593001,Residential Self ,67,67,67,67,359,359
+147,08 Bisatiyan, Bisatiyan,111/1,"Aajam,Jajid Ahmad",Riyasat," Bisatiyan, Kairana",7409902021,Residential Self ,121,0,121,2314,0,0
+148,08 Bisatiyan, Bisatiyan,112,Sanno,Nasir," Bisatiyan, Kairana",7017425326,Residential Self ,95,1734,95,1735,420,3840
+149,08 Bisatiyan, Bisatiyan,113,"Khursheed,Islam,Aslam,Najim",Nasir," Bisatiyan, Kairana",7017425326,Residential Self ,55,0,55,41,365,0
+150,08 Bisatiyan, Bisatiyan,113/1,"Khursheed,Islam,Aslam,Najim",Nasir," Bisatiyan, Kairana",7017425326,Commercial Self ,290,0,290,41,0,0
+151,08 Bisatiyan, Bisatiyan,113/2,"Khursheed,Islam,Aslam,Najim",Nasir," Bisatiyan, Kairana",7017425326,Commercial Self ,66,0,66,41,0,0
+152,08 Bisatiyan, Bisatiyan,113/3,"Khursheed,Islam,Aslam,Najim",Nasir," Bisatiyan, Kairana",7017425326,Commercial Self ,0,0,0,0,0,0
+153,08 Bisatiyan, Bisatiyan,113/4,"Khursheed,Islam,Aslam,Najim",Nasir," Bisatiyan, Kairana",7017425326,Commercial Self ,0,0,0,0,0,0
+154,08 Bisatiyan, Bisatiyan,114,"Ravindar Kumar,Jaydev",Jagmer Urf Jaggu," Bisatiyan, Kairana",9997721538,Residential Self ,88,88,88,88,420,420
+155,08 Bisatiyan, Bisatiyan,115,Punna,Baru," Bisatiyan, Kairana",7409680883,Residential Self ,48,101,48,101,0,0
+156,08 Bisatiyan, Bisatiyan,117,Mahesh,Jyoti," Bisatiyan, Kairana",9258546834,Residential Self ,48,877,48,877,0,0
+157,08 Bisatiyan, Bisatiyan,118,Vimla,Mahendra," Bisatiyan, Kairana",9719619076,Residential Self ,58,122,58,122,0,0
+158,08 Bisatiyan, Bisatiyan,119,"Mahendra,Sahendar",Shosingh," Bisatiyan, Kairana",9719619076,Residential Self ,61,128,61,128,359,718
+159,08 Bisatiyan, Bisatiyan,120,"Latifan W/O Sharafat,Mohd Israr,Irfan,Imran",Ch. Sharafat," Bisatiyan, Kairana",9997916371,Residential Self ,110,0,110,0,420,0
+160,08 Bisatiyan, Bisatiyan,120/1,Mohd Parvej,Ch. Shaukat Ali," Bisatiyan, Kairana",9528281916,Residential Self ,91,301,91,301,329,971
+,08 Bisatiyan, Bisatiyan,120/2,Mo Irfan,Sharafat," Bisatiyan, Kairana", -, -,762,0,0,0,0,0
+161,08 Bisatiyan, Bisatiyan,121,Nasiran,Yusuf," Bisatiyan, Kairana",9997502683,Residential Self ,55,116,55,116,420,274
+162,08 Bisatiyan, Bisatiyan,122,Nasiran,Yusuf," Bisatiyan, Kairana",9997502683,Mixed,73,153,73,153,0,0
+163,08 Bisatiyan, Bisatiyan,123,Zulfikar,Hakimudeen," Bisatiyan, Kairana",9411812142,Residential Self ,48,0,48,0,372,372
+164,08 Bisatiyan, Bisatiyan,124,Sarfaraj,Hakimudeen," Bisatiyan, Kairana", -,Residential Self ,55,1007,55,1007,0,0
+165,08 Bisatiyan, Bisatiyan,125,Abdul Sattar,Faiyyaj Ahmad," Bisatiyan, Kairana",9759949596,Residential Self ,48,0,48,0,372,0
+166,08 Bisatiyan, Bisatiyan,127,Naim,Yameen," Bisatiyan, Kairana",9897170019,Residential Self ,110,0,110,0,310,0
+167,08 Bisatiyan, Bisatiyan,128,Usama Bin Naim,Naim," Bisatiyan, Kairana",9897170019,Residential Self ,44,0,44,0,0,0
+168,08 Bisatiyan, Bisatiyan,129,Mangi,Govind," Bisatiyan, Kairana",9759797293,Residential Self ,44,268,44,268,376,1304
+169,08 Bisatiyan, Bisatiyan,130,Dinesh,Mahendra," Bisatiyan, Kairana",9759797293,Commercial Self ,182,3320,182,3320,0,0
+170,08 Bisatiyan, Bisatiyan,131,Dinesh,Mahendra," Bisatiyan, Kairana",9759797293,Commercial Self ,77,1407,77,1407,0,0
+171,08 Bisatiyan, Bisatiyan,132,Pawan Kumar,Vijay Bhushan," Bisatiyan, Kairana",9719719197,Residential Self ,109,0,109,0,311,0
+172,08 Bisatiyan, Bisatiyan,132/1,Pawan Kumar,Vijay Bhushan," Bisatiyan, Kairana",9719719197,Commercial Self ,110,0,110,0,0,0
+173,08 Bisatiyan, Bisatiyan,133,Izhar Ahmad,Abdul Salam," Bisatiyan, Kairana",9760574482,Residential Self ,55,55,55,55,365,365
+174,08 Bisatiyan, Bisatiyan,134,Israr Ahmad,Abdul Salam," Bisatiyan, Kairana",9760574482,Residential Self ,61,61,61,61,359,359
+175,08 Bisatiyan, Bisatiyan,135,Israr Ahmad,Abdul Salam," Bisatiyan, Kairana",9760574482,Residential Self ,44,44,44,44,0,0
+176,08 Bisatiyan, Bisatiyan,136,Dilshad Begam,Mohd. Yunus," Bisatiyan, Kairana",9319775487,Residential Self ,121,121,121,121,299,2732
+177,08 Bisatiyan, Bisatiyan,137,Milkiyat Masjid Bisatiyan,-," Bisatiyan, Kairana", -, -,44,261,44,802,0,0
+178,08 Bisatiyan, Bisatiyan,138,Milkiyat Masjid Bisatiyan,-," Bisatiyan, Kairana", -, -,24,655,0,0,0,0
+179,08 Bisatiyan, Bisatiyan,139,Milkiyat Masjid Bisatiyan,-," Bisatiyan, Kairana", -, -,44,1196,44,975,0,0
+180,08 Bisatiyan, Bisatiyan,141,"Rafeek,Furkan",Mohd Shafeek," Bisatiyan, Kairana", -, -,110,0,110,0,0,0
+181,08 Bisatiyan, Bisatiyan,142,"Rafeek,Furkan",Mohd Shafeek," Bisatiyan, Kairana", -, -,48,0,48,0,0,0
+182,08 Bisatiyan, Bisatiyan,142/1,"Rafeek,Furkan",Mohd Shafeek," Bisatiyan, Kairana", -, -,110,0,110,0,0,0
+183,08 Bisatiyan, Bisatiyan,144,"Rafeek,Furkan",Mohd Shafeek," Bisatiyan, Kairana", -, -,110,0,110,0,0,0
+184,08 Bisatiyan, Bisatiyan,145,"Rafeek,Furkan",Mohd Shafeek," Bisatiyan, Kairana", -, -,44,0,44,0,0,0
+185,08 Bisatiyan, Bisatiyan,146,"Rafeek,Furkan",Mohd Shafeek," Bisatiyan, Kairana", -, -,48,0,48,110,0,0
+186,08 Bisatiyan, Bisatiyan,147,"Anwar S/O Mehboob,Bano",Mehboob," Bisatiyan, Kairana", -, -,220,1035,220,0,0,0
+187,08 Bisatiyan, Bisatiyan,147/1A,"Anwar S/O Mehboob,Bano",Mehboob," Bisatiyan, Kairana", -, -,220,0,220,0,0,0
+188,08 Bisatiyan, Bisatiyan,"147/1B,153","Anwar S/O Mehboob,Bano",Mehboob," Bisatiyan, Kairana", -, -,77,0,77,0,0,0
+189,08 Bisatiyan, Bisatiyan,147/1C,"Anwar S/O Mehboob,Bano",Mehboob," Bisatiyan, Kairana", -, -,220,1068,220,1036,0,0
+190,08 Bisatiyan, Bisatiyan,147/1D,"Anwar S/O Mehboob,Bano",Mehboob," Bisatiyan, Kairana", -, -,220,0,220,0,0,0
+191,08 Bisatiyan, Bisatiyan,148,Milkiyat Panchayat Bisatiyan,-," Bisatiyan, Kairana", -, -,145,886,145,886,0,0
+192,08 Bisatiyan, Bisatiyan,149,Milkiyat Panchayat Bisatiyan,-," Bisatiyan, Kairana", -, -,145,886,145,886,0,0
+193,08 Bisatiyan, Bisatiyan,150,Milkiyat Panchayat Bisatiyan,-," Bisatiyan, Kairana", -, -,145,886,145,886,0,0
+194,08 Bisatiyan, Bisatiyan,151,Milkiyat Panchayatghar,-," Bisatiyan, Kairana", -, -,0,0,0,0,0,0
+195,08 Bisatiyan, Bisatiyan,152,Haji Akhlaq,Mohd Umar," Bisatiyan, Kairana", -, -,97,1144,97,1144,323,2164
+196,08 Bisatiyan, Bisatiyan,154,"Rafeek,Furkan",Shreef Ahmad," Bisatiyan, Kairana", -, -,132,0,132,0,420,0
+197,08 Bisatiyan, Bisatiyan,"1,55,156","Yusuf Urf Pappu,Yunus,Shakir, S/O Idrees, Tarannum",Sajid," Bisatiyan, Kairana", -, -,73,0,73,77,0,0
+198,08 Bisatiyan, Bisatiyan,157,"Mehtab S/O Ishak,Israr",Mohd Ishak," Bisatiyan, Kairana",9897988039,Open Plot ,0,0,0,0,0,0
+199,08 Bisatiyan, Bisatiyan,158,Vishal,Mohd Yunus," Bisatiyan, Kairana",8865807121,Residential Self ,44,92,44,92,0,0
+200,08 Bisatiyan, Bisatiyan,159,Kamil,Karimudeen," Bisatiyan, Kairana",8923443673,Residential Self ,45,45,45,45,0,0
+201,08 Bisatiyan, Bisatiyan,160,Yusuf,Ishak," Bisatiyan, Kairana",8439846768,Residential Self ,48,1007,48,2001,372,3960
+202,08 Bisatiyan, Bisatiyan,161,Mohd Ilyas,Mohd Yusuf," Bisatiyan, Kairana",9997704915,Residential Self ,88,0,88,0,420,0
+203,08 Bisatiyan, Bisatiyan,162,Yunus,Ismail," Bisatiyan, Kairana",9997499742,Residential Self ,73,445,73,445,347,1675
+204,08 Bisatiyan, Bisatiyan,162/1,Furkan,Ibrahim," Bisatiyan, Kairana",9068670602,Residential Self ,0,0,0,0,0,0
+205,08 Bisatiyan, Bisatiyan,163,Aslam,Fajal Ajeem," Bisatiyan, Kairana",9897232724,Residential Self ,73,0,73,0,347,0
+206,08 Bisatiyan, Bisatiyan,164,"Shameema W/O Kamil, Naseema",Ilyas," Bisatiyan, Kairana",9557356013,Residential Self ,182,182,182,182,238,1130
+207,08 Bisatiyan, Bisatiyan,165,Milkiyat Masjid Shamshi,," Bisatiyan, Kairana", -,Residential Self ,45,95,45,96,0,0
+208,08 Bisatiyan, Bisatiyan,166,Hakeem Mujib Ilahi,Habeeb Ilahi," Bisatiyan, Kairana",9358543863,Residential Self ,66,0,66,0,354,0
+209,08 Bisatiyan, Bisatiyan,167,Matloob Ilahi,Karam Ilahi," Bisatiyan, Kairana",9927862381,Residential Self ,109,0,106,0,311,0
+210,08 Bisatiyan, Bisatiyan,167/1,Matloob Ilahi,Karam Ilahi," Bisatiyan, Kairana",8791887106,Residential Self ,55,116,55,116,0,0
+211,08 Bisatiyan, Bisatiyan,167/2,Matloob Ilahi,Karam Ilahi," Bisatiyan, Kairana",9548164833,Residential Self ,55,116,55,116,0,0
+212,08 Bisatiyan, Bisatiyan,167/3,Matloob Ilahi,Karam Ilahi," Bisatiyan, Kairana",6396193289,Residential Self ,55,116,55,116,0,0
+213,08 Bisatiyan, Bisatiyan,167/4,Matloob Ilahi,Karam Ilahi," Bisatiyan, Kairana",9548164833,Residential Self ,55,116,55,116,0,0
+214,08 Bisatiyan, Bisatiyan,168,Naseem Bano,Fajal Ilahi," Bisatiyan, Kairana",9058982066,Residential Self ,99,765,99,1807,420,2340
+215,08 Bisatiyan, Bisatiyan,169,Masjid Bisatiyan Ibadatgah,-," Bisatiyan, Kairana", -,Masjid,0,0,0,0,420,1240
+216,08 Bisatiyan, Bisatiyan,170,Milkiyat Masjid Bisatiyan,-," Bisatiyan, Kairana", -,Commercial Self ,44,699,44,802,0,0
+217,08 Bisatiyan, Bisatiyan,171,Milkiyat Masjid Bisatiyan,-," Bisatiyan, Kairana", -,Commercial Self ,44,699,44,699,420,2640
+218,08 Bisatiyan, Bisatiyan,"1,72,173",Milkiyat Masjid Bisatiyan,-," Bisatiyan, Kairana", -,Commercial Self ,44,145,44,145,0,0
+219,08 Bisatiyan, Bisatiyan,173/1,Milkiyat Masjid Bisatiyan,-," Bisatiyan, Kairana", -,Commercial Self ,48,762,48,667,0,0
+220,08 Bisatiyan, Bisatiyan,174,Milkiyat Masjid Bisatiyan,-," Bisatiyan, Kairana", -,Commercial Self ,44,160,44,145,0,0
+221,08 Bisatiyan, Bisatiyan,175,Milkiyat Masjid Bisatiyan,-," Bisatiyan, Kairana", -,Commercial Self ,44,145,44,145,0,0
+222,08 Bisatiyan, Bisatiyan,176,Kamru Nisha,Israr Ilahi," Bisatiyan, Kairana", -,Residential Self ,145,0,145,0,420,0
+223,08 Bisatiyan, Bisatiyan,177,Islam,Israr Ilahi," Bisatiyan, Kairana",9259728651,Residential Self ,132,0,132,0,420,0
+224,08 Bisatiyan, Bisatiyan,177/1,Shajiya Urf Fojiya,Usman," Bisatiyan, Kairana",8273191283,Residential Self ,66,0,66,0,0,0
+225,08 Bisatiyan, Bisatiyan,177/1A,Mohd Tahir,Israr Ilahi," Bisatiyan, Kairana",8791898315,Residential Self ,44,0,44,0,0,0
+226,08 Bisatiyan, Bisatiyan,178,"Firdos W/O Masroor, Johra",Rashid," Bisatiyan, Kairana",9259182900,Residential Self ,97,0,97,0,323,0
+227,08 Bisatiyan, Bisatiyan,179,Saleem,Yameen," Bisatiyan, Kairana",7417344004,Residential Self ,121,0,121,0,299,0
+228,08 Bisatiyan, Bisatiyan,180,"Aslam ,Ajam",Haji Mohd Taki," Bisatiyan, Kairana",7669305024,Residential Self ,61,61,61,61,359,383
+229,08 Bisatiyan, Bisatiyan,181,Suvalin,Mohd Yaseen," Bisatiyan, Kairana",9557032205,Residential Self ,145,145,145,145,275,275
+230,08 Bisatiyan, Bisatiyan,181/1,Gulnaj Mateen,Mohd Mateen," Bisatiyan, Kairana",9760664664,Residential Self ,330,330,330,330,120,120
+231,08 Bisatiyan, Bisatiyan,182,Jahur,Kala," Bisatiyan, Kairana",9756808793,Residential Self ,73,153,73,153,347,1134
+232,08 Bisatiyan, Bisatiyan,183,Raisa,Late Aslam," Bisatiyan, Kairana", -,Residential Self ,264,554,264,554,156,348
+233,08 Bisatiyan, Bisatiyan,183/1,Mohd Aslam,Taki," Bisatiyan, Kairana",7669305024,Residential Self ,66,66,66,66,0,0
+234,08 Bisatiyan, Bisatiyan,185,Mohd Ashfaq,Ibrahim," Bisatiyan, Kairana",9219666336,Residential Self ,85,85,85,85,335,335
+,08 Bisatiyan, Bisatiyan,184,Gayyur,Saddeek," Bisatiyan, Kairana", -, -,55,55,0,0,370,370
+235,08 Bisatiyan, Bisatiyan,186,Sanjida Khatoon,Sadik Husain," Bisatiyan, Kairana",8899211580,Commercial Self ,55,55,55,55,365,365
+236,08 Bisatiyan, Bisatiyan,186/1,Sanjida Khatoon,Sadik Husain," Bisatiyan, Kairana",8899211580,Residential Self ,55,55,55,55,0,0
+237,08 Bisatiyan, Bisatiyan,187,Akeel,Shamshad," Bisatiyan, Kairana",9058011390,Commercial Self ,660,1386,660,1386,0,0
+238,08 Bisatiyan, Bisatiyan,187/1,Akeel,Shamshad," Bisatiyan, Kairana",9058011390,Commercial Self ,660,4030,660,4030,0,0
+239,08 Bisatiyan, Bisatiyan,184,Gayyur,Saddik," Bisatiyan, Kairana",9568953137,Open Plot ,55,0,44,44,370,370
+240,08 Bisatiyan, Bisatiyan,188,"Mohd Najam S/O Mohd Akram, Kashif Shamshi",Yusuf," Bisatiyan, Kairana",8439181062,Commercial Self ,132,0,132,0,288,0
+241,08 Bisatiyan, Bisatiyan,189,Sugra,Ali Hasan," Bisatiyan, Kairana",8394949222,Commercial Self ,132,2096,132,613,288,1112
+242,08 Bisatiyan, Bisatiyan,190,Sugra,Ali Hasan," Bisatiyan, Kairana",8394949222,Commercial Self ,132,437,132,437,0,0
+243,08 Bisatiyan, Bisatiyan,191,Sugra,Ali Hasan," Bisatiyan, Kairana",8394949222,Residential Self ,61,202,61,202,0,0
+244,08 Bisatiyan, Bisatiyan,192,Shreef,Khairudeen," Bisatiyan, Kairana",9897384630,Residential Self ,48,48,48,48,372,2372
+245,08 Bisatiyan, Bisatiyan,193,Aamir,Kamil," Bisatiyan, Kairana",9870688243,Commercial Self ,264,5798,264,5753,0,0
+246,08 Bisatiyan, Bisatiyan,194,Mohd Aadil,Ali Hasan," Bisatiyan, Kairana",9997964018,Residential Self ,77,366,77,369,420,1640
+247,08 Bisatiyan, Bisatiyan,194/1A,Saleem Ahmad,Shreef Ahmad," Bisatiyan, Kairana",8650548419,Commercial Self ,109,520,109,520,0,0
+248,08 Bisatiyan, Bisatiyan,194/1B,Shmeem Ahmad,Saddik Ahmad," Bisatiyan, Kairana",7017500129,Commercial Self ,110,110,110,110,0,0
+249,08 Bisatiyan, Bisatiyan,194/1,"Mohd Ali, Hamid",Mehmood Ahmad," Bisatiyan, Kairana",9557278017,Commercial Self ,220,462,220,462,0,0
+250,08 Bisatiyan, Bisatiyan,194/2,"Mohd Ali, Hamid",Mehmood Ahmad," Bisatiyan, Kairana",9557278017,Residential Self ,110,231,110,231,420,840
+251,08 Bisatiyan, Bisatiyan,194/1C,"Mohd Ali, Hamid",Mehmood Ahmad," Bisatiyan, Kairana",9557278017,Commercial Self ,220,462,220,462,0,0
+252,08 Bisatiyan, Bisatiyan,194/1D,"Mohd Ali, Hamid",Mehmood Ahmad," Bisatiyan, Kairana",9557278017,Commercial Self ,220,426,220,466,0,0
+253,08 Bisatiyan, Bisatiyan,195,Rafeek,Shafeek," Bisatiyan, Kairana",8954047680,Commercial Self ,0,0,0,0,420,0
+254,08 Bisatiyan, Bisatiyan,196,Rafeek,Shafeek," Bisatiyan, Kairana",8954047680,Commercial Self ,0,0,0,0,0,0
+255,08 Bisatiyan, Bisatiyan,196/1,Rafeek,Shafeek," Bisatiyan, Kairana",8954047680,Commercial Self ,0,0,0,0,0,0
+256,08 Bisatiyan, Bisatiyan,197,Rafeek,Shafeek," Bisatiyan, Kairana",8954047680,Commercial Self ,0,0,0,0,0,0
+257,08 Bisatiyan, Bisatiyan,198,Rafeek,Shafeek," Bisatiyan, Kairana",8954047680,Commercial Self ,0,0,0,0,0,0
+258,08 Bisatiyan, Bisatiyan,199,Mohd Yusuf,Nasibudeen," Bisatiyan, Kairana", -,Commercial Self ,132,0,132,0,420,0
+259,08 Bisatiyan, Bisatiyan,199/1,Haji Yameen,Fajal Ajeem," Bisatiyan, Kairana",9058892386,Commercial Self ,103,0,103,0,0,0
+260,08 Bisatiyan, Bisatiyan,199/2,Haji Yameen,Fajal Ajeem," Bisatiyan, Kairana",9058892386,Commercial Self ,103,0,103,0,317,0
+261,08 Bisatiyan, Bisatiyan,199/3,Haji Yameen,Fajal Ajeem," Bisatiyan, Kairana",9058892386,Commercial Self ,103,0,103,0,0,0
+262,08 Bisatiyan, Bisatiyan,199/4,Haji Yameen,Fajal Ajeem," Bisatiyan, Kairana",9058892386,Commercial Self ,132,0,132,0,0,0
+263,08 Bisatiyan, Bisatiyan,200,Tahira Begam,Haji Akhlaq," Bisatiyan, Kairana",9760045678,Residential Self ,99,208,99,208,321,642
+264,08 Bisatiyan, Bisatiyan,200/1,Mukeem Ilahi,Mujeeb Ilahi," Bisatiyan, Kairana",9897048535,Commercial Self ,66,0,66,0,0,0
+265,08 Bisatiyan, Bisatiyan,202,Mujeeb Ilahi,Habeeb Ilahi," Bisatiyan, Kairana",9358543463,Commercial Self ,48,0,48,0,372,0
+266,08 Bisatiyan, Bisatiyan,202/1,Mujeeb Ilahi,Habeeb Ilahi," Bisatiyan, Kairana",9358543463,Commercial Self ,121,121,121,0,0,0
+267,08 Bisatiyan, Bisatiyan,202/2,Abrar Ahmad,Masroor Ilahi," Bisatiyan, Kairana",9045880450,Commercial Self ,121,121,121,121,0,0
+268,08 Bisatiyan, Bisatiyan,202/A,Tahir ,Israr Ilahi," Bisatiyan, Kairana",8791898315,Commercial Self ,165,0,165,0,0,0
+269,08 Bisatiyan, Bisatiyan,202/B,Tahir,Israr Ilahi," Bisatiyan, Kairana",8791898315, -,0,0,0,0,0,0
+270,08 Bisatiyan, Bisatiyan,202/C,Faim Ilahi,Mujeeb Ilahi," Bisatiyan, Kairana",6396193989, -,132,518,132,578,0,0
+271,08 Bisatiyan, Bisatiyan,202/D,Faim Ilahi,Mujeeb Ilahi," Bisatiyan, Kairana",6396193989,Commercial Self ,132,132,132,132,0,0
+272,08 Bisatiyan, Bisatiyan,202/E,Nadeem Ilahi,Mukeem Ilahi," Bisatiyan, Kairana",9358543863,Commercial Self ,110,0,110,7,0,0
+273,08 Bisatiyan, Bisatiyan,202/F,Nadeem Ilahi,Mukeem Ilahi," Bisatiyan, Kairana",9358543863,Commercial Self ,110,0,132,7,0,0
+274,08 Bisatiyan, Bisatiyan,203,Kamru Nisha,Israr Ilahi," Bisatiyan, Kairana", -, -,0,0,0,0,0,0
+275,08 Bisatiyan, Bisatiyan,203/1,Tahir,Israr Ilahi," Bisatiyan, Kairana",8791898315,Commercial Self ,165,0,165,0,0,0
+276,08 Bisatiyan, Bisatiyan,204,Ruksana,Naim," Bisatiyan, Kairana",9897770019,Commercial Self ,157,0,157,0,0,0
+277,08 Bisatiyan, Bisatiyan,205,Ruksana,Naim," Bisatiyan, Kairana",9897770019,Commercial Self ,152,152,152,0,0,0
+278,08 Bisatiyan, Bisatiyan,206,Ruksana,Naim," Bisatiyan, Kairana",9897770019,Commercial Self ,152,152,152,0,0,0
+279,08 Bisatiyan, Bisatiyan,207,Ruksana,Naim," Bisatiyan, Kairana",9897770019,Commercial Self ,152,152,152,0,0,0
+280,08 Bisatiyan, Bisatiyan,208,Ruksana,Naim," Bisatiyan, Kairana",9897770019,Commercial Self ,0,0,0,0,0,0
+281,08 Bisatiyan, Bisatiyan,209,Ruksana Begam,Naim," Bisatiyan, Kairana",9897770019,Commercial Self ,152,152,152,0,0,0
+282,08 Bisatiyan, Bisatiyan,210,Ruksana Begam,Naim," Bisatiyan, Kairana",9897770019,Commercial Self ,152,152,152,0,268,0
+283,08 Bisatiyan, Bisatiyan,211,Ruksana Begam,Naim," Bisatiyan, Kairana",9897770019,Residential Self ,396,0,396,810,0,0
+284,08 Bisatiyan, Bisatiyan,212,Umair Islam,Islam," Bisatiyan, Kairana", -,Residential Self ,77,0,77,0,343,0
+285,08 Bisatiyan, Bisatiyan,213,Saleem Ahmad,Basheer Ahmad," Bisatiyan, Kairana",9897009028,Residential Self ,85,395,85,404,335,2748
+286,08 Bisatiyan, Bisatiyan,214,Irshad,Gani," Bisatiyan, Kairana",8439705174,Residential Self ,73,73,73,73,347,0
+287,08 Bisatiyan, Bisatiyan,215,"Inam,Ikram,Imran",Ikbal," Bisatiyan, Kairana",8430224033,Residential Self ,165,0,165,0,420,0
+288,08 Bisatiyan, Bisatiyan,216,Irshad,Gani," Bisatiyan, Kairana",8439705174,Open Plot ,52,109,52,109,0,0
+289,08 Bisatiyan, Bisatiyan,217,Naseema,Najar," Bisatiyan, Kairana",8923810154,Residential Self ,48,101,48,101,372,744
+290,08 Bisatiyan, Bisatiyan,218,"Nisar,Abrar,",Bahar Ahmad," Bisatiyan, Kairana",7302342031,Residential Self ,73,0,73,0,347,0
+291,08 Bisatiyan, Bisatiyan,"2,19,220",Abrar,Akhlaq," Bisatiyan, Kairana", -,Residential Self ,264,554,264,554,420,840
+292,08 Bisatiyan, Bisatiyan,220/1,Satpal,Dataram," Bisatiyan, Kairana",9027122367,Residential Self ,61,372,61,372,359,1974
+293,08 Bisatiyan, Bisatiyan,221,Brahmpal,Dataram," Bisatiyan, Kairana",9027466686,Residential Self ,73,153,73,489,0,0
+294,08 Bisatiyan, Bisatiyan,222,Sevaram,Aasaram," Bisatiyan, Kairana", -,Residential Self ,45,0,45,0,375,0
+295,08 Bisatiyan, Bisatiyan,223,Shyamlal,Aasaram," Bisatiyan, Kairana", -,Residential Self ,61,0,61,0,0,0
+296,08 Bisatiyan, Bisatiyan,224,Ramkishan,Munshiram," Bisatiyan, Kairana",9810673053,Residential Self ,48,293,48,293,0,0
+297,08 Bisatiyan, Bisatiyan,"2,25,226",Jareef,Rehmatulla," Bisatiyan, Kairana", -,Residential Self ,264,319,264,0,0,0
+298,08 Bisatiyan, Bisatiyan,227,Israr,Akhlaq," Bisatiyan, Kairana",7417344004,Residential Self ,77,471,77,471,420,2040
+299,08 Bisatiyan, Bisatiyan,228,Tasleem,Saleem," Bisatiyan, Kairana",7500806400,Mixed,110,1297,110,1309,0,0
+300,08 Bisatiyan, Bisatiyan,229,Ramswaroop,Antu," Bisatiyan, Kairana",7300524962,Residential Self ,85,395,85,404,335,2674
+301,08 Bisatiyan, Bisatiyan,230,Jubaida,Saleem," Bisatiyan, Kairana",7500806400,Open Plot ,0,0,0,0,0,0
+302,08 Bisatiyan, Bisatiyan,231,Aamir,Kamil," Bisatiyan, Kairana", -,Residential Self ,79,367,79,375,0,0
+303,08 Bisatiyan, Bisatiyan,232,Jareef,Rehmatulla," Bisatiyan, Kairana", -,Open Plot ,0,0,0,0,0,0
+304,08 Bisatiyan, Bisatiyan,233,Jareef,Rehmatulla," Bisatiyan, Kairana", -,Open Plot ,0,0,0,0,0,0
+305,08 Bisatiyan, Bisatiyan,234,Jareef,Rehmatulla," Bisatiyan, Kairana", -,Open Plot ,0,0,0,0,0,0
+306,08 Bisatiyan, Bisatiyan,235,Jareef,Rehmatulla," Bisatiyan, Kairana", -,Open Plot ,0,0,0,0,0,0
+307,08 Bisatiyan, Bisatiyan,236,Jareef,Rehmatulla," Bisatiyan, Kairana", -,Open Plot ,0,0,0,0,0,0
+308,08 Bisatiyan, Bisatiyan,237,Jareef,Rehmatulla," Bisatiyan, Kairana", -,Open Plot ,0,0,0,0,0,0
+309,08 Bisatiyan, Bisatiyan,239,Ramkishan,Munshiram," Bisatiyan, Kairana",7017082585,Commercial Self ,0,0,0,0,420,2040
+310,08 Bisatiyan, Bisatiyan,239/1,Ramkishan,Munshiram," Bisatiyan, Kairana",7017082585,Commercial Self ,132,806,132,806,0,0
+311,08 Bisatiyan, Bisatiyan,240,Sevaram,Aasaram," Bisatiyan, Kairana", -,Commercial Self ,55,0,55,0,0,0
+312,08 Bisatiyan, Bisatiyan,241,Ameer Fatma,Afjal Urf Jani," Bisatiyan, Kairana",9997805557,Residential Self ,79,0,79,0,341,0
+313,08 Bisatiyan, Bisatiyan,244,Ameer Fatma,Afjal Urf Jani," Bisatiyan, Kairana",9997805557,Residential Self ,102,214,102,0,0,0
+314,08 Bisatiyan, Bisatiyan,245,Ruksana,Haji Riyaj," Bisatiyan, Kairana",9871526009,Commercial Self ,67,67,67,67,0,0
+315,08 Bisatiyan, Bisatiyan,246,Ruksana ,Haji Riyaj," Bisatiyan, Kairana",9871526009,Commercial Self ,67,67,67,67,0,0
+316,08 Bisatiyan, Bisatiyan,247,Ruksana,Haji Riyaj," Bisatiyan, Kairana",9871526009,Commercial Self ,67,67,67,67,0,0
+317,08 Bisatiyan, Bisatiyan,248,Basheeri,Ikram," Bisatiyan, Kairana",9871065298,Commercial Self ,73,130,73,153,0,0
+318,08 Bisatiyan, Bisatiyan,249,Ruksana,Haji Riyaj," Bisatiyan, Kairana",9871526009,Residential Self ,330,330,330,330,90,90
+319,08 Bisatiyan, Bisatiyan,249/1,Saleem,Nasru," Bisatiyan, Kairana",9045657500,Residential Self ,66,223,66,219,420,1240
+320,08 Bisatiyan, Bisatiyan,250,Shabbir,Rafeek," Bisatiyan, Kairana",9690283993,Residential Self ,55,256,55,256,365,1420
+321,08 Bisatiyan, Bisatiyan,251,Anwari Urf Chhoti,Fateh Mohammad," Bisatiyan, Kairana",9536362649,Residential Self ,132,1253,132,1253,420,4440
+322,08 Bisatiyan, Bisatiyan,252,Yaseen,Rehmatulla," Bisatiyan, Kairana",9997765001,Commercial Self ,44,44,44,0,0,0
+323,08 Bisatiyan, Bisatiyan,253,Tohid,Ishak," Bisatiyan, Kairana",7078754017,Residential Self ,110,110,110,110,310,310
+324,08 Bisatiyan, Bisatiyan,254,Yaseen,Rehmatulla," Bisatiyan, Kairana",9997765001,Residential Self ,44,0,44,0,366,0
+325,08 Bisatiyan, Bisatiyan,255,Abdul Hameed,Mohd Yusuf," Bisatiyan, Kairana",7453848321,Commercial Self ,44,92,44,42,0,0
+326,08 Bisatiyan, Bisatiyan,256,Abdul Hameed,Mohd Yusuf," Bisatiyan, Kairana",7453848321,Residential Self ,55,116,55,116,365,730
+327,08 Bisatiyan, Bisatiyan,257,Aashik Urf Aaskin,Yusus," Bisatiyan, Kairana",8267865008,Residential Self ,165,0,165,0,255,0
+328,08 Bisatiyan, Bisatiyan,258,Anvar Urf Jhandu,Ismail," Bisatiyan, Kairana", -,Residential Self ,55,4,55,0,365,1765
+329,08 Bisatiyan, Bisatiyan,259,"Aarif,Rashid,Khursheed,Nasir,Aasif",Yameen," Bisatiyan, Kairana",9152379873,Residential Self ,48,0,48,48,372,779
+330,08 Bisatiyan, Bisatiyan,259/1,"Aarif,Rashid,Khursheed,Nasir,Aasif",Yameen," Bisatiyan, Kairana",9997765001,Residential Self ,44,44,44,44,0,0
+331,08 Bisatiyan, Bisatiyan,260,Mehmooda,Suleman," Bisatiyan, Kairana", -,Residential Self ,44,0,44,552,420,1820
+332,08 Bisatiyan, Bisatiyan,260/1,Noshad,Suleman," Bisatiyan, Kairana",9917986926,Residential Self ,44,268,44,268,376,1820
+333,08 Bisatiyan, Bisatiyan,261,Kasim,Suleman," Bisatiyan, Kairana",8899074641,Residential Self ,132,277,132,277,288,576
+334,08 Bisatiyan, Bisatiyan,263,Anvar Urf Jhandu,Ismail," Bisatiyan, Kairana", -,Residential Self ,48,0,48,0,372,2052
+335,08 Bisatiyan, Bisatiyan,"264,265 265/1,268",Afzal,Akhlaq," Bisatiyan, Kairana", -,Residential Self ,165,767,165,790,0,0
+336,08 Bisatiyan, Bisatiyan,"2,66,267",Rashid,Sharafat," Bisatiyan, Kairana",9997203594,Residential Self ,88,292,88,2125,420,2040
+337,08 Bisatiyan, Bisatiyan,269,Rais Ahmad,Khursheed," Bisatiyan, Kairana",8791048300,Residential Self ,55,0,55,0,365,0
+338,08 Bisatiyan, Bisatiyan,270,Vimla,Santuram," Bisatiyan, Kairana",7895341544,Residential Self ,55,116,55,116,0,0
+339,08 Bisatiyan, Bisatiyan,271,Vimla,Santuram," Bisatiyan, Kairana",8979318803,Residential Self ,55,524,48,973,0,0
+340,08 Bisatiyan, Bisatiyan,272,Budhram,Malera," Bisatiyan, Kairana",9897769192,Residential Self ,44,1033,44,1033,0,0
+341,08 Bisatiyan, Bisatiyan,272/1,Omprakash,Licha," Bisatiyan, Kairana",8126933407,Residential Self ,55,337,55,337,0,0
+342,08 Bisatiyan, Bisatiyan,272/2,"Devendra,Sanjay,Rajendra,Bijebdra",Kedarnath," Bisatiyan, Kairana",9756804947,Residential Self ,44,417,44,417,0,0
+343,08 Bisatiyan, Bisatiyan,272/3,Omprakash,Licha," Bisatiyan, Kairana",8126933407,Residential Self ,55,337,55,337,0,0
+344,08 Bisatiyan, Bisatiyan,272/4,"Sanjay S/O Kedarnath,Budhram",Malera," Bisatiyan, Kairana",9756804947,Open Plot ,0,0,0,0,0,0
+345,08 Bisatiyan, Bisatiyan,273,"Omprakash S/O Lichan,Ramesvar",Sardara," Bisatiyan, Kairana",8126933407,Residential Self ,48,293,48,293,375,2415
+346,08 Bisatiyan, Bisatiyan,273/1,Ramesvar,Sardara," Bisatiyan, Kairana",9045671642,Residential Self ,44,802,44,802,372,1800
+347,08 Bisatiyan, Bisatiyan,274,Ramkumar,Dhara," Bisatiyan, Kairana",7037581995,Residential Self ,45,95,45,96,0,0
+348,08 Bisatiyan, Bisatiyan,275,Satyaprakash,Balvant," Bisatiyan, Kairana",9760594556,Residential Self ,46,281,46,281,374,1810
+349,08 Bisatiyan, Bisatiyan,276,Dhanprrakash,Balvant," Bisatiyan, Kairana",9690303502,Residential Self ,48,370,48,370,0,0
+350,08 Bisatiyan, Bisatiyan,277,"Rajendra,Sanjay,Devendra,Bijendra",Kedarnath," Bisatiyan, Kairana",9756804947,Residential Self ,55,256,55,256,420,1640
+351,08 Bisatiyan, Bisatiyan,"2,78,279",Abdul Hameed,Lateef," Bisatiyan, Kairana", -,Residential Self ,198,920,198,920,222,348
+352,08 Bisatiyan, Bisatiyan,"2,80,281",Khursheed,Shreef," Bisatiyan, Kairana",8534018150,Residential Self ,220,0,220,0,200,0
+353,08 Bisatiyan, Bisatiyan,282,Riyaja Bano,Shokat," Bisatiyan, Kairana",8449072752,Residential Self ,44,0,44,0,376,0
+354,08 Bisatiyan, Bisatiyan,283,Mehboob,Suleman," Bisatiyan, Kairana",9084033179,Residential Self ,55,257,55,257,0,0
+355,08 Bisatiyan, Bisatiyan,284,Surajmal,Rehtulal," Bisatiyan, Kairana",9084586247,Residential Self ,44,802,44,802,0,0
+356,08 Bisatiyan, Bisatiyan,285,"Urmila D/O Jaypal W/O Shyamveer,Bhuriya D/O Jaypal W/O ",Bittu," Bisatiyan, Kairana",9756211034,Residential Self ,44,268,44,268,376,1820
+357,08 Bisatiyan, Bisatiyan,286,Budhram,Balhera," Bisatiyan, Kairana",9897769192,Residential Self ,45,95,45,96,420,840
+358,08 Bisatiyan, Bisatiyan,287,Haroon,Kala," Bisatiyan, Kairana", -, -,165,165,165,0,255,0
+359,08 Bisatiyan, Bisatiyan,288,Dilavar Chaudhary,Mohd Haroon," Bisatiyan, Kairana", -, -,48,293,48,293,240,2040
+360,08 Bisatiyan, Bisatiyan,289,Jahid,Akeel," Bisatiyan, Kairana",9045611164,Residential Self ,88,0,88,0,332,1812
+361,08 Bisatiyan, Bisatiyan,290,Balbiri,Ramkishan," Bisatiyan, Kairana",7017082585,Residential Self ,48,48,48,48,372,372
+362,08 Bisatiyan, Bisatiyan,291,"Aarif,Mobin Ahmad,Ameen",Aashkin," Bisatiyan, Kairana",9048894627,Residential Self ,55,426,55,426,420,2340
+363,08 Bisatiyan, Bisatiyan,293,Vaseem,Babu," Bisatiyan, Kairana",9084454398,Residential Self ,48,293,48,293,0,0
+364,08 Bisatiyan, Bisatiyan,294,"Aslam,Mohd Mateen",Abdul Malik," Bisatiyan, Kairana",8273442238,Residential Self ,91,0,91,0,329,0
+365,08 Bisatiyan, Bisatiyan,295,"Faiyyaj, Akbar",Rasheed Ahmad," Bisatiyan, Kairana", -,Open Plot ,0,0,0,0,0,0
+366,08 Bisatiyan, Bisatiyan,296,Lateef,Haji Hameed," Bisatiyan, Kairana",9368333763,Commercial Self ,85,0,85,0,0,0
+367,08 Bisatiyan, Bisatiyan,297,Lateef,Haji Hameed," Bisatiyan, Kairana",9368333763,Commercial Self ,103,0,103,0,0,0
+368,08 Bisatiyan, Bisatiyan,298,Lateef,Haji Hameed," Bisatiyan, Kairana",9368333763,Commercial Self ,103,0,103,0,0,0
+369,08 Bisatiyan, Bisatiyan,299,Lateef,Haji Hameed," Bisatiyan, Kairana",9368333763,Commercial Self ,103,0,103,0,0,0
+370,08 Bisatiyan, Bisatiyan,300,Lateef,Haji Hameed," Bisatiyan, Kairana",9368333763,Residential Self ,165,0,165,0,420,0
+371,08 Bisatiyan, Bisatiyan,301,"Rais S/O Rasheed, Asgar",Rasheed ," Bisatiyan, Kairana",9368333763,Residential Self ,55,337,55,337,0,0
+372,08 Bisatiyan, Bisatiyan,302,"Faiyyaj, Akbar",Rasheed," Bisatiyan, Kairana",9045207637,Residential Self ,48,0,48,0,0,0
+373,08 Bisatiyan, Bisatiyan,"3,03,292",Mehrunisha,Aarif," Bisatiyan, Kairana",7830471300,Residential Self ,396,7349,396,9141,0,0
+374,08 Bisatiyan, Bisatiyan,303/1A,Mohd Shan Ilahi,Ikram Ilahi," Bisatiyan, Kairana",8791672914,Residential Self ,220,856,220,784,200,760
+375,08 Bisatiyan, Bisatiyan,303/1B,Mohd Imran,Mohd Ashfak," Bisatiyan, Kairana",8218896937,Residential Self ,99,208,99,208,321,0
+376,08 Bisatiyan, Bisatiyan,303/1,Akram,Kamil," Bisatiyan, Kairana", -, -,88,0,88,0,332,0
+377,08 Bisatiyan, Bisatiyan,305,Shashibala,Ashok Kumar," Bisatiyan, Kairana", -, -,0,0,0,0,0,0
+378,08 Bisatiyan, Bisatiyan,305/1,Shashibala,Ashok Kumar," Bisatiyan, Kairana", -, -,0,0,0,0,0,0
+379,08 Bisatiyan, Bisatiyan,305/2,Shashibala,Ashok Kumar," Bisatiyan, Kairana", -, -,0,0,0,0,0,0
+380,08 Bisatiyan, Bisatiyan,"306,306/1, 306/2,306/3, 306/4",Noshad,Akhlaq," Bisatiyan, Kairana",9045006694,Residential Self ,1320,2772,1320,2772,420,840
+381,08 Bisatiyan, Bisatiyan,306/5,Nalkoop Mohalla Bisatiyan,-," Bisatiyan, Kairana", -,Pupm ,0,0,0,0,0,0
+382,08 Bisatiyan, Bisatiyan,306/6,Nalkoop Mohalla Bisatiyan,-," Bisatiyan, Kairana", -,Pupm ,0,0,0,0,0,0
+383,08 Bisatiyan, Bisatiyan,307,"Mustafa,Mehboob,Ayyub,Maroof,Haroon",Rafeek Ahmad," Bisatiyan, Kairana", -, -,44,145,44,145,420,2340
+384,08 Bisatiyan, Bisatiyan,307/1,"Mustafa,Mehboob,Ayyub,Maroof,Haroon",Rafeek Ahmad," Bisatiyan, Kairana", -, -,110,510,110,570,0,0
+385,08 Bisatiyan, Bisatiyan,307/2,"Mustafa,Mehboob,Ayyub,Maroof,Haroon",Rafeek Ahmad," Bisatiyan, Kairana", -, -,0,0,0,0,0,0
+386,08 Bisatiyan, Bisatiyan,307/3,"Mustafa,Mehboob,Ayyub,Maroof,Haroon",Rafeek Ahmad," Bisatiyan, Kairana", -, -,0,0,0,0,0,0
+387,08 Bisatiyan, Bisatiyan,307/4,"Mustafa,Mehboob,Ayyub,Maroof,Haroon",Rafeek Ahmad," Bisatiyan, Kairana", -, -,110,510,110,570,0,0
+388,08 Bisatiyan, Bisatiyan,308,Shafeek,Yameen," Bisatiyan, Kairana",9720244376,Residential Self ,66,66,66,66,354,354
+389,08 Bisatiyan, Bisatiyan,308/1,Shafeek,Yameen," Bisatiyan, Kairana",9720244376,Commercial Self ,165,165,165,165,0,0
+390,08 Bisatiyan, Bisatiyan,"309, 311, 314","Mohd Aalam,S/O Shokat Ali,Mobina Aalam W/O",Mohd Aalam," Bisatiyan, Kairana",7351730786,Mixed,242,0,242,0,178,0
+391,08 Bisatiyan, Bisatiyan,315,Mohd Rijvan,Haji Ikbal," Bisatiyan, Kairana",9045199616,Residential Self ,45,45,45,45,375,375
+392,08 Bisatiyan, Bisatiyan,316,Najma Parveen,Mohd Ameen," Bisatiyan, Kairana",9997203575,Residential Self ,330,330,330,336,90,90
+393,08 Bisatiyan, Bisatiyan,317,Urmila,Subhaschand," Bisatiyan, Kairana",9917034067,Residential Self ,48,293,48,293,372,1800
+394,08 Bisatiyan, Bisatiyan,318,Nafees Ahmad,Basheer Ahmad," Bisatiyan, Kairana",7669307757,Residential Self ,330,2014,330,2014,90,390
+395,08 Bisatiyan, Bisatiyan,319,Sohanbiri,Jhmel," Bisatiyan, Kairana", -,Residential Self ,55,650,55,650,0,0
+396,08 Bisatiyan, Bisatiyan,319/1,"Shivkumar,Ramkumar,Shivcharan",Budhram," Bisatiyan, Kairana",7500375137,Residential Self ,396,832,396,832,420,840
+397,08 Bisatiyan, Bisatiyan,320,Krishni,Palla," Bisatiyan, Kairana", -,Residential Self ,61,61,61,61,359,359
+398,08 Bisatiyan, Bisatiyan,321,Mansingh,Ghasita," Bisatiyan, Kairana",9045318283,Residential Self ,48,48,48,48,372,0
+399,08 Bisatiyan, Bisatiyan,322,Kirno ,Mahipal," Bisatiyan, Kairana",6395981377,Residential Self ,48,48,48,48,372,372
+400,08 Bisatiyan, Bisatiyan,323,Devichand,Atra," Bisatiyan, Kairana",9568735436,Residential Self ,85,657,85,657,335,1830
+401,08 Bisatiyan, Bisatiyan,324,Ram Palli,Shripal," Bisatiyan, Kairana", -,Residential Self ,55,183,55,1062,420,4140
+402,08 Bisatiyan, Bisatiyan,324/1,Satyapal,Nekiram," Bisatiyan, Kairana",9639479589,Residential Self ,198,0,198,0,222,0
+403,08 Bisatiyan, Bisatiyan,324/2,Shri Chand,Nekiram," Bisatiyan, Kairana", -,Residential Self ,44,44,44,44,0,0
+404,08 Bisatiyan, Bisatiyan,325,Raghuveer,Simru," Bisatiyan, Kairana",7983770814,Residential Self ,55,0,55,0,0,0
+405,08 Bisatiyan, Bisatiyan,326,Chandki,Satyapal," Bisatiyan, Kairana",9627228425,Residential Self ,55,55,55,55,0,0
+406,08 Bisatiyan, Bisatiyan,327,Palo,Satyapal," Bisatiyan, Kairana",7906698842,Residential Self ,121,121,121,121,299,299
+407,08 Bisatiyan, Bisatiyan,328,"Harichand,Gopichand,Ilam S/O Hosyara, Indresh",Tirlok," Bisatiyan, Kairana",9012459532,Residential Self ,48,159,48,159,0,0
+408,08 Bisatiyan, Bisatiyan,329,Pala,Sadhuram," Bisatiyan, Kairana",9639484083,Residential Self ,145,145,145,960,275,275
+409,08 Bisatiyan, Bisatiyan,329/1,"Anup Singh, S/O Aasaram, Balbeer Singh",Dhuli," Bisatiyan, Kairana",7037902754,Residential Self ,121,254,121,254,420,840
+410,08 Bisatiyan, Bisatiyan,330,Parkash,Dhuli," Bisatiyan, Kairana",9897882619,Residential Self ,48,370,48,370,372,2052
+411,08 Bisatiyan, Bisatiyan,331,Shri Chand,Neki," Bisatiyan, Kairana",9760771740,Residential Self ,121,121,121,121,299,299
+412,08 Bisatiyan, Bisatiyan,332,Rishipal,Neki," Bisatiyan, Kairana", -,Residential Self ,44,268,44,268,376,1820
+413,08 Bisatiyan, Bisatiyan,333,Puran Chand,Genda," Bisatiyan, Kairana",9917177410,Residential Self ,165,767,165,0,255,2070
+414,08 Bisatiyan, Bisatiyan,334,Kailasho,Hari Singh," Bisatiyan, Kairana", -,Open Plot ,0,0,0,0,0,0
+415,08 Bisatiyan, Bisatiyan,335,Rampal,Budhram," Bisatiyan, Kairana",9917086263,Residential Self ,44,44,44,44,0,0
+416,08 Bisatiyan, Bisatiyan,336,"Ishtiyak, Rijvan",Ashvak," Bisatiyan, Kairana",9259217732,Residential Self ,48,223,48,223,372,1448
+417,08 Bisatiyan, Bisatiyan,337,Ramesh,Balbeer," Bisatiyan, Kairana",8899041552,Residential Self ,121,121,121,121,299,299
+418,08 Bisatiyan, Bisatiyan,338,Jay Bhagvan,Sadhuram," Bisatiyan, Kairana",8936903283,Residential Self ,87,0,87,0,333,0
+419,08 Bisatiyan, Bisatiyan,339,Pinki,Parveen Kumar," Bisatiyan, Kairana", -,Residential Self ,47,364,47,364,373,2058
+420,08 Bisatiyan, Bisatiyan,340,Jagdeesh,Sadhuram," Bisatiyan, Kairana",9411073192,Residential Self ,165,165,87,165,333,333
+421,08 Bisatiyan, Bisatiyan,342,"Shahjad,Suhail",Mohd Haneef," Bisatiyan, Kairana",9927866253,Residential Self ,440,0,440,0,0,0
+422,08 Bisatiyan, Bisatiyan,342/1,Suresh,Jyoti," Bisatiyan, Kairana",9012413575,Residential Self ,44,0,44,0,0,0
+423,08 Bisatiyan, Bisatiyan,342/2,Dharampal,Jyoti," Bisatiyan, Kairana",9012427011,Commercial Self ,44,145,44,145,420,1240
+424,08 Bisatiyan, Bisatiyan,342/3,Ghasi,Jyoti," Bisatiyan, Kairana",9045278443,Commercial Self ,44,145,44,145,0,0
+425,08 Bisatiyan, Bisatiyan,343,Suresh,Jyoti," Bisatiyan, Kairana",9012413575,Residential Self ,55,0,55,0,420,0
+426,08 Bisatiyan, Bisatiyan,343/1,Dharampal,Jyoti," Bisatiyan, Kairana",9012427011,Residential Self ,55,183,55,183,0,0
+427,08 Bisatiyan, Bisatiyan,343/2,Ghasi,Jyoti," Bisatiyan, Kairana",9045278443,Residential Self ,44,145,44,145,420,1240
+428,08 Bisatiyan, Bisatiyan,344,Jasvant,Hajari," Bisatiyan, Kairana",9058896683,Residential Self ,55,256,55,256,420,2905
+429,08 Bisatiyan, Bisatiyan,344/1,Jaydrath,Hajari," Bisatiyan, Kairana",9045719495,Open Plot ,0,0,0,0,0,0
+430,08 Bisatiyan, Bisatiyan,344/1A,Jaydrath,Hajari," Bisatiyan, Kairana",9045719495,Residential Self ,55,183,55,183,0,0
+431,08 Bisatiyan, Bisatiyan,344/2,Jasrath,Hajari," Bisatiyan, Kairana",9897942026,Residential Self ,77,198,77,77,0,0
+432,08 Bisatiyan, Bisatiyan,344/3,Jasrath,Hajari," Bisatiyan, Kairana",9897942026,Commercial Self ,0,0,0,0,420,1640
+433,08 Bisatiyan, Bisatiyan,345,Pawan Jain,Vijay Bhushan," Bisatiyan, Kairana", -,Commercial Self ,67,311,67,311,420,1640
+434,08 Bisatiyan, Bisatiyan,345/1,Dr. Anshul,," Bisatiyan, Kairana",8755140681,Mixed,0,0,0,0,0,0
+435,08 Bisatiyan, Bisatiyan,347,"Mannu,Dhannu",Jadoram," Bisatiyan, Kairana",7302033493,Residential Self ,132,613,132,613,288,1112
+436,08 Bisatiyan, Bisatiyan,347/1,Rajesh,Nando," Bisatiyan, Kairana", -, -,110,2005,110,2005,310,2770
+437,08 Bisatiyan, Bisatiyan,348,Ramvati,Ramprasad," Bisatiyan, Kairana",7895647570,Residential Self ,48,223,0,0,420,1640
+438,08 Bisatiyan, Bisatiyan,348/1,Ramvati,Ramprasad," Bisatiyan, Kairana",7895647570,Commercial Self ,48,223,48,223,0,0
+439,08 Bisatiyan, Bisatiyan,348/2,Ramvati,Ramprasad," Bisatiyan, Kairana",7895647570,Commercial Self ,110,374,110,510,0,0
+440,08 Bisatiyan, Bisatiyan,349,Masooda,Saleem," Bisatiyan, Kairana",9756241388,Commercial Self ,55,116,55,116,420,840
+441,08 Bisatiyan, Bisatiyan,349/1,Masooda,Saleem," Bisatiyan, Kairana",9756241388,Residential Self ,66,139,66,139,0,0
+442,08 Bisatiyan, Bisatiyan,349/2,Masooda,Saleem," Bisatiyan, Kairana",9756241388,Residential Self ,55,116,55,116,0,0
+443,08 Bisatiyan, Bisatiyan,349/3,Masooda,Saleem," Bisatiyan, Kairana",9756241388,Commercial Self ,55,116,55,116,0,0
+444,08 Bisatiyan, Bisatiyan,350,Sahendra,Malkhan," Bisatiyan, Kairana",9759105854,Residential Self ,45,95,45,95,375,750
+445,08 Bisatiyan, Bisatiyan,351,Santuram,Prithvi Singh," Bisatiyan, Kairana",8791890435,Residential Self ,182,182,182,182,238,238
+446,08 Bisatiyan, Bisatiyan,351/1,Santuram,Prithvi Singh," Bisatiyan, Kairana",8791890435,Commercial Self ,165,165,165,165,0,0
+447,08 Bisatiyan, Bisatiyan,351/2,Santuram,Prithvi Singh," Bisatiyan, Kairana",8791890435,Commercial Self ,55,55,55,55,372,744
+448,08 Bisatiyan, Bisatiyan,352,Faiyyaj ,Shreef," Bisatiyan, Kairana",9054011207,Commercial Self ,110,110,110,110,0,0
+449,08 Bisatiyan, Bisatiyan,352/1,Faiyyaj ,Shreef," Bisatiyan, Kairana",9054011207,Commercial Self ,97,97,97,97,0,0
+450,08 Bisatiyan, Bisatiyan,352/2,Bhanvar Singh,Lalsingh," Bisatiyan, Kairana", -,Residential Self ,48,762,48,221,372,744
+451,08 Bisatiyan, Bisatiyan,352/3,Suresh Chand,Jivan Lal," Bisatiyan, Kairana",8791331168,Residential Self ,61,283,61,283,0,0
+452,08 Bisatiyan, Bisatiyan,352/4,Suresh Chand,Jivan Lal," Bisatiyan, Kairana",8791331168,Residential Self ,48,223,48,223,372,1448
+453,08 Bisatiyan, Bisatiyan,353,Nanuram,Rudamal," Bisatiyan, Kairana",9897347393,Residential Self ,55,3447,55,3457,365,5604
+454,08 Bisatiyan, Bisatiyan,354,Prakashi Devi,Nathu Ram," Bisatiyan, Kairana",9897347393,Residential Self ,48,1151,48,1168,0,0
+455,08 Bisatiyan, Bisatiyan,355,Kreshna,Nandu," Bisatiyan, Kairana",9897347393,Residential Self ,73,241,73,1770,0,0
+456,08 Bisatiyan, Bisatiyan,356,Rajesh,Nandu ," Bisatiyan, Kairana",9897347393,Residential Self ,220,3464,220,3464,0,0
+457,08 Bisatiyan, Bisatiyan,357,Fullo,Jadho Ram," Bisatiyan, Kairana", -,Residential Self ,110,364,110,364,420,2340
+458,08 Bisatiyan, Bisatiyan,358,Chandro,Kabool," Bisatiyan, Kairana",7060157492,Residential Self ,66,307,66,307,354,3372
+459,08 Bisatiyan, Bisatiyan,359,"Bijendra, Bholu",Lakhi," Bisatiyan, Kairana", -,Residential Self ,66,1381,66,1384,420,4280
+460,08 Bisatiyan, Bisatiyan,360,Shripal,Rajaram," Bisatiyan, Kairana",9358798755,Residential Self ,165,347,165,347,420,840
+461,08 Bisatiyan, Bisatiyan,360/1,Gordhan,Rajaram," Bisatiyan, Kairana",9756906874,Residential Self ,55,1042,55,129,420,2040
+462,08 Bisatiyan, Bisatiyan,361,Raghuveer,Simru," Bisatiyan, Kairana",8273838004,Residential Self ,63,0,63,485,357,1962
+463,08 Bisatiyan, Bisatiyan,362,Sammat,Mukhtyara," Bisatiyan, Kairana",6395913825,Residential Self ,55,328,55,337,0,0
+464,08 Bisatiyan, Bisatiyan,363,Kaliram,Mukhtyara," Bisatiyan, Kairana",8791341722,Residential Self ,66,305,66,1051,354,1710
+465,08 Bisatiyan, Bisatiyan,364,Rajesh,Lakhan," Bisatiyan, Kairana",9760643608,Residential Self ,66,393,66,1205,0,0
+466,08 Bisatiyan, Bisatiyan,365,Vinod,Lakhan," Bisatiyan, Kairana",7668408814,Residential Self ,55,127,55,0,0,0
+467,08 Bisatiyan, Bisatiyan,366,"Jaybhagvan S/O Palla,Baru",Aasharam," Bisatiyan, Kairana",9897158163,Residential Self ,44,261,44,267,376,1820
+468,08 Bisatiyan, Bisatiyan,367,Sevaram,Mukhtyara," Bisatiyan, Kairana",8755638458,Residential Self ,55,127,55,650,365,2500
+469,08 Bisatiyan, Bisatiyan,368,Gordhan,Rajaram," Bisatiyan, Kairana",9756906874,Open Plot ,55,347,55,1005,0,0
+470,08 Bisatiyan, Bisatiyan,368/1,Jagdeesh,Rajaram," Bisatiyan, Kairana",9720719190,Open Plot ,55,1007,55,1005,0,0
+471,08 Bisatiyan, Bisatiyan,369,"Salekchand, Dhara",Ghasita," Bisatiyan, Kairana",8273100985,Residential Self ,55,0,55,0,365,0
+472,08 Bisatiyan, Bisatiyan,371,"Mahipal,Ilamsingh,Karamsingh",Puran," Bisatiyan, Kairana",8791404159,Residential Self ,165,767,165,766,420,1640
+473,08 Bisatiyan, Bisatiyan,372,Jagdeesh,Rajaram," Bisatiyan, Kairana",9720719190,Residential Self ,61,1112,61,1112,359,3187
+474,08 Bisatiyan, Bisatiyan,373,Gordhan,Rajaram," Bisatiyan, Kairana",9756906874,Residential Self ,66,404,66,403,0,0
+475,08 Bisatiyan, Bisatiyan,374,Jivan Singh,Lachan Singh," Bisatiyan, Kairana",7017637754,Residential Self ,91,422,91,422,329,1276
+476,08 Bisatiyan, Bisatiyan,375,Budhram,Balhera," Bisatiyan, Kairana",9897769192,Open Plot ,55,116,55,116,365,730
+477,08 Bisatiyan, Bisatiyan,375/1,"Sanjay,Rajendra,Bijendra,Devendra",Kedarnath," Bisatiyan, Kairana",9756804947,Residential Self ,55,55,55,55,420,6540
+478,08 Bisatiyan, Bisatiyan,376,Mahipal Singh,Hari Singh," Bisatiyan, Kairana", -,Mixed,48,783,48,158,372,1096
+479,08 Bisatiyan, Bisatiyan,377,Ravindra,Sukhbeer," Bisatiyan, Kairana",9520030006,Mixed,121,254,121,254,299,598
+480,08 Bisatiyan, Bisatiyan,377/1,Pallo,Satpal," Bisatiyan, Kairana",8899788566,Residential Self ,109,229,109,2274,311,877
+481,08 Bisatiyan, Bisatiyan,379,Jaypal,Risala," Bisatiyan, Kairana",8433171344,Residential Self ,48,101,48,101,372,744
+482,08 Bisatiyan, Bisatiyan,380,Mohd Anees,Faiyyaj Hasan," Bisatiyan, Kairana",9997767686,Residential Self ,528,528,528,4977,420,3396
+483,08 Bisatiyan, Bisatiyan,382,Gayyur,Mohd Islam," Bisatiyan, Kairana",9548290365,Residential Self ,77,0,220,0,343,0
+484,08 Bisatiyan, Bisatiyan,381,Gayyur,Mohd Islam," Bisatiyan, Kairana",9548290365,Residential Self ,220,0,77,0,0,0
+485,08 Bisatiyan, Bisatiyan,383,Dr. Rajesh,Gaje Singh," Bisatiyan, Kairana",9690937446,Residential Self ,132,132,132,132,0,0
+486,08 Bisatiyan, Bisatiyan,384,Dr. Rajesh,Gaje Singh," Bisatiyan, Kairana",9690937446,Residential Self ,264,264,264,264,420,420
+487,08 Bisatiyan, Bisatiyan,385,Indresh,Tirlok Singh," Bisatiyan, Kairana",9711603675,Residential Self ,55,116,55,116,0,0
+488,08 Bisatiyan, Bisatiyan,385/1,Indresh,Tirlok Singh," Bisatiyan, Kairana",9711603675,Residential Self ,132,277,132,784,0,0
+489,08 Bisatiyan, Bisatiyan,386,Gayyur,Islam," Bisatiyan, Kairana", -,Commercial Self ,165,1946,165,1893,0,0
+490,08 Bisatiyan, Bisatiyan,387,Ilamchand,Hoshyara," Bisatiyan, Kairana", -, -,110,231,110,231,0,0
+491,08 Bisatiyan, Bisatiyan,386/1,Gayyur,Mohd Islam," Bisatiyan, Kairana", -,Commercial Self ,165,1946,165,1946,0,0
+492,08 Bisatiyan, Bisatiyan,387/1,Ilamchand,Hoshyar Singh," Bisatiyan, Kairana", -, -,55,116,55,116,0,0
+493,08 Bisatiyan, Bisatiyan,388,Mahendra,Malkhan," Bisatiyan, Kairana",9917388562,Mixed,55,116,55,116,365,730
+494,08 Bisatiyan, Bisatiyan,388/A,Sahendra,Malkhan," Bisatiyan, Kairana", -,Residential Self ,44,92,44,92,0,0
+495,08 Bisatiyan, Bisatiyan,388/1,Maman,Jaggu," Bisatiyan, Kairana",9152322825,Commercial Self ,77,176,77,176,0,0
+496,08 Bisatiyan, Bisatiyan,388/1A,Maman,Jaggu," Bisatiyan, Kairana",9152322825,Residential Self ,55,176,55,176,0,0
+497,08 Bisatiyan, Bisatiyan,389,Rakesh,Jaggu," Bisatiyan, Kairana",9152322825,Commercial Self ,132,613,132,613,420,2312
+498,08 Bisatiyan, Bisatiyan,389/1,Rakesh,Jaggu," Bisatiyan, Kairana",9152322825,Commercial Self ,132,613,132,613,0,0
+499,08 Bisatiyan, Bisatiyan,389/2,Rakesh,Jaggu," Bisatiyan, Kairana",9152322825,Residential Self ,66,307,66,307,0,0
+500,08 Bisatiyan, Bisatiyan,384/1,Gopichand,Hoshyara ," Bisatiyan, Kairana",8791898394,Mixed,132,437,132,437,0,0
+501,08 Bisatiyan, Bisatiyan,390,Charan Singh,Risal Singh," Bisatiyan, Kairana",9027132450,Residential Self ,77,1407,77,1870,420,4140
+502,08 Bisatiyan, Bisatiyan,390/1,Pitam Singh,Risal Singh," Bisatiyan, Kairana",7500226041,Residential Self ,55,1007,55,873,365,2000
+503,08 Bisatiyan, Bisatiyan,390/2,Ratiram,Risal Singh," Bisatiyan, Kairana",9927097675,Residential Self ,66,307,66,307,354,1376
+504,08 Bisatiyan, Bisatiyan,390/3,Birmati,Sohan Lal," Bisatiyan, Kairana",6395204787,Residential Self ,66,1051,66,1205,354,3382
+505,08 Bisatiyan, Bisatiyan,390/4,Chohal Singh,Risal Singh," Bisatiyan, Kairana",9536485031,Residential Self ,44,199,44,699,0,0
+506,08 Bisatiyan, Bisatiyan,391,Vasil,Hafiz Fazil," Bisatiyan, Kairana",9837091529,Residential Self ,97,4036,97,2936,420,6540
+507,08 Bisatiyan, Bisatiyan,392,"Ramesh S/O Tungal, Sompal",Tungal," Bisatiyan, Kairana",9759446843,Residential Self ,55,256,55,256,365,3512
+508,08 Bisatiyan, Bisatiyan,393,"Biri W/O Balveer,Ramesh,Naresh,Suresh,  Surendra",Balbeer," Bisatiyan, Kairana",8869025730,Residential Self ,66,0,66,0,420,0
+509,08 Bisatiyan, Bisatiyan,394,Bateri,Licharam," Bisatiyan, Kairana",9837994339,Residential Self ,87,87,87,87,333,0
+510,08 Bisatiyan, Bisatiyan,394/1,Bateri,Licharam," Bisatiyan, Kairana",9837994339,Commercial Self ,110,0,110,146,0,0
+511,08 Bisatiyan, Bisatiyan,395,Vahida,Hafij Raees," Bisatiyan, Kairana",9568805122,Commercial Self ,218,79,218,79,0,0
+512,08 Bisatiyan, Bisatiyan,395/1,Vahida,Hafij Raees," Bisatiyan, Kairana",9568805122,Commercial Self ,0,0,0,0,0,0
+513,08 Bisatiyan, Bisatiyan,395/2,Vahida,Hafij Raees," Bisatiyan, Kairana",9568805122,Residential Self ,61,202,61,202,359,0
+514,08 Bisatiyan, Bisatiyan,395/3,Vahida,Hafij Raees," Bisatiyan, Kairana",9568805122,Commercial Self ,0,0,0,0,0,0
+515,08 Bisatiyan, Bisatiyan,401,Tejpal,Sadhuram," Bisatiyan, Kairana",9756608082,Residential Self ,44,0,44,0,376,0
+516,08 Bisatiyan, Bisatiyan,402,Khushnuma,Dr Mehboob," Bisatiyan, Kairana",9927355053,Residential Self ,61,128,61,128,0,0
+517,08 Bisatiyan, Bisatiyan,403,Irshad,Jaheer," Bisatiyan, Kairana",9917110611,Residential Self ,145,305,145,305,0,0
+518,08 Bisatiyan, Bisatiyan,403/1,Margoob,Husain Ahmad," Bisatiyan, Kairana",8171147516,Residential Self ,145,1708,145,1708,0,0
+519,08 Bisatiyan, Bisatiyan,403/1A,Ansar,Faiyyaj," Bisatiyan, Kairana",8006562522,Open Plot ,0,0,0,0,0,0
+520,08 Bisatiyan, Bisatiyan,403/1B,Ansar,Faiyyaj," Bisatiyan, Kairana",8006562522,Open Plot ,0,0,0,0,0,0
+521,08 Bisatiyan, Bisatiyan,404,Ansar Ahamd,Haji Faiyyaj Ahmad," Bisatiyan, Kairana",8006562522,Tower,3432,0,3432,0,0,0
+522,08 Bisatiyan, Bisatiyan,405,"Saeed,Rasheed",Fulla," Bisatiyan, Kairana",8899754007,Residential Self ,145,0,145,0,265,0
+523,08 Bisatiyan, Bisatiyan,406,"Matloob S/O Shabbir, Tahira Begam W/O ",Shabbir," Bisatiyan, Kairana",9368514646,Residential Self ,44,204,44,204,376,1756
+524,08 Bisatiyan, Bisatiyan,406/1A,"Matloob S/O Shabbir, Tahira Begam W/O ",Shabbir," Bisatiyan, Kairana",9368514646,Residential Self ,121,1923,121,1923,299,2352
+525,08 Bisatiyan, Bisatiyan,406/1B,"Mehmood S/O Shabbir,Tahira Begam",Shabbir," Bisatiyan, Kairana",9368514646,Residential Self ,44,0,44,44,420,0
+526,08 Bisatiyan, Bisatiyan,406/1,Rashidan,Rafeek ," Bisatiyan, Kairana", -, -,97,0,97,0,420,0
+527,08 Bisatiyan, Bisatiyan,407,Rashidan,Rafeek," Bisatiyan, Kairana", -, -,44,0,44,44,0,0
+528,08 Bisatiyan, Bisatiyan,409,Mehboob,Shabbir," Bisatiyan, Kairana",8057587676,Residential Self ,44,204,44,204,0,0
+529,08 Bisatiyan, Bisatiyan,410,Nafees,Allaraji," Bisatiyan, Kairana",9897989578,Residential Self ,594,9890,594,5864,0,2762
+530,08 Bisatiyan, Bisatiyan,410/1,Nafees,Allaraji," Bisatiyan, Kairana",9897989578,Commercial Self ,660,12256,660,11436,0,0
+531,08 Bisatiyan, Bisatiyan,411,Islam,Yameen," Bisatiyan, Kairana",9557441301,Commercial Self ,73,0,73,445,347,2654
+532,08 Bisatiyan, Bisatiyan,411/1,Islam,Yameen," Bisatiyan, Kairana",9557441301,Residential Self ,88,966,88,966,0,0
+533,08 Bisatiyan, Bisatiyan,412,Naseem,Ahmadulla," Bisatiyan, Kairana",8534928888,Residential Self ,48,0,48,0,372,372
+534,08 Bisatiyan, Bisatiyan,"413,413/1",Mofida,Naseem Ahmad," Bisatiyan, Kairana",8534928888,Commercial Self ,110,0,110,0,0,0
+535,08 Bisatiyan, Bisatiyan,414,Mofida,Naseem Ahmad," Bisatiyan, Kairana",8534928888,Commercial Self ,396,0,396,0,0,0
+536,08 Bisatiyan, Bisatiyan,414/1,Mofida,Naseem Ahmad," Bisatiyan, Kairana",8534928888,Residential Self ,396,0,396,0,0,0
+537,08 Bisatiyan, Bisatiyan,415,Tokeer,Vaseek," Bisatiyan, Kairana",9012875398,Residential Self ,55,55,55,55,365,365
+538,08 Bisatiyan, Bisatiyan,415/1,Vaseek,Rasheed," Bisatiyan, Kairana",7060451356,Residential Self ,55,256,55,256,420,1240
+539,08 Bisatiyan, Bisatiyan,416,"Najma W/O Sageer,Vaseek",Sageer," Bisatiyan, Kairana",8018683357,Residential Self ,55,56,55,56,345,0
+540,08 Bisatiyan, Bisatiyan,417,Naseem Ahmad,Ahmadulla," Bisatiyan, Kairana",9917882948,Residential Self ,165,2267,105,2870,420,3840
+541,08 Bisatiyan, Bisatiyan,418,Dilshad,Jiya Ul Hak," Bisatiyan, Kairana",8279816185,Residential Self ,61,128,61,128,359,718
+542,08 Bisatiyan, Bisatiyan,420/1,Shahdeen Urf Sadhu,Rafiudeen," Bisatiyan, Kairana", -,Residential Self ,48,159,48,159,372,1096
+543,08 Bisatiyan, Bisatiyan,420/2,Shahjad,Jiya Ul Hak," Bisatiyan, Kairana",8266811191,Residential Self ,55,426,55,426,0,0
+544,08 Bisatiyan, Bisatiyan,421,Hafij Nafees,Ahmadulla," Bisatiyan, Kairana",9548369572,Residential Self ,55,56,55,56,365,0
+545,08 Bisatiyan, Bisatiyan,422,"Masooda W/O Vaseek, Vaseek",Shareef," Bisatiyan, Kairana",9012875398,Residential Self ,48,48,48,48,420,420
+546,08 Bisatiyan, Bisatiyan,424,Jahangeer,Jaheer Hasan," Bisatiyan, Kairana",9528140785,Residential Self ,97,204,97,204,323,646
+547,08 Bisatiyan, Bisatiyan,425,Jahangeer,Jaheer Hasan," Bisatiyan, Kairana",9528140785,Residential Self ,218,458,218,458,0,0
+548,08 Bisatiyan, Bisatiyan,425/1,Shakir,Anvar," Bisatiyan, Kairana",9927425532,Residential Self ,61,1272,61,112,359,2697
+549,08 Bisatiyan, Bisatiyan,426,"Mohd Afjal S/O Manjoor Hasan, Israna Begam",Afjal," Bisatiyan, Kairana",9897733578,Residential Self ,72,439,72,439,348,1680
+550,08 Bisatiyan, Bisatiyan,427,Mohd Izhar,Molana Noor Mohammad," Bisatiyan, Kairana", -,Residential Self ,110,1297,110,1297,0,0
+551,08 Bisatiyan, Bisatiyan,427/1,Molana Asrar Aalam,Molana Noor Mohammad," Bisatiyan, Kairana", -,Residential Self ,48,1144,48,1022,372,3964
+552,08 Bisatiyan, Bisatiyan,427/2,Vakeel Ahmad,Khaleel Ahmad," Bisatiyan, Kairana",9639918200,Residential Self ,55,116,55,116,365,730
+553,08 Bisatiyan, Bisatiyan,427/3,Khaleek Ahmad,Khaleel Ahmad," Bisatiyan, Kairana",9027285139,Residential Self ,73,2451,73,2447,347,4192
+554,08 Bisatiyan, Bisatiyan,427/4,Jahid,Meer Hasan," Bisatiyan, Kairana",7417081500,Residential Self ,61,1644,61,1644,359,4032
+555,08 Bisatiyan, Bisatiyan,427/5,Mohd Vaseem,Ishak," Bisatiyan, Kairana",7417081500,Residential Self ,48,293,48,293,372,1800
+556,08 Bisatiyan, Bisatiyan,428,Tasleem,Ishak," Bisatiyan, Kairana",9536885661,Residential Self ,66,139,66,139,354,708
+557,08 Bisatiyan, Bisatiyan,429,Mehrabo,Jareef," Bisatiyan, Kairana",7037317790,Residential Self ,110,1043,110,1043,310,1870
+558,08 Bisatiyan, Bisatiyan,430,Haji Ikram,Saidudeen," Bisatiyan, Kairana",7500817000,Residential Self ,85,179,85,179,335,670
+559,08 Bisatiyan, Bisatiyan,431,Anvar,Saidudeen," Bisatiyan, Kairana",9528825063,Residential Self ,85,85,85,85,0,0
+560,08 Bisatiyan, Bisatiyan,432,Ikram,Saidudeen," Bisatiyan, Kairana",9528825063,Residential Self ,48,872,48,872,420,420
+561,08 Bisatiyan, Bisatiyan,433,Sarvari,Nafees," Bisatiyan, Kairana",7900941330,Residential Self ,48,0,48,0,372,0
+562,08 Bisatiyan, Bisatiyan,434,"Zulfikar Ali S/O Hakimudeen , Jahida Parveen",Zulfikar Ali," Bisatiyan, Kairana",9411812142,Commercial Self ,50,0,50,0,365,365
+563,08 Bisatiyan, Bisatiyan,434/1,"Zulfikar Ali S/O Hakimudeen , Jahida Parveen",Zulfikar Ali," Bisatiyan, Kairana",9411812142,Residential Self ,0,0,0,0,0,0
+564,08 Bisatiyan, Bisatiyan,435,Rafeek,Rasheed," Bisatiyan, Kairana", -,Residential Self ,61,232,61,232,359,359
+565,08 Bisatiyan, Bisatiyan,436/1,Shabbir,Mistri Rasheed," Bisatiyan, Kairana", -,Residential Self ,48,0,48,0,0,0
+566,08 Bisatiyan, Bisatiyan,437,Islam,Noor Hasan," Bisatiyan, Kairana", -,Residential Self ,275,275,275,275,0,0
+567,08 Bisatiyan, Bisatiyan,437/1,Ikram,Noor Hasan," Bisatiyan, Kairana",9568920294,Residential Self ,110,231,110,231,0,0
+568,08 Bisatiyan, Bisatiyan,437/2,Irfan,Noor Hasan," Bisatiyan, Kairana",9045881023,Residential Self ,275,275,275,275,0,0
+569,08 Bisatiyan, Bisatiyan,437/3,Islam,Noor Hasan," Bisatiyan, Kairana", -,Residential Self ,110,525,110,525,310,1870
+570,08 Bisatiyan, Bisatiyan,439,Aabid,Shafeek Ahmad," Bisatiyan, Kairana",9368978736,Commercial Self ,97,254,97,592,323,1555
+571,08 Bisatiyan, Bisatiyan,439/1,Aabid,Shafeek Ahmad," Bisatiyan, Kairana",9368978736,Residential Self ,66,66,66,66,0,0
+572,08 Bisatiyan, Bisatiyan,440,Sajid,Aabid," Bisatiyan, Kairana",8791859217,Residential Self ,48,101,48,101,372,751
+573,08 Bisatiyan, Bisatiyan,441,"Riyaj,Irshad,Niyaj",Yameen," Bisatiyan, Kairana",7078751828,Residential Self ,55,55,55,55,365,1765
+574,08 Bisatiyan, Bisatiyan,441/1,Anees,Yaseen," Bisatiyan, Kairana",8430004694,Residential Self ,55,1007,55,1007,0,0
+575,08 Bisatiyan, Bisatiyan,442,Raees,Shafeek," Bisatiyan, Kairana",8449391200,Residential Self ,48,762,48,877,372,3324
+576,08 Bisatiyan, Bisatiyan,443,Khushnuda,Ahsan," Bisatiyan, Kairana",7060378812,Residential Self ,88,1664,88,1164,420,3763
+577,08 Bisatiyan, Bisatiyan,444,Shakulat,Jahid," Bisatiyan, Kairana",9368751161,Residential Self ,48,307,48,293,372,1800
+578,08 Bisatiyan, Bisatiyan,443/1,Jishan,Ahsan Ul Hak," Bisatiyan, Kairana",9897290700,Residential Self ,55,1007,55,1007,0,0
+579,08 Bisatiyan, Bisatiyan,445,Fojiya Khatoon,Seedu," Bisatiyan, Kairana",9027384955,Residential Self ,48,159,48,159,372,2812
+580,08 Bisatiyan, Bisatiyan,446,Asgar,Shabbir," Bisatiyan, Kairana",9045277525,Residential Self ,61,0,61,0,359,0
+581,08 Bisatiyan, Bisatiyan,447,Raisa Begam,Nisar Ahamd," Bisatiyan, Kairana", -,Commercial Self ,396,4668,396,4668,24,60
+582,08 Bisatiyan, Bisatiyan,448,Aabid,Rafeek," Bisatiyan, Kairana",9639815192,Residential Self ,44,802,44,802,0,0
+583,08 Bisatiyan, Bisatiyan,449,Raisa,Maksood," Bisatiyan, Kairana",8126862368,Residential Self ,61,470,61,470,359,1974
+584,08 Bisatiyan, Bisatiyan,450,Kayyum,Ishak," Bisatiyan, Kairana",8171371199,Residential Self ,110,1297,110,1297,310,2060
+585,08 Bisatiyan, Bisatiyan,450/1,Naim,Ishak," Bisatiyan, Kairana",9897908936,Residential Self ,44,0,44,0,376,376
+586,08 Bisatiyan, Bisatiyan,451,Jarina,Akbar," Bisatiyan, Kairana",7830342295,Residential Self ,61,0,61,0,0,0
+587,08 Bisatiyan, Bisatiyan,452,Noor Mohammad,Shafi," Bisatiyan, Kairana", -,Residential Self ,45,0,45,0,375,0
+588,08 Bisatiyan, Bisatiyan,452/1,Sharafat,Ameer Ali," Bisatiyan, Kairana",9997156717,Residential Self ,55,337,55,337,0,0
+589,08 Bisatiyan, Bisatiyan,453,Madarsa Madintul Uloom,-," Bisatiyan, Kairana",9358002666,Residential Self ,0,0,0,0,0,0
+590,08 Bisatiyan, Bisatiyan,453/1,Israr,Noor Mohammad," Bisatiyan, Kairana",9358002666,Residential Self ,0,0,0,0,0,0
+591,08 Bisatiyan, Bisatiyan,454,Noor Mohammad,Abdul Rajjak," Bisatiyan, Kairana",9358002666,Residential Self ,48,223,48,223,372,3840
+592,08 Bisatiyan, Bisatiyan,455,Mohd Kasim,Naseem," Bisatiyan, Kairana",9518420400,Residential Self ,110,848,110,848,310,2660
+593,08 Bisatiyan, Bisatiyan,455/1,Anvar Ahmad,Molana Noor Mohammad," Bisatiyan, Kairana",9627289333,Residential Self ,60,60,66,60,0,0
+594,08 Bisatiyan, Bisatiyan,455/1A,Saleem,Yameen," Bisatiyan, Kairana",9627289333,Residential Self ,88,538,88,538,0,0
+595,08 Bisatiyan, Bisatiyan,456,Anvar Ahmad,Molana Noor Mohammad," Bisatiyan, Kairana",9627289333,Residential Self ,66,1262,66,3115,0,0
+596,08 Bisatiyan, Bisatiyan,457,Jabir,Umra," Bisatiyan, Kairana", -,Commercial Self ,88,185,88,185,332,664
+597,08 Bisatiyan, Bisatiyan,457/1,Naseem,Badu," Bisatiyan, Kairana",7464953283,Residential Self ,66,307,66,307,354,1376
+598,08 Bisatiyan, Bisatiyan,458,Jahid,Habeeb," Bisatiyan, Kairana",8430003001,Residential Self ,110,671,110,671,310,1490
+599,08 Bisatiyan, Bisatiyan,459,Saju,Bundu," Bisatiyan, Kairana",7017916534,Residential Self ,67,311,67,311,420,1640
+600,08 Bisatiyan, Bisatiyan,460,Ayyub,Jhandu," Bisatiyan, Kairana",7017916534,Residential Self ,73,338,73,338,347,1348
+601,08 Bisatiyan, Bisatiyan,460/1,Jarina,Irshad ," Bisatiyan, Kairana",9917110611,Residential Self ,110,231,110,231,420,840
+602,08 Bisatiyan, Bisatiyan,460/1A,Danish,Sajid," Bisatiyan, Kairana",9027275948,Open Plot ,55,1147,55,1147,0,0
+603,08 Bisatiyan, Bisatiyan,460/1B,Jahangeer,Jaheer," Bisatiyan, Kairana",8449391200,Open Plot ,48,293,48,1168,0,0
+604,08 Bisatiyan, Bisatiyan,461,Milkiyat Kabristan Bisati- Mohd Naeem,Yaseen," Bisatiyan, Kairana",9897770019,Kabristan,44,92,44,92,420,840
+605,08 Bisatiyan, Bisatiyan,462,Milkiyat Masjid,-," Bisatiyan, Kairana", -,Commercial Self ,88,176,88,176,0,0
+606,08 Bisatiyan, Bisatiyan,463,Masjid Ibabatgah,-," Bisatiyan, Kairana", -,Masjid,0,0,0,0,420,420
+607,08 Bisatiyan, Bisatiyan,464,Milkiyat Masjid,-," Bisatiyan, Kairana", -,Commercial Self ,44,44,44,44,0,0
+608,08 Bisatiyan, Bisatiyan,464/1,Milkiyat Masjid,-," Bisatiyan, Kairana", -,Commercial Self ,44,44,44,44,0,0
+609,08 Bisatiyan, Bisatiyan,465,Milkiyat Masjid,-," Bisatiyan, Kairana", -,Commercial Self ,73,73,73,73,0,0
+610,08 Bisatiyan, Bisatiyan,466,Mohd Rameej Ali,Chodhary Saleem Ahmad," Bisatiyan, Kairana",9897635585,Commercial Self ,0,0,0,0,0,0
+611,08 Bisatiyan, Bisatiyan,467,Mohd Rameej Ali,Chodhary Saleem Ahmad," Bisatiyan, Kairana",9897635585,Commercial Self ,0,0,0,0,0,0
+612,08 Bisatiyan, Bisatiyan,468,Mohd Rameej Ali,Chodhary Saleem Ahmad," Bisatiyan, Kairana",9897635585,Commercial Self ,0,0,0,0,0,0
+613,08 Bisatiyan, Bisatiyan,469,Mohd Rameej Ali,Chodhary Saleem Ahmad," Bisatiyan, Kairana",9897635585,Commercial Self ,48,159,48,159,0,0
+614,08 Bisatiyan, Bisatiyan,470,Mohd Rameej Ali,Chodhary Saleem Ahmad," Bisatiyan, Kairana",9897635585,Commercial Self ,99,328,99,328,0,0
+615,08 Bisatiyan, Bisatiyan,471,Mohd Rameej Ali,Chodhary Saleem Ahmad," Bisatiyan, Kairana",9897635585,Commercial Self ,99,328,99,328,0,0
+616,08 Bisatiyan, Bisatiyan,472,Mohd Rameej Ali,Chodhary Saleem Ahmad," Bisatiyan, Kairana",9897635585,Commercial Self ,99,328,99,519,0,0
+617,08 Bisatiyan, Bisatiyan,473,Mohd Rameej Ali,Chodhary Saleem Ahmad," Bisatiyan, Kairana",9897635585,Commercial Self ,99,328,99,328,0,0
+618,08 Bisatiyan, Bisatiyan,474,Mohd Rameej Ali,Chodhary Saleem Ahmad," Bisatiyan, Kairana",9897635585,Commercial Self ,99,328,99,328,0,0
+619,08 Bisatiyan, Bisatiyan,475,Mohd Rameej Ali,Chodhary Saleem Ahmad," Bisatiyan, Kairana",9897635585,Commercial Self ,116,384,116,384,0,0
+620,08 Bisatiyan, Bisatiyan,476,Mohd Rameej Ali,Chodhary Saleem Ahmad," Bisatiyan, Kairana",9897635585,Commercial Self ,99,328,99,328,0,0
+621,08 Bisatiyan, Bisatiyan,477,Mohd Rameej Ali,Chodhary Saleem Ahmad," Bisatiyan, Kairana",9897635585,Commercial Self ,99,328,99,328,0,0
+622,08 Bisatiyan, Bisatiyan,478,Mohd Rameej Ali,Chodhary Saleem Ahmad," Bisatiyan, Kairana",9897635585,Commercial Self ,99,328,99,328,0,0
+623,08 Bisatiyan, Bisatiyan,479,Mohd Rameej Ali,Chodhary Saleem Ahmad," Bisatiyan, Kairana",9897635585,Commercial Self ,99,328,99,328,0,0
+624,08 Bisatiyan, Bisatiyan,480,Mohd Rameej Ali,Chodhary Saleem Ahmad," Bisatiyan, Kairana",9897635585,Commercial Self ,99,328,99,328,0,0
+625,08 Bisatiyan, Bisatiyan,481,Mohd Rameej Ali,Chodhary Saleem Ahmad," Bisatiyan, Kairana",9897635585,Commercial Self ,99,328,99,328,0,0
+626,08 Bisatiyan, Bisatiyan,482,Mohd Rameej Ali,Chodhary Saleem Ahmad," Bisatiyan, Kairana",9897635585,Commercial Self ,99,328,99,328,0,0
+627,08 Bisatiyan, Bisatiyan,482/1A,Park Partikshalya,-," Bisatiyan, Kairana", -, -,0,0,0,0,0,0
+628,08 Bisatiyan, Bisatiyan,482/1,Manga,Jaysingh," Bisatiyan, Kairana",9997890162,Residential Self ,73,73,73,73,347,3532
+,08 Bisatiyan, Bisatiyan,482/2,Jakira Hasan,Anvar Hasan," Bisatiyan, Kairana", -, -,100,210,0,210,0,0
+629,08 Bisatiyan, Bisatiyan,483,Mohd Islam,Basheer Ahmad," Bisatiyan, Kairana",6395958830,Commercial Self ,132,437,132,437,420,1240
+630,08 Bisatiyan, Bisatiyan,484,Mohd Islam,Basheer Ahmad," Bisatiyan, Kairana",6395958830,Commercial Self ,121,1661,121,1661,0,0
+631,08 Bisatiyan, Bisatiyan,485,Nand Kishoar,Jaydayal," Bisatiyan, Kairana",9045922304,Commercial Self ,88,0,88,0,0,0
+632,08 Bisatiyan, Bisatiyan,486,Nand Kishoar,Jaydayal," Bisatiyan, Kairana",9045922304,Commercial Self ,182,0,182,0,0,0
+633,08 Bisatiyan, Bisatiyan,487,Mursad,Idreesh," Bisatiyan, Kairana",9760466077,Residential Self ,218,218,218,218,202,420
+634,08 Bisatiyan, Bisatiyan,488,Arshad,Idreesh," Bisatiyan, Kairana",9760466077,Commercial Self ,218,328,218,218,0,0
+635,08 Bisatiyan, Bisatiyan,489,Arshad,Idreesh," Bisatiyan, Kairana",9760466077,Commercial Self ,218,328,218,218,0,0
+636,08 Bisatiyan, Bisatiyan,490,Khursheeda,Idreesh," Bisatiyan, Kairana",9760466077,Commercial Self ,77,77,77,77,0,0
+637,08 Bisatiyan, Bisatiyan,491,Rajendra,Govind Singh," Bisatiyan, Kairana",9897436590,Residential Self ,132,132,132,132,420,420
+638,08 Bisatiyan, Bisatiyan,491/1,Rajendra,Govind Singh," Bisatiyan, Kairana",9897436590,Commercial Self ,110,110,110,110,0,0
+639,08 Bisatiyan, Bisatiyan,491/2,Rajendra ,Govind Singh," Bisatiyan, Kairana",9897436590,Commercial Self ,110,110,110,110,0,0
+640,08 Bisatiyan, Bisatiyan,492,Sukhbeer,Hari Singh," Bisatiyan, Kairana",9897277544,Residential Self ,61,128,61,128,359,718
+641,08 Bisatiyan, Bisatiyan,493,Brahmpal,Sunhera," Bisatiyan, Kairana",9012281291,Residential Self ,77,162,77,162,343,686
+642,08 Bisatiyan, Bisatiyan,493/1,Brahmpal,Sunhera," Bisatiyan, Kairana",9012281291,Commercial Self ,55,116,55,116,0,0
+643,08 Bisatiyan, Bisatiyan,493/2,Dharampal,Sunhera," Bisatiyan, Kairana",9058530868,Commercial Self ,44,44,44,44,0,0
+644,08 Bisatiyan, Bisatiyan,493/3,Dharampal,Sunhera," Bisatiyan, Kairana",9058530868,Commercial Self ,44,44,44,44,0,0
+645,08 Bisatiyan, Bisatiyan,493/4,Dharampal,Sunhera," Bisatiyan, Kairana",9058530868,Residential Self ,44,44,44,44,365,1765
+646,08 Bisatiyan, Bisatiyan,494,Sadhuram,Parbhu," Bisatiyan, Kairana",8941889275,Residential Self ,73,0,73,0,420,0
+647,08 Bisatiyan, Bisatiyan,495,Firoj,Suleman," Bisatiyan, Kairana",9568547000,Residential Self ,440,2686,440,2686,0,0
+648,08 Bisatiyan, Bisatiyan,496,Hariram,Mangaram," Bisatiyan, Kairana",9997664588,Residential Self ,48,0,48,0,372,2304
+649,08 Bisatiyan, Bisatiyan,497,Jaypal,Manga," Bisatiyan, Kairana",9568547000,Residential Self ,165,2011,165,1946,255,1620
+650,08 Bisatiyan, Bisatiyan,498,Ratan,Mukhtyar Singh," Bisatiyan, Kairana", -,Residential Self ,220,0,220,0,200,0
+651,08 Bisatiyan, Bisatiyan,499,Jaybhagvan,Balvant," Bisatiyan, Kairana",9193517664,Residential Self ,77,405,97,405,420,840
+652,08 Bisatiyan, Bisatiyan,499/1,Bhanvar Singh,Balvant," Bisatiyan, Kairana",8126784648,Residential Self ,44,44,44,44,420,420
+653,08 Bisatiyan, Bisatiyan,501,Dr Ramsharan,Sitaram," Bisatiyan, Kairana",9897234049,Commercial Self ,88,185,88,185,332,664
+654,08 Bisatiyan, Bisatiyan,502,Naresh,Balmukund," Bisatiyan, Kairana",9012590577,Residential Self ,48,101,48,106,372,744
+655,08 Bisatiyan, Bisatiyan,503,Anand,Mukhtyara," Bisatiyan, Kairana",9997136338,Residential Self ,47,1588,47,1140,372,3847
+656,08 Bisatiyan, Bisatiyan,504,Vinod Kumar,Ramkishan," Bisatiyan, Kairana", -,Residential Self ,110,110,110,110,310,0
+657,08 Bisatiyan, Bisatiyan,504/1,Vinod Kumar,Ramkishan," Bisatiyan, Kairana", -,Commercial Self ,0,0,0,0,0,0
+658,08 Bisatiyan, Bisatiyan,505,Shaina,Hashim," Bisatiyan, Kairana", -,Residential Self ,303,636,303,303,117,525
+659,08 Bisatiyan, Bisatiyan,505/1,Shaina,Hashim," Bisatiyan, Kairana", -,Commercial Self ,0,0,0,0,0,0
+660,08 Bisatiyan, Bisatiyan,505/2,Shaina,Hashim," Bisatiyan, Kairana", -,Commercial Self ,0,0,0,0,0,0
+661,08 Bisatiyan, Bisatiyan,506,Fool Singh,Hari Singh," Bisatiyan, Kairana",9756957685,Commercial Self ,660,8198,660,9412,0,0
+662,08 Bisatiyan, Bisatiyan,506/1,Fool Singh,Hari Singh," Bisatiyan, Kairana",9756957685,Commercial Self ,660,13262,660,13812,0,0
+663,08 Bisatiyan, Bisatiyan,506/2,Ashok,Hari Singh," Bisatiyan, Kairana",9997352977,Residential Self ,0,0,0,0,0,0
+664,08 Bisatiyan, Bisatiyan,507,Radhe Shyam,Aasharam," Bisatiyan, Kairana",9997843941,Residential Self ,462,3451,462,10791,0,1188
+665,08 Bisatiyan, Bisatiyan,508,Shamshad,Faijal," Bisatiyan, Kairana",8077031710,Commercial Self ,165,165,165,165,255,255
+666,08 Bisatiyan, Bisatiyan,508/1,Shamshad,Faijal," Bisatiyan, Kairana",8077031710,Commercial Self ,165,165,165,165,0,0
+667,08 Bisatiyan, Bisatiyan,508/2,Shamshad,Faijal," Bisatiyan, Kairana",8077031710,Residential Self ,396,4342,396,9277,0,0
+668,08 Bisatiyan, Bisatiyan,509,"Rajendra,Ramfal",Govind Singh," Bisatiyan, Kairana",9897436590,Open Plot ,73,73,73,73,347,347
+669,08 Bisatiyan, Bisatiyan,511,"Ashok,Mukesh",Shriram," Bisatiyan, Kairana",8755249926,Residential Self ,48,101,48,101,372,3844
+670,08 Bisatiyan, Bisatiyan,512,Dhannuram,Tulsi," Bisatiyan, Kairana",9997146299,Commercial Self ,44,101,44,92,420,0
+671,08 Bisatiyan, Bisatiyan,512/1,Sajid Ali,Faiyyaj Ali," Bisatiyan, Kairana",8630953183,Residential Self ,145,1396,145,2646,420,3708
+672,08 Bisatiyan, Bisatiyan,512/2,Dhannu,Tulsi," Bisatiyan, Kairana",9997146299,Commercial Self ,66,510,66,510,0,0
+673,08 Bisatiyan, Bisatiyan,513,Shokesh Kumar,Nakli Singh," Bisatiyan, Kairana",9997611196,Residential Self ,59,0,59,0,420,0
+674,08 Bisatiyan, Bisatiyan,513/1,"Saeed S/O Rehmat , Raisa ",Saeed," Bisatiyan, Kairana",9027395851,Commercial Self ,165,165,165,165,255,510
+675,08 Bisatiyan, Bisatiyan,514,Omprakash,Ramchand," Bisatiyan, Kairana", -,Commercial Self ,48,48,48,48,372,372
+676,08 Bisatiyan, Bisatiyan,514/1,Suresh ,Ramchandar," Bisatiyan, Kairana",7895057001,Commercial Self ,48,101,48,0,372,744
+677,08 Bisatiyan, Bisatiyan,514/2,Suresh,Ramchandar," Bisatiyan, Kairana",7895057001,Commercial Self ,0,0,0,0,0,0
+678,08 Bisatiyan, Bisatiyan,515,Mehboob Ali,Yaseen Ahmad," Bisatiyan, Kairana", -,Mixed,220,4110,220,5210,200,680
+679,08 Bisatiyan, Bisatiyan,517,Mohd Ahmad Ali,Manjoor Ahmad," Bisatiyan, Kairana",7060135013,Residential Self ,73,2451,73,2451,347,5112
+680,08 Bisatiyan, Bisatiyan,517/1,"Anees,Nafees",Ahmad Hasan," Bisatiyan, Kairana", -,Commercial Self ,55,1007,55,1007,0,0
+681,08 Bisatiyan, Bisatiyan,517/2,"Anees,Nafees",Ahmad Hasan," Bisatiyan, Kairana", -,Commercial Self ,0,0,0,0,0,0
+682,08 Bisatiyan, Bisatiyan,518,"Anees,Nafees",Ahmad Hasan," Bisatiyan, Kairana", -,Residential Self ,55,1007,55,1007,365,3253
+683,08 Bisatiyan, Bisatiyan,518/1,"Anees,Nafees",Ahmad Hasan," Bisatiyan, Kairana", -,Residential Self ,55,1007,55,1007,0,0
+,08 Bisatiyan, Bisatiyan,182A,Saleha,Naseem," Bisatiyan, Kairana", -, -,1585,0,0,0,0,0
+,08 Bisatiyan, Bisatiyan,461/1,Mo Harun,Khaleel Ahmad," Bisatiyan, Kairana", -, -,1785,3749,1785,3749,0,0
+,08 Bisatiyan, Bisatiyan,361,Raghuveer,Simru," Bisatiyan, Kairana", -, -,61,481,0,0,0,0
+,08 Bisatiyan, Bisatiyan,362,Sammat,Mukhyara," Bisatiyan, Kairana", -, -,55,337,0,0,0,0
+,08 Bisatiyan, Bisatiyan,363,Kaliram,Mukhyara," Bisatiyan, Kairana", -, -,66,1051,0,0,354,2892
+,08 Bisatiyan, Bisatiyan,501/1,Javed,Abdul Raheem," Bisatiyan, Kairana", -, -,339,339,339,339,0,0
+684,08 Bisatiyan, Bisatiyan,482/2,Jakira Hasan,Chodhary Anvar Hasan," Bisatiyan, Kairana",9412212122,Open Plot ,100,100,100,100,0,0
+685,08 Bisatiyan, Bisatiyan,60/1,Mehfooj,Mehmood," Bisatiyan, Kairana", -, -,200,200,200,200,220,1140
+686,08 Bisatiyan, Bisatiyan,177/11,Rasheed Ahmad,Hafijurrehman Urf Buji," Bisatiyan, Kairana", -,Residential Self ,150,0,150,0,270,1290
+687,08 Bisatiyan, Bisatiyan,60/3,Sano,Margoob," Bisatiyan, Kairana", -, -,300,0,300,0,0,0
+688,08 Bisatiyan,Khailkalan,48,Said,Rahmat,Khailkalan, -,Residential Self ,48,0,48,48,0,0
+689,08 Bisatiyan,Khailkalan,49,Furkan,Alinavaj,Khailkalan,7599619967,Residential Self ,48,221,48,101,0,0
+690,08 Bisatiyan,Khailkalan,50,Saakib,Sakeel Ahmad,Khailkalan, -,Residential Self ,48,286,48,877,0,0
+691,08 Bisatiyan,Khailkalan,51,Yusuf,Lateef,Khailkalan,9997668420,Residential Self ,61,0,61,205,0,0
+692,08 Bisatiyan,Khailkalan,51/1,Said,Vahid,Khailkalan, -,Residential Self ,264,2342,264,876,0,0
+693,08 Bisatiyan,Khailkalan,52,Aamna,Maruf,Khailkalan,8791214350,Residential Self ,66,647,66,1205,0,0
+694,08 Bisatiyan,Khailkalan,52/1,Islam,Lateef,Khailkalan,9520842003,Residential Self ,198,0,198,706,0,0
+695,08 Bisatiyan,Khailkalan,53,Yameen,Jumma,Khailkalan,9634956123,Residential Self ,61,0,61,61,0,0
+696,08 Bisatiyan,Khailkalan,54,Mahmud,Manga,Khailkalan,9897151692,Residential Self ,48,706,48,293,0,0
+697,08 Bisatiyan,Khailkalan,55,Latif,Kamrudin,Khailkalan,8881108886,Residential Self ,61,663,61,61,0,0
+698,08 Bisatiyan,Khailkalan,56,Rafeek,Vali Mohd,Khailkalan,8930690135,Residential Self ,73,73,73,73,0,0
+699,08 Bisatiyan,Khailkalan,57,Mahmud,Manglu,Khailkalan, -,Residential Self ,198,673,198,198,0,0
+700,08 Bisatiyan,Khailkalan,58,Rais,Rahmat,Khailkalan,7505100890,Residential Self ,48,0,48,159,0,0
+701,08 Bisatiyan,Khailkalan,59,"Hafijan W/O Mahboob
+V
+Shokeen, Vaseem S/O Mahboob",Mahboob,Khailkalan, -,Residential Self ,100,180,100,331,365,0
+702,08 Bisatiyan,Khailkalan,60,Meer Hasan,Naseer,Khailkalan, -,Residential Self ,48,0,48,164,0,0
+703,08 Bisatiyan,Khailkalan,61,Anees,Ismail,Khailkalan, -,Residential Self ,73,169,73,1897,0,0
+704,08 Bisatiyan,Khailkalan,61/1,Rashid,Seeda,Khailkalan, -,Residential Self ,66,393,66,1205,0,0
+705,08 Bisatiyan,Khailkalan,62/1,Aabid,Seeda,Khailkalan, -,Residential Self ,88,524,1607,1607,0,0
+706,08 Bisatiyan,Khailkalan,62,Aslam,Habib,Khailkalan, -,Residential Self ,44,1080,44,1117,365,0
+707,08 Bisatiyan,Khailkalan,63,Jahid,Meerhasan,Khailkalan,9997524188,Residential Self ,55,0,55,426,365,1420
+708,08 Bisatiyan,Khailkalan,64,Jahid,Meerhasan,Khailkalan,9997524188,Commercial Self ,0,0,0,0,0,0
+709,08 Bisatiyan,Khailkalan,65,Sajid,Iqbal,Khailkalan, -,Residential Self ,73,677,73,907,0,0
+710,08 Bisatiyan,Khailkalan,66,Jabir,Iqbal,Khailkalan,9045244586,Residential Self ,73,0,73,241,347,1021
+711,08 Bisatiyan,Khailkalan,67,"Sareef, Jareef, Tofeek, Nafees",Rafeek Ahmad,Khailkalan,9045194963,Residential Self ,218,218,218,218,420,420
+712,08 Bisatiyan,Khailkalan,68,Akhtar,Kina,Khailkalan,9520345224,Residential Self ,66,305,66,0,0,0
+713,08 Bisatiyan,Khailkalan,69,Akhtar,Kina,Khailkalan,9520345224,Residential Self ,55,254,55,117,0,0
+715,08 Bisatiyan,Khailkalan,71,Yasin,Riyaz,Khailkalan,7310647367,Residential Self ,48,0,48,370,0,0
+716,08 Bisatiyan,Khailkalan,72,Tahseen,Rahat Ali,Khailkalan,9927654409,Residential Self ,73,169,73,73,0,0
+717,08 Bisatiyan,Khailkalan,73,Ruksana,Maherban,Khailkalan,9045648539,Residential Self ,165,0,165,670,0,0
+718,08 Bisatiyan,Khailkalan,72/2,Rais,Alimudin,Khailkalan,8899681331,Residential Self ,66,66,66,66,0,0
+719,08 Bisatiyan,Khailkalan,74,Rabiya,W/O Ikram,Khailkalan,9045040086,Residential Self ,61,208,61,840,0,0
+720,08 Bisatiyan,Khailkalan,74/1,Naseema,Shahzad,Khailkalan,7017688698,Residential Self ,61,141,61,0,0,0
+721,08 Bisatiyan,Khailkalan,75,Hanif,Banda,Khailkalan,7668600410,Residential Self ,61,362,61,3117,0,0
+722,08 Bisatiyan,Khailkalan,76,"Sadikan W/O Asgar 
+V
+Irfan, Imran, Shahzad, Mohd Hasim, Sadab, Sabaj S/O Asgar",Asgar,Khailkalan,8433468880,Residential Self ,61,477,61,778,420,3340
+723,08 Bisatiyan,Khailkalan,76/1,Riyasat,Saleem,Khailkalan,9045032893,Open Plot ,66,152,66,1364,0,0
+724,08 Bisatiyan,Khailkalan,75/1A,Rihana,W/O Rais,Khailkalan,8814900583,Residential Self ,110,653,110,1933,420,1640
+725,08 Bisatiyan,Khailkalan,75/1,Abdul Hameed,Yasin,Khailkalan, -,Residential Self ,88,202,88,1036,0,0
+726,08 Bisatiyan,Khailkalan,77,Badhu Urf Yakub,Ismail,Khailkalan,9557033741,Residential Self ,48,222,48,762,0,0
+727,08 Bisatiyan,Khailkalan,78,Saleem,Nasru,Khailkalan,7983921515,Residential Self ,48,1,48,370,0,0
+728,08 Bisatiyan,Khailkalan,78/1,"Maskur S/O Farukh 
+V
+Taiba W/O Maskur",Farukh,Khailkalan,8941024917,Residential Self ,44,150,44,0,0,0
+729,08 Bisatiyan,Khailkalan,78/2,Nadeem,Farukh,Khailkalan,9997393494,Residential Self ,66,393,66,404,0,0
+730,08 Bisatiyan,Khailkalan,78/3,Naima,W/O Lateef,Khailkalan,9917768009,Residential Self ,110,110,110,0,0,0
+731,08 Bisatiyan,Khailkalan,79,Intjar,Munshi,Khailkalan,7453851036,Residential Self ,61,61,61,372,0,0
+732,08 Bisatiyan,Khailkalan,79/1,Bhuri,W/O Ramjani,Khailkalan,7520294878,Residential Self ,165,1223,165,165,0,0
+733,08 Bisatiyan,Khailkalan,80,Shahzad,Shafi,Khailkalan,8054229186,Residential Self ,73,794,73,153,0,0
+734,08 Bisatiyan,Khailkalan,81,Tahir,Noor Mohammad,Khailkalan,8954962524,Residential Self ,73,0,73,338,0,0
+735,08 Bisatiyan,Khailkalan,82,Aneesa,W/O Shahzad,Khailkalan,9992297488,Residential Self ,45,0,45,349,0,0
+736,08 Bisatiyan,Khailkalan,83,Hamid,Hameed,Khailkalan,7302270590,Residential Self ,85,1078,85,2564,0,0
+737,08 Bisatiyan,Khailkalan,84,Tasneem,W/O Israr,Khailkalan,9897545212,Residential Self ,61,153,61,721,0,0
+738,08 Bisatiyan,Khailkalan,85,Musahid,Jahid,Khailkalan,8534800918,Residential Self ,48,450,48,1168,0,0
+739,08 Bisatiyan,Khailkalan,86,Aslam,Habib,Khailkalan, -,Residential Self ,61,0,61,202,359,1057
+740,08 Bisatiyan,Khailkalan,87,Noushad,Jaulhak,Khailkalan,9045705726,Residential Self ,165,561,165,2267,0,0
+741,08 Bisatiyan,Khailkalan,88,Nadeem,Nafees,Khailkalan,6396152877,Residential Self ,45,0,45,95,0,0
+742,08 Bisatiyan,Khailkalan,89,Sameem,Nafees,Khailkalan,9837780350,Residential Self ,45,659,45,95,0,0
+743,08 Bisatiyan,Khailkalan,90,Saida,W/O Haseen,Khailkalan, -,Residential Self ,48,356,48,1001,0,0
+744,08 Bisatiyan,Khailkalan,91,Irfan,Moh. Ibrahim,Khailkalan,8791650683,Residential Self ,61,452,61,1272,0,0
+745,08 Bisatiyan,Khailkalan,92,Rashid,Jahid,Khailkalan,7836092643,Residential Self ,61,282,61,971,0,0
+746,08 Bisatiyan,Khailkalan,93,Saleem,Anwar,Khailkalan,9634844757,Residential Self ,61,61,61,372,0,0
+747,08 Bisatiyan,Khailkalan,94,Rais,Anwar,Khailkalan,9467246495,Residential Self ,48,48,48,101,0,0
+748,08 Bisatiyan,Khailkalan,95,"Safeek, Nafees, Jareef, Tofeek",Rafeek ,Khailkalan,9557301533,Residential Self ,61,61,61,372,420,420
+749,08 Bisatiyan,Khailkalan,96,Akhtar Hasan,Kina,Khailkalan,9520345224,Residential Self ,48,221,48,293,0,0
+750,08 Bisatiyan,Khailkalan,97,"Aslam, Harun",Majeed,Khailkalan, -,Residential Self ,73,434,73,1333,0,0
+751,08 Bisatiyan,Khailkalan,98,Maksood,Imabudin,Khailkalan,9960273045,Residential Self ,73,169,73,73,0,0
+752,08 Bisatiyan,Khailkalan,99,Maksud,Imabudin,Khailkalan,9960273045,Commercial Self ,61,141,61,0,0,0
+753,08 Bisatiyan,Khailkalan,100,Maksud,Imabudin,Khailkalan,9960273045,Commercial Self ,48,110,48,617,0,0
+754,08 Bisatiyan,Khailkalan,101,Muntiyaj,Raseed,Khailkalan, -,Residential Self ,45,153,45,61,376,752
+755,08 Bisatiyan,Khailkalan,102,Tofeek,Sareef,Khailkalan,8791112389,Residential Self ,61,0,61,241,0,0
+756,08 Bisatiyan,Khailkalan,103,Safeek,Sareef,Khailkalan,8923651995,Residential Self ,73,169,73,231,0,0
+757,08 Bisatiyan,Khailkalan,104,Rafeek,Sareef,Khailkalan, -,Residential Self ,110,0,110,231,0,0
+758,08 Bisatiyan,Khailkalan,105,Nijamudin,Ramjani,Khailkalan,7668003266,Residential Self ,61,2,61,629,0,0
+759,08 Bisatiyan,Khailkalan,106,Rukhsana,Iqbal,Khailkalan,9917276000,Residential Self ,87,10,87,306,0,0
+760,08 Bisatiyan,Khailkalan,107,Ilyas,Saidudin,Khailkalan,9027771658,Residential Self ,61,61,61,578,0,0
+761,08 Bisatiyan,Khailkalan,108,Bhura,Yasin,Khailkalan,9027771658,Residential Self ,61,477,61,1317,0,0
+762,08 Bisatiyan,Khailkalan,109,Haruna,Riyasat,Khailkalan,9997636468,Residential Self ,87,296,87,1141,0,0
+763,08 Bisatiyan,Khailkalan,110,Istiyak,Saidudin,Khailkalan,9897668601,Residential Self ,48,356,48,223,0,0
+764,08 Bisatiyan,Khailkalan,111,Jatun,Tasin,Khailkalan,9034817383,Residential Self ,45,103,45,150,359,359
+765,08 Bisatiyan,Khailkalan,112,Rizwan,Riyaull,Khailkalan,9598850510,Residential Self ,61,208,61,840,0,0
+766,08 Bisatiyan,Khailkalan,113,Sarfu,Faimudin,Khailkalan,8077094261,Residential Self ,48,336,48,48,0,0
+767,08 Bisatiyan,Khailkalan,114,Raiful Shaik,Raseed,Khailkalan, -,Residential Self ,85,196,85,395,0,0
+768,08 Bisatiyan,Khailkalan,115,Raiful Shaik,Raseed,Khailkalan, -,Commercial Self ,165,380,165,767,0,0
+769,08 Bisatiyan,Khailkalan,116,"Tahseen S/O Yasin
+V
+Mobina W/O Tahseen",Yasin,Khailkalan,9897873880,Residential Self ,165,181,165,547,0,0
+770,08 Bisatiyan,Khailkalan,116/1,Tahseen,Yasin,Khailkalan,9897873880,Commercial Self ,110,13,110,364,0,0
+771,08 Bisatiyan,Khailkalan,117,"Asgari W/O Alimudin
+V
+Rais Ahmlad S/O Alimudin",Alimudin,Khailkalan,9719125883,Residential Self ,66,0,66,404,0,0
+772,08 Bisatiyan,Khailkalan,118,Ilyas,Saidudin,Khailkalan, -,Residential Self ,500,500,500,4271,0,0
+773,08 Bisatiyan,Khailkalan,119,Ilyas,Saidudin,Khailkalan, -,Commercial Self ,500,500,500,2321,0,0
+774,08 Bisatiyan,Khailkalan,120,Sadma,W/O Intjar,Khailkalan,7453863572,Residential Self ,91,838,91,684,420,0
+775,08 Bisatiyan,Khailkalan,120/1,Kalsum,W/O Iqbal,Khailkalan,8683871529,Residential Self ,88,0,88,88,0,0
+776,08 Bisatiyan,Khailkalan,121,Mahmud,Ahmad Hasan,Khailkalan,8077203566,Residential Self ,61,0,61,476,359,1974
+777,08 Bisatiyan,Khailkalan,122,Kayyum,Yakub,Khailkalan,9045317736,Residential Self ,48,286,48,877,0,0
+778,08 Bisatiyan,Khailkalan,123,Ilyas,Istyak,Khailkalan,9837952950,Residential Self ,61,141,61,0,0,0
+779,08 Bisatiyan,Khailkalan,124,Fatma Begum,W/O Kari Yunus,Khailkalan,9761637932,Residential Self ,48,4,48,173,0,0
+780,08 Bisatiyan,Khailkalan,125,Kabristan Jafriya,-,Khailkalan, -,-,0,0,0,0,0,0
+781,08 Bisatiyan,Khailkalan,126,Sageer,Alarakha,Khailkalan,9917212163,Residential Self ,61,0,61,150,0,0
+782,08 Bisatiyan,Khailkalan,127,Saleem,Riyasat,Khailkalan,9634579056,Residential Self ,45,0,45,349,0,0
+783,08 Bisatiyan,Khailkalan,128,Alinavaj,Jilo,Khailkalan,9027230366,Residential Self ,61,208,61,128,0,0
+784,08 Bisatiyan,Khailkalan,129,Tato Urf Khalil                                 ,Sageer,Khailkalan,9997968504,Residential Self ,73,0,73,0,0,0
+785,08 Bisatiyan,Khailkalan,130,Tanoo,Sageer,Khailkalan,9634078650,Residential Self ,66,1207,66,1205,0,0
+786,08 Bisatiyan,Khailkalan,131,Jahir,Said,Khailkalan,8439209211,Residential Self ,61,61,61,61,0,0
+787,08 Bisatiyan,Khailkalan,131/1,Naseem,Lateef,Khailkalan,9837305430,Residential Self ,462,4098,462,2820,0,0
+788,08 Bisatiyan,Khailkalan,131/2,Toseef,Ateek,Khailkalan,9760416760,Residential Self ,55,0,66,179,0,0
+789,08 Bisatiyan,Khailkalan,131/3,Noor Mohd,Ateek,Khailkalan,8810021500,Residential Self ,66,393,66,223,0,0
+790,08 Bisatiyan,Khailkalan,131/4,Irshad,Anwar,Khailkalan,7453663636,Residential Self ,198,455,198,2335,0,0
+791,08 Bisatiyan,Khailkalan,131/5,Aasiq,Khalik,Khailkalan, -,Residential Self ,55,327,55,1007,0,0
+792,08 Bisatiyan,Khailkalan,131/6,Rashid Urf Ramjani,Maanu,Khailkalan,9528419532,Residential Self ,88,0,88,538,332,1600
+793,08 Bisatiyan,Khailkalan,131/7,Sajid,Maanu,Khailkalan,8198003618,Residential Self ,66,152,66,0,0,0
+794,08 Bisatiyan,Khailkalan,132,Naseem,Naseer,Khailkalan,9027621291,Residential Self ,48,0,48,48,0,0
+795,08 Bisatiyan,Khailkalan,133,Sajid,Seeda,Khailkalan,9027738361,Residential Self ,48,0,48,101,0,0
+796,08 Bisatiyan,Khailkalan,134,Said,Raseed,Khailkalan,9639801094,Residential Self ,61,0,61,0,359,0
+797,08 Bisatiyan,Khailkalan,135,Jahid,Bhura,Khailkalan,9897160394,Residential Self ,61,567,61,0,0,0
+798,08 Bisatiyan,Khailkalan,135/1,Gaffur Ahmad,Mahmood,Khailkalan, -,Residential Self ,73,571,73,0,0,0
+799,08 Bisatiyan,Khailkalan,136,Mimma,Sageer,Khailkalan,8439308542,Residential Self ,61,1494,61,3117,299,2732
+800,08 Bisatiyan,Khailkalan,137,Akeel,Sageer,Khailkalan,9671702221,Residential Self ,61,141,61,721,0,0
+801,08 Bisatiyan,Khailkalan,138,Husana Jahan,W/O Sakeel,Khailkalan,8439146816,Residential Self ,61,0,61,470,0,0
+803,08 Bisatiyan,Khailkalan,139/1,Mohd Yunus,Liyakat,Khailkalan,9761637932,Residential Self ,44,44,44,417,0,0
+804,08 Bisatiyan,Khailkalan,137/1,Akil,Sageer,Khailkalan,7454406697,Residential Self ,55,488,55,248,0,0
+805,08 Bisatiyan,Khailkalan,140,"Shahid Hasan, Aabid Hasan",Sabbir Hasan,Khailkalan, -,Residential Self ,55,94,55,768,0,0
+806,08 Bisatiyan,Khailkalan,141,Habib,Baseer,Khailkalan,9548632098,Residential Self ,48,48,48,455,0,0
+807,08 Bisatiyan,Khailkalan,142,Salimudin,Sadeek,Khailkalan,8755581495,Residential Self ,48,48,48,455,0,0
+808,08 Bisatiyan,Khailkalan,143,Batan,Makmulla,Khailkalan,9045762071,Residential Self ,87,87,87,87,0,0
+809,08 Bisatiyan,Khailkalan,144,Ansar,Ahmad Hasan,Khailkalan,8979319693,Residential Self ,61,1494,61,202,0,0
+810,08 Bisatiyan,Khailkalan,145,Yusuf,Riyasat,Khailkalan,9837140811,Residential Self ,48,356,48,293,0,0
+811,08 Bisatiyan,Khailkalan,146,Kari Mohd Yunus,Liyakat,Khailkalan,9761637932,Residential Self ,48,4,48,164,0,0
+812,08 Bisatiyan,Khailkalan,146/1,"Rashid, Shakir",Akhtar,Khailkalan,9760615572,Residential Self ,85,477,85,85,0,0
+813,08 Bisatiyan,Khailkalan,147,Islam,Basheer,Khailkalan,9997059298,Commercial Self ,110,253,110,231,0,0
+814,08 Bisatiyan,Khailkalan,148,Fareeda Begum,W/O Naseem,Khailkalan, -,Residential Self ,198,2446,198,4640,0,0
+815,08 Bisatiyan,Khailkalan,149,Jamil,Shafi,Khailkalan,7617789335,Residential Self ,110,1334,110,110,0,0
+816,08 Bisatiyan,Khailkalan,150,Mahboob,Maksud,Khailkalan,9027070665,Residential Self ,61,1494,61,3117,0,0
+817,08 Bisatiyan,Khailkalan,151,Haji Salim,Sabir,Khailkalan,9639505043,Residential Self ,61,479,61,61,0,0
+818,08 Bisatiyan,Khailkalan,152,Rafeek,Ashfak,Khailkalan,9548621216,Residential Self ,48,0,48,223,0,0
+819,08 Bisatiyan,Khailkalan,152/1,Mohd Aslam,Ashfak,Khailkalan,9897786032,Residential Self ,48,110,48,293,0,0
+820,08 Bisatiyan,Khailkalan,153,Rais,Sageer,Khailkalan,8533813432,Residential Self ,48,450,48,293,372,1800
+821,08 Bisatiyan,Khailkalan,154,Akhbar,Jumma,Khailkalan,7088856273,Residential Self ,73,0,73,73,0,0
+822,08 Bisatiyan,Khailkalan,155,Yameen,Habib,Khailkalan,9997668620,Residential Self ,61,91,61,61,0,0
+823,08 Bisatiyan,Khailkalan,156,Naseem,Suleman,Khailkalan,9870923247,Residential Self ,61,567,61,372,0,0
+824,08 Bisatiyan,Khailkalan,157,Vaseem,Suleman,Khailkalan,7088410201,Residential Self ,88,88,88,836,0,0
+825,08 Bisatiyan,Khailkalan,158,Saleem,Suleman,Khailkalan,7088410201,Residential Self ,73,928,73,153,0,0
+826,08 Bisatiyan,Khailkalan,159,Ikbal,Kareem,Khailkalan,9760242184,Residential Self ,61,1494,61,3117,0,0
+827,08 Bisatiyan,Khailkalan,160,Usman,Kalan,Khailkalan,9637546739,Residential Self ,100,0,100,0,0,0
+828,08 Bisatiyan,Khailkalan,161,Manuvar,Kareem,Khailkalan,9927473238,Residential Self ,73,337,73,465,0,0
+829,08 Bisatiyan,Khailkalan,162,Manga,Fajulla,Khailkalan, -,Residential Self ,61,1114,61,2066,0,0
+830,08 Bisatiyan,Khailkalan,161/1,Sarvar,Kalan,Khailkalan,8791893651,Residential Self ,61,769,61,1834,0,0
+831,08 Bisatiyan,Khailkalan,163,Jamseed Ansari,-,Khailkalan, -,Residential Self ,44,1080,44,1503,0,0
+832,08 Bisatiyan,Khailkalan,162/1,Rahisudin,Munshi,Khailkalan,9597614322,Residential Self ,55,127,55,650,0,0
+833,08 Bisatiyan,Khailkalan,164,Sanjida,W/O Iqbal,Khailkalan,9760242184,Residential Self ,110,653,110,2005,238,1130
+834,08 Bisatiyan,Khailkalan,165,Nafees,Subrati,Khailkalan, -,Residential Self ,48,110,48,0,0,0
+835,08 Bisatiyan,Khailkalan,166,Raseed,Nasibudin,Khailkalan,9548863136,Residential Self ,0,0,0,0,0,0
+836,08 Bisatiyan,Khailkalan,167,Ramjani,Ismail,Khailkalan, -,Residential Self ,97,2380,97,4969,0,0
+837,08 Bisatiyan,Khailkalan,168,Israt,W/O Nisar,Khailkalan, -,Residential Self ,48,48,48,455,0,0
+838,08 Bisatiyan,Khailkalan,169,Anis,Asgar,Khailkalan,9520189026,Residential Self ,48,612,48,612,0,0
+839,08 Bisatiyan,Khailkalan,170,Munija,W/O Yameen,Khailkalan,9997309166,Residential Self ,61,0,61,471,0,0
+840,08 Bisatiyan,Khailkalan,162/2,Jatun,W/O Sajid,Khailkalan,7037015683,Residential Self ,66,0,66,510,0,0
+841,08 Bisatiyan,Khailkalan,168/3,Jahid,Bhura,Khailkalan,9760286039,Residential Self ,55,0,55,0,0,0
+842,08 Bisatiyan,Khailkalan,168/4,Sajid,Shadi,Khailkalan,7455878396,Residential Self ,55,254,55,1289,0,0
+843,08 Bisatiyan,Khailkalan,168/5,"Kumari Sonam, Kumari Samreen D/O Inam
+V
+Suaib, Suhail, Sufiyan S/O Inam
+V
+Tahira W/O Inam",Inam,Khailkalan, -,Residential Self ,66,0,66,6,0,0
+844,08 Bisatiyan,Khailkalan,168/1,Saida,W/O Sareef,Khailkalan, -,Residential Self ,55,55,55,525,0,0
+845,08 Bisatiyan,Khailkalan,168/6,Mahtab,Rajaull,Khailkalan,7251028648,Residential Self ,55,55,55,525,0,0
+846,08 Bisatiyan,Khailkalan,168/7,Rafi,Sabir,Khailkalan,9760643603,Residential Self ,330,759,330,3891,0,0
+847,08 Bisatiyan,Khailkalan,168/8,Akil,Habib,Khailkalan,9897868338,Residential Self ,55,200,55,782,0,0
+848,08 Bisatiyan,Khailkalan,171,Salim,Ishak,Khailkalan,90589698927,Residential Self ,48,48,48,293,420,2640
+849,08 Bisatiyan,Khailkalan,172,Saista,W/O Molana,Khailkalan,9368546833,Residential Self ,48,48,48,455,0,0
+850,08 Bisatiyan,Khailkalan,173,Mohd Suaib,Molana Abdul Aziz,Khailkalan,9368546833,Residential Self ,48,1189,48,2476,0,0
+851,08 Bisatiyan,Khailkalan,174,Raseed Nai ,-,Khailkalan, -,Residential Self ,0,0,0,0,0,0
+852,08 Bisatiyan,Khailkalan,175,Israna,W/O Afjal,Khailkalan,9897733578,Residential Self ,165,380,165,1946,0,0
+853,08 Bisatiyan,Khailkalan,175/2,Salim,Yusuf,Khailkalan,9897733578,Commercial Self ,165,1464,165,3868,0,0
+854,08 Bisatiyan,Khailkalan,175/3,Salim,Yusuf,Khailkalan,9897733578,Commercial Self ,165,1464,165,3868,0,0
+855,08 Bisatiyan,Khailkalan,176,Saleem,Imamshah,Khailkalan,9568920870,Residential Self ,48,110,48,565,0,0
+856,08 Bisatiyan,Khailkalan,177,Noushad,Jillo,Khailkalan,9997733578,Residential Self ,48,1189,48,2476,0,0
+857,08 Bisatiyan,Khailkalan,177/1,Dilshad,-,Khailkalan, -,Residential Self ,44,261,44,802,0,0
+858,08 Bisatiyan,Khailkalan,177/2,Riyaj,Yameen,Khailkalan,9548069391,Residential Self ,66,305,66,404,0,0
+859,08 Bisatiyan,Khailkalan,177/3,Liyakat,Riyasat,Khailkalan,9068928391,Residential Self ,55,0,55,343,365,0
+860,08 Bisatiyan,Khailkalan,177/4,Vajid,-,Khailkalan, -,Residential Self ,88,782,88,2039,0,0
+861,08 Bisatiyan,Khailkalan,177/5,Naseer,Naimulla,Khailkalan, -,Residential Self ,66,585,66,1547,0,0
+862,08 Bisatiyan,Khailkalan,177/6,Roop,Sareef,Khailkalan, -,Residential Self ,88,782,88,2064,0,0
+863,08 Bisatiyan,Khailkalan,177/7,Aneesa,W/O Naseer,Khailkalan,9368919055,Residential Self ,66,0,66,510,0,0
+864,08 Bisatiyan,Khailkalan,177/8,"Vakeela W/O Subrati,
+V
+ Asgar, Anwar S/O Subrati",Subrati,Khailkalan,7668189868,Residential Self ,44,150,44,0,0,0
+865,08 Bisatiyan,Khailkalan,177/9,Tasleema,W/O Rajaull,Khailkalan, -,Residential Self ,44,101,44,519,0,0
+866,08 Bisatiyan,Khailkalan,177/10,Sarafat,Sokat,Khailkalan, -,Residential Self ,44,231,44,510,0,0
+867,08 Bisatiyan,Khailkalan,48/1,Irshad,Said,Khailkalan,9358077505,Residential Self ,132,758,132,0,0,0
+868,08 Bisatiyan,Khailkalan,168/2,Jubeda,W/O Sabir S/O Gholu,Khailkalan,8755148085,Residential Self ,66,0,66,0,0,0
+869,08 Bisatiyan,Khailkalan,48/2,Samjida,W/O Islaam,Khailkalan, -,Residential Self ,0,0,0,0,0,0
+870,08 Bisatiyan,Khailkalan,177/1A,Sitara ,W/O Basat,Khailkalan, -,Residential Self ,100,0,100,0,0,0
+871,08 Bisatiyan,Khailkalan,175/4,Nosaba,W/O Nafees,Khailkalan, -,Residential Self ,220,506,220,506,0,0
+872,08 Bisatiyan,Khailkalan,177/2B,Shahzad,Vaseem,Khailkalan, -,Residential Self ,165,761,165,761,0,0
+873,08 Bisatiyan,Khailkalan,172/1,Shahzad,Mohd Yameen,Khailkalan, -,Residential Self ,165,561,165,561,0,0
+874,08 Bisatiyan,Khailkalan,172/2,Nawab Ali,Yameen,Khailkalan, -,Residential Self ,165,561,165,561,0,0
+875,08 Bisatiyan,Khailkalan,172/3,Shanawaj,Yameen,Khailkalan, -,Residential Self ,165,0,165,0,0,0
+876,08 Bisatiyan,Khailkalan,177/2A,Ameer Fatma,Niyaaz,Khailkalan, -,Residential Self ,100,0,100,0,0,0
+877,08 Bisatiyan,Khailkalan,138/1,Mannan,W/O Ateek,Khailkalan, -,Residential Self ,44,150,44,150,0,0
+878,08 Bisatiyan,Khailkalan,165/1,Mumtaz,Rasheed Ahmad,Khailkalan, -,Residential Self ,44,150,44,150,0,0
+879,08 Bisatiyan,Khailkalan,78/4,"Sanno W/O Naim
+V
+Naim S/O Naseem",Naseem,Khailkalan, -,Residential Self ,132,306,132,306,0,0
+880,08 Bisatiyan,Khailkalan,134/1,Ali Hasan,Abdul Kareem,Khailkalan, -,Residential Self ,110,253,110,253,0,0
+881,08 Bisatiyan,Khailkalan,177/3A,Vakeena ,W/O Nisar Siddiki,Khailkalan, -,Residential Self ,120,145,120,145,0,0
+882,08 Bisatiyan,Khailkalan,172/4,Sarfaraj,Mohd Yameen,Khailkalan, -,Open Plot ,0,0,0,0,49,156
+883,08 Bisatiyan,Khailkalan,152/2,Mohd. Salim,Asfak,Khailkalan, -,Residential Self ,100,210,100,210,0,0
+884,08 Bisatiyan,Khailkalan,175/6,Farzana,W/O Mehboob,Khailkalan, -,Residential Self ,100,210,100,210,0,0
+885,08 Bisatiyan,Khailkalan,177/4A,Salma,W/O Muneer,Khailkalan, -,Residential Self ,150,315,150,315,0,0
+886,08 Bisatiyan,Khailkalan,172/5,Jahid ,Haneef,Khailkalan, -,Residential Self ,150,0,150,0,0,0
+887,08 Bisatiyan,Khailkalan,160/1,Imran ,Kalan,Khailkalan, -,Residential Self ,100,100,100,100,0,0
+888,08 Bisatiyan,Khailkalan,160/2,Irfan,Kalan,Khailkalan, -,Residential Self ,100,100,100,100,202,202

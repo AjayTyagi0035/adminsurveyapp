@@ -4,7 +4,7 @@ import dotenv from 'dotenv'
 
 
 dotenv.config()
-const csvPath = process.argv[2] || 'public/Ward_6.csv'
+const csvPath = process.argv[2] || 'public/Ward_9.csv'
 const DATABASE_URL = process.env.DATABASE_URL
 if (!DATABASE_URL) {
   console.error('Please set DATABASE_URL environment variable')
@@ -55,7 +55,7 @@ function generateHouseNo(index) {
     n = Math.floor(n / 26)
   }
 
-  return `6${result}`
+  return `9${result}`
 }
 async function main() {
   const data = fs.readFileSync(csvPath, 'utf8')
@@ -84,7 +84,15 @@ try {
 
   const owner_name = old_owner_name
   const father_husband_name = old_father_husband_name
-  const old_moholla_name = 'Aal Kalan North'
+  const old_moholla_name =
+  (row['MOHALLA NAME'] || '').toString().trim()
+
+const mohalla_id =
+  old_moholla_name === 'Aalakan'
+    ? 12
+    : old_moholla_name === 'Aalakan'
+    ? 12
+    : null
 
 const address =
   row['ADDRESS'] && row['ADDRESS'] !== '-'
@@ -197,8 +205,8 @@ const address =
     [
   1,
   1,
-  6,
-  7,
+  9,
+  mohalla_id,
   old_moholla_name,
   old_house_no || null,
   new_house_no,

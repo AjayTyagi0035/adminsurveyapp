@@ -134,6 +134,9 @@ export default function Dashboard() {
           <Link href="/records" className={`${styles.navItem} ${pathname === '/records' ? styles.navActive : ''}`}>
             📝 Records
           </Link>
+          <Link href="/sirsa" className={`${styles.navItem} ${pathname.startsWith('/sirsa') ? styles.navActive : ''}`}>
+            📍 Sirsa
+          </Link>
           <Link href="/map" className={`${styles.navItem} ${pathname === '/map' ? styles.navActive : ''}`}>
             🗺️ Map View
           </Link>

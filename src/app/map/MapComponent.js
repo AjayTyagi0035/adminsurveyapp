@@ -54,6 +54,7 @@ function MapController({ center, zoom, bounds, onBoundsChange, setActivePopup })
     };
 
     map.on('moveend', handleMoveEnd);
+    handleMoveEnd();
     return () => {
       map.off('moveend', handleMoveEnd);
     };

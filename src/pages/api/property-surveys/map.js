@@ -2,7 +2,7 @@ import withCors from '../../../lib/cors'
 import pool from '../../../lib/db'
 
 /**
- * GET /api/property-surveys/map?ne_lat=...&ne_lng=...&sw_lat=...&sw_lng=...
+ * GET /api/property-surveys/map?ne_lat=...&ne_lng=...&sw_lat=...&sw_lng=...&limit=...
  *
  * Returns property surveys locations.
  * If bounding box parameters (ne_lat, ne_lng, sw_lat, sw_lng) are provided,
@@ -14,7 +14,7 @@ async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' })
   }
 
-  const { ne_lat, ne_lng, sw_lat, sw_lng, ward_id, new_house_no, date } = req.query
+  const { ne_lat, ne_lng, sw_lat, sw_lng, ward_id, new_house_no, date, limit } = req.query
   const client = await pool.connect()
 
   try {
@@ -50,6 +50,11 @@ async function handler(req, res) {
         ${dateFilter}
     `
 
+    const parsedLimit = Number.parseInt(limit, 10)
+    const effectiveLimit = !Number.isNaN(parsedLimit) && parsedLimit > 0
+      ? Math.min(parsedLimit, 10000)
+      : null
+
     if (ne_lat && ne_lng && sw_lat && sw_lng) {
       queryText = `
         SELECT * FROM (
@@ -64,9 +69,12 @@ async function handler(req, res) {
         parseFloat(sw_lng),
         parseFloat(ne_lng)
       )
+      if (effectiveLimit) {
+        queryText += ` ORDER BY id DESC LIMIT ${effectiveLimit}`
+      }
     } else {
       // Limit to 10,000 for initial loading to avoid overload
-      queryText += ` ORDER BY id DESC LIMIT 10000`
+      queryText += ` ORDER BY id DESC LIMIT ${effectiveLimit || 10000}`
     }
 
     const r = await client.query(queryText, params)

@@ -4,7 +4,7 @@ import dotenv from 'dotenv'
 
 
 dotenv.config()
-const csvPath = process.argv[2] || 'public/Ward_9.csv'
+const csvPath = process.argv[2] || 'public/Ward_13.csv'
 const DATABASE_URL = process.env.DATABASE_URL
 if (!DATABASE_URL) {
   console.error('Please set DATABASE_URL environment variable')
@@ -88,10 +88,10 @@ try {
   (row['MOHALLA NAME'] || '').toString().trim()
 
 const mohalla_id =
-  old_moholla_name === 'Aalakan'
-    ? 12
+  old_moholla_name === 'Darbarkhurd Rattewala'
+    ? 16
     : old_moholla_name === 'Aalakan'
-    ? 12
+    ? null
     : null
 
 const address =
@@ -205,7 +205,7 @@ const address =
     [
   1,
   1,
-  9,
+  13,
   mohalla_id,
   old_moholla_name,
   old_house_no || null,

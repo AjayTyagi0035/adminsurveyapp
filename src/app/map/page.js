@@ -1,5 +1,5 @@
 "use client"
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, useCallback } from 'react'
 import dynamic from 'next/dynamic'
 import styles from './map.module.css'
 
@@ -15,6 +15,9 @@ const MapComponent = dynamic(() => import('./MapComponent'), {
 });
 
 const MAP_ULB_ID = 1;
+const ALL_WARDS_CENTER = [29.405678, 77.208220];
+const ALL_WARDS_ZOOM = 16;
+const ALL_WARDS_INITIAL_LIMIT = 1000;
 
 // Supports multiple ward IDs as an array
 function buildMapApiUrl(params = {}) {
@@ -28,6 +31,7 @@ function buildMapApiUrl(params = {}) {
   if (params.ne_lng != null) search.set('ne_lng', params.ne_lng);
   if (params.sw_lat != null) search.set('sw_lat', params.sw_lat);
   if (params.sw_lng != null) search.set('sw_lng', params.sw_lng);
+  if (params.limit != null) search.set('limit', params.limit);
   const query = search.toString();
   return `/api/property-surveys/map${query ? `?${query}` : ''}`;
 }
@@ -38,6 +42,7 @@ export default function MapPage() {
   const [wards, setWards] = useState([]);
   // Multi-select: array of selected ward IDs (as strings)
   const [selectedWardIds, setSelectedWardIds] = useState([]);
+  const [allWardsMode, setAllWardsMode] = useState(false);
   const [houseNoInput, setHouseNoInput] = useState('');
   const [searchHouseNo, setSearchHouseNo] = useState('');
   const [selectedDate, setSelectedDate] = useState('');
@@ -83,10 +88,15 @@ export default function MapPage() {
   const fitBoundsDoneRef = useRef(false);
   const viewportFetchTimerRef = useRef(null);
   const lastViewportRequestKeyRef = useRef(new Map());
+  const latestPropertiesRef = useRef(properties);
 
   // Whether any ward is selected — drives the "show data" toggle
-  const hasWardSelected = selectedWardIds.length > 0;
-  const hasActiveFilter = selectedWardIds.length > 0 || searchHouseNo !== '' || selectedDate !== '';
+  const hasWardSelected = allWardsMode || selectedWardIds.length > 0;
+  const hasActiveFilter = allWardsMode || selectedWardIds.length > 0 || searchHouseNo !== '' || selectedDate !== '';
+
+  useEffect(() => {
+    latestPropertiesRef.current = properties;
+  }, [properties]);
 
   const mergeLoadedProperties = (nextProperties) => {
     if (!nextProperties || nextProperties.length === 0) return
@@ -106,8 +116,8 @@ export default function MapPage() {
     })
   }
 
-  const loadWardProperties = async (wardIds, bounds = null, houseNo = searchHouseNo, dateVal = selectedDate) => {
-    if ((!wardIds || wardIds.length === 0) && !houseNo && !dateVal) return []
+  const loadWardProperties = async (wardIds, bounds = null, houseNo = searchHouseNo, dateVal = selectedDate, includeAllWards = allWardsMode) => {
+    if ((!wardIds || wardIds.length === 0) && !includeAllWards && !houseNo && !dateVal) return []
 
     const normalizedBounds = normalizeBounds(bounds)
 
@@ -140,6 +150,7 @@ export default function MapPage() {
               ne_lng: normalizedBounds?.ne_lng,
               sw_lat: normalizedBounds?.sw_lat,
               sw_lng: normalizedBounds?.sw_lng,
+              limit: includeAllWards ? ALL_WARDS_INITIAL_LIMIT : undefined,
             }))
 
             if (!res.ok) throw new Error('Failed to fetch property survey locations')
@@ -182,6 +193,7 @@ export default function MapPage() {
           ne_lng: normalizedBounds?.ne_lng,
           sw_lat: normalizedBounds?.sw_lat,
           sw_lng: normalizedBounds?.sw_lng,
+          limit: includeAllWards ? ALL_WARDS_INITIAL_LIMIT : undefined,
         }))
 
         if (!res.ok) throw new Error('Failed to fetch property survey locations')
@@ -266,7 +278,7 @@ export default function MapPage() {
     setShowCadastralData(prev => !prev);
   };
 
-  const normalizeBounds = (bounds) => {
+  const normalizeBounds = useCallback((bounds) => {
     if (!bounds) return null;
     const { ne_lat, ne_lng, sw_lat, sw_lng } = bounds;
     const values = [ne_lat, ne_lng, sw_lat, sw_lng].map(Number);
@@ -278,9 +290,9 @@ export default function MapPage() {
       sw_lat: Math.min(neLat, swLat),
       sw_lng: Math.min(neLng, swLng),
     };
-  };
+  }, []);
 
-  const getVisibleProperties = (bounds, sourceProperties = properties) => {
+  const getVisibleProperties = useCallback((bounds, sourceProperties = latestPropertiesRef.current) => {
     const normalized = normalizeBounds(bounds);
     if (!normalized) return [];
     const { ne_lat, ne_lng, sw_lat, sw_lng } = normalized;
@@ -291,28 +303,32 @@ export default function MapPage() {
         lat >= sw_lat && lat <= ne_lat &&
         lng >= sw_lng && lng <= ne_lng;
     });
-  };
+  }, [normalizeBounds]);
 
-  const requestViewportProperties = (bounds, wardIds = selectedWardIds, houseNo = searchHouseNo, dateVal = selectedDate) => {
-    if (wardIds.length === 0 && !houseNo && !dateVal) return;
+  const requestViewportProperties = useCallback((bounds, wardIds = selectedWardIds, houseNo = searchHouseNo, dateVal = selectedDate, includeAllWards = allWardsMode) => {
+    if (wardIds.length === 0 && !includeAllWards && !houseNo && !dateVal) return;
     const normalized = normalizeBounds(bounds);
     if (!normalized) return;
 
     if (viewportFetchTimerRef.current) clearTimeout(viewportFetchTimerRef.current);
 
     viewportFetchTimerRef.current = setTimeout(() => {
-      loadWardProperties(wardIds, normalized, houseNo, dateVal)
-        .then(() => setMapError(null))
+      loadWardProperties(wardIds, normalized, houseNo, dateVal, includeAllWards)
+        .then(() => {
+          setMapError(null)
+          setLoading(false)
+        })
         .catch(err => {
           console.error('Lazy load failed:', err)
           setMapError('Unable to refresh map data for the current view.')
+          setLoading(false)
         })
     }, 250);
-  };
+  }, [allWardsMode, normalizeBounds, selectedDate, selectedWardIds, searchHouseNo]);
 
   const loadInitialProperties = async (wardIds, houseNo, dateVal) => {
     try {
-      const data = await loadWardProperties(wardIds, null, houseNo, dateVal)
+      const data = await loadWardProperties(wardIds, null, houseNo, dateVal, allWardsMode)
       setMapError(null);
       setLoading(false);
 
@@ -357,7 +373,9 @@ export default function MapPage() {
   // Reload whenever ward selection, house search, or date changes
   // Only fires when at least one ward is selected
   useEffect(() => {
-    if (selectedWardIds.length === 0 && !searchHouseNo && !selectedDate) {
+    const allWardModeActive = allWardsMode;
+
+    if (!allWardsMode && selectedWardIds.length === 0 && !searchHouseNo && !selectedDate) {
       // No ward selected → clear map
       setProperties([]);
       setVisibleProperties([]);
@@ -368,6 +386,7 @@ export default function MapPage() {
       lastViewportRequestKeyRef.current = new Map();
       return;
     }
+
     fitBoundsDoneRef.current = false;
     lastViewportRequestKeyRef.current = new Map();
     setProperties([]);
@@ -375,9 +394,15 @@ export default function MapPage() {
     setMapBounds(null);
     setActivePopup(null);
     setSelectedSurvey(null);
+
+    if (allWardModeActive) {
+      setLoading(true);
+      return;
+    }
+
     setLoading(true);
     loadInitialProperties(selectedWardIds, searchHouseNo, selectedDate);
-  }, [selectedWardIds, searchHouseNo, selectedDate]);
+  }, [selectedWardIds, searchHouseNo, selectedDate, allWardsMode]);
 
   useEffect(() => {
     return () => {
@@ -402,13 +427,13 @@ export default function MapPage() {
     setVisibleProperties(getVisibleProperties(viewportBounds));
   }, [viewportBounds, properties]);
 
-  const handleBoundsChange = (bounds) => {
+  const handleBoundsChange = useCallback((bounds) => {
     const normalized = normalizeBounds(bounds);
     if (!normalized) return;
     setViewportBounds(normalized);
-    setVisibleProperties(getVisibleProperties(normalized));
-    requestViewportProperties(normalized);
-  };
+    setVisibleProperties(getVisibleProperties(normalized, latestPropertiesRef.current));
+    requestViewportProperties(normalized, selectedWardIds, searchHouseNo, selectedDate, allWardsMode);
+  }, [allWardsMode, getVisibleProperties, normalizeBounds, requestViewportProperties, searchHouseNo, selectedDate, selectedWardIds]);
 
   function handleMarkerClick(prop) {
     setLoadingDetailsId(prop.id);
@@ -422,6 +447,7 @@ export default function MapPage() {
   // Toggle a single ward in/out of selectedWardIds
   const handleWardToggle = (wardId) => {
     const id = String(wardId);
+    setAllWardsMode(false);
     setSelectedWardIds(prev =>
       prev.includes(id) ? prev.filter(w => w !== id) : [...prev, id]
     );
@@ -431,6 +457,7 @@ export default function MapPage() {
   };
 
   const handleClearFilters = () => {
+    setAllWardsMode(false);
     setSelectedWardIds([]);
     setHouseNoInput('');
     setSearchHouseNo('');
@@ -496,10 +523,12 @@ export default function MapPage() {
 
   // Build readable label for selected wards
   const selectedWardLabel = selectedWardIds.length === 0
-    ? null
+    ? (allWardsMode ? 'All Wards' : null)
     : selectedWardIds.length === 1
       ? `Ward ${wards.find(w => String(w.id) === selectedWardIds[0])?.ward_no ?? selectedWardIds[0]}`
       : `${selectedWardIds.length} Wards`;
+
+  const renderedProperties = allWardsMode ? visibleProperties : properties;
 
   if (error) {
     return (
@@ -517,7 +546,7 @@ export default function MapPage() {
         {/* Empty state — shown when no ward selected */}
 
         <MapComponent
-          properties={properties}
+          properties={renderedProperties}
           mapCenter={mapCenter}
           mapZoom={mapZoom}
           mapBounds={mapBounds}
@@ -567,21 +596,59 @@ export default function MapPage() {
 
           {/* ── Ward Selection (collapsed by default) ── */}
           <div className={styles.filterSection}>
-            <button
+            <div
               className={styles.sectionToggleBtn}
               onClick={() => setWardsExpanded(prev => !prev)}
+              onKeyDown={(event) => {
+                if (event.key === 'Enter' || event.key === ' ') {
+                  event.preventDefault();
+                  setWardsExpanded(prev => !prev);
+                }
+              }}
+              role="button"
+              tabIndex={0}
             >
               <div className={styles.sectionToggleLeft}>
                 <span className={styles.sectionIcon}>🏘️</span>
                 <span className={styles.sectionLabel}>Ward Selection</span>
-                {selectedWardIds.length > 0 && (
-                  <span className={styles.selectedBadge}>{selectedWardIds.length}</span>
+                {selectedWardLabel && (
+                  <span className={styles.selectedBadge}>{selectedWardLabel}</span>
                 )}
               </div>
-              <span className={`${styles.chevron} ${wardsExpanded ? styles.chevronUp : ''}`}>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="6 9 12 15 18 9" /></svg>
-              </span>
-            </button>
+              <div className={styles.sectionToggleRight}>
+                <button
+                  type="button"
+                  className={`${styles.allWardsBtn} ${allWardsMode ? styles.allWardsBtnActive : ''}`}
+                  onClick={(event) => {
+                    event.stopPropagation();
+                    if (allWardsMode) {
+                      setAllWardsMode(false);
+                      setSelectedWardIds([]);
+                      setVisibleProperties([]);
+                      setProperties([]);
+                      setMapBounds(null);
+                      setActivePopup(null);
+                      setSelectedSurvey(null);
+                      setViewportBounds(null);
+                      fitBoundsDoneRef.current = false;
+                      lastViewportRequestKeyRef.current = new Map();
+                      setLoading(false);
+                      setMapError(null);
+                    } else {
+                      setAllWardsMode(true);
+                      setSelectedWardIds([]);
+                      setMapCenter(ALL_WARDS_CENTER);
+                      setMapZoom(ALL_WARDS_ZOOM);
+                    }
+                  }}
+                >
+                  All
+                </button>
+                <span className={`${styles.chevron} ${wardsExpanded ? styles.chevronUp : ''}`}>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="6 9 12 15 18 9" /></svg>
+                </span>
+              </div>
+            </div>
 
             {wardsExpanded && (
               <div className={styles.sectionContent}>

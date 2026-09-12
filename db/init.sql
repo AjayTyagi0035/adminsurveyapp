@@ -246,3 +246,48 @@ ADD COLUMN total_tax NUMERIC;
 
 ALTER TABLE public.property_surveys
 ADD COLUMN watertank_present BOOLEAN NOT NULL DEFAULT TRUE;
+
+CREATE TABLE public.surveyor_s_submissions (
+    id BIGINT PRIMARY KEY,
+    "ulbName" TEXT,
+    district TEXT,
+    "mohallaName" TEXT,
+    "wardNoOrName" TEXT,
+    "propertyId" TEXT,
+    "houseNo" TEXT,
+    "ownerName" TEXT,
+    "fatherOrHusbandName" TEXT,
+    "membersInHouse" INTEGER,
+    address TEXT,
+    "mobileNo" TEXT,
+    "natureOfHouse" TEXT,
+    "WidthofRoadInFront" TEXT,
+    "Typeofconstruction" TEXT,
+    "Useofhouse" TEXT,
+    "frontWidthofPlotInFeet" NUMERIC,
+    "depthofPlotInFeet" NUMERIC,
+    "totalAreaInFeet" NUMERIC,
+    "builtUpArea" NUMERIC,
+    "openArea" NUMERIC,
+    ifmixed TEXT,
+    "firstFloorArea" NUMERIC,
+    "secondFloorArea" NUMERIC,
+    "thirdFloorArea" NUMERIC,
+    "fourthFloorArea" NUMERIC,
+    "totalBuiltUpArea" NUMERIC,
+    "occupancyStatus" TEXT,
+    "frontPhotoUrl" TEXT,
+    "rightSidePhotoUrl" TEXT,
+    "leftSidePhotoUrl" TEXT,
+    "dataLat" NUMERIC,
+    "dataLng" NUMERIC,
+    "waterConnection" TEXT,
+    "sewerConnection" TEXT,
+    "submittedAt" TIMESTAMP,
+    remarks TEXT
+);
+ALTER TABLE public.surveyor_s_submissions
+ADD COLUMN "updatedAt" TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+ADD COLUMN "updatedBy" BIGINT;
+ALTER TABLE public.surveyor_s_submissions
+ALTER COLUMN "submittedAt" TYPE TEXT;

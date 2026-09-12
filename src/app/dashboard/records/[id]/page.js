@@ -64,7 +64,7 @@ export default function EditRecordPage() {
     {
       title: 'Location',
       hint: 'Administrative and ward mapping.',
-      fields: ['district_name', 'ulb_name', 'ward_no', 'mohalla_name', 'old_ward_no', 'old_ward_name', 'old_moholla_name'],
+      fields: ['district_name', 'ulb_name', 'mohalla_name', 'old_ward_no', 'old_ward_name', 'old_moholla_name'],
     },
     {
       title: 'Property Details',
@@ -109,7 +109,6 @@ export default function EditRecordPage() {
     'created_by_name',
     'district_name',
     'ulb_name',
-    'ward_no',
     'mohalla_name',
     'old_ward_no',
     'old_ward_name',
@@ -170,6 +169,15 @@ export default function EditRecordPage() {
   const handleLocationChange = useCallback((latlng) => {
     updateField('gps_location', `${latlng.lat},${latlng.lng}`)
   }, [])
+
+  function handleRecordWardChange(nextWardId) {
+    const selectedWard = wards.find(ward => String(ward.id) === String(nextWardId))
+    setRecord(current => ({
+      ...current,
+      ward_id: nextWardId ? Number(nextWardId) : null,
+      ward_no: selectedWard?.ward_no ?? null,
+    }))
+  }
 
   function renderFieldControl(key) {
     const isReadOnly = readOnlyFields.has(key)
@@ -352,7 +360,19 @@ export default function EditRecordPage() {
           <div className={styles.recordSummaryGrid}>
             <div className={styles.recordSummaryItem}>
               <span className={styles.recordSummaryLabel}>Ward</span>
-              <span className={styles.recordSummaryValue}>{record.ward_no || '—'}</span>
+              <select
+                value={record.ward_id ?? ''}
+                onChange={e => handleRecordWardChange(e.target.value)}
+                className={styles.recordSelect}
+                aria-label="Record ward"
+              >
+                <option value="">{loadingWards ? 'Loading wards…' : 'Select ward'}</option>
+                {wards.map(ward => (
+                  <option key={ward.id} value={ward.id}>
+                    Ward {ward.ward_no}
+                  </option>
+                ))}
+              </select>
             </div>
             <div className={styles.recordSummaryItem}>
               <span className={styles.recordSummaryLabel}>ULB</span>

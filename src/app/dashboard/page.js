@@ -137,6 +137,9 @@ export default function Dashboard() {
           <Link href="/sirsa" className={`${styles.navItem} ${pathname.startsWith('/sirsa') ? styles.navActive : ''}`}>
             📍 Sirsa
           </Link>
+          <Link href="/sirsa-map" className={`${styles.navItem} ${pathname.startsWith('/sirsa-map') ? styles.navActive : ''}`}>
+            🗺️ Sirsa Map
+          </Link>
           <Link href="/map" className={`${styles.navItem} ${pathname === '/map' ? styles.navActive : ''}`}>
             🗺️ Map View
           </Link>

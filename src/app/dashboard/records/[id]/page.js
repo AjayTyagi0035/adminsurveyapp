@@ -22,8 +22,10 @@ export default function EditRecordPage() {
   const [record, setRecord] = useState(null)
   const [otherProperties, setOtherProperties] = useState([])
   const [wards, setWards] = useState([])
+  const [mohallas, setMohallas] = useState([])
   const [selectedWardId, setSelectedWardId] = useState('')
   const [loadingWards, setLoadingWards] = useState(false)
+  const [loadingMohallas, setLoadingMohallas] = useState(false)
   const [showDroneLayer, setShowDroneLayer] = useState(true)
   const [loading, setLoading] = useState(true)
   const [saving, setSaving] = useState(false)
@@ -171,12 +173,19 @@ export default function EditRecordPage() {
   }, [])
 
   function handleRecordWardChange(nextWardId) {
-    const selectedWard = wards.find(ward => String(ward.id) === String(nextWardId))
     setRecord(current => ({
       ...current,
       ward_id: nextWardId ? Number(nextWardId) : null,
-      ward_no: selectedWard?.ward_no ?? null,
+      ward_no: wards.find(ward => String(ward.id) === String(nextWardId))?.ward_no ?? null,
+      mohalla_id: null,
+      mohalla_name: null,
     }))
+  }
+
+  function handleRecordMohallaChange(nextMohallaId) {
+    const selectedMohalla = mohallas.find(mohalla => String(mohalla.id) === String(nextMohallaId))
+    updateField('mohalla_id', nextMohallaId ? Number(nextMohallaId) : null)
+    updateField('mohalla_name', selectedMohalla?.mohalla_name ?? null)
   }
 
   function renderFieldControl(key) {
@@ -195,6 +204,26 @@ export default function EditRecordPage() {
           {options.map(option => (
             <option key={option} value={option}>
               {option}
+            </option>
+          ))}
+        </select>
+      )
+    }
+
+    if (key === 'mohalla_name') {
+      return (
+        <select
+          value={record.mohalla_id ?? ''}
+          onChange={e => handleRecordMohallaChange(e.target.value)}
+          disabled={!record.ward_id || loadingMohallas}
+          className={styles.recordSelect}
+        >
+          <option value="">
+            {!record.ward_id ? 'Select ward first' : loadingMohallas ? 'Loading mohallas…' : 'Select mohalla'}
+          </option>
+          {mohallas.map(mohalla => (
+            <option key={mohalla.id} value={mohalla.id}>
+              {mohalla.mohalla_name}
             </option>
           ))}
         </select>
@@ -297,6 +326,30 @@ export default function EditRecordPage() {
       wardInitializedRef.current = true
     }
   }, [record])
+
+  useEffect(() => {
+    if (!record?.ward_id) {
+      setMohallas([])
+      return
+    }
+
+    async function loadMohallas() {
+      setLoadingMohallas(true)
+      try {
+        const res = await fetch(`/api/locations/wards/${record.ward_id}/mohallas`)
+        if (!res.ok) throw new Error('Failed to fetch mohallas')
+        const data = await res.json()
+        setMohallas(data.mohallas ?? [])
+      } catch (err) {
+        console.error(err)
+        setMohallas([])
+      } finally {
+        setLoadingMohallas(false)
+      }
+    }
+
+    loadMohallas()
+  }, [record?.ward_id])
 
   useEffect(() => {
     async function loadOtherProperties() {

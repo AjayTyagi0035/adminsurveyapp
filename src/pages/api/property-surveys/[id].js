@@ -15,7 +15,11 @@ async function handler(req, res) {
     // ── GET: full record ──────────────────────────────────────
     if (req.method === 'GET') {
       const r = await client.query(
-        `SELECT * FROM property_surveys WHERE id = $1`,
+        `SELECT property_surveys.*, w.ward_no, m.mohalla_name
+         FROM property_surveys
+         LEFT JOIN wards w ON w.id = property_surveys.ward_id
+         LEFT JOIN mohallas m ON m.id = property_surveys.mohalla_id
+         WHERE property_surveys.id = $1`,
         [id]
       )
       if (r.rowCount === 0) return res.status(404).json({ error: 'Survey not found' })

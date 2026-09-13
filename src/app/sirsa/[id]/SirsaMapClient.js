@@ -41,12 +41,11 @@ export default function SirsaMapClient({ record, onLocationChange }) {
   const [properties, setProperties] = useState([])
 
   useEffect(() => {
-    if (!record?.mohallaName) return
-    fetch(`/api/sirsa/map?mohallaName=${encodeURIComponent(record.mohallaName)}`)
+    fetch('/api/sirsa/map?all=true')
       .then(response => response.json())
       .then(data => setProperties(Array.isArray(data.data) ? data.data : []))
       .catch(() => setProperties([]))
-  }, [record?.mohallaName])
+  }, [])
 
   const center = currentPosition ? [currentPosition.lat, currentPosition.lng] : DEFAULT_CENTER
   return <div style={{ width: '100%', height: 350, marginTop: 12, border: '1px solid #e2e8f0', borderRadius: 12, overflow: 'hidden' }}>

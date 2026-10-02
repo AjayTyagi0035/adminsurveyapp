@@ -11,9 +11,13 @@ const fields = [
   ['natureOfHouse', 'Nature of House'], ['WidthofRoadInFront', 'Road Width'], ['Typeofconstruction', 'Type of Construction'], ['Useofhouse', 'Use of House'],
   ['frontWidthofPlotInFeet', 'Plot Front Width'], ['depthofPlotInFeet', 'Plot Depth'], ['totalAreaInFeet', 'Total Area'], ['builtUpArea', 'Built-up Area'], ['openArea', 'Open Area'],
   ['ifmixed', 'Mixed Details'], ['firstFloorArea', 'First Floor Area'], ['secondFloorArea', 'Second Floor Area'], ['thirdFloorArea', 'Third Floor Area'], ['fourthFloorArea', 'Fourth Floor Area'],
-  ['totalBuiltUpArea', 'Total Built-up Area'], ['occupancyStatus', 'Occupancy Status'], ['waterConnection', 'Water Connection'], ['sewerConnection', 'Sewer Connection'], ['remarks', 'Remarks'],
+  ['totalBuiltUpArea', 'Total Built-up Area'], ['occupancyStatus', 'Occupancy Status'], ['floorNo', 'Floor No'], ['waterConnection', 'Water Connection'], ['sewerConnection', 'Sewer Connection'],
+  ['frontPhotoUrl', 'Front Photo URL'], ['rightSidePhotoUrl', 'Right-side Photo URL'], ['leftSidePhotoUrl', 'Left-side Photo URL'], ['dataLat', 'Latitude'], ['dataLng', 'Longitude'],
+  ['submittedAt', 'Submitted At'], ['remarks', 'Remarks'],
 ]
-const readOnlyFields = new Set(['id', 'updatedAt'])
+const readOnlyFields = new Set(['id', 'updatedAt', 'updatedBy'])
+const numericFields = new Set(['membersInHouse', 'frontWidthofPlotInFeet', 'depthofPlotInFeet', 'totalAreaInFeet', 'builtUpArea', 'openArea', 'firstFloorArea', 'secondFloorArea', 'thirdFloorArea', 'fourthFloorArea', 'commercialArea', 'totalBuiltUpArea', 'dataLat', 'dataLng'])
+const textAreaFields = new Set(['address', 'remarks'])
 
 export default function SirsaEditPage() {
   const { id } = useParams()
@@ -38,6 +42,19 @@ export default function SirsaEditPage() {
   function handleLocationChange(position) {
     updateField('dataLat', position.lat)
     updateField('dataLng', position.lng)
+  }
+
+  function renderField([field]) {
+    const readOnly = readOnlyFields.has(field)
+    const commonProps = {
+      className: readOnly ? styles.inputReadonly : styles.recordInput,
+      value: record[field] ?? '',
+      readOnly,
+      onChange: event => updateField(field, event.target.value),
+    }
+
+    if (textAreaFields.has(field)) return <textarea {...commonProps} rows={3} />
+    return <input {...commonProps} type={numericFields.has(field) ? 'number' : 'text'} step={numericFields.has(field) ? 'any' : undefined} />
   }
 
   async function saveRecord(event) {
@@ -66,8 +83,8 @@ export default function SirsaEditPage() {
       <div className={styles.recordSummaryGrid}><div className={styles.recordSummaryItem}><span className={styles.recordSummaryLabel}>Mohalla</span><span className={styles.recordSummaryValue}>{record.mohallaName || '—'}</span></div><div className={styles.recordSummaryItem}><span className={styles.recordSummaryLabel}>Ward</span><span className={styles.recordSummaryValue}>{record.wardNoOrName || '—'}</span></div><div className={styles.recordSummaryItem}><span className={styles.recordSummaryLabel}>Coordinates</span><span className={styles.recordSummaryValue}>{record.dataLat && record.dataLng ? `${record.dataLat}, ${record.dataLng}` : '—'}</span></div></div>
     </section>
     <form onSubmit={saveRecord} className={styles.recordForm}>
-      <section className={styles.recordSection}><div className={styles.recordSectionHeader}><div><h3 className={styles.recordSectionTitle}>Location</h3><p className={styles.recordSectionHint}>The map shows only records from this record&apos;s mohalla.</p></div></div><div className={styles.recordGrid}>{fields.slice(0, 6).map(([field, label]) => <div className={styles.recordField} key={field}><label className={styles.recordFieldLabel}>{label}</label><input className={readOnlyFields.has(field) ? styles.inputReadonly : styles.recordInput} value={record[field] ?? ''} readOnly={readOnlyFields.has(field)} onChange={e => updateField(field, e.target.value)} /></div>)}</div><SirsaMap record={record} onLocationChange={handleLocationChange} /></section>
-      <section className={styles.recordSection}><div className={styles.recordSectionHeader}><div><h3 className={styles.recordSectionTitle}>Survey Details</h3><p className={styles.recordSectionHint}>Update the submitted Sirsa survey information.</p></div></div><div className={styles.recordGrid}>{fields.slice(6).map(([field, label]) => <div className={styles.recordField} key={field}><label className={styles.recordFieldLabel}>{label}</label><input className={styles.recordInput} value={record[field] ?? ''} onChange={e => updateField(field, e.target.value)} /></div>)}</div></section>
+      <section className={styles.recordSection}><div className={styles.recordSectionHeader}><div><h3 className={styles.recordSectionTitle}>Location</h3><p className={styles.recordSectionHint}>Update the administrative details and map position.</p></div></div><div className={styles.recordGrid}>{fields.slice(0, 6).map(field => <div className={styles.recordField} key={field[0]}><label className={styles.recordFieldLabel}>{field[1]}</label>{renderField(field)}</div>)}</div><SirsaMap record={record} onLocationChange={handleLocationChange} /></section>
+      <section className={styles.recordSection}><div className={styles.recordSectionHeader}><div><h3 className={styles.recordSectionTitle}>Survey Details</h3><p className={styles.recordSectionHint}>Update every value submitted in the Sirsa survey.</p></div></div><div className={styles.recordGrid}>{fields.slice(6).map(field => <div className={styles.recordField} key={field[0]}><label className={styles.recordFieldLabel}>{field[1]}</label>{renderField(field)}</div>)}</div></section>
       <div className={styles.recordActions}><div className={styles.recordActionsHint}>Changes are saved back to the Sirsa survey record.</div><div className={styles.modalActions}><button type="button" className={styles.btnCancel} onClick={() => router.back()}>Cancel</button><button type="submit" className={styles.btnSave} disabled={saving}>{saving ? 'Saving…' : 'Update Record'}</button></div></div>
     </form>
     {toast && <div className={toast.ok ? styles.toastOk : styles.toastErr}>{toast.msg}</div>}

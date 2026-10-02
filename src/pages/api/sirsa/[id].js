@@ -9,7 +9,7 @@ const ALLOWED_FIELDS = [
   'openArea', 'ifmixed', 'firstFloorArea', 'secondFloorArea', 'thirdFloorArea',
   'fourthFloorArea', 'totalBuiltUpArea', 'occupancyStatus', 'frontPhotoUrl',
   'rightSidePhotoUrl', 'leftSidePhotoUrl', 'dataLat', 'dataLng', 'waterConnection',
-  'sewerConnection', 'submittedAt', 'remarks',
+  'sewerConnection', 'submittedAt', 'remarks', 'floorNo',
 ]
 
 async function handler(req, res) {

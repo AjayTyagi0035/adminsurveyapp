@@ -1,0 +1,935 @@
+﻿PROPERTY ID,WARD NAME,MOHALLA NAME,HOUSE NO,OWNER NAME,FATHER NAME,ADDRESS,MOBILE NO,PROPERTY USE AS,OLD HOUSE TAX 2025-2026,HOUSE TAX ARRER 2025-2026,OLD WATER TAX 2025-2026,WATER TAX ARRER 2025-2026,OLD WATER TANK TAX 2025-2026,OLD WATER TANK ARRER 2025-2026
+1,14 Keyasthwara,Keyasthwara,1,Irshad Ahmed,Nafees Ahmed,"Keyasthwara, Kairana",8588017857,Residential Self ,431,0,431,0,238,238
+2,14 Keyasthwara,Keyasthwara,2,Mohd. Yusuf,-,"Keyasthwara, Kairana",9045460047,Open Plot,0,0,0,0,0,0
+3,14 Keyasthwara,Keyasthwara,3,Masjid Luharan,-,"Keyasthwara, Kairana",7011485423,Mosque,0,0,0,0,420,420
+4,14 Keyasthwara,Keyasthwara,4,Manager Mohd.Ayyub Milkiyat Masjid Luharan,-,"Keyasthwara, Kairana",7011485423,Commercial Self ,145,2206,145,2239,0,0
+5,14 Keyasthwara,Keyasthwara,5,Fika,Ismail,"Keyasthwara, Kairana",9027321102,Commercial Self ,61,372,61,372,0,0
+6,14 Keyasthwara,Keyasthwara,6,Fika,Ismail,"Keyasthwara, Kairana",9027321102,Commercial Self ,61,372,61,372,0,0
+7,14 Keyasthwara,Keyasthwara,6/1,Mali,Ali Jaan,"Keyasthwara, Kairana",9897668192,Residential Self ,66,404,66,403,0,0
+8,14 Keyasthwara,Keyasthwara,7,"Jamaluddin,
+Shamsuddin Mali",Ali Jaan,"Keyasthwara, Kairana",9897668192,Commercial Self ,48,48,48,48,420,420
+9,14 Keyasthwara,Keyasthwara,8,Seeda,Salimudeen,"Keyasthwara, Kairana",9818546626,Residential Self ,48,223,48,223,4620,4620
+10,14 Keyasthwara,Keyasthwara,9,Sadeen,Rasid,"Keyasthwara, Kairana",9045460047,Open Plot,66,510,66,510,0,0
+11,14 Keyasthwara,Keyasthwara,10,Manzoor,Shabbir,"Keyasthwara, Kairana",9997535428,Residential Self ,48,0,48,0,0,0
+12,14 Keyasthwara,Keyasthwara,11,Ayyub,Shabbir,"Keyasthwara, Kairana",9643377458,Residential Self ,48,0,48,0,2052,1500
+13,14 Keyasthwara,Keyasthwara,12,"Saeed, Irshad",Seeda,"Keyasthwara, Kairana",9927724892,Residential Self ,48,370,48,370,1800,1800
+14,14 Keyasthwara,Keyasthwara,13, Moh. Ahmed,Rashid Ahamad,"Keyasthwara, Kairana",8439318200,Residential Self ,100,0,100,0,420,295
+15,14 Keyasthwara,Keyasthwara,14,Seva Ram,Mani Ram,"Keyasthwara, Kairana",9106963370,Residential Self ,242,242,242,242,178,178
+16,14 Keyasthwara,Keyasthwara,15,"Seeta Ram ,Durgesh Kumar","Atma Ram ,Shayam Sunder","Keyasthwara, Kairana",9328316217,Residential Self ,91,1660,91,1660,3840,3840
+17,14 Keyasthwara,Keyasthwara,16,Rasid Ahamad,Jahur,"Keyasthwara, Kairana",7307186786,Residential Self ,0,0,0,0,0,0
+18,14 Keyasthwara,Keyasthwara,16/1,Rasid Ahamad,Jahur,"Keyasthwara, Kairana",7307186786,Residential Self ,55,55,55,55,365,365
+19,14 Keyasthwara,Keyasthwara,16/2,Rasid Ahamad,Jahur,"Keyasthwara, Kairana",7307186786,Residential Self ,0,0,0,0,0,0
+20,14 Keyasthwara,Keyasthwara,17,"Naresh Chand, Rishi Pal, Shiv Kumar, Raj Kumar",Chotan Lal,"Keyasthwara, Kairana",8899155000,Residential Self ,97,97,97,130,420,420
+21,14 Keyasthwara,Keyasthwara,18,"Bhushan Lal S/O Seva Ram,
+C/O Parmod ",Kirshan Lal,"Keyasthwara, Kairana",8475855494,Residential Self ,44,0,44,0,420,0
+22,14 Keyasthwara,Keyasthwara,19,"Naresh Chand, Rishi Pal, Shiv Kumar, Raj Kumar",Chotan Lal,"Keyasthwara, Kairana",8899155000,Residential Self ,55,338,55,337,0,0
+23,14 Keyasthwara,Keyasthwara,20,"Som Nath S/O Tara Chand'
+C/O Shamshida",W/O Shami,"Keyasthwara, Kairana",8899240698,Residential Self ,396,2418,396,2418,60,60
+24,14 Keyasthwara,Keyasthwara,21,Rajendra Babu,Babu Ram,"Keyasthwara, Kairana",7973092668, -,847,86875,847,92337,0,0
+25,14 Keyasthwara,Keyasthwara,22,"Sangeet Kumar,Sachin S/O Om Parkash,
+C/O Khalil",Basheer,"Keyasthwara, Kairana",7417768656,Residential Self ,44,44,44,44,0,0
+26,14 Keyasthwara,Keyasthwara,23,"Raj Kumar S/O Mitthan,
+C/O Sitara",W/O Ikram,"Keyasthwara, Kairana",9319104463,Residential Self ,77,1058,77,1050,0,0
+27,14 Keyasthwara,Keyasthwara,24,Som Nath  ,Tara Chand,"Keyasthwara, Kairana",8899240692,Residential Self ,85,3178,85,3179,0,0
+28,14 Keyasthwara,Keyasthwara,25,"Rajendra Parshad, Babu Ram,
+Raj Kumar, Mitthan Lal",Babu Ram,"Keyasthwara, Kairana",9319109463,Residential Self ,97,6487,97,6487,0,0
+29,14 Keyasthwara,Keyasthwara,26,Suresh,W/O Chander Pal,"Keyasthwara, Kairana",9319109463,Residential Self ,88,1036,88,1036,0,0
+30,14 Keyasthwara,Keyasthwara,27,Suresh,W/O Chander Pal,"Keyasthwara, Kairana",9319109463,Residential Self ,0,0,0,0,3124,3124
+31,14 Keyasthwara,Keyasthwara,28,"Manoj, Ashok",Roshan Lal,"Keyasthwara, Kairana",9319109463,Residential Self ,264,873,264,873,0,0
+32,14 Keyasthwara,Keyasthwara,29,Suresh,W/O Chander Pal,"Keyasthwara, Kairana",9319109463,Residential Self ,44,608,44,605,0,0
+33,14 Keyasthwara,Keyasthwara,30,Savitri Devi,W/O Bhushan,"Keyasthwara, Kairana",9319109463,Residential Self ,61,971,61,971,3540,3540
+34,14 Keyasthwara,Keyasthwara,31,Munni Devi,W/O Chander Bhan,"Keyasthwara, Kairana",9760480107,Residential Self ,66,139,66,139,912,912
+35,14 Keyasthwara,Keyasthwara,31/1,Sunil Kumar,Chander Bhan,"Keyasthwara, Kairana",8923344545,Residential Self ,0,0,0,0,0,0
+36,14 Keyasthwara,Keyasthwara,32,Telu Ram,Chaman Lal,"Keyasthwara, Kairana",9643456448,Residential Self ,157,2585,157,8052,4032,4032
+37,14 Keyasthwara,Keyasthwara,33,Shabanam Parveen,Julfikar Ali,"Keyasthwara, Kairana",9997134742,Residential Self ,91,91,91,91,329,329
+38,14 Keyasthwara,Keyasthwara,34,Phool Singh,Dolat Ram,"Keyasthwara, Kairana",7567160400,Residential Self ,157,1426,157,840,0,0
+39,14 Keyasthwara,Keyasthwara,35,"Rajendra, Krishana",Desh Bandu Sharma,"Keyasthwara, Kairana",9149178328,Residential Self ,48,223,48,223,1448,1448
+40,14 Keyasthwara,Keyasthwara,36,Pitam,Sadhu Ram,"Keyasthwara, Kairana",9888234041,Residential Self ,45,617,45,617,0,0
+41,14 Keyasthwara,Keyasthwara,37,Men Pal,Sadhu Ram,"Keyasthwara, Kairana",9888234041,Residential Self ,45,276,45,276,0,0
+42,14 Keyasthwara,Keyasthwara,38,"Chatru, Kundan",-,"Keyasthwara, Kairana",9888234041,Residential Self ,45,276,45,276,1815,1815
+43,14 Keyasthwara,Keyasthwara,39,Men Pal,Sadhu Ram,"Keyasthwara, Kairana",9888234041,Residential Self ,284,1734,284,1610,0,0
+44,14 Keyasthwara,Keyasthwara,39/1,Bhopal,Sadhu Ram,"Keyasthwara, Kairana",-,Residential Self ,48,1001,48,1001,3584,3584
+45,14 Keyasthwara,Keyasthwara,40,Irshad Ahmed,Nafees,"Keyasthwara, Kairana",-,Commercial Self ,1289,0,1289,0,369,369
+46,14 Keyasthwara,Keyasthwara,41,"Suresh W/O Ram Nath,
+Pawan Kumar,Raj Kumar, Vinod Kumar",Mam Chand,"Keyasthwara, Kairana",7455884346,Residential Self ,48,223,48,223,1496,1496
+47,14 Keyasthwara,Keyasthwara,42,Jay Pal,Nagina,"Keyasthwara, Kairana",7702521163,Residential Self ,55,586,55,524,0,0
+48,14 Keyasthwara,Keyasthwara,42/1,Dharam Pal,Nagina,"Keyasthwara, Kairana",9719859363,Residential Self ,48,48,48,48,372,372
+49,14 Keyasthwara,Keyasthwara,43,"Raj Pal,Dhuppi",Seeta Ram,"Keyasthwara, Kairana",8865851649,Residential Self ,44,519,44,519,0,0
+50,14 Keyasthwara,Keyasthwara,44,Shyam Singh,Jay Pal,"Keyasthwara, Kairana",9719859363,Residential Self ,31,424,31,0,0,0
+51,14 Keyasthwara,Keyasthwara,44/1,"Suresh W/O Ram Nath,
+Palla, Amar",Mam Chand,"Keyasthwara, Kairana",9017738338,Residential Self ,198,4640,198,4640,0,0
+52,14 Keyasthwara,Keyasthwara,45,"Jannat W/O Kalu,
+Mohd. Ikram, Mohd. Shamim",Kalu,"Keyasthwara, Kairana",8439595903,Residential Self ,121,933,121,933,2640,2640
+53,14 Keyasthwara,Keyasthwara,45/1,"Haseen, Toseem,
+Naved",Naseem,"Keyasthwara, Kairana",9017738338,Residential Self ,200,1988,200,1925,1240,1240
+54,14 Keyasthwara,Keyasthwara,45/2,"Pawan, Virendra",Ninna,"Keyasthwara, Kairana",-,Open Plot,91,0,91,1660,0,0
+55,14 Keyasthwara,Keyasthwara,46,Nadeem,Saleem Qureshi,"Keyasthwara, Kairana",-,Open Plot,91,702,91,702,1976,1976
+56,14 Keyasthwara,Keyasthwara,47,Dhan Singh,Ramswaroop,"Keyasthwara, Kairana",8439623060,Residential Self ,73,563,73,563,0,0
+57,14 Keyasthwara,Keyasthwara,48,"Anand Swaroop,
+Omkar",Madho Ram,"Keyasthwara, Kairana",8449117911,Residential Self ,67,636,67,660,2171,2171
+58,14 Keyasthwara,Keyasthwara,49,Vimla Devi,W/O Ravi Shankar,"Keyasthwara, Kairana",8899155000,Residential Self ,145,886,145,886,2040,2040
+59,14 Keyasthwara,Keyasthwara,50,Saeed Ahamad,Salimuddin,"Keyasthwara, Kairana",8439123011,Residential Self ,411,4714,411,4714,0,0
+60,14 Keyasthwara,Keyasthwara,51,Rajendra Singh,Kundan Lal,"Keyasthwara, Kairana",9106963370,Residential Self ,73,153,73,153,694,694
+61,14 Keyasthwara,Keyasthwara,51/1,Moh. Ahmed,Rashid Ahamad,"Keyasthwara, Kairana",8899155000,Residential Self ,48,0,48,20,372,372
+62,14 Keyasthwara,Keyasthwara,51/2,Ninna,Kundan Lal,"Keyasthwara, Kairana",8439123011,Residential Self ,55,523,55,524,2255,2255
+63,14 Keyasthwara,Keyasthwara,52,Pitam,Sadhu Ram,"Keyasthwara, Kairana",7865864361,Residential Self ,48,48,48,48,420,420
+64,14 Keyasthwara,Keyasthwara,53,Amar Nath,Jyoti Swaroop,"Keyasthwara, Kairana",7865864361,Residential Self ,97,97,97,97,0,0
+65,14 Keyasthwara,Keyasthwara,54,Amar Nath,Jyoti Swaroop,"Keyasthwara, Kairana",7983991185,Residential Self ,48,48,48,48,420,420
+66,14 Keyasthwara,Keyasthwara,55,Amar Nath,Jyoti Swaroop,"Keyasthwara, Kairana",9997786893,Residential Self ,48,565,48,565,0,0
+67,14 Keyasthwara,Keyasthwara,56,Babita,W/O Surender Kumar,"Keyasthwara, Kairana",9997786893,Residential Self ,110,1297,110,1297,0,0
+68,14 Keyasthwara,Keyasthwara,57,"Som Parkash,
+Pusph Parkash",Kirshan Lal,"Keyasthwara, Kairana",9897004607,Residential Self ,182,0,182,0,238,0
+69,14 Keyasthwara,Keyasthwara,58,"Som Parkash,
+Pusph Parkash",Kirshan Lal,"Keyasthwara, Kairana",9897004607,Residential Self ,0,0,0,0,0,0
+70,14 Keyasthwara,Keyasthwara,59,Rajesh Mittal,Tara Chand,"Keyasthwara, Kairana",9027274162,Commercial Self ,220,0,220,220,0,0
+71,14 Keyasthwara,Keyasthwara,60,"Sushil Kumar,
+Chaman Devi W/O Chanda Babu",Chanda Babu,"Keyasthwara, Kairana",8171092471,Residential Self ,61,61,61,61,359,359
+72,14 Keyasthwara,Keyasthwara,61,Dr. Shareef,Basheer Ahamad,"Keyasthwara, Kairana",9027394972,Residential Self ,88,538,88,538,0,0
+73,14 Keyasthwara,Keyasthwara,62,Dr. Shareef,Basheer Ahamad,"Keyasthwara, Kairana",9027394972,Residential Self ,44,605,44,605,2332,2332
+74,14 Keyasthwara,Keyasthwara,63,Meer Singh,Ram Swaroop,"Keyasthwara, Kairana",9335894075,Residential Self ,73,73,73,73,347,347
+75,14 Keyasthwara,Keyasthwara,65,Masooda Begam,W/O Mohd. Ikbal,"Keyasthwara, Kairana",9045706675,Residential Self ,61,202,61,202,3418,3418
+76,14 Keyasthwara,Keyasthwara,66,Junaid,Anish Ahmed,"Keyasthwara, Kairana",9675584346,Residential Self ,44,0,44,0,444,444
+77,14 Keyasthwara,Keyasthwara,67,Sankatu Ram,Mukanda,"Keyasthwara, Kairana",9837804808,Residential Self ,121,0,121,2929,0,0
+78,14 Keyasthwara,Keyasthwara,68,Singh  Ram,Tejja Ram,"Keyasthwara, Kairana",-,Residential Self ,121,738,121,2929,1435,1435
+79,14 Keyasthwara,Keyasthwara,69,"Shiv Kumar, Arun Kumar, Manoj S/O Singh Ram, Vinit Kumar S/O Ram Kumar C/O Lasho",Rafi,"Keyasthwara, Kairana",-,Residential Self ,66,1205,66,1205,0,0
+80,14 Keyasthwara,Keyasthwara,70,Shamima,W/O Shakila,"Keyasthwara, Kairana",9359459995,Residential Self ,220,3526,220,3495,580,580
+81,14 Keyasthwara,Keyasthwara,71/1/2,"Shiv Kumar, Arun Kumar, Manoj S/O Singh Ram, Vinit Kumar S/O Ram Kumar , Ram Kumar S/O Tejja
+",-,"Keyasthwara, Kairana",8077340419,Residential Self ,97,450,97,450,0,0
+82,14 Keyasthwara,Keyasthwara,72,Rijwan,Mahmud,"Keyasthwara, Kairana",8077340419,Residential Self ,44,295,44,204,1464,1464
+83,14 Keyasthwara,Keyasthwara,73,Abdul Malik,Abdul,"Keyasthwara, Kairana",8881303529,Residential Self ,48,48,48,48,788,788
+84,14 Keyasthwara,Keyasthwara,74,Radhe Shayam,Chand Parkash,"Keyasthwara, Kairana",9761928821,Residential Self ,44,0,44,0,752,0
+85,14 Keyasthwara,Keyasthwara,76,Shayam Singh,Malkhan Shingh,"Keyasthwara, Kairana",8923200349,Residential Self ,48,223,48,223,1448,1448
+86,14 Keyasthwara,Keyasthwara,77,Raj Bala,W/O Mahendra Swaroop,"Keyasthwara, Kairana",9634943471,Residential Self ,145,1993,145,1993,1948,1948
+87,14 Keyasthwara,Keyasthwara,"78,
+79",Sushil Saxena,Chanda Babu,"Keyasthwara, Kairana",9317518984,Residential Self ,66,404,66,404,2160,2160
+88,14 Keyasthwara,Keyasthwara,79/1,Islam,Inam,"Keyasthwara, Kairana",9448785723,Residential Self ,55,182,55,183,1075,1075
+89,14 Keyasthwara,Keyasthwara,80,Pooja Isthal Mandir Kayasthwara,-,"Keyasthwara, Kairana",-,Temple ,0,0,0,0,0,0
+90,14 Keyasthwara,Keyasthwara,81,"Vinod Swaroop,
+Omkar ",Madho Ram Charan Dass,"Keyasthwara, Kairana",8449117911,Residential Self ,594,0,594,0,0,0
+91,14 Keyasthwara,Keyasthwara,82,"Satveer, Kirishana,
+Vinod",Amar Singh,"Keyasthwara, Kairana",-,Open Plot,48,223,48,223,0,0
+92,14 Keyasthwara,Keyasthwara,83,"Dhuppi, Raj Pal",Seeta Ram,"Keyasthwara, Kairana",8077428123,Residential Self ,48,656,48,659,2812,2812
+93,14 Keyasthwara,Keyasthwara,84,"Vinod, Omkar,
+Manmohan Swaroop",Madho Ram Charan Dass,"Keyasthwara, Kairana",8449117911,Residential Self ,169,355,169,355,964,964
+94,14 Keyasthwara,Keyasthwara,84/1,"Vinod, Omkar,
+Manmohan Savroop",Madho Ram Charan Dass,"Keyasthwara, Kairana",8449117911,Open Plot,0,0,0,0,0,0
+95,14 Keyasthwara,Keyasthwara,84/2,"Vinod, Omkar,
+Manmohan Swaroop",Madho Ram Charan Dass,"Keyasthwara, Kairana",8449117911,Open Plot,0,0,0,0,0,0
+96,14 Keyasthwara,Keyasthwara,85,Raj Pal Singh,Ballu Singh,"Keyasthwara, Kairana",7505820005,Residential Self ,97,920,97,920,1961,1961
+97,14 Keyasthwara,Keyasthwara,86,"Mahesh Swaroop S/O Raghunath,
+C/O Ikbal ",Fateh Mohammad,"Keyasthwara, Kairana",-,Residential Self ,77,255,77,255,0,0
+98,14 Keyasthwara,Keyasthwara,87,Samvaran Nandan,W/O Hari Nandan Bhatnagar,"Keyasthwara, Kairana",-,Residential Self ,61,2291,61,3117,0,0
+99,14 Keyasthwara,Keyasthwara,88,"Abdul Gaffar, Abdul Jabbar,
+Kuddush, Abdul Kadir",Muzaffer Husain,"Keyasthwara, Kairana",9313562656,Residential Self ,55,337,55,337,1765,1765
+100,14 Keyasthwara,Keyasthwara,89,Anand Parkash,Padam Parkash,"Keyasthwara, Kairana",-,Residential Self ,48,293,48,293,0,0
+101,14 Keyasthwara,Keyasthwara,90,"Mamohan Swaroop S/O Madho Charan Dass,
+C/O Mustakim ",Maksood,"Keyasthwara, Kairana",9528848735,Residential Self ,88,0,88,0,0,0
+102,14 Keyasthwara,Keyasthwara,91,Sunhari,W/O Tulla Ram,"Keyasthwara, Kairana",9012242469,Residential Self ,79,367,79,367,1736,1736
+103,14 Keyasthwara,Keyasthwara,91/1,"Mukesh Kumar S/O Parmeshver Dayal,
+C/O Raju",Salara,"Keyasthwara, Kairana",-,Residential Self ,110,510,110,608,0,0
+104,14 Keyasthwara,Keyasthwara,92,Mohd. Akhlak,Rais Ahmad,"Keyasthwara, Kairana",9897818600,Residential Self ,149,149,149,149,0,0
+105,14 Keyasthwara,Keyasthwara,93,Ummida,W/O Naseem,"Keyasthwara, Kairana",9953900995,Residential Self ,79,1645,79,1645,4428,4428
+106,14 Keyasthwara,Keyasthwara,94,Vijay Kumar Jain,Karam Chand Jain,"Keyasthwara, Kairana",8077241279,Residential Self ,73,1005,73,1005,5164,5164
+107,14 Keyasthwara,Keyasthwara,95,Devi Singh,Malkhan Singh,"Keyasthwara, Kairana",9958720846,Residential Self ,73,1331,73,1331,3840,3840
+108,14 Keyasthwara,Keyasthwara,96,Shamim ,"Rashid, Sameer","Keyasthwara, Kairana",-, -,220,0,220,0,0,0
+109,14 Keyasthwara,Keyasthwara,97,Shayam Singh,Malkhan Singh,"Keyasthwara, Kairana",7037415898,Residential Self ,45,823,45,823,0,0
+110,14 Keyasthwara,Keyasthwara,98,"Ram Singh, Rameshver, Gulab Shing",Tulla Ram,"Keyasthwara, Kairana",8755172757,Residential Self ,55,337,55,337,3000,3000
+111,14 Keyasthwara,Keyasthwara,99,Inam ,Kalu,"Keyasthwara, Kairana",9548285723,Residential Self ,61,0,61,0,1057,0
+112,14 Keyasthwara,Keyasthwara,100,Devi Singh,Malkhan Singh,"Keyasthwara, Kairana",9350633686,Residential Self ,48,293,48,293,1940,1940
+113,14 Keyasthwara,Keyasthwara,101,Sakeel,Naseem,"Keyasthwara, Kairana",7520604123,Residential Self ,73,1522,73,1522,0,0
+114,14 Keyasthwara,Keyasthwara,102,Ilyash,Shafi,"Keyasthwara, Kairana",9634098991,Residential Self ,145,145,145,145,282,282
+115,14 Keyasthwara,Keyasthwara,102/A,Sageer,Habib,"Keyasthwara, Kairana",7819811033,Residential Self ,46,355,46,355,2064,2064
+116,14 Keyasthwara,Keyasthwara,103,Shabbir,Habib,"Keyasthwara, Kairana",7417726163,Residential Self ,44,44,44,44,420,420
+117,14 Keyasthwara,Keyasthwara,104,"Amir S/O Habib,
+Dr. Shareef",Basheer,"Keyasthwara, Kairana",-,Residential Self ,44,2023,44,917,0,0
+118,14 Keyasthwara,Keyasthwara,105,Inam ,Majeed,"Keyasthwara, Kairana",9411033628,Residential Self ,88,1399,88,1399,2676,2676
+119,14 Keyasthwara,Keyasthwara,106,Manmohan S/O Madho Charan Dass C/O Shamshida,Rafeek,"Keyasthwara, Kairana",-,Residential Self ,88,680,88,680,0,0
+120,14 Keyasthwara,Keyasthwara,106/1,"Manmohan Swaroop S/O Madho Charan Dass,
+C/O Safeek ",Hameed,"Keyasthwara, Kairana",9639023449,Residential Self ,66,219,66,510,3840,3840
+121,14 Keyasthwara,Keyasthwara,106/2,"Manmohan Swaroop S/O Madho Charan Dass,
+C/O Kaneez",Rashid,"Keyasthwara, Kairana",9761200504,Residential Self ,66,66,66,66,0,0
+122,14 Keyasthwara,Keyasthwara,107,Naseem Ahamad,Yamin,"Keyasthwara, Kairana",9212026208,Residential Self ,145,482,145,481,1240,1240
+123,14 Keyasthwara,Keyasthwara,108,Masjid Aksha Kayasthwara Maneger Ayyub,-,"Keyasthwara, Kairana",8439214416,Mosque,0,0,0,0,0,0
+124,14 Keyasthwara,Keyasthwara,109,Om Parkash,Ridku,"Keyasthwara, Kairana",7417726163,Residential Self ,145,145,145,1225,3540,3540
+125,14 Keyasthwara,Keyasthwara,109/1,Mohsin,W/O Liyakat,"Keyasthwara, Kairana",7669368404,Residential Self ,88,88,88,88,0,0
+126,14 Keyasthwara,Keyasthwara,110,"Dr. Shareef, Khalil, Sarfaraz","Jamil Ahamad ,Basheer Umar Daraz","Keyasthwara, Kairana",9027394972,Residential Self ,242,1123,242,1123,672,672
+127,14 Keyasthwara,Keyasthwara,111,Ikbal,Karimuddin,"Keyasthwara, Kairana",8430307430,Residential Self ,242,242,242,242,178,178
+128,14 Keyasthwara,Keyasthwara,112,Abdul Rehman,Nizamudeen,"Keyasthwara, Kairana",9917718405,Residential Self ,242,7433,242,9462,0,0
+129,14 Keyasthwara,Keyasthwara,113,Musa Khan,Karimudeen,"Keyasthwara, Kairana",9760242105,Residential Self ,55,116,55,116,1075,1075
+130,14 Keyasthwara,Keyasthwara,114,Musa Khan,Karimudeen,"Keyasthwara, Kairana",9760242105,Residential Self ,44,92,44,92,0,0
+131,14 Keyasthwara,Keyasthwara,115,"Ikram C/O Israr, Bilal, Nisar",-,"Keyasthwara, Kairana",9045171710,Residential Self ,66,1205,66,1387,0,0
+132,14 Keyasthwara,Keyasthwara,116,Nafees S/O Sukka C/O Farukh,Musa,"Keyasthwara, Kairana",8247847727,Residential Self ,330,9812,330,836,0,0
+133,14 Keyasthwara,Keyasthwara,117,"Ibrahim S/O Imamudeen,
+C/O Farukh ",Musa,"Keyasthwara, Kairana",8247847727,Residential Self ,0,0,0,0,0,0
+134,14 Keyasthwara,Keyasthwara,118,Bhuri (Shamshida),W/O Nasir,"Keyasthwara, Kairana",6398641919,Residential Self ,330,330,330,330,90,90
+135,14 Keyasthwara,Keyasthwara,119,Ishak,Keemi,"Keyasthwara, Kairana",8899753737,Residential Self ,45,1684,45,1687,0,0
+136,14 Keyasthwara,Keyasthwara,120,Karam Ilahi,Keemi,"Keyasthwara, Kairana",8899753737,Residential Self ,330,3130,330,3130,390,390
+137,14 Keyasthwara,Keyasthwara,121,Mohd. Akhtar,Allah Rakha,"Keyasthwara, Kairana",7520006070,Residential Self ,73,153,73,153,0,0
+138,14 Keyasthwara,Keyasthwara,122,Noor Ahamad,Ikramudeen,"Keyasthwara, Kairana",8439591512,Residential Self ,145,4424,145,2469,3002,3002
+139,14 Keyasthwara,Keyasthwara,123,Yamin,Ikramudeen,"Keyasthwara, Kairana",9368444334,Residential Self ,145,2358,145,3025,2434,2434
+140,14 Keyasthwara,Keyasthwara,124,"Manmohan Swaroop, Anand, Om Parkash",Madho Charan Dass,"Keyasthwara, Kairana",9411033628,Residential Self ,66,627,66,627,0,0
+141,14 Keyasthwara,Keyasthwara,125,"Manmohan Swaroop, Anand, Om Parkash",Madho Charan Dass,"Keyasthwara, Kairana",9411033628,Residential Self ,121,1147,121,1043,0,0
+142,14 Keyasthwara,Keyasthwara,125/1,Shamshad,Kalu,"Keyasthwara, Kairana",9149370500,Residential Self ,44,44,44,44,376,376
+143,14 Keyasthwara,Keyasthwara,125/2,"Wasim, Shamim",Azimudeen,"Keyasthwara, Kairana",9045105758,Residential Self ,88,836,88,836,4636,4636
+144,14 Keyasthwara,Keyasthwara,125/3,"Dilshad, Yamin , Kamil",Shamim,"Keyasthwara, Kairana",-,Residential Self ,88,2146,88,2146,0,0
+145,14 Keyasthwara,Keyasthwara,126,Saleem,Karimudeen,"Keyasthwara, Kairana",9412639431,Residential Self ,44,801,44,802,3368,3368
+146,14 Keyasthwara,Keyasthwara,127,"Vasila W/O Karam Ilahi,
+Ayyub, Kayyum, ",Karam Ilahi,"Keyasthwara, Kairana",8439214416,Residential Self ,48,293,48,293,1800,1800
+147,14 Keyasthwara,Keyasthwara,128,"Ishak, Maksood",Bhura,"Keyasthwara, Kairana",-,Open Plot,44,1068,44,1117,7725,7725
+148,14 Keyasthwara,Keyasthwara,129,Rafikan,W/O Habib,"Keyasthwara, Kairana",9897821894,Residential Self ,73,563,73,563,1902,1902
+149,14 Keyasthwara,Keyasthwara,130,Israr,Habib Ahamad,"Keyasthwara, Kairana",7417439567, -,44,699,44,692,0,0
+150,14 Keyasthwara,Keyasthwara,131,Ram Kishan,Asha Ram,"Keyasthwara, Kairana",8899196310,Residential Self ,88,538,88,538,1600,1600
+151,14 Keyasthwara,Keyasthwara,132,"Mohd. Imran, Israr",Habib,"Keyasthwara, Kairana",7417439567,Residential Self ,79,1645,79,1645,3227,3227
+152,14 Keyasthwara,Keyasthwara,133,"Imran, Israr",-,"Keyasthwara, Kairana",8755172757,Residential Self ,73,445,73,445,2040,2040
+153,14 Keyasthwara,Keyasthwara,134,"Yamin,
+Amana W/O Yamin",Majeed,"Keyasthwara, Kairana",9758606912,Residential Self ,200,2287,200,1221,1040,1040
+154,14 Keyasthwara,Keyasthwara,135,Mohar Singh,Asha Ram,"Keyasthwara, Kairana",9897773086,Residential Self ,182,382,182,382,0,0
+155,14 Keyasthwara,Keyasthwara,136,Inam Qureshi,Habib,"Keyasthwara, Kairana",9897773086,Residential Self ,182,382,182,382,840,840
+156,14 Keyasthwara,Keyasthwara,137,Ram Kishan,Asha Ram,"Keyasthwara, Kairana",-,Open Plot,0,0,0,0,0,0
+157,14 Keyasthwara,Keyasthwara,138,Manmohan Swaroop,Madhoram,"Keyasthwara, Kairana",-,Open Plot,0,0,0,0,0,0
+158,14 Keyasthwara,Keyasthwara,139,Anees,Karimudeen,"Keyasthwara, Kairana",9045639106,Residential Self ,44,145,44,145,0,0
+159,14 Keyasthwara,Keyasthwara,140,Lateef,Karimudeen,"Keyasthwara, Kairana",9977131955,Residential Self ,72,683,72,693,2129,2129
+160,14 Keyasthwara,Keyasthwara,141,Anees,Karimudeen,"Keyasthwara, Kairana",9045639106,Residential Self ,44,44,44,44,420,420
+161,14 Keyasthwara,Keyasthwara,"142,
+144",Ram Kishan,Asha Ram,"Keyasthwara, Kairana",8860632650,Residential Self ,171,794,171,691,1156,1156
+162,14 Keyasthwara,Keyasthwara,143,Binnu,Ranbeer Singh,"Keyasthwara, Kairana",8860632650,Residential Self ,73,338,73,338,0,0
+163,14 Keyasthwara,Keyasthwara,145,"Naseem, Khurshid, Dilshad, Noshad, Shezad",Mohd. Umar,"Keyasthwara, Kairana",9897715292,Residential Self ,55,337,55,337,0,0
+164,14 Keyasthwara,Keyasthwara,146,"Haneef, Yunus",Zizu,"Keyasthwara, Kairana",8534011950,Residential Self ,45,276,45,276,1815,1815
+165,14 Keyasthwara,Keyasthwara,147,Alimudeen,Midda,"Keyasthwara, Kairana",9756808833,Residential Self ,44,92,44,22,0,0
+166,14 Keyasthwara,Keyasthwara,148,Salimudeen,Midda,"Keyasthwara, Kairana",8266863100,Residential Self ,55,55,55,55,365,365
+167,14 Keyasthwara,Keyasthwara,148/1,Khurshid Ahamad,Alimudeen,"Keyasthwara, Kairana",9756808833,Residential Self ,171,359,171,359,498,498
+168,14 Keyasthwara,Keyasthwara,149,Virender Swaroop,Narender,"Keyasthwara, Kairana",9412583206,Residential Self ,242,4415,242,4435,3840,3840
+169,14 Keyasthwara,Keyasthwara,149/1,Virender Swaroop,Narender,"Keyasthwara, Kairana",9412583206,Residential Self ,220,4014,220,4011,0,0
+170,14 Keyasthwara,Keyasthwara,150,Inam,Ikram,"Keyasthwara, Kairana",9317569698,Open Plot,297,0,297,176,420,0
+171,14 Keyasthwara,Keyasthwara,151,Inam,Ikram,"Keyasthwara, Kairana",9317569698,Residential Self ,0,0,0,0,0,0
+172,14 Keyasthwara,Keyasthwara,152,Inam,Ikram,"Keyasthwara, Kairana",9317569698,Residential Self ,0,0,0,0,0,0
+173,14 Keyasthwara,Keyasthwara,153,Inam,Ikram,"Keyasthwara, Kairana",9317569698,Residential Self ,0,0,0,0,0,0
+174,14 Keyasthwara,Keyasthwara,154,Khurshid  ,Ghissu,"Keyasthwara, Kairana",8439849334,Residential Self ,44,44,44,44,376,376
+175,14 Keyasthwara,Keyasthwara,155,Atithi Bhawan Roaro Wali Dharam Shala,-,"Keyasthwara, Kairana",-, -,0,0,0,0,0,0
+176,14 Keyasthwara,Keyasthwara,156,Mazahir Hasan,Faizul Hasan,"Keyasthwara, Kairana",8430301182,Residential Self ,100,1397,100,1433,2540,2540
+177,14 Keyasthwara,Keyasthwara,157,"Surreya Begam W/O Mehboob,
+Mehboob",Allah Banda,"Keyasthwara, Kairana",8430301182,Residential Self ,0,0,0,0,0,0
+178,14 Keyasthwara,Keyasthwara,158,Ikram   ,Ismail,"Keyasthwara, Kairana",8430301182,Residential Self ,0,0,0,0,0,0
+179,14 Keyasthwara,Keyasthwara,159,Shabbir,Janni,"Keyasthwara, Kairana",8430301182,Residential Self ,0,0,0,0,0,0
+180,14 Keyasthwara,Keyasthwara,160,Dr. Gaznafar Ali,Asgar Ali,"Keyasthwara, Kairana",9897039086,Commercial Self ,121,0,121,0,299,0
+181,14 Keyasthwara,Keyasthwara,160/1,Dr. Gaznafar Ali,Asgar Ali,"Keyasthwara, Kairana",9897039086,Residential Self ,0,0,0,0,420,0
+182,14 Keyasthwara,Keyasthwara,161/1,"Taslim S/O Mehboob,
+Sureyya W/O Mehboob, Mehboob S/O Ramzani",Ramzani,"Keyasthwara, Kairana",7351511112,Residential Self ,48,0,48,0,420,0
+183,14 Keyasthwara,Keyasthwara,162,Mehboob,Ramzani,"Keyasthwara, Kairana",7351511112,Residential Self ,48,1684,48,762,0,0
+184,14 Keyasthwara,Keyasthwara,162/1,Mehboob,Ramzani,"Keyasthwara, Kairana",7351511112,Commercial Self ,0,0,0,0,0,0
+185,14 Keyasthwara,Keyasthwara,163,Nafisha,W/O Ateek,"Keyasthwara, Kairana",9058282507,Residential Self ,396,10739,396,9277,0,0
+186,14 Keyasthwara,Keyasthwara,163/1,Mehrban,Nisar,"Keyasthwara, Kairana",9997866490,Commercial Self ,436,0,436,5990,0,0
+187,14 Keyasthwara,Keyasthwara,164,Chota,Midda,"Keyasthwara, Kairana",9760794830,Commercial Self ,242,12818,242,5037,2136,2136
+188,14 Keyasthwara,Keyasthwara,165,Chota,Midda,"Keyasthwara, Kairana",9760794830,Residential Self ,55,3082,55,3082,0,0
+189,14 Keyasthwara,Keyasthwara,168,"Nasir Ahamad, Naseem, Tehsun, Naeem, Halim, Shamim",Basheer Ahamad,"Keyasthwara, Kairana",9358964160,Residential Self ,85,179,85,179,840,840
+190,14 Keyasthwara,Keyasthwara,169,Bihari Lal, -,"Keyasthwara, Kairana",9837801549,Residential Self ,70,70,70,70,353,353
+191,14 Keyasthwara,Keyasthwara,170,Kunj Bihari Lal,Chaman Lal,"Keyasthwara, Kairana",9837801549,Commercial Self ,0,0,0,0,0,0
+192,14 Keyasthwara,Keyasthwara,171,Vibhash Kumar,Kunj Bihari,"Keyasthwara, Kairana",9837801549,Commercial Self ,111,111,111,111,0,0
+193,14 Keyasthwara,Keyasthwara,172,"Ram Murti W/O Ved Parkash,
+Rakesh Kumar",Ved Parkash,"Keyasthwara, Kairana",7017892137,Commercial Self ,73,73,73,73,0,0
+194,14 Keyasthwara,Keyasthwara,173,Anita Singhal,W/O Rakesh Kumar,"Keyasthwara, Kairana",7017892137,Commercial Self ,73,0,73,0,0,0
+195,14 Keyasthwara,Keyasthwara,173/1,Kusum Singhal,W/O Bijender Kumar,"Keyasthwara, Kairana",7017892137,Residential Self ,88,0,88,0,332,0
+196,14 Keyasthwara,Keyasthwara,174,"Rakesh Kumar,
+Kusum Singhal W/O Bijender Kumar",Ved Parkash,"Keyasthwara, Kairana",7017892137,Commercial Self ,73,73,73,73,0,0
+197,14 Keyasthwara,Keyasthwara,175,"Rakesh Kumar,
+Kusum Singhal W/O Bijender Kumar",Ved Parkash,"Keyasthwara, Kairana",7017892137,Commercial Self ,73,73,73,73,0,0
+198,14 Keyasthwara,Keyasthwara,176,Sageer,Azimudeen,"Keyasthwara, Kairana",9927351400,Residential Self ,145,5242,145,8726,4292,4292
+199,14 Keyasthwara,Keyasthwara,177,"Veshya Sabha
+Kairana",-,"Keyasthwara, Kairana",9045171710,Residential Self ,145,0,145,0,0,0
+200,14 Keyasthwara,Keyasthwara,178,"Veshya Sabha
+Kairana",-,"Keyasthwara, Kairana",9045171710,Commercial Self ,145,886,145,888,0,0
+201,14 Keyasthwara,Keyasthwara,179,Gaushala Sabha,-,"Keyasthwara, Kairana",8445978357,Commercial Self ,61,128,61,128,0,0
+202,14 Keyasthwara,Keyasthwara,180,Azizan,W/O Rasid Ahamad,"Keyasthwara, Kairana",8459123142,Residential Self ,97,592,97,592,1555,1555
+203,14 Keyasthwara,Keyasthwara,181,Jubaida,W/O Azizu Rehman,"Keyasthwara, Kairana",-,Residential Self ,97,922,97,922,0,0
+204,14 Keyasthwara,Keyasthwara,182,Amana Begam,W/O Saleem,"Keyasthwara, Kairana",-,Residential Self ,48,101,48,101,744,744
+205,14 Keyasthwara,Keyasthwara,"183,
+184","Muniza W/O Saeed,
+Sarfaraz",Saeed,"Keyasthwara, Kairana",9045261439,Residential Self ,48,101,48,101,744,744
+206,14 Keyasthwara,Keyasthwara,185,"Muniza W/O Saeed,
+Sarfaraz",Saeed,"Keyasthwara, Kairana",9045261439,Commercial Self ,66,139,66,139,0,0
+207,14 Keyasthwara,Keyasthwara,186,"Muniza W/O Saeed,
+Sarfaraz",Saeed,"Keyasthwara, Kairana",9045261439,Commercial Self ,19,40,19,0,0,0
+208,14 Keyasthwara,Keyasthwara,187,"Muniza W/O Saeed,
+Sarfaraz",Saeed,"Keyasthwara, Kairana",9045261439,Commercial Self ,66,139,66,139,0,0
+209,14 Keyasthwara,Keyasthwara,187/1,Meena,Zizu,"Keyasthwara, Kairana",9761692838,Commercial Self ,45,0,45,0,2842,0
+210,14 Keyasthwara,Keyasthwara,188,Shamima,W/O Amir,"Keyasthwara, Kairana",-,Commercial Self ,303,3574,303,3574,0,0
+211,14 Keyasthwara,Keyasthwara,189,Shamima,W/O Amir,"Keyasthwara, Kairana",-,Commercial Self ,97,1771,97,1766,0,0
+212,14 Keyasthwara,Keyasthwara,190,Shamima,W/O Amir,"Keyasthwara, Kairana",-,Commercial Self ,0,0,0,0,0,0
+213,14 Keyasthwara,Keyasthwara,191,Shamima,W/O Amir,"Keyasthwara, Kairana",-,Commercial Self ,220,3039,220,3036,0,0
+214,14 Keyasthwara,Keyasthwara,192,Shamima,W/O Amir,"Keyasthwara, Kairana",-,Commercial Self ,0,0,0,0,0,0
+215,14 Keyasthwara,Keyasthwara,193,Shamima,W/O Amir,"Keyasthwara, Kairana",-,Commercial Self ,220,4012,220,4011,0,0
+216,14 Keyasthwara,Keyasthwara,194,Manmohan Sharma,J. M. Sharma,"Keyasthwara, Kairana",9045460047,Residential Self ,97,100,97,100,3752,3752
+217,14 Keyasthwara,Keyasthwara,195,Manmohan Sharma,J.M. Sharma,"Keyasthwara, Kairana",9045460047,Residential Self ,121,0,121,100,1287,0
+218,14 Keyasthwara,Keyasthwara,196,Mohd. Yusuf,Abdul Razzak,"Keyasthwara, Kairana",9891020820,Residential Self ,61,0,61,0,3451,3451
+219,14 Keyasthwara,Keyasthwara,197,Sarvari,W/O Majid,"Keyasthwara, Kairana",9811513254,Residential Self ,67,0,67,0,0,0
+220,14 Keyasthwara,Keyasthwara,198,Ikbal,Razzak,"Keyasthwara, Kairana",9811882971,Residential Self ,303,2338,303,10823,0,0
+221,14 Keyasthwara,Keyasthwara,199,Ashfak,Rasid Ahamad,"Keyasthwara, Kairana",8178184500,Residential Self ,73,1005,73,692,0,0
+222,14 Keyasthwara,Keyasthwara,200,Mehboob,Shabbir,"Keyasthwara, Kairana",8178184500,Residential Self ,73,692,73,1005,2129,2129
+223,14 Keyasthwara,Keyasthwara,201,Afzal,Karimudeen,"Keyasthwara, Kairana",9045321631,Residential Self ,55,55,55,55,365,365
+224,14 Keyasthwara,Keyasthwara,201/1,Islam Ahamad,Abdul Hakim,"Keyasthwara, Kairana",7819995982,Residential Self ,73,2203,73,2203,4192,4192
+225,14 Keyasthwara,Keyasthwara,202,"Mohd. Noshad S/O Ayyub,
+Ayyub",Mohd. Yakub,"Keyasthwara, Kairana",8534017006,Residential Self ,97,3263,97,3263,4552,4552
+226,14 Keyasthwara,Keyasthwara,203,Mahveer Parshad,Keval Singh,"Keyasthwara, Kairana",-,Residential Self ,66,66,66,66,540,540
+227,14 Keyasthwara,Keyasthwara,204,"Umardeen, Shamim, Akhtar, Islam, Sattar",-,"Keyasthwara, Kairana",8527565181,Residential Self ,145,4474,145,7785,2992,0
+228,14 Keyasthwara,Keyasthwara,205,"Jamalu, Amalu",Ali Jaan,"Keyasthwara, Kairana",9015218139,Commercial Self ,45,45,45,45,0,0
+229,14 Keyasthwara,Keyasthwara,205/1,Shamsudeen,Ali Jaan,"Keyasthwara, Kairana",8445820555,Residential Self ,48,370,48,370,2304,2304
+230,14 Keyasthwara,Keyasthwara,206,Khurshid,Ishak,"Keyasthwara, Kairana",8791898407,Residential Self ,55,531,55,1007,0,0
+231,14 Keyasthwara,Keyasthwara,206/1,Jishan,Zizu,"Keyasthwara, Kairana",9761892838,Residential Self ,55,1015,55,1007,0,0
+232,14 Keyasthwara,Keyasthwara,206/2,Hamid,Abdul Gani,"Keyasthwara, Kairana",9761892838,Residential Self ,55,337,55,337,0,0
+233,14 Keyasthwara,Keyasthwara,206/3,Salaudeen,Sarajudeen,"Keyasthwara, Kairana",9650108457,Residential Self ,48,455,48,455,0,0
+234,14 Keyasthwara,Keyasthwara,207,Imrana,W/O Abdul Khalid,"Keyasthwara, Kairana",9084998400,Residential Self ,330,4533,330,4533,2880,2880
+235,14 Keyasthwara,Keyasthwara,208,"Berhaman Dharamshala,
+Maneger Madan Mohan",-,"Keyasthwara, Kairana",9897404586,Commercial Self ,26,55,26,0,0,0
+236,14 Keyasthwara,Keyasthwara,209,"Berhaman Dharamshala,
+Maneger Madan Mohan",-,"Keyasthwara, Kairana",9897404586,Commercial Self ,48,293,48,293,0,0
+237,14 Keyasthwara,Keyasthwara,210,"Berhaman Dharamshala,
+Maneger Madan Mohan",-,"Keyasthwara, Kairana",8859598191,Commercial Self ,48,101,48,101,0,0
+238,14 Keyasthwara,Keyasthwara,211,"Berhaman Dharamshala,
+Maneger Madan Mohan",-,"Keyasthwara, Kairana",9897789625,Dharamshala,73,153,73,153,0,0
+239,14 Keyasthwara,Keyasthwara,211/1,"Berhaman Dharamshala,
+Maneger Madan Mohan",-,"Keyasthwara, Kairana",9897789625,Dharamshala,97,195,97,204,0,0
+240,14 Keyasthwara,Keyasthwara,212,"Berhaman Dharamshala,
+Maneger Madan Mohan",-,"Keyasthwara, Kairana",8445757544,Commercial Self ,61,128,61,128,0,0
+241,14 Keyasthwara,Keyasthwara,213,"Berhaman Dharamshala,
+Maneger Madan Mohan",-,"Keyasthwara, Kairana",9897404586,Commercial Self ,88,292,88,292,0,0
+242,14 Keyasthwara,Keyasthwara,214,"Berhaman Dharamshala,
+Maneger Madan Mohan",-,"Keyasthwara, Kairana",9045258156,Commercial Self ,440,29220,440,13486,0,0
+243,14 Keyasthwara,Keyasthwara,215,Verj Bhushan,Rameshver Dayal,"Keyasthwara, Kairana",7500194740,Residential Self ,73,73,73,0,347,0
+244,14 Keyasthwara,Piplotala,216,Rifakat,Riyasat,"Piplotala, Kairana",9045262742,Commercial Self ,150,917,150,917,1290,1290
+245,14 Keyasthwara,Piplotala,217,Raj Rani Valiya,W/O Vijay Kumar,"Piplotala, Kairana",9412632337,Residential Self ,48,370,48,370,0,0
+246,14 Keyasthwara,Piplotala,218,Mohd. Islam,Mohd. Akbar,"Piplotala, Kairana",9319320364,Commercial Self ,400,0,400,2442,0,0
+247,14 Keyasthwara,Piplotala,219,Mohd. Islam,Mohd. Akbar,"Piplotala, Kairana",9319320364,Commercial Self ,400,0,400,5186,0,0
+248,14 Keyasthwara,Piplotala,220,Mohd. Islam,Mohd. Akbar,"Piplotala, Kairana",9319320364,Commercial Self ,400,0,400,3964,0,0
+249,14 Keyasthwara,Piplotala,221,Mohd. Islam,Mohd. Akbar,"Piplotala, Kairana",9319320364,Residential Self ,0,0,0,0,0,0
+250,14 Keyasthwara,Piplotala,221/1,Ved Parkash,Asha Ram,"Piplotala, Kairana",9760437647,Commercial Self ,363,0,363,0,0,0
+251,14 Keyasthwara,Piplotala,222,Ved Parkash,Asha Ram,"Piplotala, Kairana",9760437647,Residential Self ,0,0,0,0,0,0
+252,14 Keyasthwara,Piplotala,223,Ved Parkash,Asha Ram,"Piplotala, Kairana",9760437647,Commercial Self ,182,0,182,0,0,0
+253,14 Keyasthwara,Piplotala,224,"Mashkur Ahamad, Maksood, Irfan, Wakeel",Shakur Ahamad,"Piplotala, Kairana",9760242270,Residential Self ,150,1775,150,1775,2040,2040
+254,14 Keyasthwara,Piplotala,225,Khurshida,W/O Irshad Khan,"Piplotala, Kairana",7500145619,Residential Self ,44,92,44,92,752,752
+255,14 Keyasthwara,Piplotala,"226,
+227",Yasin,Basheer,"Piplotala, Kairana",7017730077,Residential Self ,0,0,0,0,0,0
+256,14 Keyasthwara,Piplotala,227/1,Ayyub,Badrudeen,"Piplotala, Kairana",9758122217,Residential Self ,121,254,121,254,0,0
+257,14 Keyasthwara,Piplotala,"228,
+228/1",Asgar,Ismail,"Piplotala, Kairana",7017997072,Residential Self ,61,0,61,0,6540,0
+258,14 Keyasthwara,Piplotala,229,Ayyub,Badrudeen,"Piplotala, Kairana",9758122217,Residential Self ,48,101,48,101,744,744
+259,14 Keyasthwara,Piplotala,229/A,Sanjida,W/O Basirudeen,"Piplotala, Kairana",8899521999,Residential Self ,61,2049,61,2049,0,0
+260,14 Keyasthwara,Piplotala,229/1,"Nisho W/O Arshad,
+Arshad",Shafi,"Piplotala, Kairana",6395155088,Residential Self ,44,714,44,699,0,0
+261,14 Keyasthwara,Piplotala,230,"Asif Ali, Mehboob Ali",Mehmood,"Piplotala, Kairana",8272058180,Residential Self ,97,1024,97,1731,4772,4772
+262,14 Keyasthwara,Piplotala,231,"Akhtar, Yusuf",Hakimudeen,"Piplotala, Kairana",9520659049,Residential Self ,73,153,73,153,2040,2040
+263,14 Keyasthwara,Piplotala,232,Dilshad ,Yusuf,"Piplotala, Kairana",7217260056,Residential Self ,73,445,73,445,1675,1675
+264,14 Keyasthwara,Piplotala,233,Akbari,W/O Irshad Ali,"Piplotala, Kairana",-,Residential Self ,48,0,48,565,2556,2556
+265,14 Keyasthwara,Piplotala,234,Ilyash,Yamin,"Piplotala, Kairana",7535867847,Residential Self ,182,182,182,182,238,238
+266,14 Keyasthwara,Piplotala,235,Sokat Ali,Badrudeen,"Piplotala, Kairana",9758122217,Residential Self ,72,238,72,238,1024,1024
+267,14 Keyasthwara,Piplotala,236,Akhtar Ali,Badrudeen,"Piplotala, Kairana",9758122217,Residential Self ,61,202,61,202,1735,1735
+268,14 Keyasthwara,Piplotala,237,"Suresh Chand S/O Ramswaroop,
+C/O Noshad",Yamin,"Piplotala, Kairana",8650545021,Residential Self ,44,519,44,520,0,0
+269,14 Keyasthwara,Piplotala,238,Liyakat Ali,Badrudeen,"Piplotala, Kairana",9758122217, -,55,183,55,183,0,0
+270,14 Keyasthwara,Piplotala,239,Sokat Ali,Badrudeen,"Piplotala, Kairana",8755116550,Open Plot,48,162,48,159,0,0
+271,14 Keyasthwara,Piplotala,240,Ayyub Ali,Badrudeen,"Piplotala, Kairana",9758122217,Residential Self ,48,101,48,101,0,0
+272,14 Keyasthwara,Piplotala,241,Intazar,Rafeek,"Piplotala, Kairana",8755116550,Residential Self ,97,592,97,592,2040,2040
+273,14 Keyasthwara,Piplotala,243,Intazar,Lateef,"Piplotala, Kairana",9528460009,Residential Self ,55,127,55,337,1765,1765
+274,14 Keyasthwara,Piplotala,244,Sataya Narayan Ka Mandir,-,"Piplotala, Kairana",-,Temple ,0,0,0,0,0,0
+275,14 Keyasthwara,Piplotala,"242,
+245",Akhtari,W/O Niyaz Ahamad,"Piplotala, Kairana",9368414324,Residential Self ,44,2365,44,1033,4160,4160
+276,14 Keyasthwara,Piplotala,246,Ramesh Chand,Ram Swaroop,"Piplotala, Kairana",8650545021,Residential Self ,152,319,152,319,608,608
+277,14 Keyasthwara,Piplotala,247,Mukesh Kumar  ,Surajman,"Piplotala, Kairana",9634078550,Residential Self ,61,471,61,470,0,0
+278,14 Keyasthwara,Piplotala,248,Kelasho,W/O Surajman,"Piplotala, Kairana",9634078550,Residential Self ,44,342,44,341,2340,2340
+279,14 Keyasthwara,Piplotala,249,Kelasho,W/O Surajman,"Piplotala, Kairana",9634078550,Residential Self ,61,470,61,470,0,0
+280,14 Keyasthwara,Piplotala,250,Ramesh Chand,Ram Swaroop,"Piplotala, Kairana",8650545021,Residential Self ,48,101,48,101,0,0
+281,14 Keyasthwara,Piplotala,251,Naveen Kumar,Madan Sen,"Piplotala, Kairana",8865909166,Residential Self ,55,116,55,116,730,730
+282,14 Keyasthwara,Piplotala,252,Sudha Rani,W/O Satish Kumar,"Piplotala, Kairana",9410062776,Residential Self ,97,97,97,97,323,323
+283,14 Keyasthwara,Piplotala,253,Magan Murti,W/O Sadhu Ram,"Piplotala, Kairana",9045839784,Commercial Self ,110,3253,110,5610,0,0
+284,14 Keyasthwara,Piplotala,254,"Pardeep Mittal, Avdesh Mittal, Sadhu Ram, Amit Kumar Mittal, S/O Arvind Kumar Mittal,
+Nirmala Mittal W/O Arvind Kumar Mittal",Arvind Kumar Mittal,"Piplotala, Kairana",9045839784,Residential Self ,206,956,206,956,2340,2340
+285,14 Keyasthwara,Piplotala,254/1,Pradeep Kumar Mittal,Shadhuram,"Piplotala, Kairana", -, -,224,1461,224,894,0,0
+286,14 Keyasthwara,Piplotala,255,Rajnish Mittal,Sadhu Ram,"Piplotala, Kairana",7535000015,Residential Self ,145,481,145,481,0,0
+287,14 Keyasthwara,Piplotala,256,Sudha Mittal,W/O Ram Avtar,"Piplotala, Kairana",9568921396,Residential Self ,182,0,182,0,262,0
+288,14 Keyasthwara,Piplotala,257,"Radhe Shayam, Arun Kumar S/O Satya Parkash,
+Madhu Mittal W/O Chunni Lal,Ankur S/O Chunni Lal",Satya Parkash,"Piplotala, Kairana",9319395267,Residential Self ,61,61,61,61,0,0
+289,14 Keyasthwara,Piplotala,258,Kashmiri,W/O Shri Pal,"Piplotala, Kairana",9897404586,Residential Self ,55,426,55,426,0,0
+290,14 Keyasthwara,Piplotala,258/1,Radha Rani,Kirshan Pal,"Piplotala, Kairana",9368335264,Residential Self ,66,0,66,0,708,0
+291,14 Keyasthwara,Piplotala,259,Sadhu Ram,Asha Ram,"Piplotala, Kairana",9045839784,Residential Self ,79,483,79,483,0,0
+292,14 Keyasthwara,Piplotala,260,Sadhu Ram,Asha Ram,"Piplotala, Kairana",9045839784,Open Plot,0,0,0,0,0,0
+293,14 Keyasthwara,Piplotala,261,Ramesh Rani,W/O Nakli Singh,"Piplotala, Kairana",9012188138,Residential Self ,48,48,48,48,372,372
+294,14 Keyasthwara,Piplotala,262,Tej Pal,Shishu,"Piplotala, Kairana",9837314022,Residential Self ,73,0,73,0,2340,0
+295,14 Keyasthwara,Piplotala,263,"Om Pal ,Parvin Kumar",Amar Singh,"Piplotala, Kairana",8449910178,Residential Self ,48,101,48,565,2099,2099
+296,14 Keyasthwara,Piplotala,264,"Mahendra, Surendra, Rajendra",Lal Chand,"Piplotala, Kairana",7017081670,Residential Self ,182,182,182,182,3240,3240
+297,14 Keyasthwara,Piplotala,265,Shiv Mandir Maneger Vijay Kumar,-,"Piplotala, Kairana",-,Temple ,0,0,0,0,0,0
+298,14 Keyasthwara,Piplotala,266,Dhan Shayam,Kesho Ram,"Piplotala, Kairana",7017730292,Residential Self ,57,0,57,0,363,0
+299,14 Keyasthwara,Piplotala,267,"Vikas Kumar, Vivek",Ravindra Kumar,"Piplotala, Kairana",8439181066,Residential Self ,55,650,55,650,2940,2940
+300,14 Keyasthwara,Piplotala,268,Sashi Bala,W/O Ram Avtar,"Piplotala, Kairana",8273069999,Residential Self ,66,0,66,66,354,354
+301,14 Keyasthwara,Piplotala,269,Paltu Ram,Ram Kishan,"Piplotala, Kairana",9634529568,Residential Self ,48,0,48,0,420,0
+302,14 Keyasthwara,Piplotala,270,"Sashi Bala ,Rajesh ","Ram Avtar ,Inder Sen","Piplotala, Kairana",8439897003,Residential Self ,50,400,50,507,1940,1940
+303,14 Keyasthwara,Piplotala,271,"Santosh Rani W/O Jagdish Parshad,
+Rajesh Kumar Rakesh Kumar, Anuj Kumar",Jagdish Parshad,"Piplotala, Kairana",9012843308,Residential Self ,45,0,45,0,0,0
+304,14 Keyasthwara,Piplotala,272,Kelash Chand,Bishamber Dass,"Piplotala, Kairana",9412843308,Residential Self ,85,0,85,0,335,335
+305,14 Keyasthwara,Piplotala,273,Satya Narayan,Anand Parshad,"Piplotala, Kairana",7217000958,Residential Self ,44,0,44,0,376,0
+306,14 Keyasthwara,Piplotala,274,Satya Narayan Mandir,-,"Piplotala, Kairana",-,Temple ,0,0,0,0,2940,2940
+307,14 Keyasthwara,Piplotala,275,"Rajendra Singh,
+Pusph Lata W/O Rajendra Singh",Badrinath,"Piplotala, Kairana",8445553035,Residential Self ,79,166,79,483,1324,1324
+308,14 Keyasthwara,Piplotala,276,Rakesh Kumar ,Jagdish Parshad,"Piplotala, Kairana",9012807479,Residential Self ,44,0,44,0,0,0
+309,14 Keyasthwara,Piplotala,276/1,Koshalya,W/O Raj Kumar,"Piplotala, Kairana",8534010970,Residential Self ,48,305,48,0,372,0
+310,14 Keyasthwara,Piplotala,277,Sachin Kumar,Rakesh Kumar,"Piplotala, Kairana",9410858075,Residential Self ,206,207,206,207,0,0
+311,14 Keyasthwara,Piplotala,278,Sachin Kumar,Rakesh Kumar,"Piplotala, Kairana",9410858075,Tower,0,0,0,0,840,0
+312,14 Keyasthwara,Piplotala,279,Sachin Kumar,Rakesh Kumar,"Piplotala, Kairana",9410858075,Residential Self ,0,0,0,0,0,0
+313,14 Keyasthwara,Piplotala,280,Rekha Sharma,Sunil Dutt,"Piplotala, Kairana",9639227800,Residential Self ,61,0,61,0,1057,0
+314,14 Keyasthwara,Piplotala,281,Suresh Chand  ,Ram Swaroop,"Piplotala, Kairana",9971075354,Residential Self ,61,0,61,128,0,0
+315,14 Keyasthwara,Piplotala,282,Tej Pal,Ram Kishan,"Piplotala, Kairana",9368677712,Residential Self ,73,456,73,445,0,0
+316,14 Keyasthwara,Piplotala,283,Naresh Chand,Shayam Lal,"Piplotala, Kairana",9368677712,Residential Self ,44,0,44,0,420,0
+317,14 Keyasthwara,Piplotala,283/1,Raj Rani Valiya,W/O Vijay Kumar,"Piplotala, Kairana",9412632337,Residential Self ,48,370,48,370,0,0
+318,14 Keyasthwara,Piplotala,284,Vidhya Devi,W/O Kenhya Lal,"Piplotala, Kairana",9760574491,Residential Self ,88,538,88,538,2040,2040
+319,14 Keyasthwara,Piplotala,"285,
+286",Ved Parkah,Asha Ram,"Piplotala, Kairana",8899091055,Residential Self ,303,0,303,0,420,0
+320,14 Keyasthwara,Piplotala,287,Shayamo Devi,W/O Ved Parkash,"Piplotala, Kairana",8899091055,Residential Self ,97,0,97,0,0,0
+321,14 Keyasthwara,Piplotala,288,Vijay Kumar  ,Asha Ram,"Piplotala, Kairana",9412632337,Open Plot,0,0,0,0,0,0
+322,14 Keyasthwara,Piplotala,289,Ved Parkash,Asha Ram,"Piplotala, Kairana",8899091055,Residential Self ,182,0,182,0,235,0
+323,14 Keyasthwara,Piplotala,290,Ved Parkash,Asha Ram,"Piplotala, Kairana",8899091055,Residential Self ,145,0,145,0,385,0
+324,14 Keyasthwara,Piplotala,291,Vijay Kumar  ,Asha Ram,"Piplotala, Kairana",9412632337,Residential Self ,45,45,45,45,375,375
+325,14 Keyasthwara,Piplotala,292,Hameed,Majeed,"Piplotala, Kairana",7500761000,Residential Self ,61,61,61,61,359,359
+326,14 Keyasthwara,Piplotala,293,Jivani Devi,W/O Roshan Lal,"Piplotala, Kairana",7302026546,Residential Self ,290,1771,290,1771,0,0
+327,14 Keyasthwara,Piplotala,294,"Amar Nath,
+Rukhmani Devi W/O Amar Nath",Om Parkash,"Piplotala, Kairana",9027291030,Residential Self ,66,0,66,0,354,0
+328,14 Keyasthwara,Piplotala,295,Devi Dayal,Ram Swaroop,"Piplotala, Kairana",9897469094,Residential Self ,55,183,55,183,0,0
+329,14 Keyasthwara,Piplotala,296,"Surendra Kumar,Subhash Chand,Sanjay ,Ajay",Prem Chand,"Piplotala, Kairana",8368030438,Open Plot,91,91,91,91,2886,2886
+330,14 Keyasthwara,Piplotala,297,Rashid,Rafeek,"Piplotala, Kairana",8941090786,Open Plot,66,139,66,139,3540,3540
+331,14 Keyasthwara,Piplotala,297/1,Mamta,W/O Vikas Kumar,"Piplotala, Kairana",9675991881,Residential Self ,264,1224,264,1224,0,0
+332,14 Keyasthwara,Piplotala,297/2,"Ved Parkash, Prem Chand",Jagdish  ,"Piplotala, Kairana",9557163537,Residential Self ,48,0,48,0,372,222
+333,14 Keyasthwara,Piplotala,297/3,"Ved Parkash, Prem Chand",Jagdish,"Piplotala, Kairana",9557163537, -,0,0,0,0,0,0
+334,14 Keyasthwara,Piplotala,297/4,Harpal Singh,Deen Dayal,"Piplotala, Kairana",9027274008,Residential Self ,48,802,48,655,3060,3060
+335,14 Keyasthwara,Piplotala,298,Sachin Kumar,Om Parkash,"Piplotala, Kairana",9058646546,Residential Self ,44,0,44,0,0,0
+336,14 Keyasthwara,Piplotala,299,Sachin Kumar,Om Parkash,"Piplotala, Kairana",9058646546,Commercial Self ,44,0,44,0,752,752
+337,14 Keyasthwara,Piplotala,300,Sachin Kumar,Om Parkash,"Piplotala, Kairana",9058646546,Residential Self ,44,0,44,0,0,0
+338,14 Keyasthwara,Piplotala,301,Rukshana,W/O Mohd. Islam,"Piplotala, Kairana",9675990992,Residential Self ,48,159,48,159,0,0
+339,14 Keyasthwara,Piplotala,302,"Rajendra Singh ,Chandra Kanta","Chaman Lal,W/O Yogesh Singh","Piplotala, Kairana",8218647626,Residential Self ,97,0,97,97,347,347
+340,14 Keyasthwara,Piplotala,303,Rajendra Singh,Chaman Singh,"Piplotala, Kairana",6395759396,Residential Self ,48,47,48,47,372,372
+341,14 Keyasthwara,Piplotala,"304,
+305",Mehboob,Wahid,"Piplotala, Kairana",9627340212,Residential Self ,48,293,48,223,2040,2040
+342,14 Keyasthwara,Piplotala,306,"Vikas Kumar, Vivek",Ravinder Kumar,"Piplotala, Kairana",8445553035,Commercial Self ,55,256,55,297,0,0
+343,14 Keyasthwara,Piplotala,307,"Vikas Kumar, Vivek",Ravinder Kumar,"Piplotala, Kairana",8445553035,Commercial Self ,55,275,55,256,0,0
+344,14 Keyasthwara,Piplotala,307/1,Sampatti Satya Narayana Mandir,-,"Piplotala, Kairana",9045839784,Residential Self ,55,1289,55,1289,3060,3060
+345,14 Keyasthwara,Piplotala,307/2,Sampatti Satya Narayana Mandir,-,"Piplotala, Kairana",9045839784,Residential Self ,0,0,0,0,0,0
+346,14 Keyasthwara,Piplotala,308,Sampatti Satya Narayana Mandir,-,"Piplotala, Kairana",9045839784,Commercial Self ,110,364,110,364,0,0
+347,14 Keyasthwara,Piplotala,309,Sampatti Satya Narayana Mandir,-,"Piplotala, Kairana",9045839784,Commercial Self ,66,510,66,510,0,0
+348,14 Keyasthwara,Piplotala,310,Sampatti Satya Narayana Mandir,-,"Piplotala, Kairana",9045839784,Commercial Self ,66,510,66,510,0,0
+349,14 Keyasthwara,Piplotala,310/1,Sampatti Satya Narayana Mandir,-,"Piplotala, Kairana",9045839784,Commercial Self ,363,1201,363,1201,0,0
+350,14 Keyasthwara,Piplotala,310/2,Shenaz Begam,W/O Mohd. Ikram,"Piplotala, Kairana",6395732246,Residential Self ,55,756,55,756,2500,2500
+351,14 Keyasthwara,Piplotala,311,Bala Devi,W/O Amir Chand,"Piplotala, Kairana",9411930312,Residential Self ,242,10072,242,10072,1924,1924
+352,14 Keyasthwara,Piplotala,311/1,Bala Devi,W/O Amir Chand,"Piplotala, Kairana",9411930312,Commercial Self ,264,6735,264,6185,0,0
+353,14 Keyasthwara,Piplotala,312,Rihana,W/O Asif,"Piplotala, Kairana",8923923937,Residential Self ,73,0,73,0,347,0
+354,14 Keyasthwara,Piplotala,312/1,Rihana,W/O Asif,"Piplotala, Kairana",8923923937,Commercial Self ,48,0,48,0,0,0
+355,14 Keyasthwara,Piplotala,312/2,Rihana,W/O Asif,"Piplotala, Kairana",8923923937,Commercial Self ,73,0,73,0,0,0
+356,14 Keyasthwara,Piplotala,313,Harpal Singh,Deen Dayal,"Piplotala, Kairana",9927274008,Commercial Self ,73,338,73,338,0,0
+357,14 Keyasthwara,Piplotala,314,Mamta,W/O Vikas Kumar,"Piplotala, Kairana",9675991881,Commercial Self ,73,338,73,338,0,0
+358,14 Keyasthwara,Piplotala,315,Mamta,W/O Vikas Kumar,"Piplotala, Kairana",9675991881,Commercial Self ,73,338,73,338,0,0
+359,14 Keyasthwara,Piplotala,316,Rashid,Rafeek,"Piplotala, Kairana",9548141514,Commercial Self ,396,832,396,832,0,0
+360,14 Keyasthwara,Piplotala,317,"Surender Kumar S/O Prem Chand,
+Sanjay, Ajay",Surender Kumar,"Piplotala, Kairana",8368030438,Open Plot,0,0,0,0,0,0
+361,14 Keyasthwara,Piplotala,317/1,"Surender Kumar S/O Prem Chand,
+Sanjay, Ajay",Surender Kumar,"Piplotala, Kairana",8368030438,Open Plot,61,2049,61,2049,0,0
+362,14 Keyasthwara,Piplotala,318,Vilkish,W/O Haneef,"Piplotala, Kairana",9917074528,Commercial Self ,145,0,145,0,0,0
+363,14 Keyasthwara,Piplotala,319,"Akhlak, Makbool",Jaan Mohammad,"Piplotala, Kairana",9927862381,Commercial Self ,145,1993,145,1993,0,0
+364,14 Keyasthwara,Piplotala,320,"Akbar , Afsar, Bhura",Akhtar Ali,"Piplotala, Kairana",9368112246,Commercial Self ,436,0,436,0,0,0
+365,14 Keyasthwara,Piplotala,321,Jakeer Ali,Akhatar,"Piplotala, Kairana",8755130786,Commercial Self ,121,561,121,561,0,0
+366,14 Keyasthwara,Piplotala,322,Mobina ,W/O Nazir,"Piplotala, Kairana",9888413804,Commercial Self ,605,0,605,0,0,0
+367,14 Keyasthwara,Piplotala,323,"Sarvesh Kumar,
+Anil",Jagdish Parshad,"Piplotala, Kairana",8439993700,Commercial Self ,97,522,97,592,0,0
+368,14 Keyasthwara,Piplotala,323/1,Jivni Devi,W/O Jagroshan Lal,"Piplotala, Kairana",7302026546,Commercial Self ,121,738,121,738,0,0
+369,14 Keyasthwara,Piplotala,324,Vedvati,W/O Girdhari Lal,"Piplotala, Kairana",9719123972,Residential Self ,88,155,88,155,888,444
+370,14 Keyasthwara,Piplotala,324/1,Vedvati,W/O Girdhari Lal,"Piplotala, Kairana",9149191950,Commercial Self ,66,155,66,155,0,0
+371,14 Keyasthwara,Piplotala,325,"Shayamo Devi W/O Moti Ram,
+Anand ",Dal Chand,"Piplotala, Kairana",9557039699,Commercial Self ,290,0,290,0,130,0
+372,14 Keyasthwara,Piplotala,325/1,"Shayamo Devi W/O Moti Ram,
+Anand",Dal Chand,"Piplotala, Kairana",9557039699,Commercial Self ,290,0,290,0,0,0
+373,14 Keyasthwara,Piplotala,325/2,"Shayamo Devi W/O Moti Ram,
+Anand",Dal Chand,"Piplotala, Kairana",9557039699,Commercial Self ,220,0,220,0,0,0
+374,14 Keyasthwara,Piplotala,325/3,"Shayamo Devi W/O Moti Ram,
+Anand",Dal Chand,"Piplotala, Kairana",9557039699,Commercial Self ,220,0,220,0,0,0
+375,14 Keyasthwara,Piplotala,325/4,"Shayamo Devi W/O Moti Ram,
+Anand",Dal Chand,"Piplotala, Kairana",9557039699,Commercial Self ,198,0,198,0,0,0
+376,14 Keyasthwara,Piplotala,325/5,"Shayamo Devi W/O Moti Ram,
+Anand",Dal Chand,"Piplotala, Kairana",9557039699,Commercial Self ,0,0,0,0,0,0
+377,14 Keyasthwara,Piplotala,325/6,"Shayamo Devi W/O Moti Ram,
+Anand",Dal Chand,"Piplotala, Kairana",9557039699,Commercial Self ,198,0,198,0,0,0
+378,14 Keyasthwara,Piplotala,325/7,"Shayamo Devi W/O Moti Ram,
+Anand",Dal Chand,"Piplotala, Kairana",9557039699,Commercial Self ,198,0,198,0,0,0
+379,14 Keyasthwara,Piplotala,325/8,"Shayamo Devi W/O Moti Ram,
+Anand",Dal Chand,"Piplotala, Kairana",9557039699,Commercial Self ,198,0,198,0,0,0
+380,14 Keyasthwara,Piplotala,325/9,"Shayamo Devi W/O Moti Ram,
+Anand",Dal Chand,"Piplotala, Kairana",9557039699,Commercial Self ,121,0,121,0,0,0
+381,14 Keyasthwara,Piplotala,325/10,"Shayamo Devi W/O Moti Ram,
+Anand",Dal Chand,"Piplotala, Kairana",9557039699,Commercial Self ,290,0,290,0,0,0
+382,14 Keyasthwara,Piplotala,325/11,"Shayamo Devi W/O Moti Ram,
+Anand",Dal Chand,"Piplotala, Kairana",9557039699,Commercial Self ,290,0,290,290,0,0
+383,14 Keyasthwara,Piplotala,325/12,"Shayamo Devi W/O Moti Ram,
+Anand",Dal Chand,"Piplotala, Kairana",9557039699,Commercial Self ,290,0,290,0,0,0
+384,14 Keyasthwara,Piplotala,"325/13,
+325/14","Shayamo Devi W/O Moti Ram,
+Anand",Dal Chand,"Piplotala, Kairana",9557039699,Commercial Self ,462,0,462,0,0,0
+385,14 Keyasthwara,Piplotala,325/2A,"Shayamo Devi W/O Moti Ram,
+Anand",Dal Chand,"Piplotala, Kairana",9557039699,Commercial Self ,198,0,198,0,0,0
+386,14 Keyasthwara,Piplotala,325/2B,"Shayamo Devi W/O Moti Ram,
+Anand",Dal Chand,"Piplotala, Kairana",9557039699,Commercial Self ,0,0,0,0,0,0
+387,14 Keyasthwara,Piplotala,326,Asgar,Abdul,"Piplotala, Kairana",9897391585,Residential Self ,55,55,55,55,420,420
+388,14 Keyasthwara,Piplotala,"327,
+328",Ahamad Ali,Asgar,"Piplotala, Kairana",9897391585,Commercial Self ,182,182,182,246,0,0
+389,14 Keyasthwara,Piplotala,329,"Hameed, Rashid, Haneef",Majeed,"Piplotala, Kairana",7217694227,Commercial Self ,45,213,45,214,1640,1640
+390,14 Keyasthwara,Piplotala,341,Tohfik Hasan,Mohd. Akhtar,"Piplotala, Kairana",7037000092,Commercial Self ,145,903,145,806,0,0
+391,14 Keyasthwara,Piplotala,341/1,Mehboob Ilahi,Mohd. Akhtar,"Piplotala, Kairana",7895762308,Commercial Self ,145,0,145,145,420,3196
+392,14 Keyasthwara,Piplotala,342,"Muniza Khatun, Seyyada","W/O Shamsad ,Yamin","Piplotala, Kairana",7409063445,Commercial Self ,73,73,73,73,0,0
+393,14 Keyasthwara,Piplotala,343,"Shamshad, Israr",Basheer,"Piplotala, Kairana",8393001414,Commercial Self ,145,145,145,145,444,444
+394,14 Keyasthwara,Piplotala,344,"Shamshad, Israr",Basheer,"Piplotala, Kairana",8393001414,Commercial Self ,73,73,73,73,0,0
+395,14 Keyasthwara,Piplotala,345,"Shamshad, Israr",Basheer,"Piplotala, Kairana",8393001414,Commercial Self ,363,363,363,363,0,0
+396,14 Keyasthwara,Piplotala,346,"Shamshad, Israr",Basheer,"Piplotala, Kairana",8393001414,Commercial Self ,0,0,0,0,0,0
+397,14 Keyasthwara,Piplotala,347,"Shamshad, Israr",Basheer,"Piplotala, Kairana",8393001414,Commercial Self ,0,0,0,0,0,0
+398,14 Keyasthwara,Piplotala,348,"Shamshad, Israr",Basheer,"Piplotala, Kairana",8393001414,Commercial Self ,85,85,85,85,0,0
+399,14 Keyasthwara,Piplotala,"349,
+350","Shamshad, Israr",Basheer,"Piplotala, Kairana",8393001414,Commercial Self ,290,290,290,290,0,0
+400,14 Keyasthwara,Piplotala,351,"Shamshad, Israr",Basheer,"Piplotala, Kairana",8393001414,Commercial Self ,73,73,73,73,0,0
+401,14 Keyasthwara,Piplotala,"352,
+353","Shamshad, Israr",Basheer,"Piplotala, Kairana",8393001414,Commercial Self ,290,290,290,290,0,0
+402,14 Keyasthwara,Piplotala,354,"Shamshad, Israr",Basheer,"Piplotala, Kairana",8393001414,Commercial Self ,0,0,0,0,0,0
+403,14 Keyasthwara,Piplotala,355,"Shamshad, Israr",Basheer,"Piplotala, Kairana",8393001414,Commercial Self ,0,0,0,0,0,0
+404,14 Keyasthwara,Piplotala,356,"Shamshad, Israr",Basheer,"Piplotala, Kairana",8393001414,Commercial Self ,0,0,0,0,0,0
+405,14 Keyasthwara,Piplotala,357,"Shamshad, Israr",Basheer,"Piplotala, Kairana",8393001414,Commercial Self ,0,0,0,0,0,0
+406,14 Keyasthwara,Piplotala,358,"Shamshad, Israr",Basheer,"Piplotala, Kairana",8393001414,Commercial Self ,0,0,0,0,0,0
+407,14 Keyasthwara,Piplotala,359,"Shamshad, Israr",Basheer,"Piplotala, Kairana",8393001414,Commercial Self ,0,0,0,0,0,0
+408,14 Keyasthwara,Piplotala,360,"Shamshad, Israr",Basheer,"Piplotala, Kairana",8393001414,Commercial Self ,0,0,0,0,0,0
+409,14 Keyasthwara,Piplotala,361,"Shamshad, Israr",Basheer,"Piplotala, Kairana",8393001414,Commercial Self ,0,0,0,0,0,0
+410,14 Keyasthwara,Piplotala,362,Salma,Saleem,"Piplotala, Kairana",-,Commercial Self ,290,1346,290,1346,0,0
+411,14 Keyasthwara,Piplotala,363,"Fardeen, Irshad, ",Fateh Mohammad,"Piplotala, Kairana",9045706181,Commercial Self ,198,3765,198,3612,0,0
+412,14 Keyasthwara,Piplotala,364,"Fardeen, Irshad, ",Fateh Mohammad,"Piplotala, Kairana",9045706181,Commercial Self ,198,3765,198,3612,0,0
+413,14 Keyasthwara,Piplotala,365,Julfikar Ali,Shareef Ahamad,"Piplotala, Kairana",9997134742,Commercial Self ,200,928,200,928,0,0
+414,14 Keyasthwara,Piplotala,365/1,Shamshad Ali,Shahdeen,"Piplotala, Kairana", -, -,819,998,819,998,0,0
+415,14 Keyasthwara,Piplotala,366,Jamil Ahamad,Nek Mohammad,"Piplotala, Kairana",9837132559,Residential Self ,45,0,45,0,0,0
+416,14 Keyasthwara,Piplotala,367,Jahir Ahamad,Jamir Ahamad,"Piplotala, Kairana",9837132559,Residential Self ,61,0,61,0,1735,0
+417,14 Keyasthwara,Piplotala,368,Suresh Chand,Madan Lal,"Piplotala, Kairana",9045760450,Residential Self ,48,48,48,0,0,0
+418,14 Keyasthwara,Piplotala,369,Prem Chand,Raja Ram,"Piplotala, Kairana",9045760450,Residential Self ,121,121,121,0,347,48
+419,14 Keyasthwara,Piplotala,370,Anil Kumar,Shayam Lal,"Piplotala, Kairana",9927125603,Residential Self ,73,0,73,0,444,0
+420,14 Keyasthwara,Piplotala,371,Daya Ram,Raja Ram,"Piplotala, Kairana",9927125603,Residential Self ,0,0,0,0,0,0
+421,14 Keyasthwara,Piplotala,372,"Mohd. Farman, Mohd. Kamran,
+Mohd. Faisal",Abdul Abrar,"Piplotala, Kairana",9045614446,Commercial Self ,1162,0,1162,0,1640,1640
+422,14 Keyasthwara,Piplotala,373,"Mohd. Farman, Mohd. Kamran,
+Mohd. Faisal",Abdul Abrar,"Piplotala, Kairana",9045614446,Commercial Self ,145,0,145,0,0,0
+423,14 Keyasthwara,Piplotala,374,"Mohd. Farman, Mohd. Kamran,
+Mohd. Faisal",Abdul Abrar,"Piplotala, Kairana",9045614446,Commercial Self ,73,0,73,0,0,0
+424,14 Keyasthwara,Piplotala,375,"Mohd. Farman, Mohd. Kamran,
+Mohd. Faisal",Abdul Abrar,"Piplotala, Kairana",9045614446,Commercial Self ,799,0,799,0,0,0
+425,14 Keyasthwara,Piplotala,375/1,"Mohd. Farman, Mohd. Kamran,
+Mohd. Faisal",Abdul Abrar,"Piplotala, Kairana",9045614446,Commercial Self ,484,0,484,0,0,0
+426,14 Keyasthwara,Piplotala,375/1A,Imran,-,"Piplotala, Kairana",8383087767,Commercial Self ,436,22351,436,22351,0,0
+427,14 Keyasthwara,Piplotala,375/2,"Kirshan Gopal, Atul,
+Avnish",Tilok Chand,"Piplotala, Kairana",7417979800,Commercial Self ,110,0,110,1510,0,0
+428,14 Keyasthwara,Piplotala,376,Puspa Devi,W/O Prem Chand,"Piplotala, Kairana",9997891588,Commercial Self ,0,0,0,0,420,0
+429,14 Keyasthwara,Piplotala,377,Imran,Yameen,"Piplotala, Kairana",9311141419,Commercial Self ,36,0,36,0,1640,20
+430,14 Keyasthwara,Piplotala,378,"Ramnath, Ravinder",Laxman,"Piplotala, Kairana",9311141419,Commercial Self ,44,268,44,268,275,1440
+431,14 Keyasthwara,Piplotala,375/1B,Imran,Yameen,"Piplotala, Kairana",9311141419,Commercial Self ,110,0,110,0,0,0
+432,14 Keyasthwara,Piplotala,375/C,Imran,Yameen,"Piplotala, Kairana",9311141419,Commercial Self ,110,0,110,0,0,0
+433,14 Keyasthwara,Piplotala,375/1D,Imran,Yameen,"Piplotala, Kairana",9311141419,Residential Self ,110,0,110,0,0,0
+434,14 Keyasthwara,Piplotala,375/1E,Imran,Yameen,"Piplotala, Kairana",9311141419,Residential Self ,44,0,44,0,0,0
+435,14 Keyasthwara,Piplotala,375/1F,Imran,Yameen,"Piplotala, Kairana",9311141419,Residential Self ,44,0,44,0,0,0
+436,14 Keyasthwara,Piplotala,379,Satish Kumar S/Osukhbeer Singh,Krishana Devi W/O Subhash Chand,"Piplotala, Kairana",7417979800,Commercial Self ,145,1120,145,1118,1470,1470
+437,14 Keyasthwara,Piplotala,"380,
+381","Krishana Gopal, Atul,Avnish",Trilok Chand,"Piplotala, Kairana",7417979800,Residential Self ,48,48,48,48,372,372
+438,14 Keyasthwara,Piplotala,382,Atul Kumar,Trilok Chand,"Piplotala, Kairana",7417979800,Residential Self ,145,674,145,674,0,0
+439,14 Keyasthwara,Piplotala,383,"Vinod, Subodh, Ramesh,Dinesh",Trilok Chand,"Piplotala, Kairana",8445978357,Residential Self ,110,231,110,231,620,620
+440,14 Keyasthwara,Piplotala,384,Trilok,Matu Ram,"Piplotala, Kairana",9897240723,Residential Self ,73,0,73,0,0,0
+441,14 Keyasthwara,Piplotala,385,"Sant Kumar, Ajay",Barham Parkash,"Piplotala, Kairana",8445105083,Residential Self ,44,44,44,44,1464,376
+442,14 Keyasthwara,Piplotala,386,Prem Chand,Ram Swaroop,"Piplotala, Kairana",9917891588,Residential Self ,79,0,79,79,341,0
+443,14 Keyasthwara,Piplotala,387,Prem Chand,Ram Swaroop,"Piplotala, Kairana",9917891588,Commercial Self ,363,0,363,363,0,0
+444,14 Keyasthwara,Piplotala,388,Prem Chand,Ram Swaroop,"Piplotala, Kairana",9917891588,Commercial Self ,303,0,303,0,0,0
+445,14 Keyasthwara,Piplotala,389,Prem Chand,Ram Swaroop,"Piplotala, Kairana",9917891588,Commercial Self ,0,0,0,0,0,0
+446,14 Keyasthwara,Piplotala,390,Prem Chand,Ram Swaroop,"Piplotala, Kairana",9917891588,Commercial Self ,303,0,303,303,0,0
+447,14 Keyasthwara,Piplotala,391,Prem Chand,Ram Swaroop,"Piplotala, Kairana",9917891588,Commercial Self ,303,0,303,303,0,0
+448,14 Keyasthwara,Piplotala,392,"Mehmuda Begam ,Julfikar  ","Ataulhaq ,Shareef Ahamad","Piplotala, Kairana",9411031000,Commercial Self ,44,802,44,802,0,0
+449,14 Keyasthwara,Piplotala,393,Khurshid,Majeed,"Piplotala, Kairana",-,Commercial Self ,145,0,145,0,0,0
+450,14 Keyasthwara,Piplotala,394,Haneef,Shabbir,"Piplotala, Kairana",7417803446,Commercial Self ,171,0,171,0,0,0
+451,14 Keyasthwara,Piplotala,395,"Vikas Kumar, Vivek",Ravindra Kumar,"Piplotala, Kairana",8445553035,Commercial Self ,77,358,77,358,0,0
+452,14 Keyasthwara,Piplotala,396,Afakh Abdul,Mohd. Ishak,"Piplotala, Kairana",9027399358,Commercial Self ,88,409,88,409,0,0
+453,14 Keyasthwara,Piplotala,397,Shiv Mandir Dukan Maneger Rakesh Kumar,-,"Piplotala, Kairana",-,Commercial Self ,7,168,7,0,0,0
+454,14 Keyasthwara,Piplotala,397/1,Shiv Mandir Pooja Isthal,-,"Piplotala, Kairana",-,Temple ,0,0,0,0,0,0
+455,14 Keyasthwara,Piplotala,398,Rakesh Kumar,Ram Swaroop,"Piplotala, Kairana",9548616230,Commercial Self ,61,128,61,128,0,0
+456,14 Keyasthwara,Piplotala,399,Rakesh Kumar,Ram Swaroop,"Piplotala, Kairana",9548616230,Commercial Self ,0,0,0,0,840,840
+457,14 Keyasthwara,Piplotala,399/1,Rakesh Kumar,Ram Swaroop,"Piplotala, Kairana",9548616230,Residential Self ,55,116,55,116,0,0
+458,14 Keyasthwara,Piplotala,399/2,Rakesh Kumar,Ram Swaroop,"Piplotala, Kairana",9548616230,Commercial Self ,44,92,44,101,0,0
+459,14 Keyasthwara,Piplotala,400,Ratan Lal,Seeta Ram,"Piplotala, Kairana",7037468888,Commercial Self ,145,481,145,481,805,805
+460,14 Keyasthwara,Piplotala,400/1,Ratan Lal,Seeta Ram,"Piplotala, Kairana",7037468888,Commercial Self ,44,145,44,151,0,0
+461,14 Keyasthwara,Piplotala,400/1A,Ratan Lal,Seeta Ram,"Piplotala, Kairana",7037468888,Commercial Self ,0,0,0,0,0,0
+462,14 Keyasthwara,Piplotala,400/2,Anisha,W/O Nafees Ahamad,"Piplotala, Kairana",9045295285,Commercial Self ,55,0,55,0,1240,0
+463,14 Keyasthwara,Piplotala,401,Julfikar Ali,Shareef Ahamad,"Piplotala, Kairana",9027841869,Residential Self ,45,429,45,429,2425,2425
+464,14 Keyasthwara,Piplotala,402,Seva Ram,Mani Ram,"Piplotala, Kairana",9328316217,Residential Self ,91,3412,91,3412,4205,4205
+465,14 Keyasthwara,Piplotala,403,Nafees,Rashid Ahamad,"Piplotala, Kairana",9027275826,Residential Self ,48,455,48,455,0,0
+466,14 Keyasthwara,Piplotala,404,Akeel ,Hakimuddin,"Piplotala, Kairana",8791887086,Residential Self ,121,738,121,738,2072,2072
+467,14 Keyasthwara,Piplotala,405,Asfak,Abdul Raheem,"Piplotala, Kairana",8449648784,Commercial Self ,61,0,61,0,1735,0
+468,14 Keyasthwara,Piplotala,406,Akeel ,Hakimullah,"Piplotala, Kairana",8791887086,Commercial Self ,121,2206,121,2206,0,0
+469,14 Keyasthwara,Piplotala,407,Irshad,Shafeek,"Piplotala, Kairana",7013929056,Residential Self ,363,363,363,363,57,57
+470,14 Keyasthwara,Piplotala,408,Irshad,Shafeek,"Piplotala, Kairana",7013929056,Commercial Self ,73,73,73,77,0,0
+471,14 Keyasthwara,Piplotala,409,Irshad,Shafeek,"Piplotala, Kairana",7013929056,Commercial Self ,0,0,0,0,0,0
+472,14 Keyasthwara,Piplotala,410,Nafees Ahamad,Rashid Ahamad,"Piplotala, Kairana",9027275896,Commercial Self ,48,0,48,0,0,0
+473,14 Keyasthwara,Piplotala,411,"Ayejaj S/O Zameer Ahamad, C/O Ahshan",-,"Piplotala, Kairana",9346608552,Residential Self ,44,605,44,605,2888,2888
+474,14 Keyasthwara,Piplotala,411/1,"Ayejaj S/O Zameer Ahamad, C/O Ahshan",-,"Piplotala, Kairana",9346608552,Commercial Self ,88,1210,88,1210,0,0
+475,14 Keyasthwara,Piplotala,411/2,"Ayejaj S/O Zameer Ahamad, C/O Ahshan",-,"Piplotala, Kairana",9346608552,Commercial Self ,88,836,88,836,0,0
+476,14 Keyasthwara,Piplotala,411/3,"Ayejaj S/O Zameer Ahamad, C/O Ahshan",-,"Piplotala, Kairana",9346608552,Commercial Self ,88,1210,88,1211,0,0
+477,14 Keyasthwara,Piplotala,411/4,"Sageer S/O Umri,
+C/O Amir S/O Kareem",Kareem,"Piplotala, Kairana",9149329393,Commercial Self ,396,2418,396,2418,0,0
+478,14 Keyasthwara,Piplotala,411/5,Lukman,Yameen,"Piplotala, Kairana",9897485643,Commercial Self ,121,0,121,254,840,840
+479,14 Keyasthwara,Piplotala,412,"Sharifan W/O Shareef,
+Shafik S/O Shareef",Shareef,"Piplotala, Kairana",9634498895,Residential Self ,44,417,44,0,2640,2640
+480,14 Keyasthwara,Piplotala,413,"Dilshad, Tahir",Shareef,"Piplotala, Kairana",8171968353,Residential Self ,48,223,48,223,1448,1448
+481,14 Keyasthwara,Piplotala,414,"Vijendra, Surendra Kumar,S/O Roop Chand,
+Chandravati W/O Roop Chand",Roop Chand,"Piplotala, Kairana",9897779433,Residential Self ,73,0,73,0,347,0
+482,14 Keyasthwara,Piplotala,415,Sakuntla,W/O Data Ram,"Piplotala, Kairana",9058646566,Residential Self ,110,364,110,364,910,910
+483,14 Keyasthwara,Piplotala,416,Arvind Kumar,Om Parkash,"Piplotala, Kairana",-,Residential Self ,48,48,48,48,372,372
+484,14 Keyasthwara,Piplotala,417,Bijender Kumar,Roop Chand,"Piplotala, Kairana",9897779433,Residential Self ,36,0,36,0,0,0
+485,14 Keyasthwara,Piplotala,418,Sageet Kumar,Om Parkash,"Piplotala, Kairana",9058646566,Commercial Self ,55,183,55,183,0,0
+486,14 Keyasthwara,Piplotala,"419,
+420",Haji Ikbal,Seeda,"Piplotala, Kairana",8851622889,Commercial Self ,75,886,75,886,2340,2340
+487,14 Keyasthwara,Piplotala,421,"Waseem Ahamad, Naeem Ahamad",Haneef,"Piplotala, Kairana",8923159312,Commercial Self ,3346,11076,3346,12514,2352,2352
+488,14 Keyasthwara,Piplotala,422,Sanjida Parveen,W/O Tajudeen,"Piplotala, Kairana",-,Residential Self ,55,116,55,116,730,730
+489,14 Keyasthwara,Piplotala,423,Sunil Kumar,Jay Chand,"Piplotala, Kairana",9837287263,Residential Self ,44,44,44,44,376,376
+490,14 Keyasthwara,Piplotala,424,Brij Bhusan,Rameshver Dayal,"Piplotala, Kairana",7500194740,Residential Self ,61,0,61,61,0,0
+491,14 Keyasthwara,Piplotala,425,Sayyad Intazar Hussain,Haji Hussain,"Piplotala, Kairana",9719575470,Residential Self ,121,1947,121,2238,3540,3540
+492,14 Keyasthwara,Piplotala,426,"Manju Goyal W/O Shorabh,
+Shorabh",Vijendra Goyal,"Piplotala, Kairana",9568274352,Residential Self ,66,219,66,219,1042,1042
+493,14 Keyasthwara,Piplotala,427,"Ram Avtar, Vikas , Pappu",Abhi Chand,"Piplotala, Kairana",8171772993,Residential Self ,48,48,48,48,744,744
+494,14 Keyasthwara,Piplotala,427/1,Saroj Bala,W/O Gyan Chand,"Piplotala, Kairana",8445248199,Residential Self ,46,46,46,46,398,398
+495,14 Keyasthwara,Piplotala,428,Inder Sen,Seth Ram,"Piplotala, Kairana",9760244851, -,110,364,110,364,0,0
+496,14 Keyasthwara,Piplotala,429,Brij Bihari Lal,Seth Ram,"Piplotala, Kairana",9760244851, -,0,0,0,0,1240,1240
+497,14 Keyasthwara,Piplotala,"430.
+431",Inder Sen,Seth Ram,"Piplotala, Kairana",9760244851, -,0,0,0,0,0,0
+498,14 Keyasthwara,Piplotala,432,Sayam Singh,Genda Ram,"Piplotala, Kairana",9627320350,Residential Self ,110,231,110,231,620,620
+499,14 Keyasthwara,Piplotala,"433,
+434",Haji Shareef,Ahamad,"Piplotala, Kairana",7037699336,Residential Self ,110,231,110,231,620,620
+500,14 Keyasthwara,Piplotala,435,Irshad,Hafizudeen,"Piplotala, Kairana",9012040687,Residential Self ,42,594,42,497,2604,2604
+501,14 Keyasthwara,Piplotala,435/1,Irshad,Hafizudeen,"Piplotala, Kairana",9012040687,Commercial Self ,42,497,42,594,0,0
+502,14 Keyasthwara,Piplotala,436,"Shabnam W/O Haneef,
+Haneef S/O Abdul Majeed",Abdul Majeed,"Piplotala, Kairana",9720404027,Residential Self ,66,0,66,0,354,0
+503,14 Keyasthwara,Pattowala,437,Bal Kishan,Om Parkash,"Pattowala, Kairana",9528254926,Residential Self ,91,0,91,0,329,0
+504,14 Keyasthwara,Pattowala,437/1,Shezad,Shareef Ahamad,"Pattowala, Kairana",7011975856,Commercial Self ,220,1021,220,1021,0,0
+505,14 Keyasthwara,Pattowala,438,Parkash Chand,Raja Ram,"Pattowala, Kairana",9760686471,Commercial Self ,79,0,79,0,562,221
+506,14 Keyasthwara,Pattowala,439,Parkash Chand,Raja Ram,"Pattowala, Kairana",9760686471,Commercial Self ,79,0,79,0,0,0
+507,14 Keyasthwara,Pattowala,440,Parkash Chand,Raja Ram,"Pattowala, Kairana",9760686471,Residential Self ,44,0,44,0,0,0
+508,14 Keyasthwara,Pattowala,441,Santosh Rani  ,W/O Shiv Charan,"Pattowala, Kairana",9258922084,Residential Self ,48,0,48,0,372,0
+509,14 Keyasthwara,Pattowala,442,Santosh Rani,W/O Shiv Charan,"Pattowala, Kairana",9258922084,Residential Self ,44,0,44,0,0,0
+510,14 Keyasthwara,Pattowala,443,"Dhan Shayam S/O Kesho Ram,
+Savitri Devi W/O Kesho Ram",Kesho Ram,"Pattowala, Kairana",9010419347,Residential Self ,61,0,61,67,359,0
+511,14 Keyasthwara,Pattowala,444,"Radhe Shayam S/O Kesho Ram,
+Savitri Devi W/O Kesho Ram",Kesho Ram,"Pattowala, Kairana",9968736773,Residential Self ,61,0,61,0,359,0
+512,14 Keyasthwara,Pattowala,445,Dhan Shayam,Kesho Ram,"Pattowala, Kairana",9410419347,Residential Self ,61,0,61,67,359,0
+513,14 Keyasthwara,Pattowala,446,Vinod Kumar,Om Parkash,"Pattowala, Kairana",9012234669,Residential Self ,61,128,61,128,840,840
+514,14 Keyasthwara,Pattowala,447,Padam,Nand Lal,"Pattowala, Kairana",9358486025,Residential Self ,44,0,44,0,1312,0
+515,14 Keyasthwara,Pattowala,448,Naresh  ,Jagdish Parshad,"Pattowala, Kairana",9760466545,Residential Self ,44,44,44,44,420,420
+516,14 Keyasthwara,Pattowala,449,Suraj Parkash,Laxmi Chand,"Pattowala, Kairana",9045837504,Commercial Self ,61,0,61,0,1855,0
+517,14 Keyasthwara,Pattowala,450,Shiv Kumar,Shayam Lal,"Pattowala, Kairana",9412582498,Residential Self ,61,0,61,0,359,0
+518,14 Keyasthwara,Pattowala,450/1,Shiv Kumar,Shayam Lal,"Pattowala, Kairana",9412582498,Residential Self ,73,0,73,0,0,0
+519,14 Keyasthwara,Pattowala,451,Mange Ram,Ram Swaroop,"Pattowala, Kairana",9412582498,Residential Self ,121,0,121,0,0,0
+520,14 Keyasthwara,Pattowala,452,Mange Ram,Ram Swaroop,"Pattowala, Kairana",9412582498,Residential Self ,61,0,61,0,0,0
+521,14 Keyasthwara,Pattowala,453,"Sushil Kumar, Deepak",Satya Parkash,"Pattowala, Kairana",8126273160,Residential Self ,97,97,97,97,420,420
+522,14 Keyasthwara,Pattowala,454/1,Tasneem Usmani,W/O Chand Usmani(Haziburehman),"Pattowala, Kairana",9897144494,Commercial Self ,363,2800,363,2215,0,0
+523,14 Keyasthwara,Pattowala,454/2,Tasneem Usmani,W/O Chand Usmani(Haziburehman),"Pattowala, Kairana",9897144494,Commercial Self ,0,0,0,0,0,0
+524,14 Keyasthwara,Pattowala,454,Dinesh Kumar,Kunj Vihari,"Pattowala, Kairana",9761552000,Residential Self ,15,300,15,959,2160,2160
+525,14 Keyasthwara,Pattowala,455,Dinesh Kumar,Kunj Vihari,"Pattowala, Kairana",9761552000,Commercial Self ,0,0,0,0,0,0
+526,14 Keyasthwara,Pattowala,455/1,Dinesh Kumar,Kunj Vihari,"Pattowala, Kairana",9761552000,Commercial Self ,0,0,0,0,0,0
+527,14 Keyasthwara,Pattowala,456,Kirshan Lal,Jaggu Nath,"Pattowala, Kairana",9412888644,Residential Self ,48,293,48,223,372,1920
+528,14 Keyasthwara,Pattowala,457,"Asha Ram S/O Rati Ram,
+Neha Rani, Pooja Rani",Rati Ram,"Pattowala, Kairana",8923712624,Residential Self ,165,165,165,165,420,420
+529,14 Keyasthwara,Pattowala,458,"Magni Rani W/O Naresh Chand,
+Sanjeev, Parveen, Sapan",Naresh Chand,"Pattowala, Kairana",9758027015,Residential Self ,157,520,157,520,2152,2152
+530,14 Keyasthwara,Pattowala,459,"Magni Rani W/O Naresh Chand,
+Sanjeev, Parveen, Sapan",Naresh Chand,"Pattowala, Kairana",9758027015,Commercial Self ,157,520,157,520,0,0
+531,14 Keyasthwara,Pattowala,460,Jagannath,Sapan Singh,"Pattowala, Kairana",-,Open Plot,0,0,0,0,2808,2808
+532,14 Keyasthwara,Pattowala,461,Kirshan Lal,Jagannath,"Pattowala, Kairana",9412888644,Commercial Self ,44,270,44,244,0,0
+533,14 Keyasthwara,Pattowala,462,Narender Kumar,Jambu Parshad,"Pattowala, Kairana",9756232222,Residential Self ,97,0,97,0,1675,0
+534,14 Keyasthwara,Pattowala,462/1,Narender Kumar,Jambu Parshad,"Pattowala, Kairana",9756232222,Commercial Self ,66,0,66,0,0,0
+535,14 Keyasthwara,Pattowala,462/2,Payare Lal,Mangal Sen,"Pattowala, Kairana",9548817288,Commercial Self ,55,1007,55,1006,0,0
+536,14 Keyasthwara,Pattowala,463,Payare Lal,Mangal Sen,"Pattowala, Kairana",9548817288,Residential Self ,110,1297,110,1297,2700,2700
+537,14 Keyasthwara,Pattowala,464,"Vijay, Anil,Sunil, Rakesh",Kishan Lal,"Pattowala, Kairana",9359691795,Residential Self ,73,445,73,445,1675,1675
+538,14 Keyasthwara,Pattowala,465,"Jaffar, ",Basheer,"Pattowala, Kairana",9917644566,Residential Self ,44,417,44,417,0,0
+539,14 Keyasthwara,Pattowala,466,Milkiyat Masjid Rajo Wali,-,"Pattowala, Kairana",9917644566,Commercial Self ,24,229,24,0,0,0
+540,14 Keyasthwara,Pattowala,467,Sakila Begam,W/O Jafar Ahamad,"Pattowala, Kairana",9917644566,Residential Self ,44,417,44,417,0,0
+541,14 Keyasthwara,Pattowala,468,Saeeda Begam,W/O Nafees  ,"Pattowala, Kairana",9917644566,Residential Self ,46,841,46,841,3840,3840
+542,14 Keyasthwara,Pattowala,469,Jafar ,Latif,"Pattowala, Kairana",9917644566,Residential Self ,48,454,48,455,7692,7692
+543,14 Keyasthwara,Pattowala,470,Khurshid,Umar Khan,"Pattowala, Kairana",9897732649,Residential Self ,67,409,67,409,0,0
+544,14 Keyasthwara,Pattowala,471,Inamul ,Imamudeen,"Pattowala, Kairana",-,Open Plot,0,0,0,0,0,0
+545,14 Keyasthwara,Pattowala,472,"Ahshan, Shezad,Dilshad",Abdul Saleem,"Pattowala, Kairana",7668947450,Residential Self ,61,578,61,578,2213,2213
+546,14 Keyasthwara,Pattowala,473,Vali Mohammad,Chotan,"Pattowala, Kairana",7310834368,Residential Self ,55,756,55,757,0,0
+547,14 Keyasthwara,Pattowala,474,Imrana ,W/O Naeem,"Pattowala, Kairana",8439786503,Residential Self ,48,159,48,331,0,0
+548,14 Keyasthwara,Pattowala,475,Imrana ,W/O Naeem,"Pattowala, Kairana",8439786503,Residential Self ,0,0,0,0,7677,7677
+549,14 Keyasthwara,Pattowala,476,Rashidan,W/O Umri,"Pattowala, Kairana",9045114226,Residential Self ,61,372,61,372,0,0
+550,14 Keyasthwara,Pattowala,477,Aas Mohammad,Abdul,"Pattowala, Kairana",9045496852,Residential Self ,66,67,66,62,354,354
+551,14 Keyasthwara,Pattowala,478,Devi Chand,Kunj Vihari,"Pattowala, Kairana",7417420120,Residential Self ,48,48,48,48,372,0
+552,14 Keyasthwara,Pattowala,479,Jagdamba Devi,Madan Lal,"Pattowala, Kairana",-,Residential Self ,124,0,124,0,420,420
+553,14 Keyasthwara,Pattowala,479/1,Ravinder Kumar,Madan Mohanlal,"Pattowala, Kairana", -, -,124,0,124,0,0,0
+554,14 Keyasthwara,Pattowala,479/2,Sushil Kumar,Madan Mohanlal,"Pattowala, Kairana", -, -,124,0,124,0,0,0
+555,14 Keyasthwara,Pattowala,480,Vinod Kumar,Kunj Vihari,"Pattowala, Kairana",9412866716,Residential Self ,48,48,48,48,0,0
+556,14 Keyasthwara,Pattowala,481,Anand Parkash,Shayam Sunder,"Pattowala, Kairana",-,Residential Self ,48,1168,48,877,0,0
+557,14 Keyasthwara,Pattowala,"482,
+488/1",Jahura Khatun,W/O Nafees,"Pattowala, Kairana",8439112112,Residential Self ,293,615,293,615,2040,2040
+558,14 Keyasthwara,Pattowala,483,Milkiyat Masjid Rajo Wali,-,"Pattowala, Kairana",8439112122,Commercial Self ,182,3061,182,1405,0,0
+559,14 Keyasthwara,Pattowala,484,Milkiyat Masjid Rajo Wali,-,"Pattowala, Kairana",8439112122,Commercial Self ,182,2776,182,4544,0,0
+560,14 Keyasthwara,Pattowala,485,Milkiyat Masjid Rajo Wali,-,"Pattowala, Kairana",8439112122,Commercial Self ,182,2361,182,10124,0,0
+561,14 Keyasthwara,Pattowala,486,Milkiyat Masjid Rajo Wali,-,"Pattowala, Kairana",8439112122,Commercial Self ,145,886,145,886,0,0
+562,14 Keyasthwara,Pattowala,487,Milkiyat Masjid Rajo Wali,-,"Pattowala, Kairana",8439112122,Commercial Self ,145,7442,145,5300,0,0
+563,14 Keyasthwara,Pattowala,488,Masjid Ibadat Gah,-,"Pattowala, Kairana",8439112122,Mosque,0,0,0,0,6911,6911
+564,14 Keyasthwara,Pattowala,488/1,Makan No. 482 Me Sammilit,-,"Pattowala, Kairana",8439112122,Residential Self ,0,0,0,0,0,0
+565,14 Keyasthwara,Pattowala,489,Wahid,Fayyaz,"Pattowala, Kairana",8439112112,Commercial Self ,396,9199,396,9277,0,0
+566,14 Keyasthwara,Pattowala,490,Surender,Girdhari,"Pattowala, Kairana",9149191950,Commercial Self ,73,73,73,73,0,0
+567,14 Keyasthwara,Pattowala,491,Birender,Kunj Bihari,"Pattowala, Kairana",7017923936,Commercial Self ,44,145,44,145,0,0
+568,14 Keyasthwara,Pattowala,492,Yaseen,Rehmatullah,"Pattowala, Kairana",7669895001,Commercial Self ,97,2591,97,450,0,0
+569,14 Keyasthwara,Pattowala,493,Vasima Begam,W/O Saleem,"Pattowala, Kairana",-,Commercial Self ,48,48,48,48,0,0
+570,14 Keyasthwara,Pattowala,495,Vasima Begam,W/O Saleem,"Pattowala, Kairana",-,Commercial Self ,0,0,0,0,0,0
+571,14 Keyasthwara,Pattowala,496,"Suraj Parkash, Radhe Shayam,
+Dhan Kumar",Naresh Chand,"Pattowala, Kairana",9760245112,Residential Self ,121,1147,121,1147,2808,2808
+572,14 Keyasthwara,Pattowala,497,Koshar Jahan,W/O Raees Ahamad,"Pattowala, Kairana",9997664598,Residential Self ,60,510,60,838,0,0
+573,14 Keyasthwara,Pattowala,498,Gulzar Ahamad,Shadeen,"Pattowala, Kairana",7017923953,Residential Self ,150,497,150,497,790,790
+574,14 Keyasthwara,Pattowala,499,Koshalaya Devi,Harish Chand,"Pattowala, Kairana",9758793197,Residential Self ,55,0,55,0,0,0
+575,14 Keyasthwara,Pattowala,500,Koshalaya Devi,Harish Chand,"Pattowala, Kairana",9758793197,Residential Self ,61,0,61,0,0,0
+576,14 Keyasthwara,Pattowala,501,Idreesh,Lateef,"Pattowala, Kairana",7417262780,Commercial Self ,121,254,121,254,840,840
+577,14 Keyasthwara,Pattowala,502,Nadeem,Yameen,"Pattowala, Kairana",9045913105,Commercial Self ,121,121,121,121,0,0
+578,14 Keyasthwara,Pattowala,503,Vijay Kumar  ,Ved Parkash,"Pattowala, Kairana",-,Commercial Self ,61,578,61,578,0,0
+579,14 Keyasthwara,Pattowala,504,Akila Begam,W/O Ikbal,"Pattowala, Kairana",9927861927,Commercial Self ,133,1570,133,1570,0,0
+580,14 Keyasthwara,Pattowala,505,Ram Kumar,Om Parkash,"Pattowala, Kairana",7895762308,Residential Self ,0,0,0,0,0,0
+581,14 Keyasthwara,Pattowala,506,Hari Ram,Ranjeet,"Pattowala, Kairana",9758793197,Residential Self ,121,774,121,0,2040,0
+582,14 Keyasthwara,Pattowala,507,Mohit Goyal,Kirshan Pal  Goyal,"Pattowala, Kairana",7895762308,Residential Self ,121,0,121,0,444,0
+583,14 Keyasthwara,Pattowala,508,"Tahir S/O Salimuddin,
+C/O Muddasir",-,"Pattowala, Kairana",7453848644,Commercial Self ,264,1224,264,1211,0,0
+584,14 Keyasthwara,Pattowala,509,Kaniza Begam,W/O Habib,"Pattowala, Kairana",8755786570,Commercial Self ,61,0,61,0,0,0
+585,14 Keyasthwara,Pattowala,510,Sawab Ahamad,Nafees,"Pattowala, Kairana",8273958023,Commercial Self ,121,400,121,400,0,0
+586,14 Keyasthwara,Pattowala,511,"Mandir Pawan Dham 
+Sampatti",-,"Pattowala, Kairana",9536481818,Commercial Self ,44,0,44,92,0,0
+587,14 Keyasthwara,Pattowala,512,"Mandir Pawan Dham 
+Sampatti",-,"Pattowala, Kairana",9536481818,Commercial Self ,44,92,44,92,0,0
+588,14 Keyasthwara,Pattowala,513,Pooja Isthal   ,-,"Pattowala, Kairana",9536481818,Temple ,0,0,0,0,0,0
+589,14 Keyasthwara,Pattowala,514,Saleem Ahamad,Basheer Ahamad,"Pattowala, Kairana",9758793197,Residential Self ,73,0,73,0,1675,0
+590,14 Keyasthwara,Pattowala,515,"Mahender Singh S/O Seva Ram,
+Rifakat Ali S/O Shokat Ali, Mohd. Saleem S/O Rafeek Ahamad, Hasreen S/O Deen Mohammad",-,"Pattowala, Kairana",9412512786,Residential Self ,0,0,0,0,1640,1640
+591,14 Keyasthwara,Pattowala,516,Sadhna Gupta W/O Rakesh Kumar Gupta,Jay Gopal,"Pattowala, Kairana",9412512786,Residential Self ,0,0,0,0,0,0
+592,14 Keyasthwara,Pattowala,517,Sadhna Gupta W/O Rakesh Kumar Gupta,Jay Gopal,"Pattowala, Kairana",9412512786,Residential Self ,73,338,73,338,0,0
+593,14 Keyasthwara,Pattowala,518,Sadhna Gupta W/O Rakesh Kumar Gupta,Jay Gopal,"Pattowala, Kairana",9412512786,Residential Self ,0,0,0,0,0,0
+594,14 Keyasthwara,Pattowala,519,Sadhna Gupta W/O Rakesh Kumar Gupta,Jay Gopal,"Pattowala, Kairana",9412512786,Residential Self ,0,0,0,0,0,0
+595,14 Keyasthwara,Pattowala,520,Sadhna Gupta W/O Rakesh Kumar Gupta,Jay Gopal,"Pattowala, Kairana",9412512786,Commercial Self ,138,641,138,641,0,0
+596,14 Keyasthwara,Pattowala,521,Sadhna Gupta W/O Rakesh Kumar Gupta,Jay Gopal,"Pattowala, Kairana",9412512786,Commercial Self ,138,641,138,641,0,0
+597,14 Keyasthwara,Pattowala,522,Sadhna Gupta W/O Rakesh Kumar Gupta,Jay Gopal,"Pattowala, Kairana",9412512786,Commercial Self ,138,641,138,641,0,0
+598,14 Keyasthwara,Pattowala,523,Mohd. Inam,Mohd. Yameen,"Pattowala, Kairana",9837373442,Commercial Self ,171,1044,171,1044,0,0
+599,14 Keyasthwara,Pattowala,523/1,Mohd. Inam,Mohd. Yameen,"Pattowala, Kairana",9837373442,Residential Self ,66,404,66,404,0,0
+600,14 Keyasthwara,Pattowala,524,Mohd. Inam,Mohd. Yameen,"Pattowala, Kairana",9837373442,Commercial Self ,110,671,110,671,2040,2040
+601,14 Keyasthwara,Pattowala,525,"Furkan ,Idreesh, Ummid","Nisar ,Karam Ilahi","Pattowala, Kairana",8218804468,Commercial Self ,220,3033,220,2795,3194,3194
+602,14 Keyasthwara,Pattowala,526,"Ajay Kumar, Sanjay Kumar",Raghunath Parshad,"Pattowala, Kairana",9391064121,Commercial Self ,2330,2330,2330,2330,372,372
+603,14 Keyasthwara,Pattowala,527,"Ajay Kumar, Sanjay Kumar",Raghunath Parshad,"Pattowala, Kairana",9391064121,Commercial Self ,73,0,73,73,0,0
+604,14 Keyasthwara,Pattowala,528,"Ajay Kumar, Sanjay Kumar",Raghunath Parshad,"Pattowala, Kairana",9391064121,Commercial Self ,48,0,48,48,0,0
+605,14 Keyasthwara,Pattowala,529,"Ajay Kumar, Sanjay Kumar",Raghunath Parshad,"Pattowala, Kairana",9391064121,Commercial Self ,48,0,48,48,0,0
+606,14 Keyasthwara,Pattowala,530,"Ajay Kumar, Sanjay Kumar",Raghunath Parshad,"Pattowala, Kairana",9391064121,Commercial Self ,48,0,48,48,0,0
+607,14 Keyasthwara,Pattowala,531,"Ajay Kumar, Sanjay Kumar",Raghunath Parshad,"Pattowala, Kairana",9391064121,Commercial Self ,48,0,48,48,0,0
+608,14 Keyasthwara,Pattowala,532,"Ajay Kumar, Sanjay Kumar",Raghunath Parshad,"Pattowala, Kairana",9391064121,Commercial Self ,48,0,48,48,0,0
+609,14 Keyasthwara,Pattowala,533,"Ajay Kumar, Sanjay Kumar",Raghunath Parshad,"Pattowala, Kairana",9391064121,Commercial Self ,48,906,48,48,0,0
+610,14 Keyasthwara,Pattowala,534,"Ajay Kumar, Sanjay Kumar",Raghunath Parshad,"Pattowala, Kairana",9391064121,Commercial Self ,48,0,48,48,0,0
+611,14 Keyasthwara,Pattowala,535,"Ajay Kumar, Sanjay Kumar",Raghunath Parshad,"Pattowala, Kairana",9391064121,Commercial Self ,48,0,48,48,0,0
+612,14 Keyasthwara,Pattowala,536,Anisa,W/O Saeed,"Pattowala, Kairana",9412638508,Commercial Self ,66,404,66,445,0,0
+613,14 Keyasthwara,Pattowala,537,Piplotala Me Tax Laga Diya Gaya,-,"Pattowala, Kairana",-,-,0,0,0,0,0,0
+614,14 Keyasthwara,Pattowala,538,"Muniza Khtun, Sayyeda","W/O Shamshad, Yameen","Pattowala, Kairana",7409063445,Commercial Self ,73,153,73,153,840,840
+615,14 Keyasthwara,Pattowala,539,Mehboob,W/O Akhtar Hasan,"Pattowala, Kairana",7895762308,Residential Self ,73,0,73,16,347,0
+616,14 Keyasthwara,Pattowala,540,Urmila Devi,W/O Shobha Ram,"Pattowala, Kairana",-,Residential Self ,44,151,44,151,1108,1108
+617,14 Keyasthwara,Pattowala,541,"Kayyum, Ayyub",Shakur  ,"Pattowala, Kairana",9319401003,Commercial Self ,61,372,61,372,0,0
+618,14 Keyasthwara,Pattowala,542,"Kayyum, Ayyub",Shakur  ,"Pattowala, Kairana",9319401003,Residential Self ,61,372,61,372,1735,1735
+619,14 Keyasthwara,Pattowala,543,"Kayyum, Ayyub",Shakur  ,"Pattowala, Kairana",9319401003,Commercial Self ,61,372,61,372,0,0
+620,14 Keyasthwara,Pattowala,544,"Shayama Rani W/O Moti Ram,
+Anand S/O Dal Chand",Dal Chand,"Pattowala, Kairana",9557039699,Commercial Self ,290,0,290,0,0,0
+621,14 Keyasthwara,Pattowala,545,"Shayama Rani W/O Moti Ram,
+Anand S/O Dal Chand",Dal Chand,"Pattowala, Kairana",9557039699,Commercial Self ,242,0,242,0,202,202
+622,14 Keyasthwara,Pattowala,545/1,"Shayama Rani W/O Moti Ram,
+Anand S/O Dal Chand",Dal Chand,"Pattowala, Kairana",9557039699,Residential Self ,0,0,0,88,0,0
+623,14 Keyasthwara,Pattowala,546,Rajender Parshad ,Rameshwer Dayal,"Pattowala, Kairana",8475808000,Commercial Self ,88,88,88,88,0,0
+624,14 Keyasthwara,Pattowala,546/1,Rajender Parshad ,Rameshwer Dayal,"Pattowala, Kairana",8475808000,Commercial Self ,44,44,44,88,0,0
+625,14 Keyasthwara,Pattowala,546/2,Rajender Parshad ,Rameshwer Dayal,"Pattowala, Kairana",8475808000,Commercial Self ,44,44,44,92,0,0
+626,14 Keyasthwara,Pattowala,546/3,Rajender Parshad ,Rameshwer Dayal,"Pattowala, Kairana",8475808000,Commercial Self ,110,110,110,110,0,0
+627,14 Keyasthwara,Pattowala,546/4,Rajender Parshad ,Rameshwer Dayal,"Pattowala, Kairana",8475808000,Commercial Self ,0,0,0,0,0,0
+628,14 Keyasthwara,Pattowala,546/5,Rajender Parshad ,Rameshwer Dayal,"Pattowala, Kairana",8475808000,Commercial Self ,0,0,0,0,0,0
+629,14 Keyasthwara,Pattowala,546/6,Rajender Parshad ,Rameshwer Dayal,"Pattowala, Kairana",8475808000,Commercial Self ,88,88,88,88,0,0
+630,14 Keyasthwara,Pattowala,546/7,Rajender Parshad ,Rameshwer Dayal,"Pattowala, Kairana",8475808000,Commercial Self ,88,88,88,88,0,0
+631,14 Keyasthwara,Pattowala,-,-,-,"Pattowala, Kairana",-,-,0,0,0,0,0,0
+632,14 Keyasthwara,Pattowala,547,Rajender Parshad,Rameshwer Dayal,"Pattowala, Kairana",8475808000,Residential Self ,73,73,73,73,0,0
+633,14 Keyasthwara,Pattowala,548,Rajender Parshad,Rameshwer Dayal,"Pattowala, Kairana",8475808000,Residential Self ,0,0,0,0,0,0
+634,14 Keyasthwara,Pattowala,549,Rajender Parshad,Rameshwer Dayal,"Pattowala, Kairana",8475808000,Commercial Self ,79,79,79,79,0,0
+635,14 Keyasthwara,Pattowala,550,Wahid,Fayyaz,"Pattowala, Kairana",7983298443,Commercial Self ,48,0,48,0,0,0
+636,14 Keyasthwara,Pattowala,551,Shiraj Ahamad,Saeed,"Pattowala, Kairana",9897871586,Commercial Self ,145,0,145,0,0,0
+637,14 Keyasthwara,Pattowala,552,Shiraj Ahamad,Saeed,"Pattowala, Kairana",9897871586,Commercial Self ,145,0,145,0,0,0
+638,14 Keyasthwara,Pattowala,553,Shiraj Ahamad,Saeed,"Pattowala, Kairana",9897871586,Commercial Self ,145,0,145,0,0,0
+639,14 Keyasthwara,Pattowala,554,Shiraj Ahamad,Saeed,"Pattowala, Kairana",9897871586,Commercial Self ,145,0,145,0,0,0
+640,14 Keyasthwara,Pattowala,555,Shiraj Ahamad,Saeed,"Pattowala, Kairana",9897871586,Commercial Self ,145,0,145,0,0,0
+641,14 Keyasthwara,Pattowala,556,Shiraj Ahamad,Saeed,"Pattowala, Kairana",9897871586,Commercial Self ,61,0,61,0,0,0
+642,14 Keyasthwara,Pattowala,557,Shiraj Ahamad,Saeed,"Pattowala, Kairana",9897871586,Commercial Self ,145,0,145,0,0,0
+643,14 Keyasthwara,Pattowala,558,Shiraj Ahamad,Saeed,"Pattowala, Kairana",9897871586,Commercial Self ,145,0,145,0,0,0
+644,14 Keyasthwara,Pattowala,559,Shiraj Ahamad,Saeed,"Pattowala, Kairana",9897871586,Commercial Self ,61,0,61,0,0,0
+645,14 Keyasthwara,Pattowala,560,Shiraj Ahamad,Saeed,"Pattowala, Kairana",9897871586,Commercial Self ,145,0,145,0,0,0
+646,14 Keyasthwara,Pattowala,561,Shiraj Ahamad,Saeed,"Pattowala, Kairana",9897871586,Commercial Self ,145,0,145,0,0,0
+647,14 Keyasthwara,Pattowala,562,"Sabiya Parveen Begam, Nazma Parveen ","W/O Azeem ,Ameen","Pattowala, Kairana",9997203575,Commercial Self ,67,67,67,67,0,0
+648,14 Keyasthwara,Pattowala,562/1,"Sabiya Parveen Begam, Nazma Parveen ","W/O Azeem ,Ameen","Pattowala, Kairana",9927203575,Residential Self ,88,88,88,88,0,0
+649,14 Keyasthwara,Pattowala,563,Gopal Devi,W/O Jay Parkash,"Pattowala, Kairana",8218286040,Commercial Self ,200,420,200,420,888,888
+650,14 Keyasthwara,Pattowala,564,Gopal Devi,W/O Jay Parkash,"Pattowala, Kairana",8218286040,Residential Self ,242,508,242,508,356,356
+651,14 Keyasthwara,Pattowala,565,Farad,W/O Noordeen,"Pattowala, Kairana",8218286040,Commercial Self ,110,231,110,231,0,0
+652,14 Keyasthwara,Pattowala,566,Shakuntala,W/O Swami Sharan,"Pattowala, Kairana",8193020000,Commercial Self ,88,0,88,273,0,0
+653,14 Keyasthwara,Pattowala,567,Shakuntala,W/O Swami Sharan,"Pattowala, Kairana",8193020000,Residential Self ,48,0,48,273,0,0
+654,14 Keyasthwara,Pattowala,568,Shakuntala,W/O Swami Sharan,"Pattowala, Kairana",8193020000,Commercial Self ,0,0,0,0,0,0
+655,14 Keyasthwara,Pattowala,569,Shakuntala,W/O Swami Sharan,"Pattowala, Kairana",8193020000,Commercial Self ,48,0,48,273,0,0
+656,14 Keyasthwara,Pattowala,570,Shakuntala,W/O Swami Sharan,"Pattowala, Kairana",8193020000,Commercial Self ,88,0,88,273,0,0
+657,14 Keyasthwara,Pattowala,571,Shiv Lal,Shayam Lal,"Pattowala, Kairana",9528255400,Commercial Self ,117,0,117,0,0,0
+658,14 Keyasthwara,Pattowala,572,Shiv Lal,Shayam Lal,"Pattowala, Kairana",9528255400,Commercial Self ,0,0,0,0,0,0
+659,14 Keyasthwara,Pattowala,572/1,Anvar,Jahur Ahamad,"Pattowala, Kairana",9897046662,Commercial Self ,132,1558,132,1558,0,0
+660,14 Keyasthwara,Pattowala,573,Akhlak Ahamad,Jahur Ahamad,"Pattowala, Kairana",9760378656,Commercial Self ,132,132,132,132,420,0
+661,14 Keyasthwara,Pattowala,573/2,Milkiyat Shiv Mandir,-,"Pattowala, Kairana",9536481818,Commercial Self ,0,0,0,0,0,0
+662,14 Keyasthwara,Pattowala,573/3,Milkiyat Shiv Mandir,-,"Pattowala, Kairana",9536481818,Commercial Self ,44,92,44,92,0,0
+663,14 Keyasthwara,Pattowala,574,Shiv Mandir ,-,"Pattowala, Kairana",9536481818,Temple ,0,0,0,0,0,0
+664,14 Keyasthwara,Pattowala,575,Shiv Mandir,-,"Pattowala, Kairana",9536481818,Commercial Self ,145,305,145,305,0,0
+665,14 Keyasthwara,Pattowala,576,"Atma Ram S/O Chandan Lal,
+C/O Sudha Verma",-,"Pattowala, Kairana",7417197095,Residential Self ,396,396,396,396,48,48
+666,14 Keyasthwara,Pattowala,577,"Atma Ram S/O Chandan Lal,
+C/O Sudha Verma",-,"Pattowala, Kairana",7417197095,Commercial Self ,0,0,0,0,0,0
+667,14 Keyasthwara,Pattowala,578,Shiv Lal,Shayam Lal,"Pattowala, Kairana",9528255400,Residential Self ,48,0,48,0,372,0
+668,14 Keyasthwara,Pattowala,579,Sharvan Kumar,Daya Ram,"Pattowala, Kairana",7417197095,Residential Self ,121,111,121,121,0,0
+669,14 Keyasthwara,Pattowala,580,"Vimla Devi W/O Mam Chand,
+Mam Chand",Garibu,"Pattowala, Kairana",9837337777,Residential Self ,48,0,48,0,744,0
+670,14 Keyasthwara,Pattowala,581,Shakuntala,W/O Swami Sharan,"Pattowala, Kairana",8193020000,Residential Self ,0,0,0,0,840,0
+671,14 Keyasthwara,Pattowala,582,Shakuntala,W/O Swami Sharan,"Pattowala, Kairana",8193020000,Residential Self ,73,73,73,73,0,0
+672,14 Keyasthwara,Pattowala,583,Shakuntala,W/O Swami Sharan,"Pattowala, Kairana",8193020000,Residential Self ,0,0,0,0,0,0
+673,14 Keyasthwara,Pattowala,584,Shakuntala,W/O Swami Sharan,"Pattowala, Kairana",8193020000,Residential Self ,0,0,0,0,0,0
+674,14 Keyasthwara,Pattowala,585,Mitra Sen,Jyoti Parshad,"Pattowala, Kairana",9870954610,Residential Self ,73,153,73,153,694,694
+675,14 Keyasthwara,Pattowala,586,Radhe Lal,Jyoti Parshad,"Pattowala, Kairana",7417443427,Residential Self ,73,0,73,0,1675,0
+676,14 Keyasthwara,Pattowala,587,Kiranwati,W/O Ghasitu,"Pattowala, Kairana",9548642607,Residential Self ,44,44,44,44,0,0
+677,14 Keyasthwara,Pattowala,588,Dhan Shayam,Jyoti Parshad,"Pattowala, Kairana",9548642607,Residential Self ,44,44,44,44,0,0
+678,14 Keyasthwara,Pattowala,589,Mandhu Goyal,Rakesh Kumar,"Pattowala, Kairana",9359321770,Residential Self ,48,293,48,293,0,0
+679,14 Keyasthwara,Pattowala,589/1,Vijay Kumar,Yash Pal,"Pattowala, Kairana",9528184201,Residential Self ,48,159,48,159,0,0
+680,14 Keyasthwara,Pattowala,590,Chandra Parkash,Parbhu Dayal,"Pattowala, Kairana",9719583636,Residential Self ,73,73,73,73,1675,347
+681,14 Keyasthwara,Pattowala,591,Swami Sharan,Om Parkash,"Pattowala, Kairana",9719583636,Residential Self ,73,692,73,662,0,0
+682,14 Keyasthwara,Pattowala,592,"Madhu Goyal W/O Rakesh Kumar.
+Abhishek S/O Rakesh Kumar",Rakesh Kumar,"Pattowala, Kairana",9359321770,Residential Self ,48,293,48,293,1800,1800
+683,14 Keyasthwara,Pattowala,592/1,Vijay Kumar,Yash Pal,"Pattowala, Kairana",9528184201,Residential Self ,48,159,48,159,1312,1312
+684,14 Keyasthwara,Pattowala,593,"Ajay ,Sanjay,Avnish,",Parkash Chand,"Pattowala, Kairana",9897303364,Residential Self ,79,0,79,0,0,0
+685,14 Keyasthwara,Pattowala,594,Sanjay,Parkash Chand,"Pattowala, Kairana",9027274306,Residential Self ,66,0,66,0,354,0
+686,14 Keyasthwara,Pattowala,594/1,Sanjay,Parkash Chand,"Pattowala, Kairana",9027274306,Commercial Self ,220,0,220,0,0,0
+687,14 Keyasthwara,Pattowala,595,"Dharam Veer S/O Daya Ram,
+Vimla Devi W/O Dharam Veer",Daya Ram,"Pattowala, Kairana",8173999490,Residential Self ,97,321,97,321,949,949
+688,14 Keyasthwara,Pattowala,596,Bina Devi,W/O Radhe Shayam,"Pattowala, Kairana",9897586055,Residential Self ,97,97,97,97,420,420
+689,14 Keyasthwara,Pattowala,596/1,Shayamo Devi ,W/O Ved Parkash,"Pattowala, Kairana",9760242270,Residential Self ,44,0,44,4,0,0
+690,14 Keyasthwara,Pattowala,597,Joshfeen,W/O Jamshed,"Pattowala, Kairana",9027868686,Residential Self ,73,5728,73,4784,0,0
+691,14 Keyasthwara,Pattowala,598,Jay Parkash,Data Ram,"Pattowala, Kairana",9897586055,Residential Self ,44,44,44,44,400,400
+692,14 Keyasthwara,Pattowala,599,Barj Mohan,Jay Parkash,"Pattowala, Kairana",9897586055,Residential Self ,44,44,44,44,0,0
+693,14 Keyasthwara,Pattowala,600,Devi Chand,Kesho Ram,"Pattowala, Kairana",-,Open Plot,44,2253,44,2253,0,0
+694,14 Keyasthwara,Pattowala,601,Kusum Lata,W/O Tara Chand,"Pattowala, Kairana",9027274162,Residential Self ,44,0,44,0,440,440
+695,14 Keyasthwara,Pattowala,601/2,Babita,W/O Surendra Mittal,"Pattowala, Kairana",9997786893,Residential Self ,48,565,48,565,2556,2556
+696,14 Keyasthwara,Pattowala,602,Rekha Mittal,W/O Suraj Parkash Mittal,"Pattowala, Kairana",7017006164,Residential Self ,150,917,150,917,1555,1555
+697,14 Keyasthwara,Pattowala,602/1,Raj Kumar,Mangal Sen,"Pattowala, Kairana",9058870378,Residential Self ,44,268,44,268,0,0
+698,14 Keyasthwara,Pattowala,603,"Raj Kumar, Mohan S/O Mangal Sen,
+Sunita W/O Raj Kumar, Mitlesh W/O Mohan",Mangal Sen,"Pattowala, Kairana",6397871203,Residential Self ,45,276,45,276,2043,2043
+699,14 Keyasthwara,Pattowala,603/1,Piryanka Verma,W/O Arun Verma,"Pattowala, Kairana",7983862140,Commercial Self ,121,121,121,121,299,299
+700,14 Keyasthwara,Pattowala,603/A,"Mohan S/O Mangal Sen,
+Mitlesh W/O Mohan",Mangal Sen,"Pattowala, Kairana",6397871203,Commercial Self ,0,0,0,0,0,0
+701,14 Keyasthwara,Pattowala,604,Ram Kumar,Raghuveer,"Pattowala, Kairana",9457575784,Commercial Self ,290,3983,290,3983,0,0
+702,14 Keyasthwara,Pattowala,605,"Raj Kumar, Mohan S/O Mangal Sen,
+Sunita W/O Raj Kumar, Mitlesh W/O Mohan",Mangal Sen,"Pattowala, Kairana",9058870378,Commercial Self ,88,538,88,538,0,0
+703,14 Keyasthwara,Pattowala,606,"Raj Kumar, Mohan S/O Mangal Sen,
+Sunita W/O Raj Kumar, Mitlesh W/O Mohan",Mangal Sen,"Pattowala, Kairana",6397871203,Commercial Self ,88,538,88,538,0,0
+704,14 Keyasthwara,Pattowala,607,"Raj Kumar, Mohan S/O Mangal Sen,
+Sunita W/O Raj Kumar, Mitlesh W/O Mohan",Mangal Sen,"Pattowala, Kairana",6397871203,Commercial Self ,0,0,0,0,0,0
+705,14 Keyasthwara,Pattowala,608,Dukan Shiv Mandir,-,"Pattowala, Kairana",9536481818,Commercial Self ,145,1377,145,1377,0,0
+706,14 Keyasthwara,Pattowala,608/1,Milkiyat Pawan Dham Mandir,-,"Pattowala, Kairana",9536481818,Commercial Self ,44,699,44,699,0,0
+707,14 Keyasthwara,Pattowala,609,Amrish Kumar,Rameshwer Dayal,"Pattowala, Kairana",8439112007,Residential Self ,44,0,44,0,1240,0
+708,14 Keyasthwara,Pattowala,610,Madan Lal,Guru Charan,"Pattowala, Kairana",9412710932,Residential Self ,121,121,121,121,299,299
+709,14 Keyasthwara,Pattowala,611,Subhash Chand,Parkash Chand,"Pattowala, Kairana",8412710932,Residential Self ,44,0,44,0,0,0
+710,14 Keyasthwara,Pattowala,612,"Santosh Rani W/O Omkar Sawroop,
+Pardeep ,Sandeep S/O Shayam Lal",Shayam Lal,"Pattowala, Kairana",8126784438,Commercial Self ,73,73,73,0,0,0
+711,14 Keyasthwara,Pattowala,613,"Santosh Rani W/O Omkar Sawroop,
+Pardeep ,Sandeep S/O Shayam Lal",Shayam Lal,"Pattowala, Kairana",8126784438,Commercial Self ,55,0,55,55,0,0
+712,14 Keyasthwara,Pattowala,614,"Santosh Rani W/O Omkar Sawroop,
+Pardeep ,Sandeep S/O Shayam Lal",Shayam Lal,"Pattowala, Kairana",8126784438,Residential Self ,266,266,266,0,308,154
+713,14 Keyasthwara,Pattowala,615,Jay Parkash,Shri Parkash,"Pattowala, Kairana",9897272266,Residential Self ,48,48,48,48,0,0
+714,14 Keyasthwara,Pattowala,616,Mohan Lal,Ved Parkash,"Pattowala, Kairana",9412582848,Residential Self ,73,0,73,0,347,0
+715,14 Keyasthwara,Pattowala,617,Vijener Parkash,Ved Parkash,"Pattowala, Kairana",9897272266,Residential Self ,88,88,88,88,332,332
+716,14 Keyasthwara,Pattowala,618,Surender Kumar,Ved Parkash,"Pattowala, Kairana",9412582848,Residential Self ,73,0,73,0,347,0
+717,14 Keyasthwara,Pattowala,619,Ravinder Kumar,Ved Parkash,"Pattowala, Kairana",9997875943,Residential Self ,48,48,48,48,724,724
+718,14 Keyasthwara,Pattowala,620,Mahaveer Parshad,Mannu Lal,"Pattowala, Kairana",9997875943,Residential Self ,133,133,133,133,383,383
+719,14 Keyasthwara,Pattowala,621,Surender Kumar,Shayam Lal,"Pattowala, Kairana",9997523171,Residential Self ,165,165,165,0,0,0
+720,14 Keyasthwara,Pattowala,622,Paltu Ram,Shayam Lal,"Pattowala, Kairana",9997523171,Residential Self ,165,0,165,0,0,0
+721,14 Keyasthwara,Pattowala,623,Surender Kumar,Shayam Lal,"Pattowala, Kairana",9897404882,Residential Self ,110,671,110,671,2160,2160
+722,14 Keyasthwara,Pattowala,624,Subhash Chand,Padam Parkash,"Pattowala, Kairana",8755173761,Residential Self ,44,145,44,145,0,0
+723,14 Keyasthwara,Pattowala,624/1,Raman Kumar,Ram Kumar,"Pattowala, Kairana",8909820340,Residential Self ,88,88,88,88,0,0
+724,14 Keyasthwara,Pattowala,625,"Raj Dulari W/O Mohan Lal,
+Pankaj S/O Mohan Lal",Mohan Lal,"Pattowala, Kairana",9012179701,Residential Self ,330,0,330,0,1760,146
+725,14 Keyasthwara,Pattowala,626,Raman  ,Ram Kumar,"Pattowala, Kairana",8909820340,Residential Self ,48,159,48,159,1312,1312
+726,14 Keyasthwara,Pattowala,627,Sunder Lal,Ved Parkash,"Pattowala, Kairana",9027395493,Residential Self ,55,337,55,337,0,0
+727,14 Keyasthwara,Pattowala,628,"Paltu Ram S/O Shayam Lal,
+Mitlesh W/O Paltu",Shayam Lal,"Pattowala, Kairana",8057468544, -,48,659,48,936,0,0
+728,14 Keyasthwara,Pattowala,629,Mitlesh,W/O Paltu Ram,"Pattowala, Kairana",9719345530,Residential Self ,182,2148,182,2148,2786,2786
+729,14 Keyasthwara,Pattowala,630,"Rahul Sharma,
+Pushpa W/O Dharam Pal",Dharam Pal,"Pattowala, Kairana",9897773433,Residential Self ,110,510,110,510,1846,1846
+730,14 Keyasthwara,Pattowala,630/1,Harish Kumar,Ramesh Chand,"Pattowala, Kairana",8171968987,Residential Self ,110,1297,110,1297,0,0
+731,14 Keyasthwara,Pattowala,631,Salochana Devi,W/O Mahendra Savroop,"Pattowala, Kairana",9557412133,Residential Self ,48,48,48,48,372,372
+732,14 Keyasthwara,Pattowala,632,Atma Ram  ,Jay Kumar,"Pattowala, Kairana",8126880700,Commercial Self ,48,48,48,48,0,0
+733,14 Keyasthwara,Pattowala,633,Atma Ram,Jay Kumar,"Pattowala, Kairana",8126880700,Commercial Self ,44,44,44,44,0,0
+734,14 Keyasthwara,Pattowala,634,Atma Ram,Jay Kumar,"Pattowala, Kairana",8126880700,Residential Self ,31,31,31,0,0,0
+735,14 Keyasthwara,Pattowala,635,Atma Ram,Jay Kumar,"Pattowala, Kairana",8126880700,Residential Self ,242,1123,242,220,0,0
+736,14 Keyasthwara,Pattowala,636,"Raj Dulari  ,Usha Rani","W/O Surendra , Raj Kumar","Pattowala, Kairana",8126880700,Residential Self ,0,0,0,0,0,0
+737,14 Keyasthwara,Pattowala,637,Manoj Kumar,Raj Kumar,"Pattowala, Kairana",9997753743,Commercial Self ,110,364,110,364,0,0
+738,14 Keyasthwara,Pattowala,638,Usha Rani,W/O Raj Kumar,"Pattowala, Kairana",9997753743,Commercial Self ,121,400,121,400,973,973
+739,14 Keyasthwara,Pattowala,639,Usha Rani,W/O Raj Kumar,"Pattowala, Kairana",9997753743,Residential Self ,88,292,88,292,0,0
+740,14 Keyasthwara,Pattowala,640,Usha Rani,W/O Raj Kumar,"Pattowala, Kairana",9997753743,Residential Self ,0,0,0,0,0,0
+741,14 Keyasthwara,Pattowala,641,Shivam  Gupta,Vinod Kumar,"Pattowala, Kairana",8171761080,Residential Self ,1500,1550,1500,73,2137,2137
+742,14 Keyasthwara,Pattowala,642,Gurmoj Saran,Swami Sharan,"Pattowala, Kairana",7417797724,Residential Self ,61,470,61,470,1974,1974
+743,14 Keyasthwara,Pattowala,643,"Sangita W/O Lokesh Kumar,
+Lokesh Kumar",Kalu Ram,"Pattowala, Kairana",7417797724,Residential Self ,61,470,61,470,0,0
+744,14 Keyasthwara,Pattowala,644,"Shakil,
+Rabiya W/O Shakil",Saleem,"Pattowala, Kairana",9897733589,Residential Self ,121,0,121,0,0,0
+745,14 Keyasthwara,Pattowala,645,"Shakil,
+Rabiya W/O Shakil",Saleem,"Pattowala, Kairana",9897733589,Commercial Self ,0,0,0,0,0,0
+746,14 Keyasthwara,Pattowala,646,"Shakil,
+Rabiya W/O Shakil",Saleem,"Pattowala, Kairana",9897733589,Commercial Self ,220,0,220,0,0,0
+747,14 Keyasthwara,Pattowala,647,"Shakil,
+Rabiya W/O Shakil",Saleem,"Pattowala, Kairana",9897733589,Commercial Self ,121,0,121,0,0,0
+748,14 Keyasthwara,Pattowala,648,"Shakil,
+Rabiya W/O Shakil",Saleem,"Pattowala, Kairana",9897733589,Commercial Self ,0,0,0,0,0,0
+749,14 Keyasthwara,Pattowala,649,"Shakil,
+Rabiya W/O Shakil",Saleem,"Pattowala, Kairana",9897733589,Commercial Self ,121,0,121,0,0,0
+750,14 Keyasthwara,Pattowala,650,"Shakil,
+Rabiya W/O Shakil",Saleem,"Pattowala, Kairana",9897733589,Commercial Self ,121,0,121,0,0,0
+751,14 Keyasthwara,Pattowala,645/1,"Shakil,
+Rabiya W/O Shakil",Saleem,"Pattowala, Kairana",9897733589,Commercial Self ,0,0,0,0,0,0
+752,14 Keyasthwara,Pattowala,646/1,"Shakil,
+Rabiya W/O Shakil",Saleem,"Pattowala, Kairana",9897733589,Commercial Self ,0,0,0,0,0,0
+753,14 Keyasthwara,Pattowala,646/2,"Shakil,
+Rabiya W/O Shakil",Saleem,"Pattowala, Kairana",9897733589,Commercial Self ,0,0,0,0,0,0
+754,14 Keyasthwara,Pattowala,646/3,"Shakil,
+Rabiya W/O Shakil",Saleem,"Pattowala, Kairana",9897733589,Commercial Self ,0,0,0,0,0,0
+755,14 Keyasthwara,Pattowala,646/4,"Shakil,
+Rabiya W/O Shakil",Saleem,"Pattowala, Kairana",9897733589,Commercial Self ,220,0,220,0,0,0
+756,14 Keyasthwara,Pattowala,647/1,"Shakil,
+Rabiya W/O Shakil",Saleem,"Pattowala, Kairana",9897733589,Commercial Self ,220,0,220,0,0,0
+757,14 Keyasthwara,Pattowala,647/2,"Shakil,
+Rabiya W/O Shakil",Saleem,"Pattowala, Kairana",9897733589,Commercial Self ,220,0,220,0,0,0
+758,14 Keyasthwara,Pattowala,647/3,"Shakil,
+Rabiya W/O Shakil",Saleem,"Pattowala, Kairana",9897733589,Commercial Self ,0,0,0,0,0,0
+759,14 Keyasthwara,Pattowala,648/4,"Shakil,
+Rabiya W/O Shakil",Saleem,"Pattowala, Kairana",9897733589,Commercial Self ,0,0,0,0,0,0
+760,14 Keyasthwara,Pattowala,651,"Raj Kumar, Anand Parkash, S/O Shayam Lal,
+Somvati Devi W/O Kirshan Lal, Anil S/O Kirshan, Radhe Lal S/O Kashi Ram",-,"Pattowala, Kairana",-,Residential Self ,66,510,66,510,0,0
+761,14 Keyasthwara,Pattowala,652,Kunj Bihari,Ranjeet,"Pattowala, Kairana",9634496390,Residential Self ,61,61,61,61,0,0
+762,14 Keyasthwara,Pattowala,653,Sumit Garg,Rajendra,"Pattowala, Kairana",7453848644,Commercial Self ,48,848,48,877,0,0
+763,14 Keyasthwara,Pattowala,654,Sumat Parshad,Jay Bhagwan,"Pattowala, Kairana",9837803860,Commercial Self ,145,145,145,145,0,0
+764,14 Keyasthwara,Pattowala,655,Sumat Parshad,Jay Bhagwan,"Pattowala, Kairana",9837803860,Residential Self ,145,0,145,0,275,275
+765,14 Keyasthwara,Pattowala,656,Sumat Parshad,Jay Bhagwan,"Pattowala, Kairana",9837803860,Commercial Self ,0,0,0,0,0,0
+766,14 Keyasthwara,Pattowala,657,Sumat Parshad,Jay Bhagwan,"Pattowala, Kairana",9837803860,Commercial Self ,0,0,0,0,0,0
+767,14 Keyasthwara,Pattowala,658,Suman Rani,W/O Rajnish Sharma,"Pattowala, Kairana",9557376007,Commercial Self ,182,0,182,0,0,0
+768,14 Keyasthwara,Pattowala,659,Jag Roshan,Jay Bhagwan,"Pattowala, Kairana",9837773024,Commercial Self ,132,1558,132,2551,0,0
+769,14 Keyasthwara,Pattowala,660,Mohan Lal,Jay Bhagwan,"Pattowala, Kairana",9837773024,Commercial Self ,145,1708,145,1704,0,0
+770,14 Keyasthwara,Pattowala,661,Ashu Verma,Vikas Verma,"Pattowala, Kairana",9548828301,Commercial Self ,145,1708,145,1704,0,0
+771,14 Keyasthwara,Pattowala,662,"Shakila W/O Haneef,
+Mukeem, Fahim, Ameen S/O Haneef",Haneef,"Pattowala, Kairana",8650542318,Commercial Self ,550,6487,550,6487,0,0
+772,14 Keyasthwara,Pattowala,663,Nirmala Devi ,W/O Mohan Lal,"Pattowala, Kairana",9837773024,Factory,73,1005,73,1005,0,0
+773,14 Keyasthwara,Pattowala,664,Mohan Lal,Jay Bhagwan,"Pattowala, Kairana",9411449480,Commercial Self ,218,7334,218,4976,0,0
+774,14 Keyasthwara,Pattowala,665,Inshar,Irshad,"Pattowala, Kairana",9411449480,Commercial Self ,218,11173,218,16808,0,0
+775,14 Keyasthwara,Pattowala,592/1A,Avnish Kumar,Parkash Chand,"Pattowala, Kairana",9760775551,Residential Self ,77,0,77,0,0,0
+776,14 Keyasthwara,Pattowala,592/2,Avnish Kumar,Parkash Chand,"Pattowala, Kairana",9760775551,Commercial Self ,220,0,220,0,0,0
+777,14 Keyasthwara,Pattowala,592/3,Avnish Kumar,Parkash Chand,"Pattowala, Kairana",9760775551,Commercial Self ,220,0,220,0,0,0
+778,14 Keyasthwara,Pattowala,592/4,Avnish Kumar,Parkash Chand,"Pattowala, Kairana",9760775551,Commercial Self ,220,0,220,0,0,0
+779,14 Keyasthwara,Pattowala,437/2,Shokin,Shareef,"Pattowala, Kairana",7011975856,Commercial Self ,200,928,200,200,0,0
+780,14 Keyasthwara,Pattowala,437/3,Haseen,Shareef,"Pattowala, Kairana",7011975856,Commercial Self ,200,928,200,200,840,840
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,

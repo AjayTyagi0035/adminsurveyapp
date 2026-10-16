@@ -26,6 +26,9 @@ export default function RecordsLayout({ children }) {
           <Link href="/map" className={`${styles.navItem} ${pathname === '/map' ? styles.navActive : ''}`}>
             🗺️ Map View
           </Link>
+          <Link href="/tauru-map" className={`${styles.navItem} ${pathname.startsWith('/tauru-map') ? styles.navActive : ''}`}>
+            🛰️ Tauru Map
+          </Link>
         </nav>
         <button
           className={styles.logoutBtn}

@@ -17,6 +17,7 @@ export default function SirsaMapLayout({ children }) {
           <Link href="/sirsa-map" className={`${styles.navItem} ${pathname.startsWith('/sirsa-map') ? styles.navActive : ''}`}>🗺️ Sirsa Map</Link>
           <Link href="/map" className={`${styles.navItem} ${pathname === '/map' ? styles.navActive : ''}`}>🗺️ Map View</Link>
           <Link href="/tauru-map" className={`${styles.navItem} ${pathname.startsWith('/tauru-map') ? styles.navActive : ''}`}>🛰️ Tauru Map</Link>
+          <Link href="/tauru-records" className={`${styles.navItem} ${pathname.startsWith('/tauru-records') ? styles.navActive : ''}`}>🏘️ Tauru Record</Link>
         </nav>
         <button className={styles.logoutBtn} onClick={async () => { await fetch('/api/auth/logout', { method: 'POST' }); window.location.href = '/login' }}>
           ⬅ Logout

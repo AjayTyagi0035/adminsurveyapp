@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server'
 
 // Routes that require authentication
-const PROTECTED_PATHS = ['/dashboard', '/map', '/records']
+const PROTECTED_PATHS = ['/dashboard', '/map', '/records', '/tauru-records']
 
 export function middleware(request) {
   const { pathname } = request.nextUrl
@@ -23,5 +23,5 @@ export function middleware(request) {
 
 export const config = {
   // Run middleware on these paths only (avoids running on _next/static etc.)
-  matcher: ['/dashboard/:path*', '/map/:path*', '/records/:path*'],
+  matcher: ['/dashboard/:path*', '/map/:path*', '/records/:path*', '/tauru-records/:path*'],
 }

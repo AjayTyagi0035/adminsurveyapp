@@ -304,3 +304,59 @@ CREATE TABLE public.surveyor_s_submissions (
 
     "floorNo" TEXT
 );
+
+CREATE TABLE public."Taru" (
+    id BIGSERIAL PRIMARY KEY,
+
+    "ulbName" TEXT,
+    district TEXT,
+    "mohallaName" TEXT,
+    "wardNoOrName" TEXT,
+    "propertyId" TEXT,
+    "houseNo" TEXT,
+    "ownerName" TEXT,
+    "fatherOrHusbandName" TEXT,
+    "membersInHouse" INTEGER,
+    address TEXT,
+    "mobileNo" TEXT,
+    "natureOfHouse" TEXT,
+
+    "WidthofRoadInFront" TEXT,
+    "Typeofconstruction" TEXT,
+    "Useofhouse" TEXT,
+
+    "frontWidthofPlotInFeet" NUMERIC,
+    "depthofPlotInFeet" NUMERIC,
+    "totalAreaInFeet" NUMERIC,
+    "builtUpArea" NUMERIC,
+    "openArea" NUMERIC,
+
+    ifmixed TEXT,
+
+    "firstFloorArea" NUMERIC,
+    "secondFloorArea" NUMERIC,
+    "thirdFloorArea" NUMERIC,
+    "fourthFloorArea" NUMERIC,
+
+    "commercialArea" NUMERIC,
+    "totalBuiltUpArea" NUMERIC,
+
+    "occupancyStatus" TEXT,
+
+    "frontPhotoUrl" TEXT,
+    "rightSidePhotoUrl" TEXT,
+    "leftSidePhotoUrl" TEXT,
+
+    "dataLat" NUMERIC,
+    "dataLng" NUMERIC,
+
+    "waterConnection" TEXT,
+    "sewerConnection" TEXT,
+
+    remarks TEXT,
+    "floorNo" TEXT,
+
+    "submittedBy" BIGINT REFERENCES public.users(id),
+    "submittedAt" TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    "updatedAt" TIMESTAMPTZ
+);

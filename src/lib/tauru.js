@@ -16,6 +16,15 @@ export const TAURU_WRITABLE_COLUMNS = [
   'remarks', 'floorNo', 'submittedBy',
 ]
 
+// Photos are stored as "<container>/<blob>" and served through the CDN.
+export const PHOTO_CDN_BASE = 'https://cdn.omgauamrit.in'
+
+/** Full URL for a stored photo path (older rows may hold a full URL). */
+export function photoUrl(path) {
+  if (!path) return null
+  return /^https?:\/\//i.test(path) ? path : `${PHOTO_CDN_BASE}/${path.replace(/^\/+/, '')}`
+}
+
 // District and ULB are fixed for every Tauru record.
 export const TAURU_FIXED_VALUES = { district: 'Nuh', ulbName: 'Tauru' }
 

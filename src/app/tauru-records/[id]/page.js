@@ -3,6 +3,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react'
 import dynamic from 'next/dynamic'
 import { useParams, useRouter } from 'next/navigation'
 import styles from '../../dashboard/dashboard.module.css'
+import { photoUrl } from '../../../lib/tauru'
 
 const TauruEditMap = dynamic(() => import('./TauruEditMap'), {
   ssr: false,
@@ -159,7 +160,7 @@ export default function TauruRecordEditPage() {
       const r = await fetch('/api/tauru/upload-image', { method: 'POST', body: form })
       const d = await r.json()
       if (!r.ok) throw new Error(d.error || 'Upload failed')
-      updateField(key, d.imageUrl)
+      updateField(key, d.path)
       showToast('Photo uploaded — click Update Record to save')
     } catch (err) {
       showToast(err.message, false)
@@ -320,7 +321,7 @@ export default function TauruRecordEditPage() {
                   </div>
                   <div style={{ display: 'flex', gap: '8px', marginTop: '6px' }}>
                     {record[key] && (
-                      <button type="button" className={styles.btnSave} style={{ padding: '5px 10px', fontSize: '12px' }} onClick={() => setViewImage(record[key])}>
+                      <button type="button" className={styles.btnSave} style={{ padding: '5px 10px', fontSize: '12px' }} onClick={() => setViewImage(photoUrl(record[key]))}>
                         👁️ View
                       </button>
                     )}

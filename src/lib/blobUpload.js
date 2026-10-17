@@ -67,7 +67,9 @@ export function createImageUploadHandler(getContainerName) {
         return res.status(200).json({
           message: 'Image uploaded successfully',
           imageUrl: blockBlobClient.url,
-          blobName: blobName
+          blobName: blobName,
+          // What gets stored in the DB; shown via https://cdn.omgauamrit.in/<path>
+          path: `${containerName}/${blobName}`
         })
       } catch (error) {
         console.error('Azure Upload Error:', error)

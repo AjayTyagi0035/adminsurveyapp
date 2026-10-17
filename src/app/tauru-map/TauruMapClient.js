@@ -1,6 +1,7 @@
 "use client"
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { TileLayer } from 'react-leaflet'
+import { TileLayer, Marker, Tooltip, Popup, useMap } from 'react-leaflet'
+import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import SafeMapContainer from '../../components/SafeMapContainer'
 
@@ -14,7 +15,75 @@ const DRONE_MAX_NATIVE_ZOOM = 20;
 // Transparent 1x1 GIF so failed tiles don't render as broken images
 const EMPTY_TILE = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
 
-export default function TauruMapClient({ showDroneLayer = true, onDroneError }) {
+// Same red dot marker as the Map View tab
+const DOT_SVG = `data:image/svg+xml;utf8,` + encodeURIComponent(`
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+  <circle cx="6" cy="6" r="5" fill="#ea4335" stroke="#ffffff" stroke-width="1"/>
+</svg>
+`);
+
+let customIcon;
+if (typeof window !== 'undefined') {
+  customIcon = L.icon({
+    iconUrl: DOT_SVG,
+    iconSize: [12, 12],
+    iconAnchor: [6, 6],
+    popupAnchor: [0, -6]
+  });
+}
+
+function MapController({ center, zoom, onBoundsChange, setActivePopup }) {
+  const map = useMap();
+
+  useEffect(() => {
+    if (center) {
+      map.setView(center, zoom || map.getZoom());
+    }
+  }, [center, zoom, map]);
+
+  useEffect(() => {
+    const handleMoveEnd = () => {
+      const b = map.getBounds();
+      onBoundsChange({
+        ne_lat: b.getNorthEast().lat,
+        ne_lng: b.getNorthEast().lng,
+        sw_lat: b.getSouthWest().lat,
+        sw_lng: b.getSouthWest().lng,
+      });
+    };
+    map.on('moveend', handleMoveEnd);
+    handleMoveEnd();
+    return () => {
+      map.off('moveend', handleMoveEnd);
+    };
+  }, [map, onBoundsChange]);
+
+  useEffect(() => {
+    const clearPopup = () => setActivePopup(null);
+    map.on('dragstart', clearPopup);
+    map.on('zoomstart', clearPopup);
+    return () => {
+      map.off('dragstart', clearPopup);
+      map.off('zoomstart', clearPopup);
+    };
+  }, [map, setActivePopup]);
+
+  return null;
+}
+
+export default function TauruMapClient({
+  showDroneLayer = true,
+  onDroneError,
+  properties = [],
+  mapCenter,
+  mapZoom,
+  activePopup,
+  setActivePopup,
+  loadingDetailsId,
+  selectedRecord,
+  handleMarkerClick,
+  onBoundsChange,
+}) {
   const initialCenterRef = useRef(DEFAULT_CENTER);
   const initialZoomRef = useRef(DEFAULT_ZOOM);
   const [tileStats, setTileStats] = useState({ loaded: 0, failed: 0 });
@@ -60,6 +129,75 @@ export default function TauruMapClient({ showDroneLayer = true, onDroneError }) 
             eventHandlers={droneEventHandlers}
             attribution="&copy; Tauru Drone Tiles"
           />
+        )}
+
+        <MapController
+          center={mapCenter}
+          zoom={mapZoom}
+          onBoundsChange={onBoundsChange}
+          setActivePopup={setActivePopup}
+        />
+
+        {properties.map(prop => (
+          <Marker
+            key={prop.id}
+            position={[prop.latitude, prop.longitude]}
+            icon={customIcon}
+            eventHandlers={{
+              click: () => {
+                setActivePopup(prop);
+                handleMarkerClick(prop);
+              }
+            }}
+          >
+            <Tooltip direction="top" offset={[0, -30]} opacity={1}>
+              <div><strong>Owner Name:</strong> {prop.ownerName || '—'}</div>
+              <div><strong>House No:</strong> {prop.houseNo || '—'}</div>
+              <div><strong>Property ID:</strong> {prop.propertyId || '—'}</div>
+              <div><strong>Ward:</strong> {prop.wardNoOrName || '—'}</div>
+              {prop.submittedAt && (
+                <div><strong>Submitted:</strong> {new Date(prop.submittedAt).toLocaleDateString()}</div>
+              )}
+            </Tooltip>
+          </Marker>
+        ))}
+
+        {activePopup && (
+          <Popup
+            position={[activePopup.latitude, activePopup.longitude]}
+            autoPan={false}
+            onClose={() => setActivePopup(null)}
+          >
+            {loadingDetailsId === activePopup.id || !selectedRecord || String(selectedRecord.id) !== String(activePopup.id) ? (
+              <div style={{ padding: 10, fontFamily: 'sans-serif' }}>Loading survey details...</div>
+            ) : (
+              <div style={{ padding: '4px 0', fontFamily: 'system-ui', color: '#1e293b', lineHeight: 1.4, minWidth: 240, maxWidth: 300 }}>
+                <h3 style={{ margin: '0 0 8px', fontSize: '14px', fontWeight: 700, color: '#1e3a5f', borderBottom: '1px solid #e2e8f0', paddingBottom: '6px' }}>
+                  {selectedRecord.ownerName || 'Unnamed Owner'}
+                </h3>
+                <div style={{ fontSize: '12px', display: 'grid', gap: '4px', marginBottom: '10px' }}>
+                  <div><strong>House No:</strong> {selectedRecord.houseNo || '—'}</div>
+                  <div><strong>Property ID:</strong> {selectedRecord.propertyId || '—'}</div>
+                  <div><strong>Ward / Mohalla:</strong> {selectedRecord.wardNoOrName || '—'} / {selectedRecord.mohallaName || '—'}</div>
+                  <div><strong>Mobile:</strong> {selectedRecord.mobileNo || '—'}</div>
+                  <div><strong>Use of House:</strong> {selectedRecord.Useofhouse || '—'}</div>
+                  <div><strong>Address:</strong> {selectedRecord.address || '—'}</div>
+                  <div><strong>Total Built-up:</strong> {selectedRecord.totalBuiltUpArea != null ? `${selectedRecord.totalBuiltUpArea} sq ft` : '—'}</div>
+                  <div><strong>Surveyor:</strong> {selectedRecord.submittedByName || '—'}</div>
+                </div>
+                <div style={{ display: 'flex' }}>
+                  <a
+                    href={`/tauru-records/${selectedRecord.id}`}
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{ flex: 1, textAlign: 'center', background: '#1e3a5f', color: '#ffffff', padding: '6px 12px', borderRadius: '6px', fontSize: '11px', fontWeight: 600, textDecoration: 'none' }}
+                  >
+                    Edit Survey Record ↗
+                  </a>
+                </div>
+              </div>
+            )}
+          </Popup>
         )}
       </SafeMapContainer>
     </div>

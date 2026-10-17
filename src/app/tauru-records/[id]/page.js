@@ -1,7 +1,17 @@
 "use client"
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
+import dynamic from 'next/dynamic'
 import { useParams, useRouter } from 'next/navigation'
 import styles from '../../dashboard/dashboard.module.css'
+
+const TauruEditMap = dynamic(() => import('./TauruEditMap'), {
+  ssr: false,
+  loading: () => (
+    <div style={{ width: '100%', height: '380px', borderRadius: '12px', background: '#f1f5f9', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#64748b', marginTop: '12px' }}>
+      Loading map...
+    </div>
+  ),
+})
 
 // Keep in sync with tauruapp/lib/constants/survey_options.dart
 const OPTIONS = {
@@ -61,7 +71,7 @@ const SECTIONS = [
   { title: 'Owner Details', hint: 'Property identification and owner information.', fields: ['propertyId', 'houseNo', 'ownerName', 'fatherOrHusbandName', 'mobileNo', 'membersInHouse', 'address'] },
   { title: 'Property Details', hint: 'Construction, usage and utilities.', fields: ['natureOfHouse', 'Typeofconstruction', 'WidthofRoadInFront', 'floorNo', 'Useofhouse', 'ifmixed', 'occupancyStatus', 'waterConnection', 'sewerConnection'] },
   { title: 'Area & Measurements', hint: 'Plot size and floor-wise built-up area.', fields: ['frontWidthofPlotInFeet', 'depthofPlotInFeet', 'totalAreaInFeet', 'builtUpArea', 'firstFloorArea', 'secondFloorArea', 'thirdFloorArea', 'fourthFloorArea', 'commercialArea', 'openArea', 'totalBuiltUpArea'] },
-  { title: 'GPS & Remarks', hint: 'Captured location and notes.', fields: ['dataLat', 'dataLng', 'remarks'] },
+  { title: 'GPS & Remarks', hint: 'Drag the yellow pin or click on the map to correct the location.', fields: ['dataLat', 'dataLng', 'remarks'] },
   { title: 'System', hint: 'Record metadata kept for reference.', fields: ['id', 'submittedByName', 'submittedAt', 'updatedAt'] },
 ]
 
@@ -88,6 +98,29 @@ export default function TauruRecordEditPage() {
   const [uploading, setUploading] = useState(null)
   const [toast, setToast] = useState(null)
   const [viewImage, setViewImage] = useState(null)
+  const [otherProperties, setOtherProperties] = useState([])
+  const [showDroneLayer, setShowDroneLayer] = useState(true)
+
+  const lat = record?.dataLat
+  const lng = record?.dataLng
+  const currentLocation = useMemo(() => {
+    const la = parseFloat(lat)
+    const ln = parseFloat(lng)
+    return Number.isFinite(la) && Number.isFinite(ln) ? { lat: la, lng: ln } : null
+  }, [lat, lng])
+
+  const handleLocationChange = useCallback((latlng) => {
+    const round = v => Math.round(v * 1e7) / 1e7
+    setRecord(current => ({ ...current, dataLat: round(latlng.lat), dataLng: round(latlng.lng) }))
+  }, [])
+
+  useEffect(() => {
+    if (!id) return
+    fetch('/api/tauru/map')
+      .then(r => (r.ok ? r.json() : []))
+      .then(rows => setOtherProperties(Array.isArray(rows) ? rows.filter(p => String(p.id) !== String(id)) : []))
+      .catch(err => console.error(err))
+  }, [id])
 
   function showToast(msg, ok = true) {
     setToast({ msg, ok })
@@ -240,16 +273,32 @@ export default function TauruRecordEditPage() {
                   </div>
                 ))}
               </div>
-              {section.title === 'GPS & Remarks' && hasLocation && (
-                <a
-                  href={`https://www.google.com/maps?q=${record.dataLat},${record.dataLng}`}
-                  target="_blank"
-                  rel="noreferrer"
-                  className={styles.btnEdit}
-                  style={{ marginTop: '12px', textDecoration: 'none' }}
-                >
-                  📍 Open location in Google Maps
-                </a>
+              {section.title === 'GPS & Remarks' && (
+                <>
+                  <div style={{ marginTop: '12px', display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap' }}>
+                    <label style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '14px', color: '#334155', cursor: 'pointer' }}>
+                      <input type="checkbox" checked={showDroneLayer} onChange={e => setShowDroneLayer(e.target.checked)} />
+                      Show drone imagery
+                    </label>
+                    {hasLocation && (
+                      <a
+                        href={`https://www.google.com/maps?q=${record.dataLat},${record.dataLng}`}
+                        target="_blank"
+                        rel="noreferrer"
+                        className={styles.btnEdit}
+                        style={{ textDecoration: 'none' }}
+                      >
+                        📍 Open location in Google Maps
+                      </a>
+                    )}
+                  </div>
+                  <TauruEditMap
+                    currentLocation={currentLocation}
+                    otherProperties={otherProperties}
+                    onLocationChange={handleLocationChange}
+                    showDroneLayer={showDroneLayer}
+                  />
+                </>
               )}
             </section>
           ))}

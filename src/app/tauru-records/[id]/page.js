@@ -258,24 +258,23 @@ export default function TauruRecordEditPage() {
             <div className={styles.recordSectionHeader}>
               <div>
                 <h3 className={styles.recordSectionTitle}>Photos</h3>
-                <p className={styles.recordSectionHint}>Click a photo to enlarge. Replacing uploads to the tauruimage container.</p>
+                <p className={styles.recordSectionHint}>Click View to open a photo. Replacing uploads to the tauruimage container.</p>
               </div>
             </div>
             <div className={styles.recordGrid}>
               {PHOTOS.map(([key, label]) => (
                 <div key={key} className={styles.recordField}>
                   <label className={styles.recordFieldLabel}>{label}</label>
-                  {record[key] ? (
-                    <img
-                      src={record[key]}
-                      alt={label}
-                      onClick={() => setViewImage(record[key])}
-                      style={{ width: '100%', height: '180px', objectFit: 'cover', borderRadius: '10px', cursor: 'zoom-in', border: '1px solid #e5e7eb' }}
-                    />
-                  ) : (
-                    <div className={styles.empty} style={{ padding: '24px', border: '1px dashed #d1d5db', borderRadius: '10px' }}>No photo</div>
-                  )}
+                  {/* Photos load only on View, to avoid blob egress on every page open. */}
+                  <div className={styles.inputReadonly} style={{ color: record[key] ? '#15803d' : '#9ca3af' }}>
+                    {record[key] ? '✅ Photo available' : 'No photo'}
+                  </div>
                   <div style={{ display: 'flex', gap: '8px', marginTop: '6px' }}>
+                    {record[key] && (
+                      <button type="button" className={styles.btnSave} style={{ padding: '5px 10px', fontSize: '12px' }} onClick={() => setViewImage(record[key])}>
+                        👁️ View
+                      </button>
+                    )}
                     <label className={styles.btnEdit} style={{ cursor: uploading ? 'wait' : 'pointer' }}>
                       {uploading === key ? 'Uploading…' : record[key] ? '🔄 Replace' : '⬆️ Upload'}
                       <input

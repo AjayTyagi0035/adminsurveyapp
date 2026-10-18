@@ -1,5 +1,5 @@
 "use client"
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import dynamic from 'next/dynamic'
 import styles from '../dashboard/dashboard.module.css'
 
@@ -10,6 +10,8 @@ const SirsaAllMap = dynamic(() => import('./SirsaAllMapClient'), {
 
 export default function SirsaMapPage() {
   const [records, setRecords] = useState([])
+  const [wardFilter, setWardFilter] = useState('')
+  const [propertyFilter, setPropertyFilter] = useState('')
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
 
@@ -26,6 +28,19 @@ export default function SirsaMapPage() {
     return () => { active = false }
   }, [])
 
+  const filteredRecords = useMemo(() => {
+    const ward = wardFilter.trim().toLowerCase()
+    const propertyId = propertyFilter.trim().toLowerCase()
+
+    return records.filter(record => {
+      const recordWard = String(record.wardNoOrName ?? '').toLowerCase()
+      const recordPropertyId = String(record.propertyId ?? '').toLowerCase()
+
+      return (!ward || recordWard.includes(ward)) &&
+        (!propertyId || recordPropertyId.includes(propertyId))
+    })
+  }, [records, wardFilter, propertyFilter])
+
   return (
     <main className={styles.main} style={{ minWidth: 0 }}>
       <header className={styles.header}>
@@ -34,12 +49,35 @@ export default function SirsaMapPage() {
           <p className={styles.pageSubtitle}>All mapped Sirsa survey submissions</p>
         </div>
         <div className={styles.statCard} style={{ minWidth: 120 }}>
-          <span className={styles.statNum}>{loading ? '…' : records.length}</span>
+          <span className={styles.statNum}>{loading ? '…' : filteredRecords.length}</span>
           <span className={styles.statLabel}>Mapped Points</span>
         </div>
       </header>
 
-      {error ? <div className={styles.empty}>{error}</div> : !loading && records.length === 0 ? <div className={styles.empty}>No Sirsa records have valid coordinates.</div> : <SirsaAllMap records={records} />}
+      {!loading && !error && records.length > 0 && <div className={styles.filterRow} style={{ gridTemplateColumns: '1fr 1fr' }}>
+        <div className={styles.filterGroup}>
+          <label className={styles.filterLabel} htmlFor="sirsa-ward-filter">Ward number</label>
+          <input
+            id="sirsa-ward-filter"
+            className={styles.filterInput}
+            value={wardFilter}
+            placeholder="Search by ward number"
+            onChange={event => setWardFilter(event.target.value)}
+          />
+        </div>
+        <div className={styles.filterGroup}>
+          <label className={styles.filterLabel} htmlFor="sirsa-property-filter">Property ID</label>
+          <input
+            id="sirsa-property-filter"
+            className={styles.filterInput}
+            value={propertyFilter}
+            placeholder="Search property ID in the selected ward"
+            onChange={event => setPropertyFilter(event.target.value)}
+          />
+        </div>
+      </div>}
+
+      {error ? <div className={styles.empty}>{error}</div> : !loading && records.length === 0 ? <div className={styles.empty}>No Sirsa records have valid coordinates.</div> : !loading && filteredRecords.length === 0 ? <div className={styles.empty}>No Sirsa records match the selected filters.</div> : <SirsaAllMap records={filteredRecords} />}
     </main>
   )
 }

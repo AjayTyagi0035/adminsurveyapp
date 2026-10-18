@@ -37,7 +37,7 @@ export default function SirsaMapPage() {
       const recordPropertyId = String(record.propertyId ?? '').toLowerCase()
 
       return (!ward || recordWard.includes(ward)) &&
-        (!propertyId || recordPropertyId.includes(propertyId))
+        (!propertyId || recordPropertyId === propertyId)
     })
   }, [records, wardFilter, propertyFilter])
 

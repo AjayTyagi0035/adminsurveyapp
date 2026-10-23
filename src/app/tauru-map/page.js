@@ -25,10 +25,12 @@ function inBounds(prop, b) {
 
 export default function TauruMapPage() {
   const [showDroneLayer, setShowDroneLayer] = useState(true);
+  const [showExpandedBoundary, setShowExpandedBoundary] = useState(true);
   const [showMarkers, setShowMarkers] = useState(true);
   const [layersExpanded, setLayersExpanded] = useState(true);
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [droneError, setDroneError] = useState(null);
+  const [boundaryError, setBoundaryError] = useState(null);
 
   const [filters, setFilters] = useState(EMPTY_FILTERS);
   const [properties, setProperties] = useState([]);
@@ -135,6 +137,8 @@ export default function TauruMapPage() {
         <TauruMap
           showDroneLayer={showDroneLayer}
           onDroneError={setDroneError}
+          showExpandedBoundary={showExpandedBoundary}
+          onBoundaryError={setBoundaryError}
           properties={showMarkers ? properties : []}
           mapCenter={mapCenter}
           mapZoom={mapZoom}
@@ -226,6 +230,12 @@ export default function TauruMapPage() {
                   <span className={styles.layerName}>🛰️ Drone Imagery</span>
                 </label>
                 {showDroneLayer && droneError && <div className={styles.mapErrorBanner}>{droneError}</div>}
+                <label className={`${styles.layerToggleItem} ${showExpandedBoundary ? styles.layerActive : ''}`}>
+                  <input type="checkbox" checked={showExpandedBoundary} onChange={e => setShowExpandedBoundary(e.target.checked)} className={styles.layerCheckbox} />
+                  <span className={styles.layerDot} style={{ background: '#f59e0b' }}></span>
+                  <span className={styles.layerName}>🗺️ Expanded Boundary</span>
+                </label>
+                {showExpandedBoundary && boundaryError && <div className={styles.mapErrorBanner}>{boundaryError}</div>}
                 <label className={`${styles.layerToggleItem} ${showMarkers ? styles.layerActive : ''}`}>
                   <input type="checkbox" checked={showMarkers} onChange={e => setShowMarkers(e.target.checked)} className={styles.layerCheckbox} />
                   <span className={styles.layerDot} style={{ background: '#ea4335' }}></span>

@@ -1,0 +1,534 @@
+﻿PROPERTY ID,WARD NAME,MOHALLA NAME,HOUSE NO,OWNER NAME,FATHER NAME,ADDRESS,MOBILE NO,PROPERTY USE AS,OLD HOUSE TAX 2025-2026,HOUSE TAX ARRER 2025-2026,OLD WATER TAX 2025-2026,WATER TAX ARRER 2025-2026,OLD WATER TANK TAX 2025-2026,OLD WATER TANK ARRER 2025-2026
+1,18-Aal Darmayan,Aal Darmayan,1,Manjoor,Makbool,Aal Darmayan, -, -,77,77,77,77,343,343
+2,18-Aal Darmayan,Aal Darmayan,2,Kalli ,W/O Jamil,Aal Darmayan,9720906430,Residential Self ,79,79,79,79,420,420
+3,18-Aal Darmayan,Aal Darmayan,3,Basheer,Mohammad,Aal Darmayan,9012091496,Residential Self ,87,87,87,188,333,333
+4,18-Aal Darmayan,Aal Darmayan,4,Basheer,Ibrahim,Aal Darmayan,9690012832,Residential Self ,109,1732,109,1732,0,0
+5,18-Aal Darmayan,Aal Darmayan,5,Haseena,W/OHameed,Aal Darmayan,9690012832,Residential Self ,88,1607,88,1607,0,0
+6,18-Aal Darmayan,Aal Darmayan,6,Naseer,Ibrahim,Aal Darmayan,8171680717,Residential Self ,66,510,66,510,0,0
+7,18-Aal Darmayan,Aal Darmayan,7,Rais Ahmad,Anis,Aal Darmayan,9012766327,Residential Self ,132,132,132,132,288,288
+8,18-Aal Darmayan,Aal Darmayan,8,Rais Ahmad,Anis,Aal Darmayan,9012766327,Commercial Self ,132,132,132,132,0,0
+9,18-Aal Darmayan,Aal Darmayan,9,Rais Ahmad,Anis,Aal Darmayan,9012766327,Commercial Self ,66,66,66,66,0,0
+10,18-Aal Darmayan,Aal Darmayan,9/1,Rais Ahmad,Anis,Aal Darmayan,9012766327,Commercial Self ,66,66,66,66,0,0
+11,18-Aal Darmayan,Aal Darmayan,10,Afzal,Anis,Aal Darmayan,7417758501,Residential Self ,72,555,72,555,420,2340
+12,18-Aal Darmayan,Aal Darmayan,11,Afzal,Anis,Aal Darmayan,7417758501,Commercial Self ,121,958,121,933,0,0
+13,18-Aal Darmayan,Aal Darmayan,12,Afzal,Anis,Aal Darmayan,7417758501,Commercial Self ,110,848,110,848,0,0
+14,18-Aal Darmayan,Aal Darmayan,12/1,Afzal,Anis,Aal Darmayan,7417758501,Commercial Self ,55,425,55,426,0,0
+15,18-Aal Darmayan,Aal Darmayan,13,Milkiyat Masjid Utwal,-,Aal Darmayan,7533910470,Masjid,48,293,48,293,0,0
+16,18-Aal Darmayan,Aal Darmayan,14,Milkiyat Masjid Utwal,-,Aal Darmayan,7533910470,Masjid,48,293,48,293,0,0
+17,18-Aal Darmayan,Aal Darmayan,15,Milkiyat Masjid Utwal,-,Aal Darmayan,7533910470,Masjid,48,293,48,293,0,0
+18,18-Aal Darmayan,Aal Darmayan,16,Masjid Ibadatgah,-,Aal Darmayan,-,Masjid,0,0,0,0,420,2040
+19,18-Aal Darmayan,Aal Darmayan,17,Mehboob,Aalim,Aal Darmayan,9557235133,Residential Self ,127,0,127,0,293,1924
+20,18-Aal Darmayan,Aal Darmayan,18,Kasim,Kamil,Aal Darmayan,8533828051,Residential Self ,55,650,55,650,365,3960
+21,18-Aal Darmayan,Aal Darmayan,19,Rizwan,Aalim,Aal Darmayan,9012081643,Residential Self ,77,77,77,77,0,0
+22,18-Aal Darmayan,Aal Darmayan,23,Aamir,Kamil,Aal Darmayan,7456914202,Residential Self ,396,1838,396,9277,24,56
+23,18-Aal Darmayan,Aal Darmayan,24,Istakhar,Mustak,Aal Darmayan,7017589931,Residential Self ,109,506,109,506,311,1204
+24,18-Aal Darmayan,Aal Darmayan,25,Dilbar,Najeer,Aal Darmayan,7017589931,Residential Self ,330,7733,330,7733,0,0
+25,18-Aal Darmayan,Aal Darmayan,26,Israt,W/O Vaseem,Aal Darmayan,8439355710,Residential Self ,165,547,165,547,255,945
+26,18-Aal Darmayan,Aal Darmayan,27,Ikram,Noora,Aal Darmayan,9927272881,Residential Self ,171,171,171,2320,249,249
+27,18-Aal Darmayan,Aal Darmayan,28,Yaseen,Seeda,Aal Darmayan,9917701149,Residential Self ,48,101,48,48,372,744
+28,18-Aal Darmayan,Aal Darmayan,29,Jahid,Seeda,Aal Darmayan,9917701149,Residential Self ,97,1332,97,659,323,2377
+29,18-Aal Darmayan,Aal Darmayan,30,Jahoor,Jakhi,Aal Darmayan,9996992176,Residential Self ,45,211,45,210,375,1460
+30,18-Aal Darmayan,Aal Darmayan,31,Ilyas,Yunus,Aal Darmayan,9837669075,Residential Self ,396,396,396,396,24,40
+31,18-Aal Darmayan,Aal Darmayan,32,Sameem V Saleem,Yunus,Aal Darmayan,7668035455,Residential Self ,396,396,396,2007,24,60
+32,18-Aal Darmayan,Aal Darmayan,33,Anis Ahmad,Haneef,Aal Darmayan,9557033139,Residential Self ,48,101,48,101,372,744
+33,18-Aal Darmayan,Aal Darmayan,34,Istiyaak,Ishaq,Aal Darmayan,9639169154,Residential Self ,48,455,48,455,0,0
+34,18-Aal Darmayan,Aal Darmayan,35,Haneef,Ameer Ahnmad,Aal Darmayan,9639169154,Residential Self ,48,101,48,101,372,344
+35,18-Aal Darmayan,Aal Darmayan,36,Yaseen,Samshu,Aal Darmayan,8923602266,Residential Self ,88,538,88,538,332,1600
+36,18-Aal Darmayan,Aal Darmayan,37,Rafeek ,Deen Moh.,Aal Darmayan,9997488411,Residential Self ,48,370,48,370,372,2052
+37,18-Aal Darmayan,Aal Darmayan,38,Haseena,W/O Hameed,Aal Darmayan,9690012832,Residential Self ,88,1625,88,1623,420,3763
+38,18-Aal Darmayan,Aal Darmayan,38/1,Muneeja,W/O Basheer,Aal Darmayan,9690012832,Residential Self ,66,1048,66,1053,0,0
+39,18-Aal Darmayan,Aal Darmayan,39,Naseer,Abri,Aal Darmayan,9690012832,Residential Self ,61,470,61,470,0,0
+40,18-Aal Darmayan,Aal Darmayan,40,Mehmood,Mohammad,Aal Darmayan,9012091496,Residential Self ,396,5086,396,4634,420,4264
+41,18-Aal Darmayan,Aal Darmayan,41,Majeed,Hameed,Aal Darmayan,-,Residential Self ,48,299,48,293,372,1800
+42,18-Aal Darmayan,Aal Darmayan,42,Jaheer,Meer,Aal Darmayan,9817899224,Residential Self ,73,73,73,73,347,347
+43,18-Aal Darmayan,Aal Darmayan,43,Saggo,W/O Asfaq,Aal Darmayan,-,-,44,145,44,145,0,0
+44,18-Aal Darmayan,Aal Darmayan,44,Inayat,Sakhi,Aal Darmayan,-,-,55,648,55,650,0,0
+45,18-Aal Darmayan,Aal Darmayan,45,Mehrbaan,Hmeed,Aal Darmayan,8272008039,Residential Self ,396,2418,396,2418,420,2040
+46,18-Aal Darmayan,Aal Darmayan,46,Meer,Rahamtulla,Aal Darmayan,8126892914,Residential Self ,121,327,121,1427,0,0
+47,18-Aal Darmayan,Aal Darmayan,46/1,Iqbaal,Mohammad Urf Sakho,Aal Darmayan,7417820605,Residential Self ,88,0,88,0,420,0
+48,18-Aal Darmayan,Aal Darmayan,47,Aswaq,Banda,Aal Darmayan,8171525008,Residential Self ,182,1110,182,1110,238,1130
+49,18-Aal Darmayan,Aal Darmayan,48,Istiyaak,Nisaar,Aal Darmayan,9897769198,Residential Self ,48,48,48,101,372,372
+50,18-Aal Darmayan,Aal Darmayan,49,Haji Mustak,Ishaq,Aal Darmayan,8126892914,Residential Self ,61,721,61,721,0,0
+51,18-Aal Darmayan,Aal Darmayan,50,Naseem,Bhura,Aal Darmayan,8126892914,Residential Self ,44,802,44,802,0,0
+52,18-Aal Darmayan,Aal Darmayan,"51, 51/1",Mehboob,Fareed,Aal Darmayan,7082319147,Residential Self ,55,873,55,873,0,0
+53,18-Aal Darmayan,Aal Darmayan,52,Naseema,D/O Seeda,Aal Darmayan,9756189468,Residential Self ,462,7282,462,9808,0,0
+54,18-Aal Darmayan,Aal Darmayan,53,Saleem,Vali Moh.,Aal Darmayan,8449848340,Residential Self ,66,510,66,510,420,2340
+55,18-Aal Darmayan,Aal Darmayan,54,Birumilla,W/O Jahoor,Aal Darmayan,7037320725,Residential Self ,12,102,0,0,0,0
+56,18-Aal Darmayan,Aal Darmayan,55,Naseem V Sameem,Bhura,Aal Darmayan,9568623680,Residential Self ,88,1036,88,1036,420,2940
+57,18-Aal Darmayan,Aal Darmayan,56,Jahoor,Basheer,Aal Darmayan,9012081266,Residential Self ,116,538,116,4810,304,2442
+58,18-Aal Darmayan,Aal Darmayan,57,"Afsana,Kanija,Raees","W/O Hameed,Jahoor",Aal Darmayan,7037320725,Residential Self ,66,1051,66,1051,0,0
+59,18-Aal Darmayan,Aal Darmayan,58,Ashiq,Buddhu,Aal Darmayan,9927190942,Residential Self ,66,403,66,404,354,1710
+60,18-Aal Darmayan,Aal Darmayan,59,Ikram,Banda,Aal Darmayan,8630339966,Residential Self ,73,1160,73,1160,347,2824
+61,18-Aal Darmayan,Aal Darmayan,60,Islaam,Banda,Aal Darmayan,9756951062,Residential Self ,97,1551,97,1544,323,2588
+62,18-Aal Darmayan,Aal Darmayan,61,Akhtar,Keena,Aal Darmayan,9756951261,Residential Self ,242,242,242,242,178,178
+63,18-Aal Darmayan,Aal Darmayan,62,Majeed,Deena,Aal Darmayan, -,Residential Self ,67,791,67,791,353,2404
+64,18-Aal Darmayan,Aal Darmayan,63,Jubeda,W/O Altaaf,Aal Darmayan,8077851553,Residential Self ,44,0,44,0,0,0
+65,18-Aal Darmayan,Aal Darmayan,"64 TO 68, V 68/1",Ameer Ahmad,Ismail,Aal Darmayan,9756748068,Residential Self ,352,4150,352,4150,68,280
+66,18-Aal Darmayan,Aal Darmayan,69,Nasir,Yameen,Aal Darmayan,9548321965,Residential Self ,51,394,51,394,369,2034
+67,18-Aal Darmayan,Aal Darmayan,70,Hameed,Musaraf,Aal Darmayan,9012767538,Residential Self ,45,45,45,45,420,420
+68,18-Aal Darmayan,Aal Darmayan,71,Mehmood,Musaraf,Aal Darmayan,7668930421,Residential Self ,48,48,48,48,0,0
+69,18-Aal Darmayan,Aal Darmayan,72,Yameen,Nisaar,Aal Darmayan,9817028314,Residential Self ,45,45,45,45,375,375
+70,18-Aal Darmayan,Aal Darmayan,74,Islaam,Inayat,Aal Darmayan,6280584926,Residential Self ,51,51,51,51,0,0
+71,18-Aal Darmayan,Aal Darmayan,74/1,Majeed,Inayat,Aal Darmayan,9997169244,Residential Self ,48,48,48,1807,420,2040
+72,18-Aal Darmayan,Aal Darmayan,75,Habib,Najeer,Aal Darmayan,9812728314,Residential Self ,121,2206,121,2213,299,2542
+73,18-Aal Darmayan,Aal Darmayan,"76,77","Imran S/O Inaam, Haneefa W/O Inaam",Inaam,Aal Darmayan,9897581798,Residential Self ,150,2040,150,2038,420,3160
+74,18-Aal Darmayan,Aal Darmayan,77,Habib,Najeer,Aal Darmayan,9812728314,Residential Self ,138,2716,138,2515,0,0
+75,18-Aal Darmayan,Aal Darmayan,78,Yaseen,Ismail,Aal Darmayan,9639042651,Residential Self ,44,92,44,99,376,752
+76,18-Aal Darmayan,Aal Darmayan,79,Asgari,Yameen,Aal Darmayan,9639042651,Residential Self ,44,417,44,417,0,0
+77,18-Aal Darmayan,Aal Darmayan,80,Sajid,Ilyas,Aal Darmayan,8077923878,Residential Self ,0,0,0,0,0,0
+78,18-Aal Darmayan,Aal Darmayan,"81, 82",Saeeda,W/O Majeed,Aal Darmayan,8077284446,Residential Self ,66,66,66,66,420,420
+79,18-Aal Darmayan,Aal Darmayan,82/1,Amir,Kamil,Aal Darmayan,8077923878,Residential Self ,500,5679,500,5718,0,0
+80,18-Aal Darmayan,Aal Darmayan,83,Majaar Peer Sahab,-,Aal Darmayan,-,Majaar,0,0,0,0,0,0
+81,18-Aal Darmayan,Aal Darmayan,84,Nasir,Kamil,Aal Darmayan,8077874662,Residential Self ,73,1075,73,1243,420,2934
+82,18-Aal Darmayan,Aal Darmayan,85,Najeer,Ibrahim,Aal Darmayan,9625432516,Commercial Self ,44,802,44,802,0,0
+83,18-Aal Darmayan,Aal Darmayan,85/A,Moh. Jakir,Amir,Aal Darmayan,9990065598,Residential Self ,66,510,66,510,0,0
+84,18-Aal Darmayan,Aal Darmayan,"85/1, 86",Sarfaraj,Amir,Aal Darmayan,9368479415,Residential Self ,176,1359,176,1359,0,0
+85,18-Aal Darmayan,Aal Darmayan,87,"Kasem,Rukaiya","Kamil,W/O Dilshad",Aal Darmayan,6395766795,Residential Self ,99,941,99,941,420,2640
+86,18-Aal Darmayan,Aal Darmayan,88,Sameema,W/O Amir,Aal Darmayan,9990065598,Residential Self ,85,85,85,85,0,0
+87,18-Aal Darmayan,Aal Darmayan,90,Salim,Safi,Aal Darmayan,9813025026,Commercial Self ,66,778,66,778,0,0
+88,18-Aal Darmayan,Aal Darmayan,91,Istakhar,Salim,Aal Darmayan,9813025026,Commercial Self ,66,510,66,510,0,0
+89,18-Aal Darmayan,Aal Darmayan,92,Naseer,Banda,Aal Darmayan,9625432516,-,73,563,73,563,420,2340
+90,18-Aal Darmayan,Aal Darmayan,93,Abdul Gaffar,Mustafa,Aal Darmayan,-,-,330,0,330,7204,420,3240
+91,18-Aal Darmayan,Aal Darmayan,94,"Imraan, Rizwan",Inaam,Aal Darmayan,-,-,44,0,44,0,376,2076
+92,18-Aal Darmayan,Aal Darmayan,95,Nafees,Saeed,Aal Darmayan,9319691070,Residential Self ,48,101,48,101,372,744
+93,18-Aal Darmayan,Aal Darmayan,96,Kaseem,Kamil,Aal Darmayan,6395766795,Residential Self ,72,683,72,683,0,0
+94,18-Aal Darmayan,Aal Darmayan,98,Yameen,Bundu,Aal Darmayan,7017730306,Residential Self ,73,73,73,73,347,347
+95,18-Aal Darmayan,Aal Darmayan,99,Saleem,Sareef,Aal Darmayan,9306278771,Residential Self ,66,510,66,510,354,1944
+96,18-Aal Darmayan,Aal Darmayan,100,Matloob,Sabbir,Aal Darmayan,8899353812,Residential Self ,330,2019,330,2014,90,250
+97,18-Aal Darmayan,Aal Darmayan,"102, 103",Asif,Kamil,Aal Darmayan,6395583569,Residential Self ,110,1027,110,2042,310,2060
+98,18-Aal Darmayan,Aal Darmayan,104,Istiyaak,Asfaq,Aal Darmayan,8532992689,Residential Self ,50,0,50,0,370,0
+99,18-Aal Darmayan,Aal Darmayan,"105/1, 106",Mehrbaan,Nisaar,Aal Darmayan, -,Residential Self ,110,1043,110,1043,420,2640
+100,18-Aal Darmayan,Aal Darmayan,105,Abdul Malik,Kamil,Aal Darmayan,7351899947,Residential Self ,48,101,48,2476,0,0
+101,18-Aal Darmayan,Aal Darmayan,"107, 108",Nafees,Basheer,Aal Darmayan,9286369320,Residential Self ,138,1873,138,1898,420,3240
+102,18-Aal Darmayan,Aal Darmayan,101,Mehboob,Aalim,Aal Darmayan,9557235133,Residential Self ,66,139,66,139,0,0
+103,18-Aal Darmayan,Aal Darmayan,110,Mehraj,Amir,Aal Darmayan,9870688243,Residential Self ,66,1449,66,1449,420,2934
+104,18-Aal Darmayan,Aal Darmayan,110/1,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Residential Self ,44,44,44,44,0,0
+105,18-Aal Darmayan,Aal Darmayan,110/2,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Residential Self ,44,44,44,44,0,0
+106,18-Aal Darmayan,Aal Darmayan,111,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Residential Self ,121,121,121,121,0,0
+107,18-Aal Darmayan,Aal Darmayan,111/1,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Residential Self ,91,91,91,91,0,0
+108,18-Aal Darmayan,Aal Darmayan,111/2,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Residential Self ,91,91,91,91,0,0
+109,18-Aal Darmayan,Aal Darmayan,111/3,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Residential Self ,44,44,44,44,0,0
+110,18-Aal Darmayan,Aal Darmayan,111/4,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Residential Self ,44,44,44,44,0,0
+111,18-Aal Darmayan,Aal Darmayan,111/5,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Residential Self ,44,44,44,44,0,0
+112,18-Aal Darmayan,Aal Darmayan,111/6,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Residential Self ,44,44,44,44,0,0
+113,18-Aal Darmayan,Aal Darmayan,111/7,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Residential Self ,44,44,44,44,0,0
+114,18-Aal Darmayan,Aal Darmayan,111/8,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Residential Self ,44,44,44,44,0,0
+115,18-Aal Darmayan,Aal Darmayan,111/9,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Residential Self ,44,44,44,44,0,0
+116,18-Aal Darmayan,Aal Darmayan,111/10,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Residential Self ,44,44,44,44,0,0
+117,18-Aal Darmayan,Aal Darmayan,111/11,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Residential Self ,44,44,44,44,0,0
+118,18-Aal Darmayan,Aal Darmayan,111/12,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Residential Self ,44,44,44,44,0,0
+119,18-Aal Darmayan,Aal Darmayan,111/13,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Commercial Self ,44,44,44,44,0,0
+120,18-Aal Darmayan,Aal Darmayan,111/14,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Commercial Self ,44,44,44,44,0,0
+121,18-Aal Darmayan,Aal Darmayan,111/15,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Commercial Self ,44,44,44,44,0,0
+122,18-Aal Darmayan,Aal Darmayan,111/16,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Commercial Self ,44,44,44,44,0,0
+123,18-Aal Darmayan,Aal Darmayan,111/17,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Commercial Self ,44,44,44,44,0,0
+124,18-Aal Darmayan,Aal Darmayan,111/18,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Commercial Self ,44,44,44,44,0,0
+125,18-Aal Darmayan,Aal Darmayan,111/19,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Commercial Self ,44,44,44,44,0,0
+126,18-Aal Darmayan,Aal Darmayan,111/20,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Commercial Self ,44,44,44,44,0,0
+127,18-Aal Darmayan,Aal Darmayan,111/21,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Commercial Self ,44,44,44,44,0,0
+128,18-Aal Darmayan,Aal Darmayan,111/22,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Commercial Self ,132,132,132,132,0,0
+129,18-Aal Darmayan,Aal Darmayan,111/23,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Commercial Self ,132,132,132,132,0,0
+130,18-Aal Darmayan,Aal Darmayan,111/24,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Commercial Self ,132,132,132,132,0,0
+131,18-Aal Darmayan,Aal Darmayan,111/25,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Commercial Self ,132,132,132,132,0,0
+132,18-Aal Darmayan,Aal Darmayan,111/26,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Commercial Self ,132,132,132,132,0,0
+133,18-Aal Darmayan,Aal Darmayan,111/26A,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Commercial Self ,132,132,132,132,0,0
+134,18-Aal Darmayan,Aal Darmayan,111/27,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Commercial Self ,132,132,132,132,0,0
+135,18-Aal Darmayan,Aal Darmayan,111/28,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Commercial Self ,132,132,132,132,0,0
+136,18-Aal Darmayan,Aal Darmayan,112,Anand Prakash,Prithvi Singh,Aal Darmayan,9457294477,Commercial Self ,110,364,110,364,310,1200
+137,18-Aal Darmayan,Aal Darmayan,113,Anand Prakash,Prithvi Singh,Aal Darmayan,9457294477,Commercial Self ,110,364,110,364,0,0
+138,18-Aal Darmayan,Aal Darmayan,113/1,Anand Prakash,Prithvi Singh,Aal Darmayan,9457294477,Commercial Self ,132,437,132,437,0,0
+139,18-Aal Darmayan,Aal Darmayan,114,Mukim,Naseem,Aal Darmayan,7017888970,Commercial Self ,2085,0,2085,10551,202,202
+140,18-Aal Darmayan,Aal Darmayan,116,Rajeev Kumar,Ishwar Dayal,Aal Darmayan,7017888970,Commercial Self ,88,0,88,0,0,0
+141,18-Aal Darmayan,Aal Darmayan,117,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Commercial Self ,48,48,48,48,0,0
+142,18-Aal Darmayan,Aal Darmayan,118,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Commercial Self ,290,290,290,290,0,0
+143,18-Aal Darmayan,Aal Darmayan,119,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,Commercial Self ,209,401,290,290,420,444
+144,18-Aal Darmayan,Aal Darmayan,119/1,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,-,44,44,44,44,0,0
+145,18-Aal Darmayan,Aal Darmayan,119/2,Milkiyat Masjid Utwal,-,Aal Darmayan,7533600470,-,132,132,132,132,0,0
+146,18-Aal Darmayan,Aal Darmayan,120,Kaseem,Kamil,Aal Darmayan, -, -,165,165,165,165,255,1485
+147,18-Aal Darmayan,Aal Darmayan,121,Kaseem,Kamil,Aal Darmayan, -, -,165,165,165,165,0,0
+148,18-Aal Darmayan,Aal Darmayan,122,Kaseem,Kamil,Aal Darmayan, -, -,165,227,165,165,0,0
+149,18-Aal Darmayan,Aal Darmayan,123,Kaseem,Kamil,Aal Darmayan, -, -,66,66,66,66,0,0
+150,18-Aal Darmayan,Aal Darmayan,124,Nafees,Saeed,Aal Darmayan,9319691070,Commercial Self ,0,0,0,0,0,0
+151,18-Aal Darmayan,Aal Darmayan,124/1,Nafees,Saeed,Aal Darmayan,9319691070,Commercial Self ,121,738,121,738,0,0
+152,18-Aal Darmayan,Aal Darmayan,124/2,Nafees,Saeed,Aal Darmayan,9319691070,Commercial Self ,121,738,121,738,0,0
+153,18-Aal Darmayan,Aal Darmayan,125,Sameem,Safi,Aal Darmayan,-,-,164,1264,164,1264,256,1356
+154,18-Aal Darmayan,Aal Darmayan,126/1,Salim ,Safi,Aal Darmayan,-,-,164,1934,164,1934,0,0
+155,18-Aal Darmayan,Aal Darmayan,127,"Mehboob, Matloob, Maroob, Moh. Rizwan",Alim,Aal Darmayan,9557235133,Commercial Self ,48,565,48,565,0,0
+156,18-Aal Darmayan,Aal Darmayan,128,"Mehboob, Matloob, Maroob, Moh. Rizwan",Alim,Aal Darmayan,9557235133,Commercial Self ,121,1427,121,1427,299,1972
+157,18-Aal Darmayan,Aal Darmayan,129,"Mehboob, Matloob, Maroob, Moh. Rizwan",Alim,Aal Darmayan,9557235133,Commercial Self ,121,1427,121,1427,0,0
+158,18-Aal Darmayan,Aal Darmayan,130,"Moh. Nasir, Amir, Kasim, Abdul Malik, Moh. Ashiq, Khalid, Kasim",Kamil,Aal Darmayan,-,-,145,3513,145,3502,375,3792
+159,18-Aal Darmayan,Aal Darmayan,132,"Vaseem, Kaseem Ahmad, Ajim, Abdul, Matin, Ameen Ahmad S/O Moh. Yusuf   V Jahida Begum W/O Moh. Kasim",Moh. Yusuf,Aal Darmayan,-,-,218,242,218,218,420,492
+160,18-Aal Darmayan,Aal Darmayan,133,Kamla Devi ,W/O Amipal,Aal Darmayan,9997706123, -,44,0,44,0,0,0
+161,18-Aal Darmayan,Aal Darmayan,134,Kamla Devi ,W/O Amipal,Aal Darmayan,9997706123, -,44,0,44,0,0,0
+162,18-Aal Darmayan,Aal Darmayan,135,Kamla Devi ,W/O Amipal,Aal Darmayan,9997706123, -,73,0,73,0,0,0
+163,18-Aal Darmayan,Aal Darmayan,136,Kamla Devi ,W/O Amipal,Aal Darmayan,9997706123, -,44,0,44,0,0,0
+164,18-Aal Darmayan,Aal Darmayan,138,Kamla Devi ,W/O Amipal,Aal Darmayan,9997706123, -,44,519,44,519,0,0
+165,18-Aal Darmayan,Aal Darmayan,140,Kamla Devi ,W/O Amipal,Aal Darmayan,9997706123, -,110,1297,110,1297,0,0
+166,18-Aal Darmayan,Aal Darmayan,137,Yakoob,Bhura,Aal Darmayan,9897576006,Residential Self ,300,630,300,630,120,240
+167,18-Aal Darmayan,Aal Darmayan,140/1,Asif,Ilyas,Aal Darmayan,9897328631,Residential Self ,121,0,121,0,0,0
+168,18-Aal Darmayan,Aal Darmayan,140/2,Asif,Ilyas,Aal Darmayan,9897328631,Commercial Self ,330,0,330,0,0,0
+169,18-Aal Darmayan,Aal Darmayan,140/3,Asif,Ilyas,Aal Darmayan,9897328631,Commercial Self ,66,0,66,0,0,0
+170,18-Aal Darmayan,Aal Darmayan,141,Asif,Ilyas,Aal Darmayan,9897328631,Tower,1400,0,1400,0,0,0
+171,18-Aal Darmayan,Aal Darmayan,141/1,Asif,Ilyas,Aal Darmayan,9897328631,Commercial Self ,264,0,264,0,0,0
+172,18-Aal Darmayan,Aal Darmayan,141/2,Asif,Ilyas,Aal Darmayan,9897328631,Commercial Self ,660,0,660,0,0,0
+173,18-Aal Darmayan,Aal Darmayan,141/3,Asif,Ilyas,Aal Darmayan,9897328631,Commercial Self ,220,0,220,0,0,0
+174,18-Aal Darmayan,Aal Darmayan,142,Jahid,Naseebudeen,Aal Darmayan,8532080942,Commercial Self ,48,223,48,1348,0,0
+175,18-Aal Darmayan,Aal Darmayan,143,Jahid,Naseebudeen,Aal Darmayan,8126555050,Commercial Self ,61,283,61,283,420,2040
+176,18-Aal Darmayan,Aal Darmayan,143/1,Jahid,Naseebudeen,Aal Darmayan,8126555050,Commercial Self ,660,4217,660,3064,0,0
+177,18-Aal Darmayan,Aal Darmayan,144,Akhtar Hasan S/O Faiyyaz Hasan Urf Bundu V Inayat S/O Ismail,Faiyaaz Hasan,Aal Darmayan,8077763852, -,0,0,0,0,0,0
+178,18-Aal Darmayan,Aal Darmayan,145,Akhtar Hasan S/O Faiyyaz Hasan Urf Bundu V Inayat S/O Ismail,Faiyaaz Hasan,Aal Darmayan,8077763852, -,0,0,0,0,0,0
+179,18-Aal Darmayan,Aal Darmayan,146,Akhtar Hasan S/O Faiyyaz Hasan Urf Bundu V Inayat S/O Ismail,Faiyaaz Hasan,Aal Darmayan,8077763852, -,0,0,0,0,0,0
+180,18-Aal Darmayan,Aal Darmayan,147,Akhtar Hasan S/O Faiyyaz Hasan Urf Bundu V Inayat S/O Ismail,Faiyaaz Hasan,Aal Darmayan,8077763852, -,0,0,0,0,0,0
+181,18-Aal Darmayan,Aal Darmayan,148,Kua Nagar Palika Parishad Kairana,-,Aal Darmayan,-,Commercial Self ,0,0,0,0,0,0
+182,18-Aal Darmayan,Aal Darmayan,149,"Naveen Kumar, Anuj Kumar", Rajender Kumar,Aal Darmayan,9897501610,Commercial Self ,66,11,66,139,0,0
+183,18-Aal Darmayan,Aal Darmayan,150,Rajender Kumar,Tellu Ram,Aal Darmayan,9027136822,Commercial Self ,55,55,85,0,0,0
+184,18-Aal Darmayan,Aal Darmayan,151,Rajender Kumar,Tellu Ram,Aal Darmayan,9027136822,Commercial Self ,44,131,44,238,376,380
+185,18-Aal Darmayan,Aal Darmayan,152,Rajender Kumar,Tellu Ram,Aal Darmayan,9027136822,Commercial Self ,0,0,0,0,0,0
+186,18-Aal Darmayan,Aal Darmayan,153,"Norli Devi W/O Deshraj, Ashok, Parmod, Govind S/O Deshraj",Deshraj,Aal Darmayan,-,-,290,1771,290,1771,0,0
+187,18-Aal Darmayan,Aal Darmayan,154,Israr,Ibahim,Aal Darmayan,-,-,85,85,85,85,0,0
+188,18-Aal Darmayan,Aal Darmayan,155,Radheyshyam,Murari Lal,Aal Darmayan,9958413974,Commercial Self ,61,89,61,89,0,0
+189,18-Aal Darmayan,Aal Darmayan,156,Rakesh Kumar,Ratan Lal,Aal Darmayan,9027118930,Commercial Self ,61,61,61,71,0,0
+190,18-Aal Darmayan,Aal Darmayan,157,Radheyshyam,Murari Lal,Aal Darmayan,9837461229,Commercial Self ,61,578,61,470,0,0
+191,18-Aal Darmayan,Aal Darmayan,158,Rajkumar ,Hosyara,Aal Darmayan,7303356235,Residential Self ,97,0,97,0,323,0
+192,18-Aal Darmayan,Aal Darmayan,158/1,Roshanlal,Hosyara,Aal Darmayan,7303356235,Residential Self ,48,877,48,1487,0,0
+193,18-Aal Darmayan,Aal Darmayan,159,Jogender,Antu,Aal Darmayan,-,Residential Self ,198,198,198,198,420,420
+194,18-Aal Darmayan,Aal Darmayan,159/1,Satpal,Harphool,Aal Darmayan,8958419406,Residential Self ,55,55,55,55,365,365
+195,18-Aal Darmayan,Aal Darmayan,160,Baburam,Kuda,Aal Darmayan,9045658719,Residential Self ,198,1529,198,2002,222,1046
+196,18-Aal Darmayan,Aal Darmayan,161,Mahender V Sharvan,Rakam Singh,Aal Darmayan,9027851933,Residential Self ,55,55,55,55,365,365
+197,18-Aal Darmayan,Aal Darmayan,162,Satpal,Harphool,Aal Darmayan,9808374155,Residential Self ,198,198,198,198,222,222
+198,18-Aal Darmayan,Aal Darmayan,163,Budh Singh,Kuda,Aal Darmayan,9808374155,Residential Self ,98,5650,198,4640,0,0
+199,18-Aal Darmayan,Aal Darmayan,164,Satpal,Harphool,Aal Darmayan,9808374155,Residential Self ,44,44,44,44,0,0
+200,18-Aal Darmayan,Aal Darmayan,165,Anand,Kuda,Aal Darmayan,9045658719,Residential Self ,48,293,48,293,420,2040
+201,18-Aal Darmayan,Aal Darmayan,166,Phullo,W/O Anturam,Aal Darmayan,8057491280,Residential Self ,396,4642,396,6531,0,0
+202,18-Aal Darmayan,Aal Darmayan,167,Rakesh ,Dayaram,Aal Darmayan,9084557016,Residential Self ,55,55,55,55,420,420
+203,18-Aal Darmayan,Aal Darmayan,167/1,Peetam ,Makhan,Aal Darmayan,6396511970,Residential Self ,66,0,66,0,420,0
+204,18-Aal Darmayan,Aal Darmayan,169,Swaraj,Anturam,Aal Darmayan,9690189408,Residential Self ,396,396,396,396,0,0
+205,18-Aal Darmayan,Aal Darmayan,170,Ramkishan,Makhan,Aal Darmayan,9690189408,Residential Self ,73,153,73,153,0,0
+206,18-Aal Darmayan,Aal Darmayan,171,Sunder,Makhan,Aal Darmayan,9690189408,Residential Self ,396,4668,396,4668,0,0
+207,18-Aal Darmayan,Aal Darmayan,172,Rakesh,Dayaram,Aal Darmayan,9897161627,Residential Self ,44,145,44,150,376,1108
+208,18-Aal Darmayan,Aal Darmayan,173,"Savitri Devi W/O Trilokchand, Anil, Sunil S/O Trilokchand",Trilokchand,Aal Darmayan,9917731826,Residential Self ,48,101,48,101,420,2808
+209,18-Aal Darmayan,Aal Darmayan,"171/1, 174",Simru,Makhan,Aal Darmayan,7060414387,Residential Self ,396,4030,396,4530,420,3479
+210,18-Aal Darmayan,Aal Darmayan,176,Tarachand,Hosyara,Aal Darmayan,8791879008,Residential Self ,67,409,67,409,353,1705
+211,18-Aal Darmayan,Aal Darmayan,175,Ramesh,Hosyara,Aal Darmayan,7060285551,Residential Self ,61,283,61,283,420,2340
+212,18-Aal Darmayan,Aal Darmayan,177,"Shri Niwas S/O Murari Lal V Rahul, Rohit S/O Surender",Murari Lal,Aal Darmayan,9761627066,Residential Self ,44,519,44,519,420,2940
+213,18-Aal Darmayan,Aal Darmayan,178,"Masroof, Mustafa",Jahid,Aal Darmayan,8126555050,Residential Self ,462,5447,462,5447,0,0
+214,18-Aal Darmayan,Aal Darmayan,179,Gafuri,W/O Jahid,Aal Darmayan,8126555050,Residential Self ,73,0,73,692,347,2129
+215,18-Aal Darmayan,Aal Darmayan,180,Khalik V Amir,Kamil,Aal Darmayan,-,-,61,1763,61,1473,420,4440
+216,18-Aal Darmayan,Aal Darmayan,181,Kamla,W/O Amipal,Aal Darmayan,9568201393,Residential Self ,145,1708,145,1708,275,1972
+217,18-Aal Darmayan,Aal Darmayan,181/1,Praveen Kumar,Lakhiram,Aal Darmayan,9997268962,Residential Self ,67,0,67,0,0,0
+218,18-Aal Darmayan,Aal Darmayan,182,Kamla Devi ,W/O Amipal,Aal Darmayan,9138348586,-,55,650,55,650,365,2500
+219,18-Aal Darmayan,Aal Darmayan,186,Hadisha,W/O Akhtar Hasan,Aal Darmayan,7902010301,Residential Self ,48,48,48,293,420,2040
+220,18-Aal Darmayan,Aal Darmayan,187 TO 188,Hadisha,W/O Akhtar Hasan,Aal Darmayan,7902010301,Residential Self ,264,1610,264,1610,0,0
+221,18-Aal Darmayan,Aal Darmayan,189,Sarafat Khurgaan Wale,-,Aal Darmayan,9897565786,Residential Self ,66,1547,66,1547,0,0
+222,18-Aal Darmayan,Aal Darmayan,189/1,Mahender ,Anturam,Aal Darmayan,9927161256,Residential Self ,83,639,83,639,420,2340
+223,18-Aal Darmayan,Aal Darmayan,189/2,Raju,Mahadeva,Aal Darmayan,9997786354,Residential Self ,44,519,261,1593,0,0
+224,18-Aal Darmayan,Aal Darmayan,190,Akhilesh,Omprakash,Aal Darmayan,9897677294,Residential Self ,110,110,110,110,420,420
+225,18-Aal Darmayan,Aal Darmayan,191/2A,Akhilesh,Omprakash,Aal Darmayan,9897677294,Residential Self ,44,268,44,519,0,0
+226,18-Aal Darmayan,Aal Darmayan,191,Masjid Ibadatgah,-,Aal Darmayan,-,Masjid,0,0,0,0,420,420
+227,18-Aal Darmayan,Aal Darmayan,191/1,Milkiyat Masjid Gadiyowali,-,Aal Darmayan,-,Masjid,44,44,44,44,0,0
+228,18-Aal Darmayan,Aal Darmayan,191/2,Milkiyat Masjid Gadiyowali,-,Aal Darmayan,-,Masjid,44,44,44,44,0,0
+229,18-Aal Darmayan,Aal Darmayan,191/1A,Milkiyat Masjid Gadiyowali,-,Aal Darmayan,-,Masjid,44,44,44,44,0,0
+230,18-Aal Darmayan,Aal Darmayan,192,Asma Praveen,Moh. Talib,Aal Darmayan,-,-,67,0,67,0,353,1091
+231,18-Aal Darmayan,Aal Darmayan,193,Jareef,Asgar,Aal Darmayan,8077498955,Residential Self ,73,73,73,1005,347,347
+232,18-Aal Darmayan,Aal Darmayan,193/1,"Kasim, Naseem, Mustakeem",Asgar,Aal Darmayan,9084497874,Residential Self ,97,204,97,204,323,646
+233,18-Aal Darmayan,Aal Darmayan,194,Prem ,W/O Roshan,Aal Darmayan,-,-,264,2503,264,2503,156,792
+234,18-Aal Darmayan,Aal Darmayan,195,Milkiyat Masjid Gujarowali,-,Aal Darmayan,-,Masjid,24,633,0,0,0,0
+235,18-Aal Darmayan,Aal Darmayan,196,Milkiyat Masjid Gujarowali,-,Aal Darmayan,-,Masjid,0,1036,0,0,0,0
+236,18-Aal Darmayan,Aal Darmayan,197 TO 202,Milkiyat Masjid Gujjaro Wali,-,Aal Darmayan,-,Masjid,0,0,0,0,420,420
+237,18-Aal Darmayan,Aal Darmayan,203,Praveen Kumar,Lakhiram,Aal Darmayan,9997816475,Commercial Self ,132,0,132,0,0,0
+238,18-Aal Darmayan,Aal Darmayan,204,Milkiyat Masjid Gujjaro Wali,-,Aal Darmayan,8859352050,Commercial Self ,121,0,121,0,0,0
+239,18-Aal Darmayan,Aal Darmayan,205,Milkiyat Masjid Gujjaro Wali,-,Aal Darmayan,9027925094,Commercial Self ,121,1661,121,1661,0,0
+240,18-Aal Darmayan,Aal Darmayan,206,Milkiyat Masjid Gujjaro Wali,-,Aal Darmayan,9027925094,Commercial Self ,121,933,121,933,0,0
+241,18-Aal Darmayan,Aal Darmayan,207,Masjid Ibadatgah Gujjaro Wali,-,Aal Darmayan,-,Masjid,0,0,0,0,0,0
+242,18-Aal Darmayan,Aal Darmayan,208,Panchayat Baitahak Gujjaro Wali,-,Aal Darmayan,-,Panchayat Baitak,0,0,0,0,0,0
+243,18-Aal Darmayan,Aal Darmayan,208/1,Milkiyat Masjid Gujjaro Wali,-,Aal Darmayan,-,Masjid,79,79,79,79,0,0
+244,18-Aal Darmayan,Aal Darmayan,209,Ayyub,Rafeek,Aal Darmayan,9917441215,Residential Self ,330,693,330,2014,90,390
+245,18-Aal Darmayan,Aal Darmayan,209/1,Naseema,W/O Tahir Hasan,Aal Darmayan,9756232222,Residential Self ,44,339,44,339,420,2340
+246,18-Aal Darmayan,Aal Darmayan,210,Naseema,W/O Tahir Hasan,Aal Darmayan,9756232222,Residential Self ,44,339,44,339,0,0
+247,18-Aal Darmayan,Aal Darmayan,211,Tabbsum Begum,W/O Munnawar Hasan,Aal Darmayan,8765955009,Residential Self ,242,508,242,508,0,0
+248,18-Aal Darmayan,Aal Darmayan,212,Jamshed,Fakhrudeen,Aal Darmayan,9760321766,Residential Self ,73,864,73,864,347,2356
+249,18-Aal Darmayan,Aal Darmayan,213,Noora,Safi,Aal Darmayan,7417523415,Residential Self ,67,1022,67,636,353,2882
+250,18-Aal Darmayan,Aal Darmayan,213/1,Tahir Hasan,Faiyaaz ,Aal Darmayan,9119735177,Residential Self ,48,159,48,159,0,0
+251,18-Aal Darmayan,Aal Darmayan,214,Mumtaj,Faiyaaz,Aal Darmayan,7351304786,Residential Self ,48,101,48,101,0,0
+252,18-Aal Darmayan,Aal Darmayan,215,Ishrat,W/O Salim,Aal Darmayan,8171300768,Residential Self ,300,4073,300,4073,120,540
+253,18-Aal Darmayan,Aal Darmayan,216,Masjid Maniharan Bailkhana,-,Aal Darmayan,-,Masjid,44,802,44,802,0,0
+254,18-Aal Darmayan,Aal Darmayan,217,Masjid Ibadatgah,-,Aal Darmayan,-,Masjid,0,0,0,0,0,0
+255,18-Aal Darmayan,Aal Darmayan,218,Rashid,Akhtar Ali,Aal Darmayan,9012081088,Residential Self ,66,510,66,510,0,0
+256,18-Aal Darmayan,Aal Darmayan,219,Jamil,Neki,Aal Darmayan,9837132559,Residential Self ,61,0,61,0,359,0
+257,18-Aal Darmayan,Aal Darmayan,219/1,Jahir,Jamil,Aal Darmayan,9837132559,Residential Self ,528,12305,528,12370,0,0
+258,18-Aal Darmayan,Aal Darmayan,220,Inaam,Nanu,Aal Darmayan,6398021691,Residential Self ,61,971,61,372,420,3640
+259,18-Aal Darmayan,Aal Darmayan,220/1,Afzal,Saeed,Aal Darmayan,9639605346,Residential Self ,66,627,66,627,0,0
+260,18-Aal Darmayan,Aal Darmayan,221,Abdul Rahmaan,Akhtar Ali,Aal Darmayan,9870818989,Residential Self ,66,66,66,1205,0,0
+261,18-Aal Darmayan,Aal Darmayan,223,Hameed Urf Bahuguna,Jinda,Aal Darmayan,9027279293,Residential Self ,61,578,61,578,420,7620
+262,18-Aal Darmayan,Aal Darmayan,225,Arshad,Akhtar Ali,Aal Darmayan,7500806408,Residential Self ,48,661,48,2476,420,6900
+263,18-Aal Darmayan,Aal Darmayan,226,"Mehboob, Mehfooj",Hameed S/O Faiyyaz,Aal Darmayan,9012081088,Residential Self ,48,48,48,182,372,2052
+264,18-Aal Darmayan,Aal Darmayan,227,Istiyaak,Akhtar ,Aal Darmayan,9012909086,Residential Self ,66,66,66,66,0,0
+265,18-Aal Darmayan,Aal Darmayan,228,Haji Ali Hasan,Karam Ilahi,Aal Darmayan,9917540879,Residential Self ,73,153,73,153,0,0
+266,18-Aal Darmayan,Aal Darmayan,229,Liyaqt,Abdul Kareem,Aal Darmayan,8104029752,Residential Self ,66,219,66,905,354,2048
+267,18-Aal Darmayan,Aal Darmayan,230,Matloob,Noor Hasan,Aal Darmayan,9837777464,Residential Self ,44,0,44,0,420,0
+268,18-Aal Darmayan,Aal Darmayan,231,Nafeesa,W/O Samshad,Aal Darmayan,9759707745,Residential Self ,152,928,152,928,0,0
+269,18-Aal Darmayan,Aal Darmayan,233,"Naseema W/O Samshad, Sarik S/O Samshad",Samshad,Aal Darmayan,9639001900,Residential Self ,396,3758,396,3758,420,2640
+270,18-Aal Darmayan,Aal Darmayan,234,"Mehboob, Nadeem",Nasir,Aal Darmayan,9012793918,Residential Self ,110,417,110,417,420,1220
+271,18-Aal Darmayan,Aal Darmayan,234/1,Sadik ,Saeed,Aal Darmayan,9761833926,Residential Self ,99,99,99,605,0,0
+272,18-Aal Darmayan,Aal Darmayan,235,Manno,W/O Nawab,Aal Darmayan,9720642000,Residential Self ,85,714,85,657,420,2340
+273,18-Aal Darmayan,Aal Darmayan,236,Jahid,Yameen,Aal Darmayan,7037986141,Residential Self ,103,765,103,103,0,0
+274,18-Aal Darmayan,Aal Darmayan,237,"Mehboob, Nadeem",Nasir,Aal Darmayan,8755599918,Residential Self ,20,122,0,29,0,0
+275,18-Aal Darmayan,Aal Darmayan,238,Shaukat,Fateh Moh.,Aal Darmayan,9917588248,Residential Self ,396,3989,396,5089,24,60
+276,18-Aal Darmayan,Aal Darmayan,239,Saeed,Abdul Raheem,Aal Darmayan,9897048213,Residential Self ,48,370,48,370,372,2052
+277,18-Aal Darmayan,Aal Darmayan,240,Saeed,Abdul Raheem,Aal Darmayan,9897048213,Residential Self ,110,848,110,848,0,0
+278,18-Aal Darmayan,Aal Darmayan,241/1,"Imrana W/O Saleem, Moseen S/O Saleem",Saleem,Aal Darmayan,7505747987,Residential Self ,44,209,44,209,376,1464
+279,18-Aal Darmayan,Aal Darmayan,241,Mansoora,Ali Hasan,Aal Darmayan,7252957553,Residential Self ,50,105,50,105,0,0
+280,18-Aal Darmayan,Aal Darmayan,242,Rukamdeen,Ali Hasan,Aal Darmayan,-,-,73,2727,73,2727,347,4492
+281,18-Aal Darmayan,Aal Darmayan,242/1,Nawab,Ali Hasan,Aal Darmayan,9917229104,Residential Self ,73,73,73,73,347,2356
+282,18-Aal Darmayan,Aal Darmayan,"243, 244",Yakoob,Ali Hasan,Aal Darmayan,9520957777,Residential Self ,66,139,66,139,354,708
+283,18-Aal Darmayan,Aal Darmayan,245,Jahoor,Abdul Hafij,Aal Darmayan,8881223490,Residential Self ,44,417,44,417,420,2640
+284,18-Aal Darmayan,Aal Darmayan,245/1,Jahoor,Abdul Hafij,Aal Darmayan,8881223490,Residential Self ,66,779,66,778,0,0
+285,18-Aal Darmayan,Aal Darmayan,246,Salim ,Alim,Aal Darmayan,7505039797,Residential Self ,55,650,55,650,365,2500
+286,18-Aal Darmayan,Aal Darmayan,247,"Ch. Anwar Hasan, Kanwar Hasan, Arshad Hasan",Ch. Akhtar Hasan,Aal Darmayan,9412212122,Residential Self ,145,0,145,0,420,2640
+287,18-Aal Darmayan,Aal Darmayan,248,Hameeda,W/O Aneek Ahmad,Aal Darmayan,7351342133,Residential Self ,79,610,79,610,420,2340
+288,18-Aal Darmayan,Aal Darmayan,249,Kiran Devi W/O Ishwar Dayal,"Alok Kumar,Ajay,Deepal S/O Ishwar Dayal",Aal Darmayan,9808865606,Residential Self ,879,0,879,0,420,0
+289,18-Aal Darmayan,Aal Darmayan,250,"Naresh Chand, Adesh Kumar",Raghunath Prashad,Aal Darmayan,8218983532,Residential Self ,73,73,73,73,0,0
+290,18-Aal Darmayan,Aal Darmayan,250/1,"Sudhir Kumar, Narender Kumar, Anil Kumar",Shivcharan Das,Aal Darmayan,9997146458,Residential Self ,73,73,73,73,0,0
+291,18-Aal Darmayan,Aal Darmayan,251,"Ashok Kumar, Pramod Kumar, Rajneesh",Atmaram,Aal Darmayan,8923424655,Residential Self ,157,1851,157,1851,0,0
+292,18-Aal Darmayan,Aal Darmayan,251/1,Madhu Saini,W/O Virender Saini,Aal Darmayan,9456037568,Residential Self ,165,165,165,165,255,255
+293,18-Aal Darmayan,Aal Darmayan,252,Guru Charan Das,Murari Lal,Aal Darmayan,9012041120,Residential Self ,55,524,55,524,0,0
+294,18-Aal Darmayan,Aal Darmayan,252/1,Rama Devi ,W/O Rakesh Kumar,Aal Darmayan,9012041120,Residential Self ,110,1748,110,1748,0,0
+295,18-Aal Darmayan,Aal Darmayan,252/2,Rajkumar ,Ramsharan,Aal Darmayan,9012041120,Residential Self ,66,510,66,510,0,0
+296,18-Aal Darmayan,Aal Darmayan,253,"Jai Prakash,Naveen Kumar, Vipin Kumar","Raghuveer Singh,Vedprakash",Aal Darmayan,8859913159,Residential Self ,121,0,121,0,299,0
+297,18-Aal Darmayan,Aal Darmayan,254,Akshat Kansal,Naveen Kumar,Aal Darmayan,9897561687,Residential Self ,97,204,97,97,323,347
+298,18-Aal Darmayan,Aal Darmayan,255,Ayush Kansal,Naveen Kumar,Aal Darmayan,9897561687,Residential Self ,67,67,67,67,0,0
+299,18-Aal Darmayan,Aal Darmayan,257,Ayush Kansal,Naveen Kumar,Aal Darmayan,9897561687,Residential Self ,44,0,44,56,0,0
+300,18-Aal Darmayan,Aal Darmayan,256,Naveen Kumar,Vedprakash,Aal Darmayan,8859913159,Residential Self ,44,44,44,0,0,0
+301,18-Aal Darmayan,Aal Darmayan,258,Sishpal,Teluram,Aal Darmayan,9927952586,Residential Self ,48,370,48,370,372,2052
+302,18-Aal Darmayan,Aal Darmayan,258/1,Sarbati,W/O Chotanlal,Aal Darmayan,9927952586,Residential Self ,48,370,48,370,420,2340
+303,18-Aal Darmayan,Aal Darmayan,259,Premchand,Jadoram,Aal Darmayan,7017924012,Residential Self ,61,470,61,470,0,0
+304,18-Aal Darmayan,Aal Darmayan,259/1,Premchand,Jadoram,Aal Darmayan,7017924012,Residential Self ,66,510,66,510,354,1944
+305,18-Aal Darmayan,Aal Darmayan,260,Rama Devi ,W/O Vijay Kumar,Aal Darmayan,9719222435,Residential Self ,110,110,110,110,310,310
+306,18-Aal Darmayan,Aal Darmayan,261,Surender Kumar,Chotanlal,Aal Darmayan,9927222435,Commercial Self ,264,264,264,264,0,0
+307,18-Aal Darmayan,Aal Darmayan,262,Jamrand,W/O Asad Ahmad,Aal Darmayan,-,-,600,4630,600,4736,420,2484
+308,18-Aal Darmayan,Aal Darmayan,263,Rampal Sharma,Asharam,Aal Darmayan,9760972625,Residential Self ,73,864,73,864,420,2940
+309,18-Aal Darmayan,Aal Darmayan,264,"Manoj Kumar, Neeraj Kumar",Suresh Kumar,Aal Darmayan,9927223705,Residential Self ,73,0,73,0,347,0
+310,18-Aal Darmayan,Aal Darmayan,265,Susheel Kumar,Ramsharan,Aal Darmayan,9760756753,Residential Self ,85,1004,85,1004,420,2940
+311,18-Aal Darmayan,Aal Darmayan,266,"Subhash Chand, Satish Chand",Shayaam Lal,Aal Darmayan,9760756657,Residential Self ,66,0,66,0,420,444
+312,18-Aal Darmayan,Aal Darmayan,267,Pramod Kumar,Omprakash,Aal Darmayan,9760756657,Residential Self ,44,0,44,0,0,0
+313,18-Aal Darmayan,Aal Darmayan,267/1,Nirmala Devi ,W/O Radheyshyaam,Aal Darmayan,9760756657,Residential Self ,66,0,66,0,0,0
+314,18-Aal Darmayan,Aal Darmayan,267/2,Ishwar Dayal,Insersain,Aal Darmayan,9760756657,Residential Self ,396,0,396,0,0,0
+315,18-Aal Darmayan,Aal Darmayan,267/3 TO 267/4,Radheyshyam,Murari Lal,Aal Darmayan,9837461229,Residential Self ,66,219,66,219,354,708
+316,18-Aal Darmayan,Aal Darmayan,"267/5, 267/6",Milkiyat Mandir Shankar Sodiyaan,-,Aal Darmayan,9675981357,Temple ,44,417,44,417,0,0
+317,18-Aal Darmayan,Aal Darmayan,268,Mandir Pooja Isthal,-,Aal Darmayan,9675981357,Temple ,0,0,0,0,0,0
+318,18-Aal Darmayan,Aal Darmayan,269,Naresh Chand,Kailash Chand,Aal Darmayan,9358015338,Residential Self ,48,496,48,496,0,0
+319,18-Aal Darmayan,Aal Darmayan,270,Bhopal,Shayaam Singh,Aal Darmayan,7456908044,Residential Self ,220,508,220,508,200,0
+320,18-Aal Darmayan,Aal Darmayan,270/1,Neelam,W/O Subhash Chand,Aal Darmayan,7017730083,Residential Self ,0,0,0,0,0,0
+321,18-Aal Darmayan,Aal Darmayan,270/2,Narender,Roopchand,Aal Darmayan,7017730083,Residential Self ,0,0,0,0,0,0
+322,18-Aal Darmayan,Aal Darmayan,271,Asad,Moh. Sabir,Aal Darmayan,9027379041,Residential Self ,858,6620,858,6620,0,0
+323,18-Aal Darmayan,Aal Darmayan,271/2,"Sumlesh W/O Bijender, Vijay Laxmi W/O Rakesh Kumar",Bijender,Aal Darmayan,-,-,55,337,55,345,0,0
+324,18-Aal Darmayan,Aal Darmayan,271/3,"Sumlesh W/O Bijender, Vijay Laxmi W/O Rakesh Kumar",Bijender,Aal Darmayan,-,-,55,337,55,337,0,0
+325,18-Aal Darmayan,Aal Darmayan,271/2A,New Samiksha Society Kairana - ,Manager- Asad S/O Moh. Sabir,Aal Darmayan,9027379041,Open Plot ,0,0,0,0,0,0
+326,18-Aal Darmayan,Aal Darmayan,272,"Rajnikant, Sashikant",Mohanlal,Aal Darmayan,6397146817,Commercial Self ,44,44,44,44,0,0
+327,18-Aal Darmayan,Aal Darmayan,272/1,"Rajnikant, Sashikant",Mohanlal,Aal Darmayan,6397146817,Commercial Self ,0,0,0,0,0,0
+328,18-Aal Darmayan,Aal Darmayan,273,Rakesh Kumar S/O Prem Chand,Putya W/O Rakesh,Aal Darmayan,9997674025,Residential Self ,121,121,121,121,247,247
+329,18-Aal Darmayan,Aal Darmayan,273/5,Sapna W/O Pawan Kumar Rohela,Pawan Kumar Rohela S/O Jai Prakash Rohela,Aal Darmayan,8958880845,Residential Self ,132,132,132,132,0,0
+330,18-Aal Darmayan,Aal Darmayan,273/1,Jai Prakash,Kareshan,Aal Darmayan,9027290718,Commercial Self ,66,0,66,0,0,0
+331,18-Aal Darmayan,Aal Darmayan,273/3,Jai Prakash,Kareshan,Aal Darmayan,9027290718,Commercial Self ,145,0,145,0,0,0
+332,18-Aal Darmayan,Aal Darmayan,273/8,Radheyshyam,Kanti Prashad,Aal Darmayan,8266032883,Residential Self ,132,437,132,437,0,0
+333,18-Aal Darmayan,Aal Darmayan,273/4,"Rajnikant, Sashikant",Mohanlal,Aal Darmayan,-,-,61,578,61,578,420,2640
+334,18-Aal Darmayan,Aal Darmayan,274,Jahida,W/O Kaseem,Aal Darmayan,9368751036,Residential Self ,55,183,55,183,0,0
+335,18-Aal Darmayan,Aal Darmayan,276,Hari Gopal,Jayoti Prashad,Aal Darmayan,9045990036,Residential Self ,61,840,61,845,359,2913
+336,18-Aal Darmayan,Aal Darmayan,277/1,Rajesh Kumar,Bhushanlal,Aal Darmayan,9027188195,Residential Self ,300,0,300,0,341,0
+337,18-Aal Darmayan,Aal Darmayan,277,Jai Prakash,Kareshanlal,Aal Darmayan,9027290718,Residential Self ,55,0,55,0,365,0
+338,18-Aal Darmayan,Aal Darmayan,278,Mahender Prakash,Keshoram,Aal Darmayan,9896053849,Residential Self ,48,455,48,455,342,2304
+339,18-Aal Darmayan,Aal Darmayan,279,"Aasish Kumar,Vishal Kumar",Mahipal,Aal Darmayan,-,Residential Self ,340,2156,61,1969,0,0
+340,18-Aal Darmayan,Aal Darmayan,280,Surender Kumar,Jambu,Aal Darmayan,8449012048,Residential Self ,85,0,85,85,359,24
+341,18-Aal Darmayan,Aal Darmayan,281,Krishan Devi,W/O Ramesh Chand,Aal Darmayan,9639854983,Residential Self ,61,372,61,278,0,0
+342,18-Aal Darmayan,Aal Darmayan,282,"Guru Charan Das Aadi S/O Murarilal, Sudhir Kumar S/O Shivcharandas",Murari Lal,Aal Darmayan,-,Residential Self ,19,181,0,0,420,840
+343,18-Aal Darmayan,Aal Darmayan,283,Krishana Devi,W/O Ramesh Chand,Aal Darmayan,9639854983,Residential Self ,44,268,44,268,0,0
+344,18-Aal Darmayan,Aal Darmayan,284,Yogenderpal,Girdharilal,Aal Darmayan,9719123972,Residential Self ,73,73,73,73,347,2013
+345,18-Aal Darmayan,Aal Darmayan,285,"Sanjay Kumar, Vikas Kumar S/O Omprakash, Kusumlata W/O Omprakash",Omprakash,Aal Darmayan,9897910275,Residential Self ,121,254,121,254,0,0
+346,18-Aal Darmayan,Aal Darmayan,286,"Krishani Devi W/O Mohanlal, Satish Kumar S/O Shobharam",Mohanlal,Aal Darmayan,7017439744,Residential Self ,73,0,73,0,347,0
+347,18-Aal Darmayan,Aal Darmayan,286/1,Santosh Rani ,W/O Gurucharandas,Aal Darmayan,9897840336,Residential Self ,61,0,61,0,0,0
+348,18-Aal Darmayan,Aal Darmayan,286/2,Gurucharandas,Shobharam,Aal Darmayan,9897840336,Residential Self ,73,0,73,0,0,0
+349,18-Aal Darmayan,Aal Darmayan,287,Shiksha Devi,W/O Baburam,Aal Darmayan,9719818925,Residential Self ,400,3086,400,3086,20,40
+350,18-Aal Darmayan,Aal Darmayan,288,Kumresh V Pradeep Kumar,Laxmichand,Aal Darmayan,9719818925,Residential Self ,88,19,88,0,332,312
+351,18-Aal Darmayan,Aal Darmayan,289,Manish Kumar V Ankit Kumar,Radheyshayam,Aal Darmayan,9837461229,Residential Self ,48,293,48,0,372,1800
+352,18-Aal Darmayan,Aal Darmayan,290,Vimla,W/O Sureshchand,Aal Darmayan,9997875378,Residential Self ,73,97,73,97,347,1421
+353,18-Aal Darmayan,Aal Darmayan,291,"Praveen Kumar, Lalit Kumar, Rahul ",Premchand,Aal Darmayan,9897872397,Residential Self ,55,0,55,0,420,0
+354,18-Aal Darmayan,Aal Darmayan,292,Gurucharandas,Shobharam,Aal Darmayan,9897840336,Residential Self ,103,0,103,0,420,0
+355,18-Aal Darmayan,Aal Darmayan,293,Vedprakash,Dhanprakash,Aal Darmayan,7417712028,Residential Self ,57,0,57,0,363,0
+356,18-Aal Darmayan,Aal Darmayan,294,Shyaamlal,Umrao Singh,Aal Darmayan,9412638678,Residential Self ,121,121,121,121,299,299
+357,18-Aal Darmayan,Aal Darmayan,296,Abdul Ajim,Ameer Ahmad,Aal Darmayan,9720066300,Residential Self ,73,0,73,0,420,1640
+358,18-Aal Darmayan,Aal Darmayan,296/1,Mukhtar Ahmad,Amir Ahmad,Aal Darmayan,8445418786,Residential Self ,73,339,73,339,0,0
+359,18-Aal Darmayan,Aal Darmayan,297,"Anwar Hasan, Kanwar Hasan, Arshad Hasan",Akhtar Hasan,Aal Darmayan,9897635585,Residential Self ,72,0,72,79,0,0
+360,18-Aal Darmayan,Aal Darmayan,298,Ch. Sarvar Hasan,Akhtar Hasan,Aal Darmayan,9897006466,Residential Self ,97,1198,97,4897,420,6140
+361,18-Aal Darmayan,Aal Darmayan,301,Anand Prakash,Pirthi Singh,Aal Darmayan,9457294477,Residential Self ,87,404,87,404,0,0
+362,18-Aal Darmayan,Aal Darmayan,301/2,Saroj Jain,W/O Chandu Lal,Aal Darmayan,-,Residential Self ,44,145,44,145,0,0
+363,18-Aal Darmayan,Aal Darmayan,301/3,Sanjeev Kumar,Chetanlal,Aal Darmayan,-,-,44,44,44,44,0,0
+364,18-Aal Darmayan,Aal Darmayan,301/4,Kela Vati ,W/O Telluram,Aal Darmayan,-,-,0,0,0,0,0,0
+365,18-Aal Darmayan,Aal Darmayan,301/5,Mahender Jain,Chetanlal,Aal Darmayan,9045913104,Residential Self ,44,44,44,44,0,0
+366,18-Aal Darmayan,Aal Darmayan,301/6,Rajender Kumar,Teluram,Aal Darmayan,9027136822,Residential Self ,48,101,48,58,372,372
+367,18-Aal Darmayan,Aal Darmayan,301/7,Ashok Kumar,Chetanlal,Aal Darmayan,9027136822,Residential Self ,87,87,87,87,0,0
+368,18-Aal Darmayan,Aal Darmayan,301/7A,Gaurav Jain,Devender Jain,Aal Darmayan,9027136822,Residential Self ,66,404,66,404,354,1442
+369,18-Aal Darmayan,Aal Darmayan,302,"Ch. Anwar Hasan, Kanwar Hasan, Arshad Hasan",Ch. Akhtar Hasan,Aal Darmayan,9412212122,Residential Self ,24,50,0,0,0,0
+370,18-Aal Darmayan,Aal Darmayan,303,"Ch. Anwar Hasan, Kanwar Hasan, Arshad Hasan",Ch. Akhtar Hasan,Aal Darmayan,9412212122, -,0,0,0,0,0,0
+371,18-Aal Darmayan,Aal Darmayan,304,Jaswant ,Jeet Singh,Aal Darmayan,-,-,0,0,0,0,420,1640
+372,18-Aal Darmayan,Aal Darmayan,305,"Anwar, Irshad, Furkaan,Irfaan",Samsudeen,Aal Darmayan,7351256723,Residential Self ,48,565,48,565,372,2556
+373,18-Aal Darmayan,Aal Darmayan,306,"Noor Mohmmad, Liyaqt",Majid,Aal Darmayan,9012723626,Residential Self ,48,565,48,565,372,2556
+374,18-Aal Darmayan,Aal Darmayan,307,Nafees,Saleemudeen,Aal Darmayan, -,Residential Self ,45,310,45,45,375,3098
+375,18-Aal Darmayan,Aal Darmayan,308,Saeed,Ameerudeen,Aal Darmayan,9917074559,Residential Self ,45,276,45,276,375,1815
+376,18-Aal Darmayan,Aal Darmayan,309,"Ch. Anwar Hasan, Kanwar Hasan, Arshad Hasan",Ch. Akhtar Hasan,Aal Darmayan, -, -,0,0,0,0,0,0
+377,18-Aal Darmayan,Aal Darmayan,310,"Ch. Anwar Hasan, Kanwar Hasan, Arshad Hasan",Ch. Akhtar Hasan,Aal Darmayan, -, -,0,0,0,0,0,0
+378,18-Aal Darmayan,Aal Darmayan,311,"Ch. Anwar Hasan, Kanwar Hasan, Arshad Hasan",Ch. Akhtar Hasan,Aal Darmayan, -, -,48,104,48,101,0,0
+379,18-Aal Darmayan,Aal Darmayan,311/1,"Ch. Anwar Hasan, Kanwar Hasan, Arshad Hasan",Ch. Akhtar Hasan,Aal Darmayan, -, -,48,101,48,101,420,840
+380,18-Aal Darmayan,Aal Darmayan,312,Sanjeev Kumar,Chetanlal,Aal Darmayan,-,Residential Self ,109,109,109,109,0,0
+381,18-Aal Darmayan,Aal Darmayan,313,Jahoor,Mumtaaz,Aal Darmayan,8273909776,Residential Self ,103,151,103,1084,317,2322
+382,18-Aal Darmayan,Aal Darmayan,314,Gafuri,W/O Basheer,Aal Darmayan,-,-,0,0,0,0,420,1240
+383,18-Aal Darmayan,Aal Darmayan,315,Masjid Thellowali Ibadatgah,-,Aal Darmayan,9760518376,Commercial Self ,0,0,0,0,420,3240
+384,18-Aal Darmayan,Aal Darmayan,316,Milkiyat Masjid Thellowali,-,Aal Darmayan,9760518376,Commercial Self ,44,234,44,351,0,0
+385,18-Aal Darmayan,Aal Darmayan,316/1,Milkiyat Masjid Thellowali,-,Aal Darmayan,9760518376,Commercial Self ,55,337,55,338,0,0
+386,18-Aal Darmayan,Aal Darmayan,316/2,Milkiyat Masjid Thellowali,-,Aal Darmayan,9760518376,Commercial Self ,396,9277,396,9277,0,0
+387,18-Aal Darmayan,Aal Darmayan,316/3,Milkiyat Masjid Thellowali,-,Aal Darmayan,9760518376,Commercial Self ,44,44,44,44,420,3240
+388,18-Aal Darmayan,Aal Darmayan,"317, 318",Ch. Akhtar Hasan,Faiyyaz,Aal Darmayan,-,-,0,0,0,0,0,0
+389,18-Aal Darmayan,Aal Darmayan,318,Jameela,W/O Hakeemudeen,Aal Darmayan,-,-,0,0,0,0,0,0
+390,18-Aal Darmayan,Aal Darmayan,319,Hameed,Phula,Aal Darmayan,8273178380,Residential Self ,67,791,67,791,0,0
+391,18-Aal Darmayan,Aal Darmayan,320,Nafees,Maksood,Aal Darmayan,9760518376,Residential Self ,66,66,66,66,354,354
+392,18-Aal Darmayan,Aal Darmayan,320/1,Ameer Ahmad,Maksood,Aal Darmayan,7505918721,Residential Self ,55,55,55,55,420,420
+393,18-Aal Darmayan,Aal Darmayan,321,Raees Ahmad,Maksood,Aal Darmayan,7505869825,Residential Self ,55,656,55,756,365,2775
+394,18-Aal Darmayan,Aal Darmayan,322,"Israr, Harun",Saidudeen,Aal Darmayan,9917089577,Residential Self ,66,778,66,778,354,2412
+395,18-Aal Darmayan,Aal Darmayan,322/1,Jalees,Maksood,Aal Darmayan,7988252635,Residential Self ,264,264,264,264,0,0
+396,18-Aal Darmayan,Aal Darmayan,323,Furkaan V Mehrbaan,Manjoor,Aal Darmayan,7037925000,Residential Self ,77,166,77,153,420,840
+397,18-Aal Darmayan,Aal Darmayan,324,Shaukat,Maksood,Aal Darmayan,9690373114,Residential Self ,44,268,44,268,376,1820
+398,18-Aal Darmayan,Aal Darmayan,325/1,Mehrbaan,Manjoor Hasan,Aal Darmayan,7037925000,Residential Self ,44,92,44,92,0,0
+399,18-Aal Darmayan,Aal Darmayan,326,Sahukat,Maksood,Aal Darmayan,9690373114,Residential Self ,36,221,0,0,0,0
+400,18-Aal Darmayan,Aal Darmayan,325/2,Furkaan,Manjoor Hasan,Aal Darmayan,7037925000,Residential Self ,66,139,66,139,0,0
+401,18-Aal Darmayan,Aal Darmayan,325/3,Islaam ,Yaseen,Aal Darmayan,-,-,31,31,0,0,0,0
+402,18-Aal Darmayan,Aal Darmayan,"326/1A, 326/2",Shakeel,Basheer,Aal Darmayan,8533947512,Residential Self ,264,264,264,264,156,156
+403,18-Aal Darmayan,Aal Darmayan,326/1,"Akram, Aalim ",Mustaq,Aal Darmayan,-,-,396,829,396,829,420,2040
+404,18-Aal Darmayan,Aal Darmayan,327,"Akhlak, Faizsan",Moh. Ibrahim,Aal Darmayan,9811408792,Residential Self ,79,0,79,0,0,0
+405,18-Aal Darmayan,Aal Darmayan,328,"Irshad, Irfaan, Imraan",Moh. Yameen,Aal Darmayan,8859352050,Residential Self ,182,0,182,0,238,24
+406,18-Aal Darmayan,Aal Darmayan,329,Shanaz,W/O Shanazar,Aal Darmayan,9761661222,Residential Self ,44,268,44,268,376,1832
+407,18-Aal Darmayan,Aal Darmayan,330,"Parvej, Akhtar",Sulemaan,Aal Darmayan,9319672022,Residential Self ,48,293,48,293,372,1800
+408,18-Aal Darmayan,Aal Darmayan,331,Umardeen,Badrudeen,Aal Darmayan,8439412509,Residential Self ,79,79,79,79,341,341
+409,18-Aal Darmayan,Aal Darmayan,332,Rukamdeen,Badrudeen,Aal Darmayan,8445257618,Residential Self ,88,1036,88,1036,0,0
+410,18-Aal Darmayan,Aal Darmayan,332/1,"Intajaar, Sadik",Tahir,Aal Darmayan,6395885080,Residential Self ,300,2683,300,2683,0,0
+411,18-Aal Darmayan,Aal Darmayan,333,Jareefa,W/O Ilyaas,Aal Darmayan,8938919730,Residential Self ,150,0,150,0,270,0
+412,18-Aal Darmayan,Aal Darmayan,334,Saeed Ahmad,Meeru,Aal Darmayan,-,Residential Self ,360,0,360,360,60,60
+413,18-Aal Darmayan,Aal Darmayan,335,Jalaludeen,Badrudeen,Aal Darmayan,9410096786,Residential Self ,145,864,145,2750,275,1966
+414,18-Aal Darmayan,Aal Darmayan,336,Devendra,Sadhuram,Aal Darmayan,9917065289,Residential Self ,73,241,73,241,420,1240
+415,18-Aal Darmayan,Aal Darmayan,337,Narender Kumar,Ganga Ram,Aal Darmayan, -,Residential Self ,44,44,44,44,376,376
+416,18-Aal Darmayan,Aal Darmayan,337/1,Sanjay Kumar,Narsingh,Aal Darmayan,9837351200,Residential Self ,48,48,48,48,420,0
+417,18-Aal Darmayan,Aal Darmayan,337/2,Bablu,Shankar,Aal Darmayan,-,Residential Self ,55,55,55,55,376,365
+418,18-Aal Darmayan,Aal Darmayan,337/3,Ashok Kumar,Brahmdutt,Aal Darmayan,-,Residential Self ,61,61,61,61,0,0
+419,18-Aal Darmayan,Aal Darmayan,337/5,Sanjay Kumar,Narsingh,Aal Darmayan,9837351200,Residential Self ,44,44,44,44,0,0
+420,18-Aal Darmayan,Aal Darmayan,337/6,Narender,Ganga Ram,Aal Darmayan,8899788700,Residential Self ,44,44,44,44,0,0
+421,18-Aal Darmayan,Aal Darmayan,338,Rajesh Kumar,Mangeram,Aal Darmayan,9837390605,Residential Self ,150,917,150,917,0,0
+422,18-Aal Darmayan,Aal Darmayan,339,Mangeram,Ghaseeta,Aal Darmayan,9837390605,Residential Self ,66,66,66,66,354,354
+423,18-Aal Darmayan,Aal Darmayan,340,Subhash Chand,Keshoram,Aal Darmayan,9368983308,Residential Self ,44,0,44,0,376,0
+424,18-Aal Darmayan,Aal Darmayan,340/1,Vinod Kumar,Prem Dutt,Aal Darmayan,9917268995,Residential Self ,66,219,66,219,0,0
+425,18-Aal Darmayan,Aal Darmayan,340/2,Omprakash ,Ratiram,Aal Darmayan,9910732199,Residential Self ,48,0,48,0,372,0
+426,18-Aal Darmayan,Aal Darmayan,340/3,Anil ,Prem Dutt,Aal Darmayan,8534801347,Residential Self ,55,116,55,116,365,730
+427,18-Aal Darmayan,Aal Darmayan,341,Manjura,Ismail,Aal Darmayan,9012684001,Residential Self ,55,656,55,656,0,0
+428,18-Aal Darmayan,Aal Darmayan,337/4,"Abbas, Tahir, Nasir, Salim, Hasim, Alim, Najim S/O Manjura , Naseem S/O Abbas",Naseem,Aal Darmayan,7895282220,Residential Self ,67,0,67,0,353,1039
+429,18-Aal Darmayan,Aal Darmayan,341/1,Fuvaro,W/O Khursheed,Aal Darmayan,9917541092,Residential Self ,110,231,110,231,310,620
+430,18-Aal Darmayan,Aal Darmayan,341/2,Yameen,Ismail,Aal Darmayan, -, -,48,223,48,48,0,0
+431,18-Aal Darmayan,Aal Darmayan,342,Narender Kumar,Asha Ram,Aal Darmayan, -, -,66,227,66,219,0,0
+432,18-Aal Darmayan,Aal Darmayan,"342/1
+342/1A",Padma Jain,Ashok Kumar,Aal Darmayan, -, -,792,2622,792,2622,0,0
+433,18-Aal Darmayan,Aal Darmayan,342/2,"Seema Jain W/O Manoj Kumar, Indu Jain W/O Mukesh Jain",-,Aal Darmayan, -, -,275,0,275,0,0,0
+434,18-Aal Darmayan,Aal Darmayan,342/1B,Narender Kumar ,Asharam,Aal Darmayan, -, -,66,219,66,219,0,0
+435,18-Aal Darmayan,Aal Darmayan,342/3,"Mander Kumar, Ashok Kumar, Narender Kumar Jain",Asharam,Aal Darmayan, -, -,6000,6000,6000,6000,0,0
+436,18-Aal Darmayan,Aal Darmayan,342/3B,Saeed,Abdul Kayyum,Aal Darmayan, -, -,132,1815,132,1815,0,0
+437,18-Aal Darmayan,Aal Darmayan,"342/4
+342/5",Saroj Kansal ,W/O Naresh Chand,Aal Darmayan, -, -,132,132,132,132,0,0
+438,18-Aal Darmayan,Aal Darmayan,342/6,Padmi Jain,Ashok Kumar,Aal Darmayan, -, -,396,1311,396,1311,0,0
+439,18-Aal Darmayan,Aal Darmayan,342/7,Mander Kumar,Asharam,Aal Darmayan, -, -,0,0,0,0,0,0
+440,18-Aal Darmayan,Aal Darmayan,342/8,Mander Kumar,Asharam,Aal Darmayan, -, -,0,0,0,0,0,0
+441,18-Aal Darmayan,Aal Darmayan,342/9,Aanand Prakash,Sital,Aal Darmayan, -, -,660,0,660,0,0,0
+442,18-Aal Darmayan,Aal Darmayan,342/10,Aanand Prakash,Sital,Aal Darmayan, -, -,660,0,660,0,0,0
+443,18-Aal Darmayan,Aal Darmayan,342/11,Mander Kumar Jain,Asharam,Aal Darmayan, -, -,0,0,0,0,0,0
+444,18-Aal Darmayan,Aal Darmayan,342/12,Mander Kumar Jain,Asharam,Aal Darmayan, -, -,0,0,0,0,0,0
+445,18-Aal Darmayan,Aal Darmayan,342/12A,Mander Kumar Jain,Asharam,Aal Darmayan, -, -,0,0,0,0,0,0
+446,18-Aal Darmayan,Aal Darmayan,342/13,Mander Kumar Jain,Asharam,Aal Darmayan, -, -,182,0,182,0,238,0
+447,18-Aal Darmayan,Aal Darmayan,343,Saleem,Ahmad Hasan,Aal Darmayan, -, -,66,778,66,778,0,0
+448,18-Aal Darmayan,Aal Darmayan,343/1,Saleem,Ahmad Hasan,Aal Darmayan, -, -,66,404,66,404,0,0
+449,18-Aal Darmayan,Aal Darmayan,343/2,Saleem,Ahmad Hasan,Aal Darmayan, -, -,66,404,66,404,0,0
+450,18-Aal Darmayan,Aal Darmayan,343/3,Saleem,Ahmad Hasan,Aal Darmayan, -, -,88,538,88,538,0,0
+451,18-Aal Darmayan,Aal Darmayan,344,Pradeep Kumar,Ravidutt,Aal Darmayan,8077174445,Residential Self ,66,66,66,66,354,354
+452,18-Aal Darmayan,Aal Darmayan,344/1,Ravi Dutt,Ratiram,Aal Darmayan,-,-,48,48,48,370,0,0
+453,18-Aal Darmayan,Aal Darmayan,345,"Naseem, Shahzad",Allarakha,Aal Darmayan,9639863644,Residential Self ,330,2014,330,2014,90,390
+454,18-Aal Darmayan,Aal Darmayan,346,Islaam ,Kareemudin,Aal Darmayan,9520280920,Residential Self ,165,1275,165,1275,255,1350
+455,18-Aal Darmayan,Aal Darmayan,347,Moh. Umar,Saddik,Aal Darmayan,7454067360,Residential Self ,330,3629,330,3891,0,0
+456,18-Aal Darmayan,Aal Darmayan,348,Khursheed,Jahoor,Aal Darmayan,9917541092,Residential Self ,110,231,110,231,310,620
+457,18-Aal Darmayan,Aal Darmayan,349,Subhash Chand,Atmaram,Aal Darmayan,-,-,48,0,48,0,0,0
+458,18-Aal Darmayan,Aal Darmayan,350,Meena,W/O Mursaleen,Aal Darmayan,-,-,100,100,100,100,420,420
+459,18-Aal Darmayan,Aal Darmayan,351,Phulwaro,W/O Khursheed,Aal Darmayan,9917541092,Residential Self ,100,771,100,610,0,0
+460,18-Aal Darmayan,Aal Darmayan,352,Anwari,Iqbal,Aal Darmayan,6395506316,Residential Self ,330,2940,330,3897,90,390
+461,18-Aal Darmayan,Aal Darmayan,353,Ameeran,W/O Mustakeem,Aal Darmayan,7895913211,Residential Self ,66,66,66,66,354,354
+462,18-Aal Darmayan,Aal Darmayan,354,Nisara ,W/O Sageer,Aal Darmayan,7417201572,Residential Self ,110,1521,110,510,310,2660
+463,18-Aal Darmayan,Aal Darmayan,355,Sakil,Ablu,Aal Darmayan,9557349345,Residential Self ,620,0,45,0,375,375
+464,18-Aal Darmayan,Aal Darmayan,356,"Anwar, Akbar, Irshad, Jamshed",Saddik,Aal Darmayan,7505924374,Residential Self ,97,592,97,592,323,1555
+465,18-Aal Darmayan,Aal Darmayan,357,Haneefa,W/O Moh. Ali,Aal Darmayan,9917249000,Residential Self ,45,716,45,716,0,0
+466,18-Aal Darmayan,Aal Darmayan,357/1,Tasmeena,W/O Nasir,Aal Darmayan,8439289391,Residential Self ,48,0,88,0,420,420
+467,18-Aal Darmayan,Aal Darmayan,358,Shahdeen,Sabbira,Aal Darmayan,-,Residential Self ,61,128,61,128,359,1381
+468,18-Aal Darmayan,Aal Darmayan,359,Intjaar,Moh. Kharati,Aal Darmayan,9917867501,Residential Self ,45,530,45,530,375,2580
+469,18-Aal Darmayan,Aal Darmayan,359/1,Umardeen,Ismail,Aal Darmayan,-,Residential Self ,44,519,48,549,0,0
+470,18-Aal Darmayan,Aal Darmayan,360,"Nafees, Khaleel, Saleem",Yaseen,Aal Darmayan,9690644339,Residential Self ,48,164,48,168,0,0
+471,18-Aal Darmayan,Aal Darmayan,360/1,Jahir,Banda,Aal Darmayan,9630280539,Residential Self ,45,210,45,210,375,1469
+472,18-Aal Darmayan,Aal Darmayan,361,Jinda,Ramjani,Aal Darmayan,7819017523,Residential Self ,110,1297,110,1297,0,0
+473,18-Aal Darmayan,Aal Darmayan,362,"Alamdar, Menudeen, Jalaludeen S/O Alijaan, Nazma W/O Hasandeen",Alijaan,Aal Darmayan,7037320773,Residential Self ,462,5447,462,5447,0,0
+474,18-Aal Darmayan,Aal Darmayan,363,"Ch. Anwar Hasan, Kanwar Hasan, Arshad Hasan",Akhtar Hasan,Aal Darmayan,9810174785,Residential Self ,77,77,77,162,0,0
+475,18-Aal Darmayan,Aal Darmayan,365,"Furkaan Kha, Irfaan Kha",Kamil,Aal Darmayan,-,Residential Self ,48,1001,48,1001,372,3080
+476,18-Aal Darmayan,Aal Darmayan,366,"Jabardeen, Kawardeen, Kamil, Alim, Imraan",Maksood,Aal Darmayan,9634855185,Residential Self ,73,864,73,864,347,2356
+477,18-Aal Darmayan,Aal Darmayan,367/1,Moh. Umar,Badla,Aal Darmayan,7300857030,Residential Self ,48,293,48,293,372,1800
+478,18-Aal Darmayan,Aal Darmayan,367,Majeed,Badla,Aal Darmayan,9897995998,Residential Self ,61,0,61,470,0,0
+479,18-Aal Darmayan,Aal Darmayan,367/2,Majeed,Badla,Aal Darmayan,9897995998,Residential Self ,0,0,0,0,0,0
+480,18-Aal Darmayan,Aal Darmayan,367/3,Majeed,Badla,Aal Darmayan,9897665415,Residential Self ,0,0,0,0,0,0
+481,18-Aal Darmayan,Aal Darmayan,368,Salim ,Kannu,Aal Darmayan,9917670549,Residential Self ,55,337,55,337,365,1765
+482,18-Aal Darmayan,Aal Darmayan,368/1,Salim ,Kannu,Aal Darmayan,9917670549,Residential Self ,73,445,73,445,0,0
+483,18-Aal Darmayan,Aal Darmayan,368/2,Majid,Badla,Aal Darmayan,9917670549,Residential Self ,48,223,48,223,372,1448
+484,18-Aal Darmayan,Aal Darmayan,369,"Aasman, Ahsaan",Yaseen S/O Vajeer,Aal Darmayan,9668901112,Residential Self ,45,150,45,150,375,1105
+485,18-Aal Darmayan,Aal Darmayan,369/1,Saleem,Jahoor,Aal Darmayan,7505448781,Residential Self ,330,3891,330,3891,0,0
+486,18-Aal Darmayan,Aal Darmayan,370,"Umardeen, Shahdeen",Nijamudeen,Aal Darmayan,8433071092,Residential Self ,121,121,121,121,0,0
+487,18-Aal Darmayan,Aal Darmayan,371,Hasmuda,W/O Sarafat,Aal Darmayan,9927564680,Residential Self ,77,358,77,359,0,0
+488,18-Aal Darmayan,Aal Darmayan,371/1,Shaukat,Safi,Aal Darmayan,8881410756,Residential Self ,48,64,48,0,0,0
+489,18-Aal Darmayan,Aal Darmayan,371/2,Hasmuda,W/O Sarafat,Aal Darmayan,9927564680,Residential Self ,55,256,55,256,0,0
+490,18-Aal Darmayan,Aal Darmayan,372,"Khursheed, Mustakeem, Hameed",Sabbir,Aal Darmayan,8449422851,Residential Self ,44,0,44,0,376,0
+491,18-Aal Darmayan,Aal Darmayan,373,Naseer,Habib,Aal Darmayan,9084835583,Residential Self ,48,370,48,370,372,2052
+492,18-Aal Darmayan,Aal Darmayan,373/1,Yaseen,Habib,Aal Darmayan,8534801045,Residential Self ,45,150,45,150,0,0
+493,18-Aal Darmayan,Aal Darmayan,373/1A,Janni,Habib,Aal Darmayan,8534801045,Residential Self ,45,276,45,277,375,1815
+494,18-Aal Darmayan,Aal Darmayan,373/2,"Bhura, Sageer",Rasheed,Aal Darmayan,9084835583,Residential Self ,61,202,61,202,420,6976
+495,18-Aal Darmayan,Aal Darmayan,374,Riyasat,Jareef,Aal Darmayan,9027925094,Residential Self ,48,370,48,77,372,2052
+496,18-Aal Darmayan,Aal Darmayan,375,Intajaar,Riyasat,Aal Darmayan,9027925094,Residential Self ,110,848,110,177,0,0
+497,18-Aal Darmayan,Aal Darmayan,376,Praveen,Lakhiram,Aal Darmayan,9997816475,Commercial Self ,66,0,66,0,0,0
+498,18-Aal Darmayan,Aal Darmayan,376/1,Anil ,Bhushan,Aal Darmayan,-,-,73,864,73,882,0,0
+499,18-Aal Darmayan,Aal Darmayan,377,Anil ,Bhushan,Aal Darmayan,-,-,67,791,67,791,0,0
+500,18-Aal Darmayan,Aal Darmayan,378,Mohd.Jakir,Mohd.Iqbal,Aal Darmayan,9958413974,Commercial Self ,85,85,85,179,335,335
+501,18-Aal Darmayan,Aal Darmayan,378A,Moh. Jakir,Moh. Iqbaal,Aal Darmayan,9958413974,Commercial Self ,55,116,55,116,0,0
+502,18-Aal Darmayan,Aal Darmayan,378/2,Moh. Jakir,Moh. Iqbaal,Aal Darmayan,9958413974,Commercial Self ,61,470,61,61,0,0
+503,18-Aal Darmayan,Aal Darmayan,379,Mohd.Majid,Mohd. Jamshed,Aal Darmayan,9958413974,Commercial Self ,145,0,145,0,0,0
+504,18-Aal Darmayan,Aal Darmayan,379/1,Mohd. Majid,Mohd. Jamshed,Aal Darmayan,9958413974,Commercial Self ,61,0,61,0,0,0
+505,18-Aal Darmayan,Aal Darmayan,380,"Umardeen, Jahoor",Ameerulla,Aal Darmayan,9568478014,Commercial Self ,121,121,121,121,0,0
+506,18-Aal Darmayan,Aal Darmayan,"381, 382, 383",Dr. Gulfaam,Moh. Iqbaal,Aal Darmayan,9568478014,Commercial Self ,206,206,206,206,214,214
+507,18-Aal Darmayan,Aal Darmayan,383/1,Dr. Gulfaam,Moh. Iqbaal,Aal Darmayan,9568478014,Commercial Self ,77,77,77,77,0,0
+508,18-Aal Darmayan,Aal Darmayan,383/2,Dr. Gulfaam,Moh. Iqbaal,Aal Darmayan,9568478014,Commercial Self ,77,77,77,77,0,0
+509,18-Aal Darmayan,Aal Darmayan,383/3,Dr. Gulfaam,Moh. Iqbaal,Aal Darmayan,9568478014,Commercial Self ,44,44,44,44,0,0
+510,18-Aal Darmayan,Aal Darmayan,384,Anju Rani,W/O Ashok Kumar,Aal Darmayan,7417874025,Commercial Self ,88,88,88,88,332,644
+511,18-Aal Darmayan,Aal Darmayan,384/1,Anju Rani,W/O Ashok Kumar,Aal Darmayan,7417874025,Commercial Self ,88,88,88,88,0,0
+512,18-Aal Darmayan,Aal Darmayan,385,Manoj Kumar,Ashok Kumar,Aal Darmayan,-,Commercial Self ,88,88,88,88,332,332
+513,18-Aal Darmayan,Aal Darmayan,385/1,Manoj Kumar,Ashok Kumar,Aal Darmayan,-,Residential Self ,143,143,143,143,0,0
+514,18-Aal Darmayan,Aal Darmayan,386,Asif,Ilyas,Aal Darmayan,9897328631,Commercial Self ,66,0,66,0,0,0
+515,18-Aal Darmayan,Aal Darmayan,387,Asif,Ilyas,Aal Darmayan,9897328631,Commercial Self ,308,0,308,0,0,0
+516,18-Aal Darmayan,Aal Darmayan,388,Ilyaas,Rasheed,Aal Darmayan,9027395851,Residential Self ,66,66,66,219,0,0
+517,18-Aal Darmayan,Aal Darmayan,389,Ilyaas,Rasheed,Aal Darmayan,9027395851,Residential Self ,0,0,0,0,0,0
+518,18-Aal Darmayan,Aal Darmayan,390,Faro Devi,W/O Jaichand,Aal Darmayan,9027051725,Residential Self ,726,0,726,0,0,0
+519,18-Aal Darmayan,Aal Darmayan,391,Alamgeer,Kayyum,Aal Darmayan,8630039160,Residential Self ,61,372,61,372,0,0
+520,18-Aal Darmayan,Aal Darmayan,392,Alamgeer,Kayyum,Aal Darmayan,8630039160,Residential Self ,436,2662,436,2662,0,0
+521,18-Aal Darmayan,Aal Darmayan,393,Farukh,Naeem Ahmad,Aal Darmayan,8449848532,Residential Self ,550,1150,550,1155,24,48
+522,18-Aal Darmayan,Aal Darmayan,394,Farukh,Naeem Ahmad,Aal Darmayan,8449848532,Commercial Self ,66,139,66,128,0,0
+523,18-Aal Darmayan,Aal Darmayan,395,Chaman Lal,Murari Lal,Aal Darmayan,9756805073,Commercial Self ,44,44,44,97,0,0
+524,18-Aal Darmayan,Aal Darmayan,396,Chaman Lal,Murari Lal,Aal Darmayan,9756805073,Commercial Self ,0,0,0,0,0,0
+525,18-Aal Darmayan,Aal Darmayan,342/3A,Saroj Kansal ,W/O Naresh Chand,Aal Darmayan,-,-,66,66,66,66,0,0
+526,18-Aal Darmayan,Aal Darmayan,175/1,"Ramkishan S/O Mukhtayara, V Arvind, Ajay Kumar S/O Ramkishan",Mukhtayara,Aal Darmayan,-,-,300,2314,300,2314,120,540
+527,18-Aal Darmayan,Aal Darmayan,342/10A,Vipin Kumar,Radhe Shayam,Aal Darmayan, -, -,179,593,179,593,241,703
+528,18-Aal Darmayan,Aal Darmayan,290/1,Subhash Chand,Suresh Chand,Aal Darmayan, -, -,145,145,145,145,0,0
+529,18-Aal Darmayan,Aal Darmayan,284/1,Sudha Garg,Aniil Kumar Garg,Aal Darmayan, -, -,319,0,319,0,0,0
+530,18-Aal Darmayan,Aal Darmayan,290/A,Saweta Goyal,Rajesh Goyal,Aal Darmayan, -, -,300,0,0,0,0,0
+531,18-Aal Darmayan,Aal Darmayan,266A,Satish Kansal,Shyam Lal,Aal Darmayan, -, -,110,110,110,110,0,0

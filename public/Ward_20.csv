@@ -1,0 +1,622 @@
+﻿PROPERTY ID,WARD NAME,MOHALLA NAME,HOUSE NO,OWNER NAME,FATHER NAME,ADDRESS,MOBILE NO,PROPERTY USE AS,OLD HOUSE TAX 2025-2026,HOUSE TAX ARRER 2025-2026,OLD WATER TAX 2025-2026,WATER TAX ARRER 2025-2026,OLD WATER TANK TAX 2025-2026,OLD WATER TANK ARRER 2025-2026
+1,20-Ansariyan,Ansariyan,1,Anis,Zarif Ahmad,Ansariyan,9359590917,Residential Self ,109,506,109,3170,311,5538
+2,20-Ansariyan,Ansariyan,2,Rais Ahmed,Zarif Ahmad,Ansariyan,8650008898,Residential Self ,67,2256,67,2256,353,4095
+3,20-Ansariyan,Ansariyan,3,Saeed Urf Iddu,Munshi,Ansariyan,8296718621,Residential Self ,48,656,48,650,372,2304
+4,20-Ansariyan,Ansariyan,4,Mahboob,Munshi,Ansariyan, -,Residential Self ,67,2024,67,2026,420,5400
+5,20-Ansariyan,Ansariyan,5,Irfan,Munshi,Ansariyan,9761313650,Residential Self ,48,48,48,48,420,420
+6,20-Ansariyan,Ansariyan,6,Aayoob,Munshi,Ansariyan,7217567217,Residential Self ,61,840,61,840,359,2697
+7,20-Ansariyan,Ansariyan,7,Abdul Waheed,Allabanda,Ansariyan,8168716728,Residential Self ,121,1643,121,1759,0,0
+8,20-Ansariyan,Ansariyan,8,"Abdul Waheed, Abdul Basid, Mau. Idrish, Ilyias",Allabanda,Ansariyan,8168716728,Residential Self ,97,2623,97,3651,323,3504
+9,20-Ansariyan,Ansariyan,8/1,Alihadar,Shaukat Hussain,Ansariyan,9999888640,Residential Self ,87,531,87,531,333,3356
+10,20-Ansariyan,Ansariyan,9,Alihadar,Shaukat Hussain,Ansariyan, -,Residential Self ,363,2052,363,2052,57,225
+11,20-Ansariyan,Ansariyan,10,Niaz,Rahman,Ansariyan,7973092668,Residential Self ,73,24508,73,19813,347,5447
+12,20-Ansariyan,Ansariyan,12,Hameed,Raseed,Ansariyan,9119710807,Residential Self ,145,13255,145,13481,275,3892
+13,20-Ansariyan,Ansariyan,13,"Rashid, Abbas",Tajmul Hussain,Ansariyan,7251899280,Residential Self ,46,0,46,0,374,0
+14,20-Ansariyan,Ansariyan,15,Natthu,Muktyar,Ansariyan,7889102389,Residential Self ,73,864,73,3733,420,3540
+15,20-Ansariyan,Ansariyan,17,Rais Ahmed,Amir Ahmad,Ansariyan,8410713756,Residential Self ,48,1454,48,1467,372,4620
+16,20-Ansariyan,Ansariyan,18,Elias,Amir Ahmad,Ansariyan,9368123450,Residential Self ,61,61,61,721,359,2697
+17,20-Ansariyan,Ansariyan,19,Siraj Fatma,Ibne Hussain,Ansariyan,9997068627,Residential Self ,45,768,45,823,374,5790
+18,20-Ansariyan,Ansariyan,20,Bashir Ahmad,Mahmood Khan,Ansariyan, -,Residential Self ,65,3596,65,3596,355,3876
+19,20-Ansariyan,Ansariyan,21,Irfan,Amir Ahmad,Ansariyan,9761711317,Residential Self ,121,848,110,1080,420,2640
+20,20-Ansariyan,Ansariyan,23,Mjhahir Hussain,Aabid Hussain,Ansariyan,9997779613,Residential Self ,48,223,48,223,372,1448
+21,20-Ansariyan,Ansariyan,23/1,Rashid Hussain,Aabid Hussain,Ansariyan, -,Residential Self ,0,0,0,0,0,0
+22,20-Ansariyan,Ansariyan,24,Kaalu,Ismail Urf Balld,Ansariyan,9528896788,Residential Self ,97,97,97,97,323,323
+23,20-Ansariyan,Ansariyan,25,Mohd. Yusuf,Manjur,Ansariyan,9719818670,Residential Self ,48,293,48,293,372,1800
+24,20-Ansariyan,Ansariyan,26,Nafees,Bashir Ahmad,Ansariyan,9358437691,Residential Self ,61,470,61,721,359,1974
+25,20-Ansariyan,Ansariyan,26/1,Anis Ahmed,Bashir Ahmad,Ansariyan,9358437691,Residential Self ,61,128,61,128,359,4152
+26,20-Ansariyan,Ansariyan,27,"Safeer Ahmad,Ruhi",Rais Ahmad,Ansariyan,9358437691,Residential Self ,110,1012,110,1005,420,3785
+28,20-Ansariyan,Ansariyan,28,Anis Ahmad,Sharif Ahmad,Ansariyan, -,Residential Self ,48,293,48,293,372,1800
+29,20-Ansariyan,Ansariyan,29,Hanif,Sharif,Ansariyan, -,Residential Self ,145,5050,145,6568,420,4170
+30,20-Ansariyan,Ansariyan,30,Hanif,Sharif,Ansariyan, -,Residential Self ,97,3552,97,3070,323,3204
+31,20-Ansariyan,Ansariyan,31,Hanif,Sharif,Ansariyan, -,Residential Self ,97,748,97,748,420,2340
+32,20-Ansariyan,Ansariyan,32,Shafiq Ahmed,Bashir Ahmad,Ansariyan, -,Residential Self ,44,145,44,145,376,1108
+33,20-Ansariyan,Ansariyan,33,Aziz Ahmed,Bashir Ahmad,Ansariyan, -,Residential Self ,97,6879,97,6613,323,4932
+34,20-Ansariyan,Ansariyan,34,Anis,Sajaval,Ansariyan, -,Residential Self ,48,2476,48,2476,420,7308
+35,20-Ansariyan,Ansariyan,35,Masjid Ibadtgah Sidryan,-,Ansariyan,9668642436,Residential Self ,0,0,0,0,420,420
+36,20-Ansariyan,Ansariyan,36,Rashiden,Ismail,Ansariyan,7417371812,Residential Self ,88,292,88,292,332,976
+37,20-Ansariyan,Ansariyan,37,Shahnaz Urf Sano,Mohd Yunus,Ansariyan,7417371812,Residential Self ,61,283,61,283,0,0
+38,20-Ansariyan,Ansariyan,38,"Nafees Ahmed, Mohd. Islam, Khurshid",Hanif,Ansariyan,7417371812,Residential Self ,48,643,48,366,0,0
+39,20-Ansariyan,Ansariyan,39,"Nafees Ahmed, Mohd. Islam, Khurshid",Hanif,Ansariyan,7417371812,Residential Self ,48,159,48,223,0,0
+40,20-Ansariyan,Ansariyan,40,Yamin,Abdul Karim,Ansariyan,9719196317,Residential Self ,43,1301,43,683,0,0
+41,20-Ansariyan,Ansariyan,41,Yamin,Ibrahim,Ansariyan,9719196317,Residential Self ,109,5591,109,5591,0,0
+42,20-Ansariyan,Ansariyan,41/1,Rais,Sajavel,Ansariyan, -,Residential Self ,44,44,44,44,0,0
+43,20-Ansariyan,Ansariyan,42,Mansoor Hasan S/O Ahmad Hasan ,"Mohd.Farhan,Fraz Ali,Mohd.Fahed S/O Maksur Hasan",Ansariyan,7351342146,Residential Self ,132,437,132,437,288,844
+44,20-Ansariyan,Ansariyan,43,Mujtaba Hasan,Masood Hasan,Ansariyan,9368642436,Residential Self ,44,0,44,92,0,0
+45,20-Ansariyan,Ansariyan,44,Mujtaba Hasan,Masood Hasan,Ansariyan,9368642436,Residential Self ,79,5,79,30,323,323
+46,20-Ansariyan,Ansariyan,45,Mansoor Hasan S/O Ahmad Hasan ,"Mohd.Farhan,Fraz Ali,Mohd.Fahed S/O Maksur Hasan",Ansariyan,7351342146,Commercial Self ,165,165,165,165,0,0
+47,20-Ansariyan,Ansariyan,46,Maskur Hasan Mansoor Hasan,Ahmad Hasan,Ansariyan,7351342146,Commercial Self ,0,0,0,0,0,0
+48,20-Ansariyan,Ansariyan,47,Salim,Yunus,Ansariyan, -,Residential Self ,91,91,91,91,329,106
+49,20-Ansariyan,Ansariyan,48,Salim,Yunus,Ansariyan, -,Residential Self ,44,44,44,44,0,0
+50,20-Ansariyan,Ansariyan,49,Mohd. Yamin,Abdul Karim,Ansariyan,9719196317,Residential Self ,73,445,73,445,420,2040
+51,20-Ansariyan,Ansariyan,50,Islam,Salamtulla,Ansariyan,7217388485,Residential Self ,109,7225,109,9115,420,7677
+52,20-Ansariyan,Ansariyan,51,Shafiq,Ibrahim,Ansariyan, -,Residential Self ,85,3531,85,3551,335,5324
+53,20-Ansariyan,Ansariyan,51/1,Shafiq,Ibrahim,Ansariyan, -,Residential Self ,73,3733,73,3733,0,0
+54,20-Ansariyan,Ansariyan,53,"Mangta, Anis",Rashid Ahmad,Ansariyan,9761606266,Commercial Self ,73,0,73,0,0,0
+55,20-Ansariyan,Ansariyan,54,"Mangta, Anis",Rashid Ahmad,Ansariyan,9761606266,Commercial Self ,97,0,97,0,0,0
+56,20-Ansariyan,Ansariyan,55,"Mangta, Anis",Rashid Ahmad,Ansariyan,9761606266,Commercial Self ,73,0,73,0,0,0
+57,20-Ansariyan,Ansariyan,55/1,"Mangta, Anis",Rashid Ahmad,Ansariyan,9761606266,Commercial Self ,73,0,73,0,0,0
+58,20-Ansariyan,Ansariyan,56,Mohd. Bilal,Waheed Ahmed,Ansariyan,9917983899,Commercial Self ,73,864,73,864,0,0
+59,20-Ansariyan,Ansariyan,57,Waheed,Seeda,Ansariyan,9917983899,Commercial Self ,194,3685,194,8566,0,0
+60,20-Ansariyan,Ansariyan,58,Islam,Shafi,Ansariyan,9815836237,Commercial Self ,149,3798,194,14865,0,0
+61,20-Ansariyan,Ansariyan,59,Salim,Shafi,Ansariyan,9815836237,Commercial Self ,145,15625,145,1959,0,0
+62,20-Ansariyan,Ansariyan,60,"Israel, Mehboob, Shabbir Etc.",Mohd. Yusuf,Ansariyan,9675160109,Residential Self ,157,1796,157,1490,0,0
+63,20-Ansariyan,Ansariyan,61,"Mohd. Reward, Ikram",Rashid Ahmad,Ansariyan, -,Residential Self ,73,14,73,14,420,0
+64,20-Ansariyan,Ansariyan,62,Nisar,Mnni,Ansariyan, -,Residential Self ,436,2662,436,2662,420,840
+65,20-Ansariyan,Ansariyan,63,Nasima,Mahd. Hanif,Ansariyan, -,Residential Self ,97,11990,97,6996,420,6650
+66,20-Ansariyan,Ansariyan,64,Jamila,Niaz Ahmed,Ansariyan,8430008872,Residential Self ,363,5764,363,33518,420,6540
+67,20-Ansariyan,Ansariyan,65,Jamila,Niaz Ahmed,Ansariyan,8430008872,Commercial Self ,218,2068,218,2068,0,0
+68,20-Ansariyan,Ansariyan,66,Jamila,Niaz Ahmed,Ansariyan,8430008872,Commercial Self ,266,3135,266,3135,0,0
+69,20-Ansariyan,Ansariyan,67,"Imran, Israr",Habib,Ansariyan, -,Residential Self ,145,305,145,305,0,0
+70,20-Ansariyan,Ansariyan,68 to 73,"Mangta, Anis",Raseed,Ansariyan,9761606266,Residential Self ,442,1565,442,1565,420,1640
+71,20-Ansariyan,Ansariyan,74,"Anisa,Nadeem, Shakeel, Salman, Shahrukh",Habib,Ansariyan,7456005415,Residential Self ,121,121,121,121,299,299
+73,20-Ansariyan,Ansariyan,75,Aziz,Banda,Ansariyan,9084674314,Residential Self ,55,426,55,426,0,0
+74,20-Ansariyan,Ansariyan,76,Rafiq,Ismail,Ansariyan,8791699708,Residential Self ,182,6807,182,6807,420,5640
+75,20-Ansariyan,Ansariyan,77,Milkiyat Masjid Taliyo Vali,-,Ansariyan,9719196317,Masjid,290,15286,290,21631,0,0
+76,20-Ansariyan,Ansariyan,"78, 79", Masjid Ibadatgah Taliyo Vali,-,Ansariyan,9719196317,Masjid,0,4304,0,6736,420,7092
+77,20-Ansariyan,Ansariyan,80,Milkiyat Masjid Taliyo Vali,-,Ansariyan,9719196317,Masjid,36,8627,0,0,0,0
+78,20-Ansariyan,Ansariyan,81,Milkiyat Masjid Taliyo Vali,-,Ansariyan,9719196317,Masjid,36,7052,0,0,0,0
+79,20-Ansariyan,Ansariyan,82,Milkiyat Masjid Taliyo Vali,-,Ansariyan,9719196317,Masjid,363,23799,363,29000,0,0
+80,20-Ansariyan,Ansariyan,83,Milkiyat Masjid Taliyo Vali,-,Ansariyan,9719196317,Masjid,0,0,0,0,0,0
+81,20-Ansariyan,Ansariyan,84,Mohd. Shahid,Nisar Ahmad,Ansariyan,9720003589,Residential Self ,254,12785,254,12782,420,4398
+82,20-Ansariyan,Ansariyan,85,Nasser,Sajaul,Ansariyan,9720003589,Residential Self ,83,2718,83,4352,333,3976
+83,20-Ansariyan,Ansariyan,86,Aeyyaj Urf Chhota,Fayyaj,Ansariyan,8279721230,Residential Self ,66,1244,66,1205,420,3840
+84,20-Ansariyan,Ansariyan,86/1,Rashid Ahmad,Ramjani,Ansariyan,9357703092,Residential Self ,363,363,363,363,0,0
+85,20-Ansariyan,Ansariyan,87,Rashid Ahmad,Ramjani,Ansariyan,9357703092,Residential Self ,61,61,61,61,359,383
+86,20-Ansariyan,Ansariyan,88,Rashid Ahmad,Ramjani,Ansariyan,9357703092,Residential Self ,67,67,67,67,0,0
+87,20-Ansariyan,Ansariyan,89,Shamshad,Chanda,Ansariyan,7302049530,Residential Self ,73,95,73,95,420,420
+88,20-Ansariyan,Ansariyan,90,Abdul Hamid,Abdul Rahim,Ansariyan,9719107449,Residential Self ,77,732,77,743,343,2101
+89,20-Ansariyan,Ansariyan,91,Shamim,Chota,Ansariyan,9359346167,Residential Self ,48,48,48,48,420,420
+90,20-Ansariyan,Ansariyan,92,Shamim,Chota,Ansariyan,9359346167,Residential Self ,0,0,0,0,0,0
+91,20-Ansariyan,Ansariyan,93,Abdul Rashid,Abdullah,Ansariyan,8267873349,Residential Self ,43,331,43,347,0,0
+92,20-Ansariyan,Ansariyan,"94, 94/1",Abdul Rashid,Abdullah,Ansariyan,8267873349,Residential Self ,48,223,48,223,420,1640
+93,20-Ansariyan,Ansariyan,95,"Iqbal, Afzal, Irfan, Furkan",Rizwan,Ansariyan,9368456691,Residential Self ,61,285,61,283,420,2048
+94,20-Ansariyan,Ansariyan,96,Yasin,Banda,Ansariyan,9359969312,Residential Self ,48,159,48,159,420,4428
+95,20-Ansariyan,Ansariyan,97,Islamudin,Abdul Rahman,Ansariyan,8650119982,Residential Self ,55,116,55,116,365,730
+96,20-Ansariyan,Ansariyan,97/1,Abdul Sajid,Abdullah,Ansariyan,9368456691,Residential Self ,0,0,0,0,372,746
+97,20-Ansariyan,Ansariyan,97/2,Abdul Sajid,Abdullah,Ansariyan,9368456691,Residential Self ,88,88,88,88,0,0
+98,20-Ansariyan,Ansariyan,98,Abdul Karim,Rahmatullah,Ansariyan,8791940021,Residential Self ,48,385,48,385,0,0
+99,20-Ansariyan,Ansariyan,99,Abdul Rahim,Alladia,Ansariyan,9045357613,Residential Self ,436,4633,436,10549,0,0
+100,20-Ansariyan,Ansariyan,100,"Subhan, Sabir, Qadir",Mohsen,Ansariyan,9791834341,Residential Self ,85,395,85,395,420,1640
+101,20-Ansariyan,Ansariyan,101,Mukrim,Hashim,Ansariyan,9058188989,Residential Self ,61,0,61,0,359,0
+102,20-Ansariyan,Ansariyan,102,Sami Anwar,Khurshid Ahmad,Ansariyan, -,Residential Self ,43,331,43,331,420,2384
+103,20-Ansariyan,Ansariyan,103,Sami Anwar,Khurshid Ahmad,Ansariyan, -,Residential Self ,55,426,55,426,0,0
+104,20-Ansariyan,Ansariyan,104,Haseena,Salim,Ansariyan, -,Residential Self ,48,48,48,2235,420,6540
+105,20-Ansariyan,Ansariyan,105,Dr. Zakir Hussain And Zaheer Ahmed,Jamir Ahmad,Ansariyan,9528202495,Commercial Self ,220,220,220,220,0,0
+106,20-Ansariyan,Ansariyan,106,Dr. Zakir Hussain And Zaheer Ahmed,Jamir Ahmad,Ansariyan,9528202495,Commercial Self ,0,0,0,0,0,0
+107,20-Ansariyan,Ansariyan,107,Dr. Zakir Hussain And Zaheer Ahmed,Jamir Ahmad,Ansariyan,9528202495,Commercial Self ,220,260,220,272,0,0
+108,20-Ansariyan,Ansariyan,108,Dr. Zakir Hussain And Zaheer Ahmed,Jamir Ahmad,Ansariyan,9528202495,Commercial Self ,220,220,220,220,0,0
+109,20-Ansariyan,Ansariyan,109,Salma,Anis,Ansariyan,6397621097,Residential Self ,48,48,48,2476,0,0
+110,20-Ansariyan,Ansariyan,110,Haji. Nimudin,Aejajudin,Ansariyan,9897677021,Commercial Self ,110,364,110,364,0,0
+111,20-Ansariyan,Ansariyan,110/1,Palleram,Mamchand,Ansariyan,7078777936,Commercial Self ,61,202,61,202,0,0
+112,20-Ansariyan,Ansariyan,110/2,Ramjani Urf Dollu Shaukat,Shaadi,Ansariyan,7417021700,Commercial Self ,440,440,440,47437,0,0
+113,20-Ansariyan,Ansariyan,110/3,Ramjani Urf Gollu Shaukat,Shaadi,Ansariyan,7417021700,Commercial Self ,440,440,440,440,0,0
+114,20-Ansariyan,Ansariyan,110/4,Ramjani Urf Gollu Shaukat,Shaadi,Ansariyan,7417021700,Residential Self ,0,0,0,0,0,0
+115,20-Ansariyan,Ansariyan,110/5,Ramjani Urf Dollu Shaukat,Shaadi,Ansariyan,7417021700,Residential Self ,0,0,0,0,0,0
+116,20-Ansariyan,Ansariyan,110/6,Ramjani Urf Dollu Shaukat,Shaadi,Ansariyan,7417021700,Residential Self ,0,0,0,0,0,0
+117,20-Ansariyan,Ansariyan,112,Ramjani Urf Dollu Shaukat,Shaadi,Ansariyan,7417021700,Residential Self ,440,0,440,0,420,24
+118,20-Ansariyan,Ansariyan,112/1,Ramjani Urf Dollu Shaukat,Shaadi,Ansariyan,7417021700,Commercial Self ,0,0,0,0,0,0
+119,20-Ansariyan,Ansariyan,112/1A,Sanjay Kumar Kuchcl,Raghunath,Ansariyan,9548133088,Residential Self ,48,1807,48,2007,0,0
+120,20-Ansariyan,Ansariyan,112/2A,Ramjani Urf Dollu Shaukat,Raghunath,Ansariyan,7417021700,Commercial Self ,440,0,440,440,0,0
+121,20-Ansariyan,Ansariyan,112/2B,Sanjay Kumar Kuchcl,Raghunath,Ansariyan,9548133088,Commercial Self ,48,1807,48,0,0,0
+122,20-Ansariyan,Ansariyan,112/2C,Ramjani Urf Dollu Shaukat,Raghunath,Ansariyan,7417021700,Commercial Self ,440,440,440,440,0,0
+123,20-Ansariyan,Ansariyan,112/2D,Ramjani Urf Dollu Shaukat,Raghunath,Ansariyan, -,Residential Self ,0,0,0,0,0,0
+124,20-Ansariyan,Ansariyan,112/2E,Ramjani Urf Dollu Shaukat,Raghunath,Ansariyan,7417021700,Commercial Self ,440,0,440,0,0,0
+125,20-Ansariyan,Ansariyan,112/3C,Sanjay Kumar Kuchcl,Raghunath,Ansariyan,9548133088,Commercial Self ,48,1807,48,0,0,0
+126,20-Ansariyan,Ansariyan,112/2,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+128,20-Ansariyan,Ansariyan,112/3,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+130,20-Ansariyan,Ansariyan,113,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+132,20-Ansariyan,Ansariyan,114,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+134,20-Ansariyan,Ansariyan,115,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+136,20-Ansariyan,Ansariyan,116,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+138,20-Ansariyan,Ansariyan,117,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+140,20-Ansariyan,Ansariyan,118,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+142,20-Ansariyan,Ansariyan,119,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+144,20-Ansariyan,Ansariyan,120,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+146,20-Ansariyan,Ansariyan,121,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+148,20-Ansariyan,Ansariyan,122,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+150,20-Ansariyan,Ansariyan,123,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+152,20-Ansariyan,Ansariyan,124,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+154,20-Ansariyan,Ansariyan,125,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,420,950
+156,20-Ansariyan,Ansariyan,126,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+158,20-Ansariyan,Ansariyan,127,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+160,20-Ansariyan,Ansariyan,128,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+162,20-Ansariyan,Ansariyan,129,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+164,20-Ansariyan,Ansariyan,130,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+166,20-Ansariyan,Ansariyan,131,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+168,20-Ansariyan,Ansariyan,132,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+170,20-Ansariyan,Ansariyan,133,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+172,20-Ansariyan,Ansariyan,134,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+174,20-Ansariyan,Ansariyan,135,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+176,20-Ansariyan,Ansariyan,136,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,420,0
+178,20-Ansariyan,Ansariyan,137,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+180,20-Ansariyan,Ansariyan,138,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,420,0
+182,20-Ansariyan,Ansariyan,139,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+184,20-Ansariyan,Ansariyan,139/1,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+186,20-Ansariyan,Ansariyan,139/2,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+188,20-Ansariyan,Ansariyan,139/3,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,12100,12100,12100,0,0,0
+190,20-Ansariyan,Ansariyan,139/4,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+192,20-Ansariyan,Ansariyan,139/5,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+194,20-Ansariyan,Ansariyan,139/6,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+196,20-Ansariyan,Ansariyan,139/7,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+198,20-Ansariyan,Ansariyan,139/8,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+200,20-Ansariyan,Ansariyan,139/9,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+202,20-Ansariyan,Ansariyan,139/10,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+204,20-Ansariyan,Ansariyan,139/11,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+206,20-Ansariyan,Ansariyan,139/12,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+208,20-Ansariyan,Ansariyan,139/13,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+210,20-Ansariyan,Ansariyan,139/14,"Yawar Hospital Manager Ali Haider,Sabi Haider","Shaukat Hussain,Ali Haider",Ansariyan,9999882640,Commercial Self ,0,0,0,0,0,0
+212,20-Ansariyan,Ansariyan,139/14A,Mangta Etc.,Raseed,Ansariyan, -,Residential Self ,440,0,440,0,0,0
+213,20-Ansariyan,Ansariyan,139/15,Yawar Hospital,-,Ansariyan, -,Residential Self ,0,0,0,0,0,0
+214,20-Ansariyan,Ansariyan,139/15A,Mangta Etc.,Raseed,Ansariyan, -,Residential Self ,440,0,440,0,0,0
+215,20-Ansariyan,Ansariyan,139/16,Yawar Hospital,-,Ansariyan, -,Residential Self ,0,0,0,0,0,0
+216,20-Ansariyan,Ansariyan,139/16A,Mangta Etc.,Raseed,Ansariyan, -,Residential Self ,440,0,440,0,0,0
+217,20-Ansariyan,Ansariyan,139/17,Yawar Hospital,-,Ansariyan, -,Residential Self ,0,0,0,0,0,0
+218,20-Ansariyan,Ansariyan,139/17A,Mangta Etc.,Raseed,Ansariyan, -,Residential Self ,330,0,330,0,0,0
+219,20-Ansariyan,Ansariyan,140,"Mursarat Kha, Farhtkha, Shahid Kha, Zahid Kha, Naushad Khan",Safaaat Kha,Ansariyan,8439714931,Residential Self ,48,659,48,659,372,2812
+220,20-Ansariyan,Ansariyan,141,"Mursarat Kha, Farhtkha, Shahid Kha, Zahid Kha, Naushad Khan",Safaaat Kha,Ansariyan,8439714931,Residential Self ,55,1315,55,1289,365,4322
+221,20-Ansariyan,Ansariyan,142,"Raees Khan, Nafees Khan, Shahzad Khan",Idrish Khan,Ansariyan,8439150413,Residential Self ,48,48,48,48,420,420
+222,20-Ansariyan,Ansariyan,143,Ahsan,Bashir,Ansariyan,9368140396,Residential Self ,484,2933,484,2433,376,0
+223,20-Ansariyan,Ansariyan,144,Ahsan,Bashir,Ansariyan,9368140396,Residential Self ,0,0,0,0,0,0
+224,20-Ansariyan,Ansariyan,145,Noormohamad,Allabanda,Ansariyan,8439714931,Residential Self ,0,0,0,0,0,0
+225,20-Ansariyan,Ansariyan,146,Rukhsana,Sabir,Ansariyan, -,Residential Self ,1380,7151,1380,8309,372,744
+226,20-Ansariyan,Ansariyan,147,Ju Be Jadid School Npp Kairana.,-,Ansariyan,0, Government School,0,0,0,0,0,0
+227,20-Ansariyan,Ansariyan,147/1,Mustafa,Kamil,Ansariyan,9027426431,Commercial Self ,198,1529,198,1529,0,0
+228,20-Ansariyan,Ansariyan,148,Fazil,Kamil Kha,Ansariyan,7520054500,Residential Self ,61,128,61,128,420,840
+229,20-Ansariyan,Ansariyan,148/1,Nasima,Meharban,Ansariyan,9027151520,Residential Self ,44,0,44,0,372,372
+230,20-Ansariyan,Ansariyan,148/2,Murtaza,Kamil Kha,Ansariyan,9084307287,Residential Self ,110,750,110,1297,310,1870
+231,20-Ansariyan,Ansariyan,149,Bano,Zaheer Ahmad,Ansariyan,9897207683,Residential Self ,48,48,48,48,0,0
+232,20-Ansariyan,Ansariyan,"150, 151",Rukayya,Inam Ahmad,Ansariyan,9058843710,Residential Self ,85,828,85,831,335,2045
+233,20-Ansariyan,Ansariyan,152,Salim,Yunus,Ansariyan,9027457991,Residential Self ,61,470,61,470,420,4340
+234,20-Ansariyan,Ansariyan,153,Aamil,Kamil,Ansariyan,9690468700,Residential Self ,48,101,48,101,372,744
+235,20-Ansariyan,Ansariyan,154,Abrar,Namdar,Ansariyan,8439335133,Residential Self ,55,0,55,0,365,0
+236,20-Ansariyan,Ansariyan,154/1,Jamal Khan,Ajmal Kha,Ansariyan,8534099721,Residential Self ,77,782,77,734,343,2101
+237,20-Ansariyan,Ansariyan,155,Mohd. Yusuf,Abdul Hafeez,Ansariyan,8384873540,Residential Self ,48,1418,48,1418,372,5874
+238,20-Ansariyan,Ansariyan,156,Mohd. Salim,Molvi Hanif,Ansariyan,9457297786,Residential Self ,48,101,48,112,372,744
+239,20-Ansariyan,Ansariyan,157,Irshad,Batti,Ansariyan, -,Commercial Self ,0,0,0,0,0,0
+240,20-Ansariyan,Ansariyan,158,Ikram Urf Lilla,Nasru,Ansariyan, -,Commercial Self ,88,2063,88,2061,0,0
+241,20-Ansariyan,Ansariyan,159,Mahboob,Mohd. Umar,Ansariyan, -,Commercial Self ,436,7317,436,12434,0,0
+242,20-Ansariyan,Ansariyan,159/1,Mahboob,Mohd. Umar,Ansariyan, -,Commercial Self ,66,1547,66,1547,420,936
+243,20-Ansariyan,Ansariyan,160,Shokin,Yasin,Ansariyan,7017482186,Commercial Self ,1000,2100,1000,2100,0,0
+244,20-Ansariyan,Ansariyan,161,Muntiaj,Shafi,Ansariyan,9675336551,Commercial Self ,0,0,0,0,0,0
+245,20-Ansariyan,Ansariyan,162,Muntiaj,Shafi,Ansariyan,9675336551,Commercial Self ,88,2515,88,2063,0,0
+246,20-Ansariyan,Ansariyan,163,Anis,Abdul,Ansariyan,8439605012,Residential Self ,73,338,73,338,420,1640
+247,20-Ansariyan,Ansariyan,164,"Iqbal, Meharban",Ishak,Ansariyan,9634731160,Residential Self ,73,563,73,563,0,0
+248,20-Ansariyan,Ansariyan,165,Islam,Ishak,Ansariyan,8449589910,Residential Self ,55,183,55,183,420,1840
+249,20-Ansariyan,Ansariyan,166,Majid,Razzak,Ansariyan,9627092927,Residential Self ,48,48,48,48,372,2866
+250,20-Ansariyan,Ansariyan,167,Saida,Naseem,Ansariyan,9756893000,Residential Self ,77,0,77,464,420,2640
+251,20-Ansariyan,Ansariyan,167/1,"Shokin,Shamshad Ali","Yasin,Abuul Hasan",Ansariyan,9756893000,Residential Self ,220,0,220,2595,420,7980
+253,20-Ansariyan,Ansariyan,168,Mohd. Salim,Mohd. Hanif,Ansariyan,9756893000,Residential Self ,73,153,73,153,0,0
+254,20-Ansariyan,Ansariyan,169,Sanjeeda,Noormohmaad,Ansariyan,8126993280,Residential Self ,85,7881,85,11208,0,0
+255,20-Ansariyan,Ansariyan,170,Mohd. Salim,Mohd. Hanif,Ansariyan,9457297786,Residential Self ,0,0,0,0,0,0
+256,20-Ansariyan,Ansariyan,171,Akhtri,Biba,Ansariyan, -,Commercial Self ,85,2299,85,2564,0,0
+257,20-Ansariyan,Ansariyan,172,Akhtri,Biba,Ansariyan, -,Commercial Self ,85,2482,85,2564,0,0
+258,20-Ansariyan,Ansariyan,173,Akhtri,Biba,Ansariyan, -,Commercial Self ,48,1818,48,1454,420,5040
+259,20-Ansariyan,Ansariyan,173/1,Sarifan,Imamudin,Ansariyan,9759458926,Residential Self ,73,1522,73,1522,0,0
+260,20-Ansariyan,Ansariyan,173/2,Sarifan,Imamudin,Ansariyan,9759458926,Commercial Self ,73,1397,73,1397,0,0
+261,20-Ansariyan,Ansariyan,174,Sarifan,Imamudin,Ansariyan,9759458926,Commercial Self ,48,1001,48,1001,372,3580
+262,20-Ansariyan,Ansariyan,175,Kashmiri,Ishak,Ansariyan,9045637066,Commercial Self ,110,364,110,364,420,1240
+263,20-Ansariyan,Ansariyan,176,Shaira Bano,Shahzad,Ansariyan,7505517620,Residential Self ,44,145,44,145,420,1240
+264,20-Ansariyan,Ansariyan,177,Nisar,Rafiq,Ansariyan,7017889263,Commercial Self ,176,4123,176,4123,0,0
+265,20-Ansariyan,Ansariyan,178,Mohd. Hanif,Mahboob,Ansariyan,9319507298,Commercial Self ,73,338,73,338,347,1444
+266,20-Ansariyan,Ansariyan,179,Mohd. Hanif,Mahboob,Ansariyan,9319507298,Commercial Self ,73,338,73,338,0,0
+267,20-Ansariyan,Ansariyan,180,Mohd. Hanif,Mahboob,Ansariyan,9319507298,Commercial Self ,73,338,73,338,0,0
+268,20-Ansariyan,Ansariyan,180/1,Mohd. Hanif,Mahboob,Ansariyan,9319507298,Commercial Self ,73,338,110,510,0,0
+269,20-Ansariyan,Ansariyan,180/2,Mohd. Hanif,Mahboob,Ansariyan,9319507298,Commercial Self ,0,0,0,0,0,0
+270,20-Ansariyan,Ansariyan,181,Shahzad,Istiak,Ansariyan,7505517620,Residential Self ,121,2929,121,2929,420,4440
+271,20-Ansariyan,Ansariyan,181/1,Mohd. Salim,Molvi Hanif,Ansariyan,9760972145,Residential Self ,61,2449,61,3114,420,4105
+272,20-Ansariyan,Ansariyan,182,Mansura,Munshi,Ansariyan,9675160109,Residential Self ,218,5432,218,8162,0,0
+273,20-Ansariyan,Ansariyan,183,Mansura,Munshi,Ansariyan,9675160109,Residential Self ,218,5336,218,1743,0,0
+274,20-Ansariyan,Ansariyan,184,Mansura,Munshi,Ansariyan,9675160109,Residential Self ,145,15256,145,14837,0,0
+275,20-Ansariyan,Ansariyan,185,"Yunus, Arshad",Intjar,Ansariyan,9027808965,Residential Self ,88,88,88,0,332,0
+276,20-Ansariyan,Ansariyan,186,"Ahsan, Wasim",Mohd Umar,Ansariyan,7351883799,Residential Self ,48,159,48,145,372,1096
+277,20-Ansariyan,Ansariyan,187,Mumtaz,Bhura,Ansariyan,9758197561,Residential Self ,48,48,48,48,0,0
+278,20-Ansariyan,Ansariyan,187/1,Irshad,Hameed Urf Midda,Ansariyan,9997861084,Residential Self ,48,565,48,565,372,2556
+279,20-Ansariyan,Ansariyan,188,"Mohd. Anis,Sagheer, Qadeer, Zaheer, Farid, Shabbir","Kallan,Salim",Ansariyan,9319889169,Residential Self ,73,0,73,0,420,0
+281,20-Ansariyan,Ansariyan,189,Abdul Hafeez,Abdul Hakim,Ansariyan,8430846604,Residential Self ,44,605,44,605,0,0
+282,20-Ansariyan,Ansariyan,190,Shamima,Ahsan,Ansariyan,7017137977,Residential Self ,73,0,73,0,420,4629
+283,20-Ansariyan,Ansariyan,190/1,Reshma,Israr,Ansariyan,8923315560,Residential Self ,55,873,55,873,365,3000
+284,20-Ansariyan,Ansariyan,191,Abdul Hafeez,Abdul Hakim,Ansariyan,8445273400,Residential Self ,44,0,44,0,376,376
+285,20-Ansariyan,Ansariyan,191/1,Abdul Qadir,Abdul Hakim,Ansariyan,8266044624,Residential Self ,44,0,44,0,0,0
+286,20-Ansariyan,Ansariyan,192,"Aziz Ahmed,Harun Rashid","Allabanda,Aziz Ahmad",Ansariyan,8430414214,Residential Self ,77,0,77,77,420,420
+288,20-Ansariyan,Ansariyan,193,Shahjahan,Khurshid,Ansariyan,9634511472,Residential Self ,48,1168,48,1168,420,4440
+289,20-Ansariyan,Ansariyan,194,Akbar,Saddik,Ansariyan,9897932024,Residential Self ,97,321,97,97,323,326
+290,20-Ansariyan,Ansariyan,195,Akbar,Saddik,Ansariyan,9897932024,Residential Self ,61,283,61,61,420,420
+291,20-Ansariyan,Ansariyan,196,Habib,Ramjani,Ansariyan,9286559546,Residential Self ,55,55,55,284,420,1240
+292,20-Ansariyan,Ansariyan,197,Habib,Ramjani,Ansariyan,9286559546,Residential Self ,12,12,0,0,0,0
+293,20-Ansariyan,Ansariyan,198,"Mohd. Inam, Ikram Etc.",Raseed,Ansariyan,9557301517,Residential Self ,73,0,73,0,347,0
+294,20-Ansariyan,Ansariyan,199,Imran,Raseed,Ansariyan,8847625661,Residential Self ,200,945,200,945,170,790
+295,20-Ansariyan,Ansariyan,200,Yakoob,Munshi,Ansariyan, -,Residential Self ,121,1147,121,1147,0,0
+296,20-Ansariyan,Ansariyan,201,Irfan,Yasin,Ansariyan,6396790627,Residential Self ,121,254,121,254,299,1625
+297,20-Ansariyan,Ansariyan,202,Irfan,Yasin,Ansariyan,6396790627,Residential Self ,242,5860,242,5860,420,4000
+298,20-Ansariyan,Ansariyan,203,Shahnawaz,Rafiq,Ansariyan,9149032805,Residential Self ,55,116,55,116,420,1640
+299,20-Ansariyan,Ansariyan,204,"Ahsan, Suleiman",Majid,Ansariyan,7983965580,Residential Self ,61,2064,61,2049,0,0
+300,20-Ansariyan,Ansariyan,205,Usman,Majid,Ansariyan,6396356382,Residential Self ,48,1168,48,1168,372,3840
+301,20-Ansariyan,Ansariyan,206,Mohd. Farukh,Mohd.Ileyas,Ansariyan,9149032805,Residential Self ,1020,0,61,0,0,0
+302,20-Ansariyan,Ansariyan,207,Milkiyat Imambada Bada Chabutra,-,Ansariyan, -,Residential Self ,48,164,48,164,0,0
+303,20-Ansariyan,Ansariyan,208,Muzaffar Ali,Ajaz,Ansariyan, -,Commercial Self ,24,24,0,0,0,0
+304,20-Ansariyan,Ansariyan,209,Muzaffar Ali,Ajaz,Ansariyan, -,Residential Self ,0,0,0,0,0,0
+305,20-Ansariyan,Ansariyan,210,Muzaffar Ali,Ajaz,Ansariyan, -,Residential Self ,0,0,0,0,0,0
+306,20-Ansariyan,Ansariyan,211,Jamil,Alimudin,Ansariyan,8868057814,Commercial Self ,73,563,73,563,0,0
+307,20-Ansariyan,Ansariyan,212,Jamil,Alimudin,Ansariyan,8868057814,Commercial Self ,44,699,44,699,0,0
+308,20-Ansariyan,Ansariyan,213,Jamil,Alimudin,Ansariyan,8868057814,Commercial Self ,73,1160,73,1160,0,0
+309,20-Ansariyan,Ansariyan,219,Tofik Ahmed,Anwar,Ansariyan,9536626543,Commercial Self ,66,778,66,686,0,0
+310,20-Ansariyan,Ansariyan,219/1,Aziza Bano,Basart Husain,Ansariyan,9700001072,Residential Self ,44,145,44,204,372,1096
+311,20-Ansariyan,Ansariyan,220,Aziza Bano,Bsaart Husain,Ansariyan,9700001072,Residential Self ,165,853,165,767,0,0
+312,20-Ansariyan,Ansariyan,221,Sareef,Majid,Ansariyan,8439104057,Residential Self ,55,183,55,183,365,2250
+313,20-Ansariyan,Ansariyan,222,Inam,Amir Ahmed Qureshi,Ansariyan,9359689027,Residential Self ,73,692,73,692,420,2640
+314,20-Ansariyan,Ansariyan,223,"Mohd. Hasan, Mohd. Hafeez,Tayyb, Tahir, Qasim","Akbar,Mohd. Hanif",Ansariyan,9917630270,Residential Self ,48,2230,48,2230,372,5660
+316,20-Ansariyan,Ansariyan,224,"Dilshad,Irshad,Mohd.Farman,Mohd.Ahsan",Raseed,Ansariyan,9668592096,Residential Self ,61,0,61,0,420,840
+317,20-Ansariyan,Ansariyan,225,"Zaheer, Laeeq",Jamil,Ansariyan,8868057814,Residential Self ,61,128,61,578,359,718
+318,20-Ansariyan,Ansariyan,226,Milkiyat Masjid Imambada Mutvali ,Syed Mohd. Zaidi,Ansariyan, -,Masjid,55,187,55,183,0,0
+319,20-Ansariyan,Ansariyan,227,Milkiyat Masjid Imambada Mutvali ,Syed Mohd. Zaidi,Ansariyan, -,Masjid,55,183,55,183,0,0
+320,20-Ansariyan,Ansariyan,228,Mastid Ibadtgah,-,Ansariyan, -,Masjid,0,0,0,0,0,0
+321,20-Ansariyan,Ansariyan,229,Milkiyat Masjid Imambada ,-,Ansariyan, -,Masjid,0,0,0,0,0,0
+322,20-Ansariyan,Ansariyan,230,Milkiyat Masjid Imambada Mutvali ,Sarwar Husain,Ansariyan,9761984151,Masjid,48,159,48,181,0,0
+323,20-Ansariyan,Ansariyan,231,Milkiyat Masjid Imambada Mutvali ,Sarwar Husain,Ansariyan, -,Masjid,48,159,48,159,0,0
+324,20-Ansariyan,Ansariyan,232,Milkiyat Masjid Imambada Mutvali ,Sarwar Husain,Ansariyan, -,Masjid,48,181,48,159,0,0
+325,20-Ansariyan,Ansariyan,233,Milkiyat Masjid Imambada Mutvali ,Sarwar Husain,Ansariyan, -,Masjid,48,159,48,159,0,0
+326,20-Ansariyan,Ansariyan,233/1,Milkiyat Masjid Imambada Mutvali ,Sarwar Husain,Ansariyan, -,Masjid,0,0,0,0,0,0
+327,20-Ansariyan,Ansariyan,234,Amana,Nisar Ahmad,Ansariyan, -,Residential Self ,110,1748,110,1748,420,3540
+328,20-Ansariyan,Ansariyan,235,Intjarul Hak,Intjamulhk,Ansariyan,9149151566,Residential Self ,85,0,85,0,335,0
+329,20-Ansariyan,Ansariyan,236,"Vakeela,Aasmohammad",Yunus,Ansariyan, -,Residential Self ,73,1573,73,1573,420,4248
+331,20-Ansariyan,Ansariyan,237,Noora,Shaki,Ansariyan, -,Residential Self ,109,361,109,1732,311,1204
+332,20-Ansariyan,Ansariyan,238,Atikurrhman And Vsikurrhman,Ataur Rahman,Ansariyan,7417334178,Residential Self ,110,1297,110,1297,420,2940
+333,20-Ansariyan,Ansariyan,239,Rizwana Begum,Salim Ahmad,Ansariyan,9412639664,Residential Self ,44,0,44,0,376,0
+334,20-Ansariyan,Ansariyan,240,Baskri,Habib,Ansariyan,9917194347,Residential Self ,121,1147,121,1147,420,2640
+335,20-Ansariyan,Ansariyan,241,Rais,Sujaul,Ansariyan,9837151620,Residential Self ,97,97,97,97,420,420
+336,20-Ansariyan,Ansariyan,242,Salma,Anis,Ansariyan,6397621097,Residential Self ,109,1035,109,109,420,5841
+337,20-Ansariyan,Ansariyan,243,Rafiq Ahmed,Raseed Ahmed,Ansariyan,9084447280,Residential Self ,48,159,48,159,372,1096
+338,20-Ansariyan,Ansariyan,243/1,Rafiq Ahmed,Raseed Ahmed,Ansariyan,9084447280,Residential Self ,44,145,44,145,0,0
+339,20-Ansariyan,Ansariyan,244,Saeed Akhtar,Sharif Ahmed,Ansariyan,8750568267,Residential Self ,61,1478,61,1478,359,3682
+340,20-Ansariyan,Ansariyan,245,Haseena,Mohd. Yusuf,Ansariyan,7078481410,Residential Self ,97,748,97,942,323,1758
+341,20-Ansariyan,Ansariyan,246,Mukram,Abdul Waheed,Ansariyan,7078481410,Residential Self ,97,321,97,321,323,949
+342,20-Ansariyan,Ansariyan,247,Israel,Yusuf,Ansariyan,9760114900,Residential Self ,31,492,0,0,0,0
+343,20-Ansariyan,Ansariyan,248,"Mehboob, Mohd. Irfan",Mohd. Rafi,Ansariyan,9760114900,Residential Self ,55,524,55,524,420,2640
+344,20-Ansariyan,Ansariyan,249,Mohd. Shaddi,Abbas,Ansariyan, -,Residential Self ,61,470,61,470,420,2340
+345,20-Ansariyan,Ansariyan,250,Naseem Urf Babuakhtri Begum,"Nazir Hassan,Naseem",Ansariyan,9368670960,Residential Self ,55,337,55,337,365,1765
+347,20-Ansariyan,Ansariyan,251,Abbas,Syed Razi Haider Zaidi,Ansariyan,9897086886,Residential Self ,97,450,97,450,0,0
+348,20-Ansariyan,Ansariyan,251/1,Panchayati Chabutra Sidryan,-,Ansariyan, -,Residential Self ,0,0,0,0,0,0
+349,20-Ansariyan,Ansariyan,252,Abbas,Syed Razi Haider Zaidi,Ansariyan,9897086886,Residential Self ,97,450,97,450,420,5092
+350,20-Ansariyan,Ansariyan,253,Milkiyat Masjid Ansarian,-,Ansariyan, -,Masjid,121,400,121,400,0,0
+351,20-Ansariyan,Ansariyan,254,Mstid Ibadtgah,-,Ansariyan, -,Masjid,0,0,0,0,420,1240
+352,20-Ansariyan,Ansariyan,255,Dr. Avej Ali,Riaz Hussain,Ansariyan,9897891271,Residential Self ,61,61,61,1478,359,4018
+353,20-Ansariyan,Ansariyan,256,Sageer Ahmed,Bashir Ahmad,Ansariyan,9997179369,Residential Self ,484,4593,484,6652,24,240
+354,20-Ansariyan,Ansariyan,257,"Dauid Ali, Sajid Ali",Maqsood Ali,Ansariyan, -,Residential Self ,363,363,363,363,57,57
+355,20-Ansariyan,Ansariyan,258,Wali Haider,Zahid Husain,Ansariyan,9897081689,Residential Self ,44,0,44,0,376,0
+356,20-Ansariyan,Ansariyan,259,Qadir,Abdul Hafeez,Ansariyan,7430038794,Residential Self ,97,10,97,0,420,3504
+357,20-Ansariyan,Ansariyan,259/1,Aziz,Abdul Hafeez,Ansariyan,8860223868,Residential Self ,73,5164,73,1005,0,0
+358,20-Ansariyan,Ansariyan,259/2,Latif,Abdul Hafeez,Ansariyan,7253056326,Residential Self ,73,3364,73,3733,0,0
+359,20-Ansariyan,Ansariyan,260,Nimudin,Ejaz Ahmed,Ansariyan,9897677021,Residential Self ,73,73,73,153,347,694
+360,20-Ansariyan,Ansariyan,261,Shah Jahan Begum Urf Bhollo,Nimudin,Ansariyan,9897677021,Residential Self ,73,187,73,187,420,943
+361,20-Ansariyan,Ansariyan,262,Suleiman Mahmood,Yunus,Ansariyan,9761295489,Residential Self ,45,95,45,95,20,20
+362,20-Ansariyan,Ansariyan,262/1,Sayed,Mahmood,Ansariyan,9761295489,Residential Self ,44,339,44,339,376,2087
+363,20-Ansariyan,Ansariyan,263,Shamshad,Karimudin,Ansariyan,7983382368,Residential Self ,110,0,110,0,420,0
+364,20-Ansariyan,Ansariyan,264,Ahmed Ali,Muktyar,Ansariyan,9045544645,Residential Self ,48,762,48,762,420,3840
+365,20-Ansariyan,Ansariyan,265,Rafiq,Ashraf,Ansariyan,6395569640,Residential Self ,48,101,48,101,372,796
+366,20-Ansariyan,Ansariyan,266,Baby Rani,Syed Iqbal,Ansariyan,9568601103,Residential Self ,48,455,48,455,420,2640
+367,20-Ansariyan,Ansariyan,267,Razi Haider,Shaukat Husain,Ansariyan,9897019214,Residential Self ,48,455,48,455,0,0
+368,20-Ansariyan,Ansariyan,268,"Mohd. Hussain, Kausar Zaidi",Shaukat Husain,Ansariyan, -,Residential Self ,48,223,48,1168,420,4752
+369,20-Ansariyan,Ansariyan,"2,69,270","Nisar, Anwar, Ghulam, Sabir",Israr Ahmad,Ansariyan, -,Residential Self ,66,66,66,0,420,2808
+370,20-Ansariyan,Ansariyan,271,Praveen Zehra,Haider Ali Zaidi,Ansariyan,7520040119,Residential Self ,0,0,0,0,420,2940
+371,20-Ansariyan,Ansariyan,272,"Mohd Sajid, Mohd. Kamil",A. Hafeez,Ansariyan, -,Residential Self ,109,1286,109,1250,0,0
+372,20-Ansariyan,Ansariyan,273,Kalim Ahmed,Salim Ahmad,Ansariyan, -,Residential Self ,48,0,48,0,372,0
+373,20-Ansariyan,Ansariyan,274,Irfana,Noor Mohmmad,Ansariyan,9927915139,Residential Self ,55,66,55,66,365,365
+374,20-Ansariyan,Ansariyan,275,Khurrshida Bano,Ikrar Husain,Ansariyan,9412638252,Residential Self ,48,659,48,659,420,4440
+375,20-Ansariyan,Ansariyan,276,"Zahid, Wajid, Hamid, Tohid, Ghulam Hussain, Nahid",Ahmad Hasan,Ansariyan,9350581916,Residential Self ,48,389,48,389,372,2052
+376,20-Ansariyan,Ansariyan,277,Mohd. Haider,Ashfaq Husain,Ansariyan,9193630300,Residential Self ,73,241,73,241,420,1240
+377,20-Ansariyan,Ansariyan,278,Roshan,Kazim Husain,Ansariyan,6396823300,Residential Self ,48,0,48,0,420,2640
+378,20-Ansariyan,Ansariyan,279,Shane Zehra,Kaijm Raza,Ansariyan,9897891271,Residential Self ,44,1033,44,1033,420,6756
+379,20-Ansariyan,Ansariyan,280,Shakeel Ahmed,Jamil Ahmad,Ansariyan,8899154288,Residential Self ,110,848,110,848,0,0
+380,20-Ansariyan,Ansariyan,281,Shakeel Ahmed,Jamil Ahmad,Ansariyan,8899154288,Commercial Self ,121,933,121,933,299,1636
+381,20-Ansariyan,Ansariyan,281/1,Shakeel Ahmed,Jamil Ahmad,Ansariyan,8899154288,Commercial Self ,0,0,0,0,0,0
+382,20-Ansariyan,Ansariyan,282,Khurshida Bano,Ikrar Husain S% Meharban Ali,Ansariyan, -,Residential Self ,61,848,61,840,359,2807
+383,20-Ansariyan,Ansariyan,283,Sajid Hussain,Aswak Husain,Ansariyan,7078754214,Residential Self ,97,1544,97,1544,323,2688
+384,20-Ansariyan,Ansariyan,284,Krblai,Mohd. Saqlain,Ansariyan,8171094211,Residential Self ,44,204,44,204,376,1476
+385,20-Ansariyan,Ansariyan,285,Buddhdn,Aswak Husain,Ansariyan,9392897018,Residential Self ,48,0,48,0,420,0
+386,20-Ansariyan,Ansariyan,286,Sharafat Hussain,Shaukat Husain,Ansariyan,9012940431,Residential Self ,218,2572,218,1012,202,768
+387,20-Ansariyan,Ansariyan,"2,87,288",Mohd. Haider,Aswak Husain,Ansariyan,9627773434,Residential Self ,73,153,73,153,0,0
+388,20-Ansariyan,Ansariyan,289,Shamshad,Zeeshan Husain,Ansariyan,9997926953,Residential Self ,48,2750,48,2751,420,7323
+389,20-Ansariyan,Ansariyan,290,Khurshida,Idrish,Ansariyan, -,Residential Self ,48,455,48,1454,420,3540
+390,20-Ansariyan,Ansariyan,291,Waqar Ali,Meharban Ali,Ansariyan,9267906309,Residential Self ,44,604,44,605,0,0
+391,20-Ansariyan,Ansariyan,291/1,Khatoon Zehra,Waqar Ali,Ansariyan,9267906309,Residential Self ,44,604,44,605,0,0
+392,20-Ansariyan,Ansariyan,292,Mumtaz Hussain,Meharban Ali,Ansariyan,9319955886,Commercial Self ,48,659,48,659,372,2812
+393,20-Ansariyan,Ansariyan,292/1,Mumtaz Hussain,Meharban Ali,Ansariyan,9319955886,Commercial Self ,66,912,66,905,0,0
+394,20-Ansariyan,Ansariyan,293,Sartaj Ali,Meharban Ali,Ansariyan,7819937550,Commercial Self ,73,5376,73,5361,347,5160
+395,20-Ansariyan,Ansariyan,294,Sardar Hussain,Haji. Husain,Ansariyan,9897897697,Commercial Self ,121,1926,121,1923,299,4332
+396,20-Ansariyan,Ansariyan,295,Sardar Hussain,Haji. Husain,Ansariyan,9897897697,Commercial Self ,73,863,73,864,0,0
+397,20-Ansariyan,Ansariyan,296,Sardar Hussain,Haji. Husain,Ansariyan,9897897697,Commercial Self ,121,2207,121,4602,0,0
+398,20-Ansariyan,Ansariyan,297,Sardar Hussain,Haji. Husain,Ansariyan,9897897697,Commercial Self ,121,6777,121,2847,0,0
+399,20-Ansariyan,Ansariyan,298,Sardar Hussain,Haji. Husain,Ansariyan,9897897697,Commercial Self ,121,8844,121,8791,0,0
+400,20-Ansariyan,Ansariyan,299,Sardar Hussain,Haji. Husain,Ansariyan,9897897697,Commercial Self ,24,284,0,0,0,0
+401,20-Ansariyan,Ansariyan,300,Vasi Haider,Israt Husain,Ansariyan,9634183148,Residential Self ,73,241,73,241,420,1240
+402,20-Ansariyan,Ansariyan,301,Zahid Hussain,Hadi Hasan,Ansariyan,8218098189,Residential Self ,45,150,45,150,375,1105
+403,20-Ansariyan,Ansariyan,302,Mohd. Aamir,Israt Hussain,Ansariyan,7060110176,Residential Self ,48,762,48,6429,420,6540
+404,20-Ansariyan,Ansariyan,303,Iqbal Ansari,Habib,Ansariyan,9368741242,Residential Self ,110,1043,110,1043,310,1870
+405,20-Ansariyan,Ansariyan,304,"Shakeela,Rashid, Sajid, Wasid, Riyasat, Rilakt", Sabir,Ansariyan,9557145434,Residential Self ,88,292,88,292,332,976
+407,20-Ansariyan,Ansariyan,305,"Yasin, Yamin",Bashir,Ansariyan, -,Residential Self ,48,48,48,48,372,372
+408,20-Ansariyan,Ansariyan,306,Nasser,Nazir,Ansariyan,9878095518,Residential Self ,88,0,88,0,332,0
+409,20-Ansariyan,Ansariyan,307,"Zarif Ahmed, Maqsood Ahmed, Mahmood Ahmed, Intjar Ahmed",Karimulla,Ansariyan, -,Residential Self ,45,150,45,150,375,1105
+410,20-Ansariyan,Ansariyan,308,Shamshul,Mohd. Saqlain,Ansariyan, -,Residential Self ,110,848,110,848,310,1680
+411,20-Ansariyan,Ansariyan,309,Hanif,Kawer,Ansariyan, -,Residential Self ,73,0,73,0,347,0
+412,20-Ansariyan,Ansariyan,310,Naseem,Hanif,Ansariyan,8126447385,Residential Self ,150,497,150,779,270,1590
+413,20-Ansariyan,Ansariyan,311,Hameed,Abbn,Ansariyan,9897864440,Residential Self ,48,0,48,0,420,3148
+414,20-Ansariyan,Ansariyan,312,Akhtar,Karmilahi,Ansariyan,8650163112,Residential Self ,48,455,48,455,420,2640
+415,20-Ansariyan,Ansariyan,313,Shahid Hussain,Aabid Husain,Ansariyan,9084602159,Residential Self ,44,150,44,145,376,1124
+416,20-Ansariyan,Ansariyan,313/1,Shahid Hussain,Aabid Husain,Ansariyan,9084602159,Commercial Self ,73,241,73,241,0,0
+417,20-Ansariyan,Ansariyan,313/2,Shahid Hussain,Aabid Husain,Ansariyan,9084602159,Commercial Self ,0,0,0,0,0,0
+418,20-Ansariyan,Ansariyan,313/3,Shahid Hussain,Aabid Husain,Ansariyan,9084602159,Commercial Self ,0,0,0,0,0,0
+419,20-Ansariyan,Ansariyan,"314, 315","Bablu,Shahana,Jishan Hussain, Sultan Hussein, Haseen, Wasim","Irfan,Mumtaz,Mumtaz Husain",Ansariyan,8269483178,Residential Self ,110,1297,110,1296,420,2940
+422,20-Ansariyan,Ansariyan,316,Masjid Ibadtgah Burne,-,Ansariyan, -, -,0,0,0,0,0,0
+423,20-Ansariyan,Ansariyan,316/1,Anis,Latif,Ansariyan,9045434070,Residential Self ,97,18050,97,13117,0,0
+424,20-Ansariyan,Ansariyan,317 to 320,"Naushad, Dilshad, Shamshad",Akhtar Hasan,Ansariyan,7217557217,Residential Self ,145,1630,145,1708,420,2940
+425,20-Ansariyan,Ansariyan,321,Fatma,Bundu,Ansariyan,7534872977,Residential Self ,45,45,45,45,375,375
+426,20-Ansariyan,Ansariyan,322,Jindi,Fateh Mohammad,Ansariyan,9897918710,Residential Self ,182,797,182,844,420,1640
+427,20-Ansariyan,Ansariyan,323,Inam,Habib,Ansariyan,9634731375,Residential Self ,61,372,61,372,360,1400
+428,20-Ansariyan,Ansariyan,324,Sharif ,Kovar,Ansariyan,9760511215,Residential Self ,45,1932,45,530,0,0
+429,20-Ansariyan,Ansariyan,325,Majidan,Latif,Ansariyan, -,Residential Self ,44,519,44,519,420,840
+430,20-Ansariyan,Ansariyan,325/1,Sarif,Kovar,Ansariyan, -,Residential Self ,48,2476,48,2476,0,0
+431,20-Ansariyan,Ansariyan,325/2,"Salman, Usman",Anis,Ansariyan,9760511215,Residential Self ,44,605,44,605,376,3108
+432,20-Ansariyan,Ansariyan,"326, 326/1",Vasimudin,Imamudin,Ansariyan,8006396614,Residential Self ,110,110,110,110,310,310
+433,20-Ansariyan,Ansariyan,327,Tauseef Ahmed,Jamil,Ansariyan,9927617000,Residential Self ,97,748,97,748,420,1740
+434,20-Ansariyan,Ansariyan,328,"Tohid, Tosif, Mansoor, Mashakoor",Rafiq,Ansariyan,9999607385,Residential Self ,48,0,48,0,372,2052
+435,20-Ansariyan,Ansariyan,329,"Liyakat, Naushad, Shahzad, Mohd Siraj Etc.",Ilyias,Ansariyan,9997161291,Residential Self ,61,51,61,722,359,2452
+436,20-Ansariyan,Ansariyan,329/1,"Rashid And Leyakat,Rasina",Sawalin,Ansariyan,9997161291,Residential Self ,61,61,61,61,359,359
+438,20-Ansariyan,Ansariyan,330,Elias,Amer,Ansariyan, -,Residential Self ,61,3115,61,3115,0,0
+439,20-Ansariyan,Ansariyan,331,Akram,Islam,Ansariyan,9675093583,Residential Self ,44,519,44,519,376,2588
+440,20-Ansariyan,Ansariyan,332,Zarina,Kaalu,Ansariyan,8006285698,Residential Self ,97,2344,97,2344,323,3232
+441,20-Ansariyan,Ansariyan,333,Nawab,Jamil Ahmad,Ansariyan,9149215526,Residential Self ,97,508,97,204,420,0
+442,20-Ansariyan,Ansariyan,334,Nawab,Jamil Ahmad,Ansariyan,9149215526,Residential Self ,110,231,110,517,310,910
+443,20-Ansariyan,Ansariyan,335,Shahdat,Shakeel Ahmad,Ansariyan,9149215526,Residential Self ,44,1193,44,686,0,0
+444,20-Ansariyan,Ansariyan,336,Milkiyat Chota Imambada Manager Azhar,Ibna,Ansariyan, -,Residential Self ,0,0,0,0,0,0
+445,20-Ansariyan,Ansariyan,337,Milkiyat Chota Imambada Manager Azhar,Ibna,Ansariyan, -,Residential Self ,0,0,0,0,420,6778
+446,20-Ansariyan,Ansariyan,338,Milkiyat Chota Imambada Manager Azhar,Ibna,Ansariyan, -,Residential Self ,36,1090,0,0,0,0
+447,20-Ansariyan,Ansariyan,339,Mehraj Fatma,Ajedar Husain,Ansariyan,8171028025,Residential Self ,48,2476,48,2476,372,5804
+448,20-Ansariyan,Ansariyan,340,"Aftab Hussain,Pappu","Kmal Abbas,Aaga Husain",Ansariyan,7088779045,Residential Self ,61,202,61,202,359,1057
+450,20-Ansariyan,Ansariyan,341,Azhar Hassan,Ibne Hasan,Ansariyan, -,Residential Self ,73,878,73,1763,0,0
+451,20-Ansariyan,Ansariyan,342,Athar Abbas Urf Bunda,Ibne Hasan,Ansariyan,9897471006,Residential Self ,48,915,48,2449,420,4440
+452,20-Ansariyan,Ansariyan,343,"Nanha, Jarir Hussain",Aga Husain,Ansariyan, -,Residential Self ,44,699,44,1033,376,2332
+453,20-Ansariyan,Ansariyan,343/1,"Nanha, Jarir Hussain",Aga Husain,Ansariyan, -,Residential Self ,218,3466,218,11138,0,0
+454,20-Ansariyan,Ansariyan,344,Raseed,Salimudin,Ansariyan,9760335590,Residential Self ,48,1623,48,1623,372,3924
+455,20-Ansariyan,Ansariyan,344/1,Raseed,Salimudin,Ansariyan,9760335590,Residential Self ,0,0,0,0,0,0
+456,20-Ansariyan,Ansariyan,345,Raisha,Zahid Husain,Ansariyan,9897081689,Residential Self ,44,44,44,44,420,420
+457,20-Ansariyan,Ansariyan,346,Riasha,Zahid Husain,Ansariyan,9897081689,Commercial Self ,0,0,0,0,0,0
+458,20-Ansariyan,Ansariyan,346/1,Riasha,Zahid Husain,Ansariyan,9897081689,Commercial Self ,0,0,0,0,0,0
+459,20-Ansariyan,Ansariyan,346/2,Raisha,Zahid Husain,Ansariyan,9897081689,Commercial Self ,44,44,44,44,0,0
+460,20-Ansariyan,Ansariyan,347,Milkiyat Npp Kua,-,Ansariyan, -,Residential Self ,0,0,0,0,0,0
+461,20-Ansariyan,Ansariyan,348,Vakeela Khatoon,Hanif,Ansariyan, -,Residential Self ,45,1868,45,1234,375,5720
+462,20-Ansariyan,Ansariyan,349,Akhtar Hassan,Karmilahi,Ansariyan,9528107517,Commercial Self ,48,568,48,565,372,2556
+463,20-Ansariyan,Ansariyan,350,Milkiyat Masjid Ansarian,-,Ansariyan,9358669781,Commercial Self ,85,290,85,288,0,0
+464,20-Ansariyan,Ansariyan,351,Tahira Begum,Kaiser Husain,Ansariyan, -,Residential Self ,66,307,66,307,354,1521
+465,20-Ansariyan,Ansariyan,352,Farzana,Sajid,Ansariyan,9761552000,Residential Self ,576,0,45,0,0,0
+466,20-Ansariyan,Ansariyan,353,Masood Ali,Mahmud Ali,Ansariyan, -,Residential Self ,48,48,48,48,0,0
+467,20-Ansariyan,Ansariyan,354,Haseen Parvej,Ilyas Ahmad,Ansariyan,6395872250,Residential Self ,73,241,73,241,347,1021
+468,20-Ansariyan,Ansariyan,355,"A. Wahab, Afzal",Jamil,Ansariyan, -,Residential Self ,55,524,55,524,420,2640
+469,20-Ansariyan,Ansariyan,356,Islam,Mohd. Qasim,Ansariyan, -,Residential Self ,88,185,88,185,332,664
+470,20-Ansariyan,Ansariyan,357,Salim,Mohd. Hanif,Ansariyan, -,Residential Self ,88,1494,88,1625,0,0
+471,20-Ansariyan,Ansariyan,356/1,Murkarm,Islam,Ansariyan,8954720171,Residential Self ,44,417,44,417,376,2332
+472,20-Ansariyan,Ansariyan,356/2,Irfan,Islam,Ansariyan,8954720171,Residential Self ,44,0,44,0,376,0
+473,20-Ansariyan,Ansariyan,358,Samsu Arif,Israr,Ansariyan, -,Residential Self ,44,44,44,44,420,440
+474,20-Ansariyan,Ansariyan,359,"Anis, Mansoor",Manjur,Ansariyan, -,Residential Self ,48,101,48,101,420,840
+475,20-Ansariyan,Ansariyan,360,"Salim, Naeem",Hanif,Ansariyan,9058175619,Residential Self ,73,241,73,241,0,0
+476,20-Ansariyan,Ansariyan,360/1,Islaman,Mohd Ayyub,Ansariyan,9058175619,Residential Self ,88,0,88,0,332,0
+477,20-Ansariyan,Ansariyan,361,Zafar,Israr,Ansariyan,9027101858,Residential Self ,44,268,44,268,376,1820
+478,20-Ansariyan,Ansariyan,362,"Mehraj,Shahrukh, Mansoor",Ateek Ahmad,Ansariyan, -,Residential Self ,110,364,110,364,420,1240
+480,20-Ansariyan,Ansariyan,363,Kamar,Israr,Ansariyan,9897043525,Residential Self ,55,337,55,337,365,1765
+481,20-Ansariyan,Ansariyan,364,Sabir,Kaale Kha,Ansariyan, -,Residential Self ,48,1179,48,2476,376,5692
+482,20-Ansariyan,Ansariyan,365,Rashid Hasan,Najir Hasan,Ansariyan, -,Residential Self ,85,657,85,657,335,1830
+483,20-Ansariyan,Ansariyan,366,Nafisa,Abdul Ghaffar,Ansariyan,7217314669,Residential Self ,85,1550,85,737,420,7893
+484,20-Ansariyan,Ansariyan,367,"Haron Abbas Haider Abbas, Tajmmul Hussain",Mohd. Abbas,Ansariyan,9045914828,Residential Self ,55,55,55,55,365,410
+485,20-Ansariyan,Ansariyan,368,"Tohid, Nijmudin",Tahir,Ansariyan,8077020770,Residential Self ,61,283,61,283,359,1496
+486,20-Ansariyan,Ansariyan,369,"Sharif Ahmed,Mohd. Tahir","Saddik,Mohd. Sharif",Ansariyan,6395205289,Residential Self ,182,1110,182,2502,0,0
+488,20-Ansariyan,Ansariyan,370,Nasser Hussain,Sharafat Husain,Ansariyan,9319353254,Residential Self ,48,159,48,160,376,1108
+489,20-Ansariyan,Ansariyan,371,Zaheer Hussain,Sharafat Husain,Ansariyan, -,Residential Self ,48,2476,48,2476,0,0
+490,20-Ansariyan,Ansariyan,372,Sabbdr Hussain,Sharafat Husain,Ansariyan, -,Residential Self ,61,0,61,0,0,0
+491,20-Ansariyan,Ansariyan,373,Kosar Hussain,Sharafat Husain,Ansariyan, -,Residential Self ,48,762,48,762,0,0
+492,20-Ansariyan,Ansariyan,374,Shamima,Yunus,Ansariyan,8813939123,Residential Self ,97,1082,97,1118,420,2649
+493,20-Ansariyan,Ansariyan,375,Fayyaj,Ismail,Ansariyan,8813939123,Residential Self ,109,1035,109,1035,311,1877
+494,20-Ansariyan,Ansariyan,376,Yamin,Ismail,Ansariyan,6397806333,Residential Self ,97,920,97,1315,323,3232
+495,20-Ansariyan,Ansariyan,377,"A. Hakim, Salim, Qayyum",Slamtulla,Ansariyan,9999909031,Residential Self ,145,481,145,481,275,805
+496,20-Ansariyan,Ansariyan,378,Israel,Yusuf,Ansariyan,9675160109,Residential Self ,97,97,97,97,420,2940
+497,20-Ansariyan,Ansariyan,379,Elias,Allabanda,Ansariyan,9416955342,Residential Self ,97,32,97,321,420,1240
+498,20-Ansariyan,Ansariyan,380,"Imran, Irfan",Munshi,Ansariyan,8193056906,Residential Self ,73,692,73,692,347,2153
+499,20-Ansariyan,Ansariyan,381,"Nusrat Ali, Shaukat Ali,Mohd. Ali","Inayat Ali,Hakim Mohd. Sddik",Ansariyan, -,Residential Self ,0,0,0,0,0,0
+501,20-Ansariyan,Ansariyan,382,Mohd. Ali,Hakim Mohd. Sddik,Ansariyan, -,Residential Self ,61,202,61,202,359,1057
+502,20-Ansariyan,Ansariyan,382/1,Nasser,Bashir,Ansariyan,7830306950,Residential Self ,46,153,46,153,374,1102
+503,20-Ansariyan,Ansariyan,383,Bashir,Yamin,Ansariyan, -,Commercial Self ,50,166,50,166,0,0
+504,20-Ansariyan,Ansariyan,383/1,Bashir,Yamin,Ansariyan, -,Commercial Self ,44,145,44,145,0,0
+505,20-Ansariyan,Ansariyan,362/1,Khurshid,Hfijulla,Ansariyan, -,Residential Self ,100,0,100,100,0,0
+506,20-Ansariyan,Ansariyan,110/2A,Abdul Kddus And Abdul Jabbar,Muzaffar Husain,Ansariyan, -,Residential Self ,5000,0,5000,47437,0,0
+507,20-Ansariyan,Ansariyan,192/1,Rubina,Mohd. Dilshad,Ansariyan, -, -,116,708,116,708,0,0
+508,20-Ansariyan,Ansariyan,377/1,Mohd.Tanveer,Abdul Kayyum,Ansariyan, -, -,605,605,605,605,0,0
+509,20-Ansariyan,Ansariyan,110/A,Aasif,Samim,Ansariyan, -, -,343,1135,343,1135,0,0
+510,20-Ansariyan,Peerjadgan ,1,Samsuddin,Israr Ahmad,Peerjadgan , -, -,44,143,44,143,420,420
+511,20-Ansariyan,Peerjadgan ,2,Samsuddin,Israr Ahmad,Peerjadgan , -, -,44,0,44,0,0,0
+512,20-Ansariyan,Peerjadgan ,3,Samsuddin,Israr Ahmad,Peerjadgan , -, -,55,0,55,0,0,0
+513,20-Ansariyan,Peerjadgan ,4,Mohd.Aaarif Urf Chunu S/O Israr Ahmad ,Khalda W/O Mohd.Aarif,Peerjadgan , -, -,110,1043,110,1086,0,0
+514,20-Ansariyan,Peerjadgan ,5,Jafar Ahmad,Israr,Peerjadgan , -, -,48,455,48,455,372,2304
+515,20-Ansariyan,Peerjadgan ,6,Shokat,Ishaq,Peerjadgan , -, -,73,73,73,73,347,347
+516,20-Ansariyan,Peerjadgan ,7,"Sajid,Basid,Shokin,Mobin",Mamu,Peerjadgan , -, -,73,241,73,241,0,0
+517,20-Ansariyan,Peerjadgan ,8,Kamrunisha,Israr Ahmad,Peerjadgan , -, -,330,0,330,0,90,0
+518,20-Ansariyan,Peerjadgan ,9,"Sarwar,Naeem,Mehboob,Mehfujj,Yamin,Mustkim",Rahamilahi,Peerjadgan , -, -,67,222,67,222,420,996
+519,20-Ansariyan,Peerjadgan ,10, -, -,Peerjadgan , -, -,67,1397,67,1397,0,0
+520,20-Ansariyan,Peerjadgan ,11, -, -,Peerjadgan , -, -,67,2097,67,1668,0,0
+521,20-Ansariyan,Peerjadgan ,12,Udaman Ali,Nihal Ahmad,Peerjadgan , -, -,44,44,44,50,376,376
+522,20-Ansariyan,Peerjadgan ,13,Hasin Ahmad,Jamil Ahmad,Peerjadgan , -, -,61,283,61,2347,420,4468
+523,20-Ansariyan,Peerjadgan ,14,Samsad Ali Urf Samma,Mohd.Rafi,Peerjadgan , -, -,182,3992,182,3849,0,0
+524,20-Ansariyan,Peerjadgan ,15,"Mohd. Nazim,Najir,Kasif",Najruddin,Peerjadgan , -, -,48,101,48,101,372,744
+525,20-Ansariyan,Peerjadgan ,16,"Salim Kawar,Mohd. Jahid Hasan",Mohd.Umar,Peerjadgan , -, -,61,61,61,61,359,407
+526,20-Ansariyan,Peerjadgan ,17,Faiyaz Ahmad,Nasruddin,Peerjadgan , -, -,97,204,97,204,0,0
+527,20-Ansariyan,Peerjadgan ,18,Habib Ahmad,Abdul,Peerjadgan , -, -,55,256,55,256,365,1665
+528,20-Ansariyan,Peerjadgan ,19,Gulrej Urf Gullo,Sarif,Peerjadgan , -, -,290,12029,290,5287,0,0
+529,20-Ansariyan,Peerjadgan ,20,Mohd. Yusuf, -,Peerjadgan , -, -,48,159,48,159,372,1096
+530,20-Ansariyan,Peerjadgan ,21,Abrar Ahmad,Majid,Peerjadgan , -, -,66,1547,66,1547,420,7677
+531,20-Ansariyan,Peerjadgan ,22,Tofik,Latif,Peerjadgan , -, -,66,905,66,905,0,0
+532,20-Ansariyan,Peerjadgan ,23,Salim,Najir Ahmad,Peerjadgan , -, -,198,4640,198,4640,0,0
+533,20-Ansariyan,Peerjadgan ,24,Daaud Ahmad,Fazal Ahmad,Peerjadgan , -, -,585,0,585,0,0,0
+534,20-Ansariyan,Peerjadgan ,25,Buniyad Ali ,Bhura,Peerjadgan , -, -,220,220,220,220,0,0
+535,20-Ansariyan,Peerjadgan ,26,Kamruddin,Jahiruddin,Peerjadgan , -, -,48,223,48,223,372,1700
+536,20-Ansariyan,Peerjadgan ,27,Kamruddin,Jahiruddin,Peerjadgan , -, -,44,204,44,204,0,0
+537,20-Ansariyan,Peerjadgan ,28,Suleman,Israil,Peerjadgan , -, -,97,97,97,97,420,420
+538,20-Ansariyan,Peerjadgan ,29,Fazlu Rahman,Nanu,Peerjadgan , -, -,55,4665,55,3084,0,0
+539,20-Ansariyan,Peerjadgan ,29/1,Anis,Nanu,Peerjadgan , -, -,121,2613,121,2520,0,0
+540,20-Ansariyan,Peerjadgan ,30, -, -,Peerjadgan , -, -,88,88,88,101,0,0
+541,20-Ansariyan,Peerjadgan ,31, -, -,Peerjadgan , -, -,48,101,48,185,0,0
+542,20-Ansariyan,Peerjadgan ,32,"Harun ,Idris",Khurshid,Peerjadgan , -, -,242,1867,242,1867,420,2340
+543,20-Ansariyan,Peerjadgan ,33,Farukh,Khurshid,Peerjadgan , -, -,55,116,55,116,0,0
+544,20-Ansariyan,Peerjadgan ,34,Vajir Ahmad,Subhan,Peerjadgan , -, -,121,0,121,0,299,2073
+545,20-Ansariyan,Peerjadgan ,35,Raisa,Islam,Peerjadgan , -, -,73,398,73,338,0,0
+546,20-Ansariyan,Peerjadgan ,36,Khurshid,Anwar Ahmad,Peerjadgan , -, -,44,0,44,0,376,0
+547,20-Ansariyan,Peerjadgan ,37,Tufail,Mukhtyar,Peerjadgan , -, -,73,3733,73,2476,347,5244
+548,20-Ansariyan,Peerjadgan ,38,Ikbal,Mukhtyar,Peerjadgan , -, -,48,2237,48,2230,372,5730
+549,20-Ansariyan,Peerjadgan ,39,Afzal Ahmad,Mukhtyar,Peerjadgan , -, -,88,1399,88,1399,332,3572
+550,20-Ansariyan,Peerjadgan ,40,Sakila,Ati Ahmad,Peerjadgan , -, -,48,110,48,110,420,840
+551,20-Ansariyan,Peerjadgan ,41,Ikbal Ahmad,Mukhtyar,Peerjadgan , -, -,66,139,66,139,0,0
+552,20-Ansariyan,Peerjadgan ,42, -, -,Peerjadgan , -, -,61,1907,61,3117,0,0
+553,20-Ansariyan,Peerjadgan ,43, -, -,Peerjadgan , -, -,48,565,48,544,0,0
+554,20-Ansariyan,Peerjadgan ,44,Saida Ahmad,Najir,Peerjadgan , -, -,61,721,61,721,420,2940
+555,20-Ansariyan,Peerjadgan ,45,Habib Ahmad,Sabbir Ahmad,Peerjadgan , -, -,77,1224,77,1224,420,6756
+556,20-Ansariyan,Peerjadgan ,46,Munija,Saida,Peerjadgan , -, -,55,873,55,873,0,0
+557,20-Ansariyan,Peerjadgan ,46/1,Anisa,Jarif,Peerjadgan , -, -,48,48,48,48,0,0
+558,20-Ansariyan,Peerjadgan ,47,Nafis Ahmad,Sarif,Peerjadgan , -, -,48,0,48,0,372,1955
+559,20-Ansariyan,Peerjadgan ,48,Gulshan Batra,Kareshanlal,Peerjadgan , -, -,290,3420,290,3418,0,0
+560,20-Ansariyan,Peerjadgan ,49,Haliman,Shafi,Peerjadgan , -, -,48,479,48,2476,372,4657
+561,20-Ansariyan,Peerjadgan ,50,Nafis Ahmad,Rashid,Peerjadgan , -, -,48,565,48,565,0,0
+562,20-Ansariyan,Peerjadgan ,51,Saeed,Sadin,Peerjadgan , -, -,61,1112,61,1112,0,0
+563,20-Ansariyan,Peerjadgan ,51/1,Saeed,Sadin,Peerjadgan , -, -,22,404,22,349,0,0
+564,20-Ansariyan,Peerjadgan ,52, -, -,Peerjadgan , -, -,48,877,48,907,0,0
+565,20-Ansariyan,Peerjadgan ,53,Makan Milkiyat Mashijd Sahahji Wali, -,Peerjadgan , -, -,60,1138,60,1510,0,0
+566,20-Ansariyan,Peerjadgan ,54,Makan Milkiyat Mashijd Sahahji Wali, -,Peerjadgan , -, -,73,1331,73,1331,0,0
+567,20-Ansariyan,Peerjadgan ,55,Makan Milkiyat Mashijd Sahahji Wali, -,Peerjadgan , -, -,44,802,44,802,0,0
+568,20-Ansariyan,Peerjadgan ,55/1,Makan Milkiyat Mashijd Sahahji Wali, -,Peerjadgan , -, -,73,1331,73,1330,0,0
+569,20-Ansariyan,Peerjadgan ,56,Mashijd Shahji Wali Ibadat, -,Peerjadgan , -, -,0,0,0,0,0,0
+570,20-Ansariyan,Peerjadgan ,57,Feroj Ahmad,Sudda,Peerjadgan , -, -,61,470,61,470,0,0
+571,20-Ansariyan,Peerjadgan ,58,Sabir,Sudda,Peerjadgan , -, -,48,293,48,293,0,0
+572,20-Ansariyan,Peerjadgan ,59,Makan Milkiyat Mashijd Sahahji Wali, -,Peerjadgan , -, -,24,438,24,277,0,0
+573,20-Ansariyan,Peerjadgan ,60,Tahira ,Inetjar Ahmad,Peerjadgan , -, -,79,1084,79,1084,0,0
+574,20-Ansariyan,Peerjadgan ,61,Tahira ,Inetjar Ahmad,Peerjadgan , -, -,242,3325,242,3325,0,0
+575,20-Ansariyan,Peerjadgan ,62,Tahira ,Inetjar Ahmad,Peerjadgan , -, -,88,1210,88,1210,0,0
+576,20-Ansariyan,Peerjadgan ,63, -, -,Peerjadgan , -, -,48,455,48,455,0,0
+577,20-Ansariyan,Peerjadgan ,64,"Mohd.Aasif,Mohd.Aarif",Hasan,Peerjadgan , -, -,290,3418,290,3418,0,0
+578,20-Ansariyan,Peerjadgan ,65,Dukan Milkiyat Mashijd Anri Wali, -,Peerjadgan , -, -,290,1771,290,1771,0,0
+579,20-Ansariyan,Peerjadgan ,66,Dukan Milkiyat Mashijd Anri Wali, -,Peerjadgan , -, -,290,1771,290,1771,0,0
+580,20-Ansariyan,Peerjadgan ,67,Dukan Milkiyat Mashijd Anri Wali, -,Peerjadgan , -, -,48,293,48,293,0,0
+581,20-Ansariyan,Peerjadgan ,68,Dukan Milkiyat Mashijd Anri Wali, -,Peerjadgan , -, -,48,293,48,293,0,0
+582,20-Ansariyan,Peerjadgan ,69,"Yunus,Yusuf",Abdul Hamid,Peerjadgan , -, -,44,145,44,145,0,0
+583,20-Ansariyan,Peerjadgan ,70,Hamid,Abban,Peerjadgan , -, -,44,145,44,145,0,0
+584,20-Ansariyan,Peerjadgan ,71,Hanifa,Ishaq,Peerjadgan , -, -,61,128,61,2528,0,0
+585,20-Ansariyan,Peerjadgan ,72,Shokin,Rashid,Peerjadgan , -, -,61,696,61,2302,0,0
+586,20-Ansariyan,Peerjadgan ,73,Abdul Gaaffur,Karimulla,Peerjadgan , -, -,55,756,55,756,0,0
+587,20-Ansariyan,Peerjadgan ,74,Haji Masud Ahmad,Saeed,Peerjadgan , -, -,0,0,0,0,0,0
+588,20-Ansariyan,Peerjadgan ,75, -, -,Peerjadgan , -, -,0,0,0,0,0,0
+589,20-Ansariyan,Peerjadgan ,76,Haji Masud Ahmad,Saeed,Peerjadgan , -, -,61,470,61,470,0,0
+590,20-Ansariyan,Peerjadgan ,77,Shahid Hasan,Masud Ahmad,Peerjadgan , -, -,110,231,110,231,0,0
+591,20-Ansariyan,Peerjadgan ,78,Shahid Hasan,Masud Ahmad,Peerjadgan , -, -,0,0,0,0,310,620
+592,20-Ansariyan,Peerjadgan ,79,"Tanvweer,Tofik,Tosif", -,Peerjadgan , -, -,61,283,61,840,420,3240
+593,20-Ansariyan,Peerjadgan ,80,Saggo,Habib,Peerjadgan , -, -,61,372,61,372,0,0
+594,20-Ansariyan,Peerjadgan ,81,Jamal Kosar,Mohd.Aamir,Peerjadgan , -, -,110,1510,110,1510,0,0
+595,20-Ansariyan,Peerjadgan ,82,"Nurjahan W/O Sageer, Ishrat Jahan W/O Jahir Ahmad",Jahir Ahmad S/O Ajij,Peerjadgan , -, -,61,202,61,202,359,1057
+596,20-Ansariyan,Peerjadgan ,83,"Samima Khatun W/O Faeemuddin, ","Najmuddin,Maenuddin, Kamruddin,Samsuddin,Farid,Shazad",Peerjadgan , -, -,145,3025,145,9756,275,2452
+597,20-Ansariyan,Peerjadgan ,84,Nisar,Mukhtyar,Peerjadgan , -, -,165,1275,165,1275,0,0
+598,20-Ansariyan,Peerjadgan ,85,Nasir Ahmad,Mohmaad,Peerjadgan , -, -,48,159,48,159,372,1096
+599,20-Ansariyan,Peerjadgan ,86,Raees Ahmad,Aatik Ahmad,Peerjadgan , -, -,46,437,46,437,374,2318
+600,20-Ansariyan,Peerjadgan ,87,Samima,Faeuddin,Peerjadgan , -, -,73,0,73,0,420,840
+601,20-Ansariyan,Peerjadgan ,88,Mohbbat Ali Urf Buddhu,Yakkub Ali,Peerjadgan , -, -,48,0,48,0,420,0
+602,20-Ansariyan,Peerjadgan ,89,Khurshida,Fatta,Peerjadgan , -, -,73,153,73,153,420,1840
+603,20-Ansariyan,Peerjadgan ,90,Tayyab Hasain,Tahir Husain,Peerjadgan , -, -,121,0,121,0,299,0
+604,20-Ansariyan,Peerjadgan ,91,Salim,Irshad Ansar,Peerjadgan , -, -,48,1055,48,1040,420,5540
+605,20-Ansariyan,Peerjadgan ,92,Hamida,Khalil,Peerjadgan , -, -,48,1172,48,1168,420,4740
+606,20-Ansariyan,Peerjadgan ,93,Kalim Ahmad,Idrisha,Peerjadgan , -, -,44,838,44,838,376,3108
+607,20-Ansariyan,Peerjadgan ,94,Jaerif,Karmuddin,Peerjadgan , -, -,55,0,55,0,0,0
+608,20-Ansariyan,Peerjadgan ,95,Samsad,Kamaluddin,Peerjadgan , -, -,48,1172,48,1168,0,0
+609,20-Ansariyan,Peerjadgan ,96,Ninna,Masita,Peerjadgan , -, -,48,370,48,370,0,0
+610,20-Ansariyan,Peerjadgan ,97,Irsad Ahmad,Samsad Ahmad,Peerjadgan , -, -,61,2276,61,1478,0,0
+611,20-Ansariyan,Peerjadgan ,98,Sakil,Sabbir,Peerjadgan , -, -,44,145,44,145,0,0
+612,20-Ansariyan,Peerjadgan ,99,Rashid S/O Bundu,"Savir,Nadeem,Sakir S/O Najma",Peerjadgan , -, -,110,364,110,364,0,0
+613,20-Ansariyan,Peerjadgan ,100,Hasina,Haji Futla Urf Ali Hasan,Peerjadgan , -, -,73,73,73,73,0,0
+614,20-Ansariyan,Peerjadgan ,101,Afroz,Mukrim Khan,Peerjadgan , -, -,48,764,48,762,0,0
+615,20-Ansariyan,Peerjadgan ,102,Safiya,Basir,Peerjadgan , -, -,48,565,48,565,0,0
+616,20-Ansariyan,Peerjadgan ,103,Narul,Majid Ahmad,Peerjadgan , -, -,48,293,48,293,0,0
+617,20-Ansariyan,Peerjadgan ,104,Hamid,Abban,Peerjadgan , -, -,48,48,48,48,0,0
+618,20-Ansariyan,Peerjadgan ,105,Anis,Amir Ahmad,Peerjadgan , -, -,121,0,121,0,299,299
+619,20-Ansariyan,Peerjadgan ,106,"Munna, Siraj, Mehraj",Anwar Ahmad,Peerjadgan , -, -,48,2527,48,2916,420,6540
+620,20-Ansariyan,Peerjadgan ,107,Sain Anjum,Aswakh Urf Gaji Ahmad,Peerjadgan , -, -,48,48,48,48,372,372
+621,20-Ansariyan,Peerjadgan ,108,Mohd.Lukman,Ikrammulkh,Peerjadgan , -, -,79,79,79,85,341,1324
+622,20-Ansariyan,Peerjadgan ,109,Tanveer Ahmad,Sagir,Peerjadgan , -, -,61,6,61,61,359,3432
+623,20-Ansariyan,Peerjadgan ,110,Anees Ahmad,Aamir,Peerjadgan , -, -,0,0,0,0,0,0
+624,20-Ansariyan,Peerjadgan ,111,Mehboob,Layik Ahmad,Peerjadgan , -, -,44,1068,44,1068,376,4088
+625,20-Ansariyan,Peerjadgan ,112,Khalik Ahmad,Layik Ahmad,Peerjadgan , -, -,44,268,44,268,376,1820
+626,20-Ansariyan,Peerjadgan ,113,Abdul Hakim,Hanif,Peerjadgan , -, -,61,372,61,578,0,0
+627,20-Ansariyan,Peerjadgan ,114,Akil Ahmad,Khalik Ahmad,Peerjadgan , -, -,55,337,55,1007,0,0
+628,20-Ansariyan,Peerjadgan ,115,Nisar,Jamim Ahmad,Peerjadgan , -, -,121,738,121,1427,0,0
+629,20-Ansariyan,Peerjadgan ,116,Ayyub ,Layik Ahmad,Peerjadgan , -, -,73,0,73,0,347,1021
+630,20-Ansariyan,Peerjadgan ,117,Samim Ahmad,Mohd. Yasin,Peerjadgan , -, -,66,404,66,1547,354,3492
+631,20-Ansariyan,Peerjadgan ,118,Safik Ahmad,Yasin,Peerjadgan , -, -,48,293,48,293,372,1800
+632,20-Ansariyan,Peerjadgan ,119,Jahir Ahmad,Noor Mohmaad,Peerjadgan , -, -,66,219,66,239,354,544
+633,20-Ansariyan,Peerjadgan ,120,Gulzar ,Ijhar Ahmad,Peerjadgan , -, -,44,145,44,145,376,1108
+634,20-Ansariyan,Peerjadgan ,121,Haji Anwar,Jahur Ahmad,Peerjadgan , -, -,67,1455,67,1455,353,3600
+635,20-Ansariyan,Peerjadgan ,122,Mehboob,Layik Ahmad,Peerjadgan , -, -,132,0,132,641,0,0
+636,20-Ansariyan,Peerjadgan ,123,Mehboob,Layik Ahmad,Peerjadgan , -, -,19,224,19,289,0,0
+637,20-Ansariyan,Peerjadgan ,124,Akhlakh Ahmad,Jahur Ahmad,Peerjadgan , -, -,121,121,121,121,299,299
+638,20-Ansariyan,Peerjadgan ,125,Haji Sarif,Yasin,Peerjadgan , -, -,242,5860,242,8599,178,2124
+639,20-Ansariyan,Peerjadgan ,126,Madarsa Khandar, -,Peerjadgan , -, -,0,0,0,0,420,5640
+640,20-Ansariyan,Peerjadgan ,127,Vahid,Ibrahim,Peerjadgan , -, -,48,1012,48,1001,372,3578
+641,20-Ansariyan,Peerjadgan ,128,Makan Milkiyat Shek Harun, -,Peerjadgan , -, -,66,404,66,404,0,0
+642,20-Ansariyan,Peerjadgan ,129,Makan Milkiyat Shek Harun, -,Peerjadgan , -, -,44,699,44,699,0,0
+643,20-Ansariyan,Peerjadgan ,130,Makan Milkiyat Shek Harun, -,Peerjadgan , -, -,44,0,44,0,420,0
+644,20-Ansariyan,Peerjadgan ,131,Makan Milkiyat Shek Harun, -,Peerjadgan , -, -,44,0,44,0,0,0
+645,20-Ansariyan,Peerjadgan ,132,Makan Milkiyat Shek Harun, -,Peerjadgan , -, -,44,0,44,0,420,0
+646,20-Ansariyan,Peerjadgan ,133,Makan Milkiyat Shek Harun, -,Peerjadgan , -, -,44,0,44,0,0,0
+647,20-Ansariyan,Peerjadgan ,134,Makan Milkiyat Shek Harun, -,Peerjadgan , -, -,44,0,44,0,0,0
+648,20-Ansariyan,Peerjadgan ,135,Makan Milkiyat Shek Harun, -,Peerjadgan , -, -,44,0,44,0,0,0
+649,20-Ansariyan,Peerjadgan ,136,Makan Milkiyat Shek Harun, -,Peerjadgan , -, -,44,0,44,0,0,0
+650,20-Ansariyan,Peerjadgan ,137,Makan Milkiyat Shek Harun, -,Peerjadgan , -, -,44,0,44,0,420,2500
+651,20-Ansariyan,Peerjadgan ,138,Makan Milkiyat Shek Harun, -,Peerjadgan , -, -,44,0,44,0,0,0
+652,20-Ansariyan,Peerjadgan ,139,Makan Milkiyat Shek Harun, -,Peerjadgan , -, -,44,0,44,0,420,3803
+653,20-Ansariyan,Peerjadgan ,140,Makan Milkiyat Shek Harun, -,Peerjadgan , -, -,44,0,44,0,0,0
+654,20-Ansariyan,Peerjadgan ,141,Makan Milkiyat Shek Harun, -,Peerjadgan , -, -,44,0,44,0,420,0
+655,20-Ansariyan,Peerjadgan ,142,Makan Milkiyat Shek Harun, -,Peerjadgan , -, -,44,0,44,0,0,0
+656,20-Ansariyan,Peerjadgan ,143,Makan Milkiyat Shek Harun, -,Peerjadgan , -, -,44,0,44,0,0,0
+657,20-Ansariyan,Peerjadgan ,144,Makan Milkiyat Shek Harun, -,Peerjadgan , -, -,121,0,121,0,0,0
+658,20-Ansariyan,Peerjadgan ,146,Ibadat Gah, -,Peerjadgan , -, -,0,0,0,0,420,0
+659,20-Ansariyan,Peerjadgan ,147,Tofik,Ismayil,Peerjadgan , -, -,87,0,87,0,333,0
+660,20-Ansariyan,Peerjadgan ,148,Mohd. Islam,Ibrahim Khan,Peerjadgan , -, -,44,44,44,50,0,0
+661,20-Ansariyan,Peerjadgan ,149,Aavad Khan,Ibrahim Khan,Peerjadgan , -, -,55,0,55,0,0,0
+662,20-Ansariyan,Peerjadgan ,150,Ramzani,Barkat,Peerjadgan , -, -,0,0,0,0,0,0
+663,20-Ansariyan,Peerjadgan ,151,Saidan,Sarif,Peerjadgan , -, -,87,0,87,0,333,333
+664,20-Ansariyan,Peerjadgan ,152,Nasim,Hanif,Peerjadgan , -, -,48,0,48,0,0,0
+665,20-Ansariyan,Peerjadgan ,153,Saidan,Sarif,Peerjadgan , -, -,87,0,87,0,333,0
+666,20-Ansariyan,Peerjadgan ,154,Saidan,Sarif,Peerjadgan , -, -,66,1547,66,1547,0,0
+667,20-Ansariyan,Peerjadgan ,155,Vahid,Ibrahim,Peerjadgan , -, -,48,101,48,101,372,2408
+668,20-Ansariyan,Peerjadgan ,156,Salim Ahmad,Rashid Ahmad,Peerjadgan , -, -,44,2735,44,1189,376,6028
+669,20-Ansariyan,Peerjadgan ,157,Sayda W/O Mehmud,Mehmod S/O Imamuddin,Peerjadgan , -, -,61,61,61,61,0,0
+670,20-Ansariyan,Peerjadgan ,158,Irfan,Mohd. Ikram,Peerjadgan , -, -,44,699,44,699,0,0
+671,20-Ansariyan,Peerjadgan ,159,"Nisar,Israr",Samsad,Peerjadgan , -, -,97,0,97,4036,323,4772
+672,20-Ansariyan,Peerjadgan ,160,Nafis,Rafik Ahmad,Peerjadgan , -, -,87,1591,87,1591,420,3761
+673,20-Ansariyan,Peerjadgan ,161,Irshad,Basir,Peerjadgan , -, -,48,0,48,0,372,0
+674,20-Ansariyan,Peerjadgan ,162,Atik Rahman,Abad Rahman,Peerjadgan , -, -,73,445,73,445,420,2040
+675,20-Ansariyan,Peerjadgan ,163,Hanifa,Abdul Majid,Peerjadgan , -, -,73,445,73,445,420,3928
+676,20-Ansariyan,Peerjadgan ,164,Ilyas,Rashid,Peerjadgan , -, -,97,204,97,204,323,1146
+677,20-Ansariyan,Peerjadgan ,165,Saeed,Bandu,Peerjadgan , -, -,44,92,44,92,376,752
+678,20-Ansariyan,Peerjadgan ,166,Saeed,Bundu,Peerjadgan , -, -,44,417,44,699,0,0
+679,20-Ansariyan,Peerjadgan ,167,Saeed,Bundu,Peerjadgan , -, -,44,1882,44,699,0,0
+680,20-Ansariyan,Peerjadgan ,113/1,Salim Ahmad,Idris Ahmad,Peerjadgan , -, -,444,444,444,444,0,0

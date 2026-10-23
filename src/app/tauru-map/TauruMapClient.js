@@ -1,6 +1,6 @@
 "use client"
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { TileLayer, Marker, Tooltip, Popup, useMap } from 'react-leaflet'
+import { TileLayer, Marker, Tooltip, Popup, GeoJSON, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import SafeMapContainer from '../../components/SafeMapContainer'
@@ -11,6 +11,7 @@ const DEFAULT_ZOOM = 16;
 // Tauru drone tiles are published for zoom 12–20 only; beyond 20 Leaflet upscales z20 tiles
 const DRONE_MIN_ZOOM = 12;
 const DRONE_MAX_NATIVE_ZOOM = 20;
+const EXPANDED_BOUNDARY_URL = 'https://cdn.omgauamrit.in/geojsonfiles/expanded_boundary.geojson';
 
 // Transparent 1x1 GIF so failed tiles don't render as broken images
 const EMPTY_TILE = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
@@ -74,6 +75,8 @@ function MapController({ center, zoom, onBoundsChange, setActivePopup }) {
 export default function TauruMapClient({
   showDroneLayer = true,
   onDroneError,
+  showExpandedBoundary = true,
+  onBoundaryError,
   properties = [],
   mapCenter,
   mapZoom,
@@ -87,6 +90,7 @@ export default function TauruMapClient({
   const initialCenterRef = useRef(DEFAULT_CENTER);
   const initialZoomRef = useRef(DEFAULT_ZOOM);
   const [tileStats, setTileStats] = useState({ loaded: 0, failed: 0 });
+  const [expandedBoundary, setExpandedBoundary] = useState(null);
 
   const droneEventHandlers = useMemo(() => ({
     tileload: (e) => {
@@ -103,6 +107,28 @@ export default function TauruMapClient({
       onDroneError(droneUnavailable ? 'Drone imagery could not be loaded. Please try again later.' : null);
     }
   }, [droneUnavailable, onDroneError]);
+
+  useEffect(() => {
+    let cancelled = false;
+    fetch(EXPANDED_BOUNDARY_URL)
+      .then(res => {
+        if (!res.ok) throw new Error('Failed to load expanded boundary');
+        return res.json();
+      })
+      .then(data => {
+        if (!cancelled) {
+          setExpandedBoundary(data);
+          if (onBoundaryError) onBoundaryError(null);
+        }
+      })
+      .catch(err => {
+        if (!cancelled) {
+          console.error(err);
+          if (onBoundaryError) onBoundaryError('Expanded boundary could not be loaded. Please try again later.');
+        }
+      });
+    return () => { cancelled = true; };
+  }, [onBoundaryError]);
 
   return (
     <div style={{ width: '100%', height: '100%', position: 'relative' }}>
@@ -128,6 +154,13 @@ export default function TauruMapClient({
             errorTileUrl={EMPTY_TILE}
             eventHandlers={droneEventHandlers}
             attribution="&copy; Tauru Drone Tiles"
+          />
+        )}
+
+        {showExpandedBoundary && expandedBoundary && (
+          <GeoJSON
+            data={expandedBoundary}
+            style={{ color: '#f59e0b', weight: 3, opacity: 1, fillColor: '#f59e0b', fillOpacity: 0.08 }}
           />
         )}
 

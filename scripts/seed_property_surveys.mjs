@@ -88,10 +88,10 @@ try {
   (row['MOHALLA NAME'] || '').toString().trim()
 
 const mohalla_id =
-  old_moholla_name === 'Khawajbaksh'
-    ? 25
-    : old_moholla_name === 'Peerzadgan'
+  old_moholla_name === 'Peerzadgan'
     ? 26
+    : old_moholla_name === 'Khawajbaksh'
+    ? 25
     : null;
 
 const address =

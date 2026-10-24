@@ -12,6 +12,7 @@ const DEFAULT_ZOOM = 16;
 const DRONE_MIN_ZOOM = 12;
 const DRONE_MAX_NATIVE_ZOOM = 20;
 const EXPANDED_BOUNDARY_URL = 'https://cdn.omgauamrit.in/geojsonfiles/expanded_boundary.geojson';
+const BUILTUP_POLYGONS_URL = 'https://cdn.omgauamrit.in/geojsonfiles/Tauru_Builtup.geojson';
 
 // Transparent 1x1 GIF so failed tiles don't render as broken images
 const EMPTY_TILE = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
@@ -77,6 +78,8 @@ export default function TauruMapClient({
   onDroneError,
   showExpandedBoundary = true,
   onBoundaryError,
+  showBuiltupPolygons = true,
+  onBuiltupError,
   properties = [],
   mapCenter,
   mapZoom,
@@ -91,6 +94,7 @@ export default function TauruMapClient({
   const initialZoomRef = useRef(DEFAULT_ZOOM);
   const [tileStats, setTileStats] = useState({ loaded: 0, failed: 0 });
   const [expandedBoundary, setExpandedBoundary] = useState(null);
+  const [builtupPolygons, setBuiltupPolygons] = useState(null);
 
   const droneEventHandlers = useMemo(() => ({
     tileload: (e) => {
@@ -130,6 +134,28 @@ export default function TauruMapClient({
     return () => { cancelled = true; };
   }, [onBoundaryError]);
 
+  useEffect(() => {
+    let cancelled = false;
+    fetch(BUILTUP_POLYGONS_URL)
+      .then(res => {
+        if (!res.ok) throw new Error('Failed to load built-up polygons');
+        return res.json();
+      })
+      .then(data => {
+        if (!cancelled) {
+          setBuiltupPolygons(data);
+          if (onBuiltupError) onBuiltupError(null);
+        }
+      })
+      .catch(err => {
+        if (!cancelled) {
+          console.error(err);
+          if (onBuiltupError) onBuiltupError('Built-up polygons could not be loaded. Please try again later.');
+        }
+      });
+    return () => { cancelled = true; };
+  }, [onBuiltupError]);
+
   return (
     <div style={{ width: '100%', height: '100%', position: 'relative' }}>
       <SafeMapContainer
@@ -159,8 +185,17 @@ export default function TauruMapClient({
 
         {showExpandedBoundary && expandedBoundary && (
           <GeoJSON
+            key="expanded-boundary"
             data={expandedBoundary}
             style={{ color: '#f59e0b', weight: 3, opacity: 1, fillColor: '#f59e0b', fillOpacity: 0.08 }}
+          />
+        )}
+
+        {showBuiltupPolygons && builtupPolygons && (
+          <GeoJSON
+            key="builtup-polygons"
+            data={builtupPolygons}
+            style={{ color: '#22c55e', weight: 1.5, opacity: 0.9, fillColor: '#22c55e', fillOpacity: 0.2 }}
           />
         )}
 

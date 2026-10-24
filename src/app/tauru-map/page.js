@@ -26,11 +26,13 @@ function inBounds(prop, b) {
 export default function TauruMapPage() {
   const [showDroneLayer, setShowDroneLayer] = useState(true);
   const [showExpandedBoundary, setShowExpandedBoundary] = useState(true);
+  const [showBuiltupPolygons, setShowBuiltupPolygons] = useState(true);
   const [showMarkers, setShowMarkers] = useState(true);
   const [layersExpanded, setLayersExpanded] = useState(true);
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [droneError, setDroneError] = useState(null);
   const [boundaryError, setBoundaryError] = useState(null);
+  const [builtupError, setBuiltupError] = useState(null);
 
   const [filters, setFilters] = useState(EMPTY_FILTERS);
   const [properties, setProperties] = useState([]);
@@ -139,6 +141,8 @@ export default function TauruMapPage() {
           onDroneError={setDroneError}
           showExpandedBoundary={showExpandedBoundary}
           onBoundaryError={setBoundaryError}
+          showBuiltupPolygons={showBuiltupPolygons}
+          onBuiltupError={setBuiltupError}
           properties={showMarkers ? properties : []}
           mapCenter={mapCenter}
           mapZoom={mapZoom}
@@ -236,6 +240,12 @@ export default function TauruMapPage() {
                   <span className={styles.layerName}>🗺️ Expanded Boundary</span>
                 </label>
                 {showExpandedBoundary && boundaryError && <div className={styles.mapErrorBanner}>{boundaryError}</div>}
+                <label className={`${styles.layerToggleItem} ${showBuiltupPolygons ? styles.layerActive : ''}`}>
+                  <input type="checkbox" checked={showBuiltupPolygons} onChange={e => setShowBuiltupPolygons(e.target.checked)} className={styles.layerCheckbox} />
+                  <span className={styles.layerDot} style={{ background: '#22c55e' }}></span>
+                  <span className={styles.layerName}>🏘️ Built-up Polygons</span>
+                </label>
+                {showBuiltupPolygons && builtupError && <div className={styles.mapErrorBanner}>{builtupError}</div>}
                 <label className={`${styles.layerToggleItem} ${showMarkers ? styles.layerActive : ''}`}>
                   <input type="checkbox" checked={showMarkers} onChange={e => setShowMarkers(e.target.checked)} className={styles.layerCheckbox} />
                   <span className={styles.layerDot} style={{ background: '#ea4335' }}></span>

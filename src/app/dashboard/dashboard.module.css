@@ -43,6 +43,17 @@
 }
 
 .navItem:hover { background: rgba(255,255,255,0.08); }
+
+.navHeading {
+  margin: 14px 14px 4px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.5);
+}
 .navActive { background: rgba(255,255,255,0.15) !important; color: #fff !important; font-weight: 600; }
 
 .logoutBtn {

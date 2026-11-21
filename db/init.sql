@@ -360,3 +360,180 @@ CREATE TABLE public."Taru" (
     "submittedAt" TIMESTAMPTZ NOT NULL DEFAULT NOW(),
     "updatedAt" TIMESTAMPTZ
 );
+
+-- =====================================================
+-- STREET VENDING (streetvendorsApp + portal "Street Vending")
+-- One row = Form-I survey + Form-II application + Form-III ID card.
+-- Media columns store only the blob PATH inside the storage account,
+-- e.g. 'streetvending/1732101234567-ab12cd.jpg'. The portal/app build
+-- the full URL as https://cdn.omgauamrit.in/<path>.
+-- =====================================================
+CREATE TABLE IF NOT EXISTS public.street_vendors (
+    id BIGSERIAL PRIMARY KEY,
+
+    status TEXT NOT NULL DEFAULT 'draft'
+        CHECK (status IN ('draft', 'submitted', 'idIssued')),
+
+    -- Media (Q1-Q5, Form II) : blob paths only
+    photo_with_location TEXT,          -- Q1
+    photo_with_thela TEXT,             -- Q2
+    id_proof_1 TEXT,                   -- Q3
+    id_proof_2 TEXT,                   -- Q4
+    video TEXT,                        -- Q5
+    video_name TEXT,                   -- Q5 original file name
+    passport_photo TEXT,               -- Form II + ID card
+    signature TEXT,                    -- Form II
+
+    -- Location (Q6-Q13)
+    municipality_name TEXT,
+    zone_name TEXT,
+    ward_name TEXT,                    -- Q6
+    street_name TEXT,                  -- Q7
+    landmark TEXT,                     -- Q8
+    area_type TEXT,                    -- Q9
+    place_of_business TEXT,            -- Q10
+    nature_of_business TEXT,           -- Q11
+    service_provider_type TEXT,        -- Q12
+    vending_place_name TEXT,           -- Q13
+
+    -- Personal (Q14-Q38)
+    first_name TEXT,                   -- Q14
+    middle_name TEXT,                  -- Q15
+    surname TEXT,                      -- Q16
+    guardian_relation TEXT,            -- Form II: Son of / Daughter of / Wife of
+    guardian_name TEXT,
+    house_no TEXT,
+    colony_sector TEXT,
+    residential_address TEXT,          -- Q17
+    permanent_address TEXT,
+    block TEXT,                        -- Q18
+    city TEXT,                         -- Q19
+    district TEXT,                     -- Q20
+    mobile_no VARCHAR(15),             -- Q21
+    phone_no VARCHAR(20),              -- Q22
+    age INT,                           -- Q23
+    gender TEXT,                       -- Q24
+    nationality TEXT,                  -- Q25
+    category TEXT,                     -- Q26
+    has_caste_certificate BOOLEAN,     -- Q27
+    marital_status TEXT,               -- Q28
+    education TEXT,                    -- Q29
+    disability TEXT,                   -- Q30
+    has_disability_certificate BOOLEAN,-- Q31
+    disability_certificate_no TEXT,    -- Q32
+    bpl_card_no TEXT,                  -- Q33
+    migration TEXT,                    -- Q34/35
+    native_district TEXT,              -- Q36
+    years_in_city INT,                 -- Q37
+    residential_proofs TEXT[] NOT NULL DEFAULT '{}',  -- Q38 (multi)
+
+    -- Household (Q39-Q47)
+    male_members INT,                  -- Q39
+    female_members INT,                -- Q40
+    children INT,                      -- Q41
+    earning_male INT,                  -- Q42
+    earning_female INT,                -- Q43/44
+    other_vendor_in_house BOOLEAN,     -- Q45
+    other_vendor_relation TEXT,        -- Q46
+    other_vendor_name TEXT,            -- Q47
+    family_members JSONB NOT NULL DEFAULT '[]',  -- [{name, relation, age}] max 6
+
+    -- Business (Q48-Q70)
+    other_income BOOLEAN,              -- Q48
+    previous_work TEXT,                -- Q49
+    previous_city TEXT,                -- Q50
+    years_in_vending INT,              -- Q51
+    years_in_area INT,                 -- Q52
+    license TEXT,                      -- Q53
+    vending_frequency TEXT,            -- Q54
+    business_type TEXT,                -- Q55
+    distance_to_place_km NUMERIC(10,2),-- Q56
+    hours_per_day NUMERIC(5,2),        -- Q57
+    vending_from TEXT,                 -- Q58
+    vending_to TEXT,                   -- Q58
+    km_per_day_mobile NUMERIC(10,2),   -- Q59
+    structure_type TEXT,               -- Q60
+    land_space_sqft NUMERIC(12,2),     -- Q61
+    uses_vehicle BOOLEAN,              -- Q62
+    vehicle_type TEXT,                 -- Q63
+    vehicle_ownership TEXT,            -- Q64
+    vehicle_rent NUMERIC(12,2),        -- Q65
+    months_per_year INT,               -- Q66
+    same_work_mostly BOOLEAN,          -- Q67
+    satisfied_with_location BOOLEAN,   -- Q68
+    satisfied_reasons TEXT[] NOT NULL DEFAULT '{}',    -- Q69 (multi)
+    unsatisfied_reasons TEXT[] NOT NULL DEFAULT '{}',  -- Q70 (multi)
+
+    -- Economics (Q71-Q87)
+    employees_count TEXT,              -- Q71
+    employee_wage_type TEXT,           -- Q72
+    avg_employee_pay NUMERIC(12,2),    -- Q73
+    pays_rent BOOLEAN,                 -- Q74
+    rent_paid_to TEXT,                 -- Q75
+    rent_payment_type TEXT,            -- Q76
+    rent_amount NUMERIC(12,2),         -- Q77
+    purchase_source TEXT,              -- Q78
+    seed_money_source TEXT,            -- Q79
+    raw_material_frequency TEXT,       -- Q80
+    daily_purchase NUMERIC(12,2),      -- Q81
+    daily_sales NUMERIC(12,2),         -- Q82
+    daily_profit NUMERIC(12,2),        -- Q83
+    has_loan BOOLEAN,                  -- Q84
+    loan_amount NUMERIC(12,2),         -- Q85
+    has_savings_account BOOLEAN,       -- Q86
+    bank_name TEXT,                    -- Q87
+
+    -- Welfare & facilities (Q88-Q112)
+    has_insurance BOOLEAN,             -- Q88
+    insurance_details TEXT,            -- Q89
+    uses_social_security BOOLEAN,      -- Q90
+    social_security_scheme TEXT,       -- Q91
+    satisfied_with_work BOOLEAN,       -- Q92
+    ready_to_shift BOOLEAN,            -- Q93
+    need_covered_market BOOLEAN,       -- Q94
+    need_open_space BOOLEAN,           -- Q95
+    union_member BOOLEAN,              -- Q96
+    union_name TEXT,                   -- Q97
+    aware_of_act BOOLEAN,              -- Q98
+    interested_in_license BOOLEAN,     -- Q99
+    favourite_time TEXT,               -- Q100
+    market_type TEXT,                  -- Q101
+    drinking_water BOOLEAN,            -- Q102
+    toilet_access BOOLEAN,             -- Q103
+    garbage_disposal TEXT,             -- Q104
+    storage_access TEXT,               -- Q105
+    light_source TEXT,                 -- Q106
+    aware_of_traffic_problem BOOLEAN,  -- Q107
+    traffic_solution TEXT,             -- Q108
+    desired_facilities TEXT[] NOT NULL DEFAULT '{}',   -- Q109/110 (multi)
+    vendor_remarks TEXT,               -- Q111
+    surveyor_note TEXT,                -- Q112
+
+    -- Free text typed for "Other" options, keyed by lookup code
+    -- e.g. {"AREA_TYPE": "Near temple gate"}
+    other_text JSONB NOT NULL DEFAULT '{}',
+
+    -- Form II : Application
+    application_no TEXT UNIQUE,        -- APP/<year>/<id>
+    application_date DATE,
+    application_place TEXT,
+    vending_activity TEXT,
+    vending_mode TEXT,
+
+    -- Form III : ID card
+    id_card_no TEXT UNIQUE,            -- SV/<WARD>/<year>/<id>
+    id_valid_from DATE,
+    id_valid_to DATE,
+
+    -- Audit
+    created_by INT REFERENCES public.users(id),
+    updated_by INT REFERENCES public.users(id),
+    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    updated_at TIMESTAMPTZ
+);
+
+CREATE INDEX IF NOT EXISTS idx_sv_zone_ward   ON public.street_vendors (municipality_name, zone_name, ward_name);
+CREATE INDEX IF NOT EXISTS idx_sv_mobile      ON public.street_vendors (mobile_no);
+CREATE INDEX IF NOT EXISTS idx_sv_status      ON public.street_vendors (status);
+CREATE INDEX IF NOT EXISTS idx_sv_created_by  ON public.street_vendors (created_by);
+CREATE INDEX IF NOT EXISTS idx_sv_created_at  ON public.street_vendors (created_at);

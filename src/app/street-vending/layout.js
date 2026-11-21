@@ -1,0 +1,34 @@
+"use client"
+import { usePathname } from 'next/navigation'
+import Link from 'next/link'
+import styles from '../dashboard/dashboard.module.css'
+
+export default function StreetVendingLayout({ children }) {
+  const pathname = usePathname()
+
+  // Printable Form II / ID card pages render without the sidebar.
+  if (pathname.includes('/print/')) return children
+
+  return (
+    <div className={styles.layout}>
+      <aside className={styles.sidebar}>
+        <div className={styles.sidebarLogo}>📋 SurveyAdmin</div>
+        <nav className={styles.nav}>
+          <Link href="/dashboard" className={`${styles.navItem} ${pathname === '/dashboard' ? styles.navActive : ''}`}>👥 Surveyors</Link>
+          <Link href="/records" className={`${styles.navItem} ${pathname.startsWith('/records') ? styles.navActive : ''}`}>📝 Records</Link>
+          <Link href="/sirsa" className={`${styles.navItem} ${pathname === '/sirsa' || pathname.startsWith('/sirsa/') ? styles.navActive : ''}`}>📍 Sirsa</Link>
+          <Link href="/sirsa-map" className={`${styles.navItem} ${pathname.startsWith('/sirsa-map') ? styles.navActive : ''}`}>🗺️ Sirsa Map</Link>
+          <Link href="/map" className={`${styles.navItem} ${pathname === '/map' ? styles.navActive : ''}`}>🗺️ Map View</Link>
+          <Link href="/tauru-map" className={`${styles.navItem} ${pathname.startsWith('/tauru-map') ? styles.navActive : ''}`}>🛰️ Tauru Map</Link>
+          <Link href="/tauru-records" className={`${styles.navItem} ${pathname.startsWith('/tauru-records') ? styles.navActive : ''}`}>🏘️ Tauru Record</Link>
+          <div className={styles.navHeading}>Street Vending</div>
+          <Link href="/street-vending" className={`${styles.navItem} ${pathname.startsWith('/street-vending') ? styles.navActive : ''}`}>🛒 Vendors</Link>
+        </nav>
+        <button className={styles.logoutBtn} onClick={async () => { await fetch('/api/auth/logout', { method: 'POST' }); window.location.href = '/login' }}>
+          ⬅ Logout
+        </button>
+      </aside>
+      {children}
+    </div>
+  )
+}

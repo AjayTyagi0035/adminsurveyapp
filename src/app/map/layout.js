@@ -32,6 +32,8 @@ export default function MapLayout({ children }) {
           <Link href="/tauru-records" className={`${styles.navItem} ${pathname.startsWith('/tauru-records') ? styles.navActive : ''}`}>
             🏘️ Tauru Record
           </Link>
+          <div className={styles.navHeading}>Street Vending</div>
+          <Link href="/street-vending" className={`${styles.navItem} ${pathname.startsWith('/street-vending') ? styles.navActive : ''}`}>🛒 Vendors</Link>
         </nav>
         <button
           className={styles.logoutBtn}

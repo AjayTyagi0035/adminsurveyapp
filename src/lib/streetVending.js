@@ -48,7 +48,7 @@ const TEXT_COLUMNS = [
   'video_name',
   'municipality_name', 'zone_name', 'ward_name', 'street_name', 'landmark',
   'area_type', 'place_of_business', 'nature_of_business', 'service_provider_type',
-  'vending_place_name',
+  'vending_place_name', 'gps_location',
   'first_name', 'middle_name', 'surname', 'guardian_relation', 'guardian_name',
   'house_no', 'colony_sector', 'residential_address', 'permanent_address', 'block',
   'city', 'district', 'mobile_no', 'phone_no', 'gender', 'nationality', 'category',
@@ -145,6 +145,15 @@ export function normaliseValue(column, value) {
     return s
   }
   if (SV_MEDIA_COLUMNS.includes(column)) return toMediaPath(value)
+  if (column === 'gps_location') {
+    // 'lat,lng' – same format as property_surveys.gps_location
+    const [lat, lng, extra] = String(value).split(',').map(s => Number(s.trim()))
+    if (extra !== undefined || !Number.isFinite(lat) || !Number.isFinite(lng) ||
+        Math.abs(lat) > 90 || Math.abs(lng) > 180) {
+      throw new TypeError('gps_location must be "latitude,longitude"')
+    }
+    return `${lat},${lng}`
+  }
   return value
 }
 

@@ -537,3 +537,8 @@ CREATE INDEX IF NOT EXISTS idx_sv_mobile      ON public.street_vendors (mobile_n
 CREATE INDEX IF NOT EXISTS idx_sv_status      ON public.street_vendors (status);
 CREATE INDEX IF NOT EXISTS idx_sv_created_by  ON public.street_vendors (created_by);
 CREATE INDEX IF NOT EXISTS idx_sv_created_at  ON public.street_vendors (created_at);
+
+-- GPS of the vendor, captured with Q1 "Photograph of Vendor with Location".
+-- Format 'latitude,longitude' (same as property_surveys.gps_location).
+ALTER TABLE public.street_vendors
+ADD COLUMN IF NOT EXISTS gps_location TEXT;
